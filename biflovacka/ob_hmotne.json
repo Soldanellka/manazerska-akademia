@@ -1,0 +1,367 @@
+{
+  "area": "Občianske právo hmotné",
+  "slug": "ob_hmotne",
+  "schemaVersion": "1.0",
+  "okruhy": [
+    {
+      "id": "1",
+      "title": "Pojem, predmet a systém občianskeho práva, pramene občianskeho práva",
+      "definitions": [
+        { "question": "Čo je občianske právo?", "answer": "Občianske právo je odvetvie súkromného práva, ktoré upravuje majetkové vzťahy a s nimi súvisiace osobné vzťahy fyzických a právnických osôb založené na rovnosti účastníkov. Základným prameňom je Občiansky zákonník, zákon číslo 40 z roku 1964 Zbierky zákonov." },
+        { "question": "Aký je predmet úpravy Občianskeho zákonníka?", "answer": "Predmetom úpravy sú majetkové vzťahy fyzických a právnických osôb, majetkové vzťahy medzi týmito osobami a štátom, ako aj vzťahy vyplývajúce z práva na ochranu osôb. Zákonník sa použije, pokiaľ tieto vzťahy neupravujú iné osobitné zákony." },
+        { "question": "Čo tvorí systém občianskeho práva?", "answer": "Systém tvorí všeobecná časť, vecné práva, záväzkové právo, dedičské právo a osobitné predpisy, ktoré dopĺňajú Občiansky zákonník. Medzi pramene patria aj ústava, medzinárodné zmluvy a osobitné zákony, napríklad o ochrane spotrebiteľa." }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Základné zásady občianskeho práva",
+      "definitions": [
+        { "question": "Aké sú základné zásady občianskeho práva?", "answer": "Medzi základné zásady patrí rovnosť účastníkov právnych vzťahov, zmluvná voľnosť, ochrana dobrej viery a zákaz zneužitia práva. Uplatňuje sa aj zásada, že nikto nesmie mať prospech z vlastného protiprávneho konania." },
+        { "question": "Čo znamená zásada rovnosti účastníkov?", "answer": "Zásada rovnosti znamená, že žiadny účastník občianskoprávneho vzťahu nemá voči druhému nadradené postavenie a ich vzájomné práva a povinnosti vznikajú na základe slobodnej vôle. Ide o typický znak súkromnoprávnych vzťahov na rozdiel od vzťahov verejného práva." },
+        { "question": "Čo je zásada dobrých mravov v občianskom práve?", "answer": "Zásada dobrých mravov znamená, že výkon práv a povinností nesmie byť v rozpore so všeobecne uznávanými pravidlami slušnosti a morálky v spoločnosti. Právny úkon, ktorý sa prieči dobrým mravom, je podľa Občianskeho zákonníka neplatný." }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Právne skutočnosti v občianskom práve – pojem, druhy",
+      "definitions": [
+        { "question": "Čo je právna skutočnosť?", "answer": "Právna skutočnosť je okolnosť, s ktorou právna norma spája vznik, zmenu alebo zánik občianskoprávneho vzťahu. Patria sem najmä právne úkony, protiprávne úkony, udalosti a plynutie času." },
+        { "question": "Aké sú druhy právnych skutočností?", "answer": "Rozlišujú sa právne úkony ako prejavy vôle smerujúce k právnym následkom a protiprávne úkony, ktoré tieto následky spôsobujú v rozpore s právom. Ďalej sem patria udalosti nezávislé od vôle človeka, napríklad smrť alebo prírodná udalosť, a plynutie času." },
+        { "question": "Čo je právna udalosť?", "answer": "Právna udalosť je skutočnosť nezávislá od ľudskej vôle, s ktorou zákon spája právne následky, napríklad narodenie, smrť alebo živelná pohroma. Na rozdiel od právneho úkonu pri nej chýba prejav vôle smerujúci k vzniku práv a povinností." }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Právne úkony, náležitosti právnych úkonov",
+      "definitions": [
+        { "question": "Čo je právny úkon?", "answer": "Právny úkon je prejav vôle smerujúci najmä k vzniku, zmene alebo zániku práv a povinností, ktoré právne predpisy s takýmto prejavom spájajú. Môže byť urobený konaním, opomenutím alebo aj mlčky, ak to vyplýva z dohody alebo zvyklostí." },
+        { "question": "Aké sú náležitosti platného právneho úkonu?", "answer": "Právny úkon musí byť urobený slobodne a vážne, určito a zrozumiteľne, inak je neplatný. Osoba, ktorá ho robí, musí mať spôsobilosť na právne úkony a úkon nesmie odporovať zákonu ani dobrým mravom." },
+        { "question": "Kedy je právny úkon urobený mlčky?", "answer": "Právny úkon je urobený mlčky vtedy, keď z okolností prípadu, dohody strán alebo zaužívanej praxe jasne vyplýva prejav vôle bez výslovného vyjadrenia. Mlčanie samo osebe zvyčajne súhlas nezakladá, iba ak to zákon alebo zmluva výslovne pripúšťajú." }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Následky vadnosti právnych úkonov",
+      "definitions": [
+        { "question": "Čo je neplatnosť právneho úkonu?", "answer": "Neplatnosť právneho úkonu nastáva, keď úkon nespĺňa zákonom požadované náležitosti, napríklad odporuje zákonu, obchádza ho alebo sa prieči dobrým mravom. Zákonník rozlišuje absolútnu neplatnosť, ktorá nastáva zo zákona, a relatívnu, na ktorú sa treba dovolávať." },
+        { "question": "Aký je rozdiel medzi absolútnou a relatívnou neplatnosťou?", "answer": "Absolútna neplatnosť pôsobí od začiatku a súd na ňu prihliada z úradnej moci bez návrhu. Relatívna neplatnosť nastáva iba vtedy, ak sa jej dotknutý účastník dovolá, inak sa na úkon hľadí ako na platný." },
+        { "question": "Čo je odporovateľnosť právneho úkonu?", "answer": "Odporovateľnosť znamená, že veriteľ sa môže domáhať, aby súd vyhlásil za voči nemu neúčinný právny úkon dlžníka, ktorým ukracuje uspokojenie jeho pohľadávky. Ide o osobitný nástroj ochrany veriteľa pri úkonoch urobených s úmyslom poškodiť ho." }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Čas ako právna skutočnosť, premlčanie, preklúzia",
+      "definitions": [
+        { "question": "Čo je premlčanie?", "answer": "Premlčanie je uplynutie zákonom stanovenej doby, po ktorej sa oslabuje vymáhateľnosť práva, pretože dlžník môže vzniesť námietku premlčania. Právo síce naďalej existuje, ale súd ho na základe námietky nepriznáva." },
+        { "question": "Aký je rozdiel medzi premlčaním a preklúziou?", "answer": "Pri premlčaní právo naďalej trvá, len ho nemožno vymôcť, ak sa dlžník premlčania dovolá. Pri preklúzii uplynutím lehoty právo priamo zaniká a súd na to prihliada aj bez námietky." },
+        { "question": "Aká je všeobecná premlčacia doba?", "answer": "Všeobecná premlčacia doba podľa Občianskeho zákonníka je tri roky a plynie odo dňa, keď sa právo mohlo vykonať prvý raz. Pri niektorých právach, napríklad pri práve na náhradu škody, zákon stanovuje osobitné dlhšie alebo kratšie lehoty." }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Fyzické osoby",
+      "definitions": [
+        { "question": "Čo je spôsobilosť na práva a povinnosti?", "answer": "Spôsobilosť fyzickej osoby mať práva a povinnosti vzniká narodením a je od nej neoddeliteľná počas celého života. Túto spôsobilosť má aj počaté dieťa, ak sa narodí živé." },
+        { "question": "Kedy vzniká plná spôsobilosť na právne úkony?", "answer": "Plná spôsobilosť na právne úkony vzniká dovŕšením osemnásteho roku veku, prípadne skôr uzavretím manželstva. Do tohto veku majú fyzické osoby spôsobilosť len na úkony primerané ich rozumovej a vôľovej vyspelosti." },
+        { "question": "Čo je vyhlásenie fyzickej osoby za mŕtvu?", "answer": "Súd môže vyhlásiť nezvestnú osobu za mŕtvu, ak sa dlhší čas nevie o jej existencii a je pravdepodobné, že zomrela. Deň, ktorý sa v rozhodnutí uvedie ako deň smrti, má rovnaké právne účinky ako skutočná smrť." }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Zastúpenie v občianskom práve",
+      "definitions": [
+        { "question": "Čo je zastúpenie?", "answer": "Zastúpenie je právny vzťah, na základe ktorého jedna osoba, zástupca, robí právne úkony v mene inej osoby, zastúpeného, s priamymi právnymi následkami pre zastúpeného. Zastúpenie vzniká na základe zákona, rozhodnutia štátneho orgánu alebo plnomocenstva." },
+        { "question": "Aké druhy zastúpenia rozlišuje Občiansky zákonník?", "answer": "Rozlišuje sa zákonné zastúpenie, napríklad rodičmi maloletého dieťaťa, zastúpenie na základe rozhodnutia súdu a zmluvné zastúpenie založené plnomocenstvom. Osobitným prípadom je aj opatrovníctvo, keď súd ustanoví opatrovníka osobe s obmedzenou spôsobilosťou." },
+        { "question": "Čo je plnomocenstvo?", "answer": "Plnomocenstvo je jednostranný právny úkon, ktorým splnomocniteľ osvedčuje voči tretím osobám, že splnomocnenca poveril konaním v jeho mene. Rozsah oprávnení zástupcu vyplýva z dohody o plnomocenstve medzi splnomocniteľom a splnomocnencom." }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Právnické osoby",
+      "definitions": [
+        { "question": "Čo je právnická osoba?", "answer": "Právnická osoba je organizovaný útvar, ktorému zákon priznáva spôsobilosť mať práva a povinnosti odlišné od jej členov alebo zakladateľov. Právnické osoby vznikajú zápisom do príslušného registra, ak zákon neustanovuje inak." },
+        { "question": "Ako zaniká právnická osoba?", "answer": "Právnická osoba zaniká výmazom z registra, do ktorého sa zapisuje, pričom jej zániku predchádza zrušenie s likvidáciou alebo bez likvidácie. Zrušenie môže byť dobrovoľné rozhodnutím jej orgánov alebo nedobrovoľné, napríklad rozhodnutím súdu." },
+        { "question": "Aké sú štatutárne orgány právnickej osoby?", "answer": "Štatutárny orgán je osoba alebo skupina osôb oprávnená konať v mene právnickej osoby navonok a zaväzovať ju svojimi úkonmi. Spôsob konania a zloženie štatutárneho orgánu určujú zakladateľské dokumenty a osobitné zákony podľa formy právnickej osoby." }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Ochrana osobnosti",
+      "definitions": [
+        { "question": "Čo je predmetom ochrany osobnosti?", "answer": "Predmetom ochrany osobnosti je najmä život a zdravie človeka, jeho občianska česť a ľudská dôstojnosť, súkromie, meno a prejavy osobnej povahy. Fyzická osoba má právo domáhať sa, aby sa upustilo od neoprávnených zásahov do týchto hodnôt." },
+        { "question": "Aké nároky má fyzická osoba pri neoprávnenom zásahu do osobnosti?", "answer": "Dotknutá osoba má právo domáhať sa upustenia od neoprávnených zásahov, odstránenia ich následkov a primeraného zadosťučinenia. Ak by morálne zadosťučinenie nebolo dostačujúce, môže sa domáhať aj náhrady nemajetkovej ujmy v peniazoch." },
+        { "question": "Čo patrí medzi prejavy osobnej povahy chránené zákonom?", "answer": "Medzi prejavy osobnej povahy patria najmä podobizeň, obrazové snímky a obrazové a zvukové záznamy týkajúce sa fyzickej osoby alebo jej prejavov. Tieto sa smú vyhotovovať alebo použiť spravidla len s privolením dotknutej osoby." }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Vecné práva – pojem, druhy, základná charakteristika",
+      "definitions": [
+        { "question": "Čo sú vecné práva?", "answer": "Vecné práva sú absolútne majetkové práva, ktoré pôsobia voči každému a viažu sa priamo na vec bez ohľadu na to, kto je jej vlastníkom. Ich charakteristickým znakom je právo sledovania veci a právo prednosti pred neskoršie vzniknutými právami." },
+        { "question": "Aké druhy vecných práv Občiansky zákonník upravuje?", "answer": "Občiansky zákonník upravuje vlastnícke právo ako najširšie vecné právo, ďalej spoluvlastníctvo, vecné bremená a záložné právo. Vecné práva sa odlišujú od záväzkových tým, že pôsobia voči neobmedzenému okruhu osôb, nielen voči konkrétnemu dlžníkovi." },
+        { "question": "Čo je typické pre absolútnu povahu vecných práv?", "answer": "Absolútna povaha znamená, že oprávnenému zodpovedá povinnosť všetkých ostatných osôb zdržať sa zásahov do jeho práva k veci. Vlastník sa preto môže brániť aj voči osobám, s ktorými nikdy nebol v zmluvnom vzťahu." }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Vlastnícke právo – pojem, obsah, nadobúdanie vlastníckeho práva, ochrana",
+      "definitions": [
+        { "question": "Čo je vlastnícke právo?", "answer": "Vlastnícke právo je najširšie vecné právo, ktoré oprávňuje vlastníka vec držať, užívať, požívať jej plody a užitky a nakladať s ňou. Všetci vlastníci majú podľa Občianskeho zákonníka rovnaký zákonný obsah a ochranu bez ohľadu na formu vlastníctva." },
+        { "question": "Ako možno nadobudnúť vlastnícke právo?", "answer": "Vlastnícke právo možno nadobudnúť kúpnou, darovacou alebo inou zmluvou, dedením, rozhodnutím štátneho orgánu alebo na základe iných skutočností ustanovených zákonom, napríklad vydržaním. Pri prevode nehnuteľnosti vzniká vlastnícke právo zápisom do katastra nehnuteľností." },
+        { "question": "Akými žalobami sa chráni vlastnícke právo?", "answer": "Vlastník sa proti zásahu môže brániť žalobou o vydanie veci voči tomu, kto mu ju neoprávnene zadržiava, a negatórnou žalobou proti tomu, kto ho inak ruší vo výkone vlastníckeho práva. Ochranu poskytuje aj svojpomoc pri bezprostredne hroziacom zásahu." }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Vecné bremená – pojem, vznik a zánik",
+      "definitions": [
+        { "question": "Čo sú vecné bremená?", "answer": "Vecné bremená obmedzujú vlastníka nehnuteľnej veci v prospech niekoho iného tak, že je povinný niečo trpieť, niečoho sa zdržať alebo niečo konať. Zaväzujú vlastníka veci aj jeho právnych nástupcov, čím sa viažu k veci a nie iba ku konkrétnej osobe." },
+        { "question": "Ako vzniká vecné bremeno?", "answer": "Vecné bremeno môže vzniknúť písomnou zmluvou, na základe závetu, schválenou dohodou dedičov, rozhodnutím príslušného orgánu alebo zo zákona. Pri nehnuteľnostiach vzniká právo zodpovedajúce vecnému bremenu zápisom do katastra nehnuteľností." },
+        { "question": "Kedy zaniká vecné bremeno?", "answer": "Vecné bremeno zaniká najmä rozhodnutím príslušného orgánu, dohodou strán, alebo ak nastanú trvalé zmeny, pre ktoré vec už nemôže slúžiť potrebám oprávnenej osoby. Pri vecnom bremene spojenom s osobou zaniká aj smrťou oprávnenej fyzickej osoby, ak nebolo dohodnuté inak." }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Záložné právo – funkcie, vznik, zánik a výkon",
+      "definitions": [
+        { "question": "Čo je záložné právo?", "answer": "Záložné právo slúži na zabezpečenie pohľadávky tým, že pri jej nesplnení je veriteľ oprávnený domáhať sa uspokojenia z výťažku speňaženia zálohu. Zálohom môže byť hnuteľná či nehnuteľná vec, podnik alebo iná majetková hodnota spôsobilá na prevod." },
+        { "question": "Ako vzniká záložné právo?", "answer": "Záložné právo vzniká najčastejšie na základe písomnej záložnej zmluvy medzi záložcom a záložným veriteľom, prípadne zo zákona alebo rozhodnutím súdu. Pri nehnuteľnostiach je na jeho vznik potrebný zápis do katastra nehnuteľností." },
+        { "question": "Ako sa záložný veriteľ uspokojuje zo zálohu?", "answer": "Záložný veriteľ sa uspokojuje spravidla speňažením zálohu vo verejnej dražbe alebo predajom zálohu podľa osobitných predpisov, prípadne súdnym výkonom rozhodnutia. Výťažok sa použije prednostne na úhradu zabezpečenej pohľadávky pred ostatnými veriteľmi záložcu." }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Podielové spoluvlastníctvo",
+      "definitions": [
+        { "question": "Čo je podielové spoluvlastníctvo?", "answer": "Podielové spoluvlastníctvo znamená, že vec je v spoluvlastníctve viacerých osôb, pričom každá má určený podiel vyjadrujúci mieru účasti na právach a povinnostiach vyplývajúcich zo spoluvlastníctva. Podiely sa spravidla riadia zmluvou, inak sa predpokladá, že sú rovnaké." },
+        { "question": "Ako sa rozhoduje o hospodárení so spoločnou vecou?", "answer": "O bežných otázkach hospodárenia so spoločnou vecou rozhodujú spoluvlastníci väčšinou počítanou podľa výšky ich podielov. Pri rovnosti hlasov alebo v dôležitejších veciach môže na návrh niektorého spoluvlastníka rozhodnúť súd." },
+        { "question": "Ako môže spoluvlastník zrušiť a vyporiadať spoluvlastníctvo?", "answer": "Spoluvlastník má právo kedykoľvek žiadať o zrušenie a vyporiadanie spoluvlastníctva, ak nejde o dohodu vylučujúcu zrušenie na určitý čas. Ak sa spoluvlastníci nedohodnú, rozhodne na návrh súd, spravidla reálnym rozdelením veci alebo jej prikázaním jednému z nich s náhradou." }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Bezpodielové spoluvlastníctvo manželov",
+      "definitions": [
+        { "question": "Čo je bezpodielové spoluvlastníctvo manželov?", "answer": "Bezpodielové spoluvlastníctvo manželov je zákonom upravená forma spoluvlastníctva, ktorá vzniká uzavretím manželstva a zahŕňa majetok nadobudnutý niektorým z manželov počas jeho trvania. Manželia nemajú vopred určené podiely, keďže majetok patrí obom spoločne a nedielne." },
+        { "question": "Čo nepatrí do bezpodielového spoluvlastníctva manželov?", "answer": "Do bezpodielového spoluvlastníctva nepatrí majetok získaný dedičstvom alebo darom, ako aj veci slúžiace osobnej potrebe alebo výkonu povolania jedného z manželov. Rovnako doň nepatrí majetok vydaný v rámci reštitúcie jednému z manželov." },
+        { "question": "Ako sa vyporiadava bezpodielové spoluvlastníctvo manželov po zániku manželstva?", "answer": "Po zániku bezpodielového spoluvlastníctva sa vyporiadanie vykoná dohodou bývalých manželov, inak na návrh niektorého z nich rozhodne súd. Vychádza sa zo zásady rovnakých podielov oboch manželov, s prihliadnutím na potreby detí a mieru pričinenia každého z nich." }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Záväzkové právne vzťahy – pojem, prvky, vznik záväzkov",
+      "definitions": [
+        { "question": "Čo je záväzkový právny vzťah?", "answer": "Záväzkový vzťah je právny vzťah, z ktorého veriteľovi vzniká právo na plnenie od dlžníka a dlžníkovi vzniká povinnosť toto plnenie poskytnúť. Ide o relatívny právny vzťah pôsobiaci len medzi jeho konkrétnymi účastníkmi, na rozdiel od vecných práv." },
+        { "question": "Aké sú prvky záväzkového vzťahu?", "answer": "Prvkami záväzkového vzťahu sú subjekty, teda veriteľ a dlžník, obsah tvorený vzájomnými právami a povinnosťami a predmet, ktorým je plnenie, na ktoré má veriteľ nárok. Predmetom môže byť dať, konať, zdržať sa niečoho alebo niečo strpieť." },
+        { "question": "Z čoho môžu vznikať záväzky?", "answer": "Záväzky vznikajú najmä z právnych úkonov, predovšetkým zo zmlúv, ďalej zo spôsobenej škody, z bezdôvodného obohatenia alebo z iných skutočností uvedených v zákone. Občiansky zákonník upravuje aj vznik záväzkov priamo zo zákona, napríklad pri verejnom prísľube." }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Zabezpečenie záväzkov",
+      "definitions": [
+        { "question": "Čo je účelom zabezpečenia záväzkov?", "answer": "Zabezpečenie záväzkov posilňuje postavenie veriteľa tým, že mu poskytuje dodatočnú istotu splnenia pohľadávky, ak by dlžník riadne a včas nesplnil svoju povinnosť. Slúži zároveň ako motivácia pre dlžníka, aby záväzok splnil dobrovoľne." },
+        { "question": "Aké sú spôsoby zabezpečenia záväzkov podľa Občianskeho zákonníka?", "answer": "Medzi spôsoby zabezpečenia patrí zmluvná pokuta, ručenie, záložné právo, dohoda o zrážkach zo mzdy a zabezpečovací prevod práva. Každý z týchto inštitútov chráni veriteľa iným spôsobom, buď majetkovo, alebo prostredníctvom tretej osoby." },
+        { "question": "Čo je ručenie?", "answer": "Ručenie vzniká písomným vyhlásením ručiteľa, že uspokojí veriteľa, ak dlžník svoj dlh nesplní. Veriteľ je oprávnený domáhať sa splnenia od ručiteľa len vtedy, keď dlžník nesplnil svoj záväzok v primeranej lehote po tom, čo ho na to veriteľ písomne vyzval." }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Zmena záväzkov",
+      "definitions": [
+        { "question": "Ako môže dôjsť k zmene záväzku?", "answer": "K zmene záväzku môže dôjsť zmenou v jeho obsahu, napríklad dohodou o zmene predmetu plnenia, alebo zmenou v subjektoch, teda v osobe veriteľa alebo dlžníka. Zmena môže nastať dohodou strán alebo priamo na základe zákona." },
+        { "question": "Čo je postúpenie pohľadávky?", "answer": "Postúpením pohľadávky postúpi veriteľ písomnou zmluvou svoju pohľadávku aj s príslušenstvom na inú osobu, postupníka, bez potreby súhlasu dlžníka. Dlžníkovi treba postúpenie oznámiť, inak sa môže zbaviť záväzku plnením pôvodnému veriteľovi." },
+        { "question": "Čo je prevzatie dlhu?", "answer": "Prevzatím dlhu vstupuje nová osoba na miesto pôvodného dlžníka a zaväzuje sa splniť jeho záväzok namiesto neho. Na platnosť prevzatia dlhu sa vyžaduje súhlas veriteľa, keďže sa mení osoba, od ktorej môže požadovať splnenie." }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Zánik záväzkov",
+      "definitions": [
+        { "question": "Ako zaniká záväzok?", "answer": "Najčastejším spôsobom zániku záväzku je jeho splnenie, teda riadne a včasné poskytnutie dlhovaného plnenia veriteľovi. Záväzok môže zaniknúť aj dohodou strán, započítaním, splynutím alebo odstúpením od zmluvy." },
+        { "question": "Čo je započítanie pohľadávok?", "answer": "Započítaním zanikajú vzájomné pohľadávky veriteľa a dlžníka, ktoré sa svojou povahou hodia na započítanie, v rozsahu, v akom sa kryjú. K započítaniu môže dôjsť na základe jednostranného právneho úkonu jednej strany oznámeného druhej strane alebo dohodou oboch strán." },
+        { "question": "Čo je odstúpenie od zmluvy?", "answer": "Odstúpením od zmluvy zaniká zmluva od začiatku, ak nie je v zákone alebo dohode strán uvedené inak, a strany si musia vrátiť poskytnuté plnenia. Odstúpiť možno len vtedy, ak to zákon pripúšťa alebo ak si to strany dohodli v zmluve." }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Zodpovednosť za vady a zodpovednosť za omeškanie",
+      "definitions": [
+        { "question": "Čo je zodpovednosť za vady?", "answer": "Zodpovednosť za vady vzniká, ak plnenie poskytnuté dlžníkom nemá vlastnosti dohodnuté alebo zákonom predpokladané pre riadne užívanie veci. Veriteľ má pri vadách plnenia práva ako odstránenie vady, primeranú zľavu alebo odstúpenie od zmluvy podľa povahy a závažnosti vady." },
+        { "question": "Kedy je dlžník v omeškaní?", "answer": "Dlžník je v omeškaní, ak nesplní svoj dlh riadne a včas, teda v čase určenom v zmluve alebo v zákone. Veriteľ má v takom prípade právo na úroky z omeškania a na náhradu škody, ktorá mu omeškaním vznikla." },
+        { "question": "Kedy je veriteľ v omeškaní?", "answer": "Veriteľ je v omeškaní, ak neposkytol súčinnosť potrebnú na to, aby dlžník mohol svoj dlh riadne splniť, hoci mu bolo riadne plnenie ponúknuté. Počas omeškania veriteľa dlžník nie je v omeškaní so splnením svojej povinnosti a nemusí znášať jeho následky." }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Prevencia v občianskom práve. Všeobecná zodpovednosť za škodu",
+      "definitions": [
+        { "question": "Čo je preventívna povinnosť v občianskom práve?", "answer": "Preventívna povinnosť ukladá každému počínať si tak, aby nedochádzalo ku škodám na zdraví, majetku, prírode a životnom prostredí. Kto zistí hroziacu škodu, je povinný na ňu upozorniť ohrozenú osobu, prípadne urobiť primerané opatrenia na jej odvrátenie." },
+        { "question": "Aké sú predpoklady všeobecnej zodpovednosti za škodu?", "answer": "Základnými predpokladmi sú porušenie právnej povinnosti, vznik škody, príčinná súvislosť medzi nimi a zavinenie škodcu, ktoré sa spravidla predpokladá. Ak chýba čo aj len jeden z predpokladov, zodpovednosť za škodu nevzniká." },
+        { "question": "Kto zodpovedá za škodu podľa všeobecnej zodpovednostnej normy?", "answer": "Za škodu zodpovedá ten, kto ju spôsobil porušením právnej povinnosti, pričom sa predpokladá jeho nedbanlivosť, kým nepreukáže opak. Škodca sa zbaví zodpovednosti, ak preukáže, že škodu nezavinil." }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Osobitné prípady zodpovednosti za škodu",
+      "definitions": [
+        { "question": "Čo je objektívna zodpovednosť za škodu?", "answer": "Objektívna zodpovednosť vzniká bez ohľadu na zavinenie škodcu, pričom stačí preukázať kvalifikovanú udalosť či činnosť, škodu a príčinnú súvislosť medzi nimi. Príkladom je zodpovednosť za škodu spôsobenú prevádzkou dopravných prostriedkov." },
+        { "question": "Čo je zodpovednosť za škodu spôsobenú tými, ktorí nemôžu posúdiť následky svojho konania?", "answer": "Za škodu spôsobenú maloletým alebo osobou postihnutou duševnou poruchou zodpovedá ten, kto nad ňou vykonáva dohľad, ak nepreukáže, že ho primerane nezanedbal. Sám škodca môže zodpovedať vedľa toho, ak mal rozpoznávaciu schopnosť aspoň sčasti." },
+        { "question": "Čo je zodpovednosť za škodu spôsobenú prevádzkovou činnosťou?", "answer": "Zodpovednosť za škodu spôsobenú prevádzkovou činnosťou zaťažuje toho, kto danú prevádzku vykonáva, pretože táto činnosť predstavuje zvýšené riziko vzniku škody. Zbaviť sa jej možno len preukázaním, že škodu spôsobila neodvrátiteľná udalosť alebo konanie poškodeného." }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Spôsob a rozsah náhrady škody",
+      "definitions": [
+        { "question": "Aký je základný spôsob náhrady škody?", "answer": "Škoda sa nahrádza v peniazoch, pokiaľ poškodený nepožiada a nie je možné a účelné uviesť veci do predošlého stavu. Uvedenie do predošlého stavu má prednosť, ak je to možné a poškodený o to požiada." },
+        { "question": "Čo zahŕňa rozsah náhrady škody?", "answer": "Nahrádza sa skutočná škoda, teda zmenšenie majetku poškodeného, a ušlý zisk, teda to, čo by poškodený bol pri obvyklom behu vecí získal. Rozsah náhrady sa určuje spravidla podľa ceny v čase poškodenia, ak zákon neurčuje inak." },
+        { "question": "Čo je spoluzavinenie poškodeného pri náhrade škody?", "answer": "Ak sa na vzniku škody podieľal svojím zavinením aj sám poškodený, jeho zodpovednosť sa pomerne zníži podľa miery, akou sa na výslednej škode podieľal. Súd zohľadní tento pomer pri určovaní výšky náhrady, ktorú je škodca povinný poškodenému zaplatiť." }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Bezdôvodné obohatenie",
+      "definitions": [
+        { "question": "Čo je bezdôvodné obohatenie?", "answer": "Bezdôvodné obohatenie je majetkový prospech získaný plnením bez právneho dôvodu, plnením z neplatného právneho úkonu alebo plnením z právneho dôvodu, ktorý odpadol. Ten, kto sa takto obohatil, je povinný obohatenie vydať tomu, na úkor koho k nemu došlo." },
+        { "question": "Aké sú základné prípady bezdôvodného obohatenia?", "answer": "Medzi typické prípady patrí plnenie bez právneho dôvodu, plnenie z dôvodu, ktorý odpadol, plnenie z neplatného právneho úkonu a majetkový prospech získaný z nepoctivých zdrojov. Osobitným prípadom je aj plnenie za niekoho iného, čo sám mal podľa práva plniť." },
+        { "question": "Čo sa vydáva pri bezdôvodnom obohatení?", "answer": "Predmetom vydania je všetko, čo sa nadobudlo bezdôvodným obohatením, prípadne peňažná náhrada, ak vydanie veci samotnej nie je dobre možné. Ak sa obohatenie získalo z nepoctivých zdrojov, prípadné plnenie prepadá v prospech štátu." }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Predpoklady dedenia",
+      "definitions": [
+        { "question": "Aké sú predpoklady dedenia?", "answer": "Základnými predpokladmi dedenia sú smrť poručiteľa, existencia dedičstva ako predmetu dedenia, spôsobilý dedič a právny dôvod dedenia, teda zákon alebo závet. Ak niektorý z týchto predpokladov chýba, k dedeniu v danom prípade nedôjde." },
+        { "question": "Kto je nespôsobilý dediť?", "answer": "Dediť nemôže ten, kto sa dopustil úmyselného trestného činu proti poručiteľovi, jeho manželovi, deťom alebo rodičom, alebo kto sa dopustil zavrhnutiahodného konania proti jeho poslednej vôli. Takáto osoba je vylúčená z dedenia, pokiaľ mu to poručiteľ výslovne neodpustil." },
+        { "question": "Čo je dedičská nespôsobilosť a odmietnutie dedičstva?", "answer": "Dedičská nespôsobilosť nastáva zo zákona pri konaní dediča namierenom proti poručiteľovi alebo jeho rodine, zatiaľ čo odmietnutie dedičstva je slobodné rozhodnutie urobené vyhlásením na súde v stanovenej lehote. Dedič, ktorý dedičstvo odmietol, sa naň hľadí, akoby vôbec nededil." }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Dedenie zo zákona",
+      "definitions": [
+        { "question": "Kedy nastupuje dedenie zo zákona?", "answer": "Dedenie zo zákona nastupuje vtedy, keď poručiteľ nezanechal platný závet alebo keď závetom neurčil všetkých dedičov, prípadne dedičia zo závetu nemôžu alebo nechcú dediť. Zákon vtedy určuje okruh dedičov podľa štyroch dedičských skupín." },
+        { "question": "Kto dedí v prvej dedičskej skupine?", "answer": "V prvej skupine dedia rovným dielom poručiteľove deti a jeho manžel alebo manželka. Ak niektoré dieťa nededí, nadobúdajú jeho podiel rovným dielom jeho deti, teda vnuci poručiteľa." },
+        { "question": "Kto dedí, ak poručiteľ nemá manžela ani deti?", "answer": "Ak poručiteľ nemá potomkov ani manžela, dedia v druhej skupine jeho rodičia a osoby žijúce s ním v spoločnej domácnosti aspoň rok pred smrťou. Ak nededia ani rodičia, nastupuje tretia skupina súrodencov, prípadne štvrtá skupina prarodičov a ich detí." }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Dedenie zo závetu",
+      "definitions": [
+        { "question": "Čo je závet?", "answer": "Závet je jednostranný právny úkon, ktorým poručiteľ pre prípad smrti ustanovuje dediča alebo dedičov a určuje ich podiely na dedičstve. Musí byť urobený v predpísanej forme, inak je neplatný." },
+        { "question": "Aké formy závetu Občiansky zákonník pripúšťa?", "answer": "Závet možno napísať vlastnou rukou, zriadiť v inej písomnej forme za účasti svedkov alebo spísať vo forme notárskej zápisnice. Pri hroziacej blízkej smrti alebo v mimoriadnych okolnostiach zákon pripúšťa aj osobitné zjednodušené formy závetu." },
+        { "question": "Čo je neopomenuteľný dedič?", "answer": "Neopomenuteľnými dedičmi sú maloleté deti poručiteľa, ktoré musia dostať aspoň celý svoj zákonný podiel, a plnoleté deti, ktorým patrí aspoň polovica tohto podielu. Ak závet im neponecháva stanovenú časť, je v danom rozsahu neplatný, pokiaľ ich poručiteľ nevydedil." }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Spotrebiteľská zmluva – pojem, subjekty, neprijateľné podmienky",
+      "definitions": [
+        { "question": "Čo je spotrebiteľská zmluva?", "answer": "Spotrebiteľská zmluva je zmluva, ktorú s spotrebiteľom uzatvára dodávateľ konajúci v rámci predmetu svojej podnikateľskej činnosti. Spotrebiteľ je fyzická osoba, ktorá pri uzatváraní a plnení zmluvy nekoná v rámci svojej podnikateľskej činnosti ani povolania." },
+        { "question": "Aké je postavenie subjektov spotrebiteľskej zmluvy?", "answer": "Zákon vychádza z toho, že spotrebiteľ je slabšou zmluvnou stranou voči dodávateľovi, ktorý má odborné znalosti a silnejšie vyjednávacie postavenie. Preto poskytuje spotrebiteľovi zvýšenú zákonnú ochranu, najmä pri informovaní a pri obsahu zmluvných podmienok." },
+        { "question": "Čo sú neprijateľné zmluvné podmienky?", "answer": "Neprijateľné podmienky sú dojednania, ktoré spôsobujú výraznú nerovnováhu v právach a povinnostiach strán v neprospech spotrebiteľa a odporujú požiadavke dobrej viery. Takéto podmienky sú neplatné, aj keď zvyšok zmluvy zostáva v platnosti." }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Kúpna zmluva, zámenná zmluva a darovacia zmluva – pojem, podstatné náležitosti",
+      "definitions": [
+        { "question": "Čo je kúpna zmluva?", "answer": "Kúpnou zmluvou sa predávajúci zaväzuje odovzdať kupujúcemu predmet kúpy a previesť naň vlastnícke právo, pričom kupujúci sa zaväzuje zaplatiť dohodnutú kúpnu cenu. Podstatnými náležitosťami sú dohoda o predmete kúpy a o kúpnej cene." },
+        { "question": "Čo je zámenná zmluva?", "answer": "Zámennou zmluvou si zmluvné strany navzájom prevádzajú vlastnícke právo k veciam výmenou jednej veci za druhú namiesto peňažnej odplaty. Použijú sa na ňu primerane ustanovenia o kúpnej zmluve, pričom každá strana sa považuje aj za predávajúceho, aj za kupujúceho." },
+        { "question": "Čo je darovacia zmluva?", "answer": "Darovacou zmluvou darca bezplatne prenecháva alebo sa zaväzuje prenechať vec obdarovanému a ten dar prijíma. Ide o bezodplatný právny úkon, pri ktorom darca môže dar odvolať, ak sa obdarovaný správa k nemu alebo jeho rodine tak, že tým hrubo poruší dobré mravy." }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Zmluva o dielo – pojem, podstatné náležitosti, osobitné druhy",
+      "definitions": [
+        { "question": "Čo je zmluva o dielo?", "answer": "Zmluvou o dielo sa zhotoviteľ zaväzuje vykonať pre objednávateľa určité dielo na svoje náklady a nebezpečenstvo, a objednávateľ sa zaväzuje dielo prevziať a zaplatiť cenu za jeho zhotovenie. Dielom sa rozumie najmä zhotovenie, montáž, údržba, oprava alebo úprava veci." },
+        { "question": "Aké sú podstatné náležitosti zmluvy o dielo?", "answer": "Podstatnými náležitosťami sú vymedzenie diela, ktoré má zhotoviteľ vykonať, a záväzok objednávateľa zaplatiť za jeho vykonanie odplatu. Cena za dielo nemusí byť vždy dohodnutá presnou sumou, postačuje aj spôsob jej určenia." },
+        { "question": "Aké osobitné druhy zmluvy o dielo Občiansky zákonník upravuje?", "answer": "Osobitným druhom je zmluva o oprave a úprave veci, pri ktorej sa zhotoviteľ zaväzuje vec opraviť alebo upraviť podľa dohodnutého spôsobu. Osobitne sa upravuje aj zhotovenie stavby, pri ktorej sa uplatňujú prísnejšie požiadavky na kvalitu a zodpovednosť za vady." }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Zmluva o pôžičke a zmluva o výpožičke – pojem, podstatné náležitosti",
+      "definitions": [
+        { "question": "Čo je zmluva o pôžičke?", "answer": "Zmluvou o pôžičke prenecháva veriteľ dlžníkovi veci určené podľa druhu, najmä peniaze, a dlžník sa zaväzuje vrátiť po uplynutí dohodnutej doby veci rovnakého druhu. Vlastnícke právo k požičaným veciam prechádza na dlžníka, ktorý s nimi môže voľne nakladať." },
+        { "question": "Čo je zmluva o výpožičke?", "answer": "Zmluvou o výpožičke prenecháva požičiavateľ vypožičiavateľovi bezplatne určitú vec na dočasné užívanie, pričom vypožičiavateľ je povinný vec vrátiť po uplynutí dohodnutej doby. Ide o bezodplatné prenechanie individuálne určenej veci bez prevodu vlastníctva na rozdiel od pôžičky." },
+        { "question": "Aký je rozdiel medzi pôžičkou a výpožičkou?", "answer": "Pri pôžičke sa vracajú veci rovnakého druhu ako veci prevzaté a vlastníctvo k nim prechádza na dlžníka, zatiaľ čo pri výpožičke sa vracia tá istá vec bez prevodu vlastníctva. Výpožička je vždy bezodplatná, kým pôžička môže byť dohodnutá aj s úrokmi." }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Nájomná zmluva – pojem, podstatné náležitosti, osobitné druhy nájmu",
+      "definitions": [
+        { "question": "Čo je nájomná zmluva?", "answer": "Nájomnou zmluvou prenajímateľ prenecháva za odplatu nájomcovi vec, aby ju dočasne užíval alebo z nej bral úžitky. Podstatnými náležitosťami sú predmet nájmu a dohoda o nájomnom, ak zákon pri niektorých druhoch nájmu neustanovuje inak." },
+        { "question": "Aké povinnosti má prenajímateľ voči nájomcovi?", "answer": "Prenajímateľ je povinný odovzdať nájomcovi vec v stave spôsobilom na dohodnuté užívanie a v tomto stave ju na svoje náklady udržiavať počas celého nájmu. Ak vec má vady brániace jej riadnemu užívaniu, má nájomca právo na primeranú zľavu z nájomného." },
+        { "question": "Aké osobitné druhy nájmu Občiansky zákonník upravuje?", "answer": "Okrem všeobecného nájmu upravuje zákonník osobitne nájom bytu, nájom nebytových priestorov podľa osobitného predpisu a podnájom, pri ktorom nájomca prenecháva vec tretej osobe so súhlasom prenajímateľa. Každý z týchto druhov má pravidlá prispôsobené povahe prenajímanej veci." }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Nájom bytu (podľa OZ a zákona o krátkodobom nájme bytu)",
+      "definitions": [
+        { "question": "Čo je nájom bytu podľa Občianskeho zákonníka?", "answer": "Nájom bytu vzniká nájomnou zmluvou, ktorou prenajímateľ prenecháva nájomcovi za nájomné byt do užívania, spravidla na neurčitý čas alebo na dohodnutú dobu. Nájomca má právo užívať byt spolu s príslušenstvom a so spoločnými priestormi domu riadnym spôsobom." },
+        { "question": "Čo je krátkodobý nájom bytu podľa zákona číslo 98 z roku 2014?", "answer": "Krátkodobý nájom bytu je osobitný typ nájmu upravený samostatným zákonom, ktorý umožňuje prenajať byt na dobu určitú najviac na dva roky s možnosťou predĺženia. Zákon dáva prenajímateľovi jednoduchšie a rýchlejšie prostriedky na skončenie nájmu a vypratanie bytu než všeobecná úprava." },
+        { "question": "Ako zaniká nájom bytu?", "answer": "Nájom bytu môže zaniknúť dohodou, písomnou výpoveďou z dôvodov ustanovených zákonom, alebo uplynutím dohodnutej doby, ak ide o nájom na dobu určitú. Pri výpovedi zo strany prenajímateľa musí byť dôvod výslovne uvedený a nájomcovi spravidla plynie výpovedná lehota." }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "Príkazná zmluva, sprostredkovateľská zmluva a obstarávacie zmluvy",
+      "definitions": [
+        { "question": "Čo je príkazná zmluva?", "answer": "Príkaznou zmluvou sa príkazník zaväzuje, že pre príkazcu obstará určitú vec alebo vykoná inú činnosť podľa jeho pokynov, a príkazca sa zaväzuje zaplatiť odplatu, ak bola dohodnutá. Príkazník je povinný konať podľa pokynov príkazcu s odbornou starostlivosťou." },
+        { "question": "Čo je sprostredkovateľská zmluva?", "answer": "Sprostredkovateľskou zmluvou sa sprostredkovateľ zaväzuje obstarať záujemcovi za odmenu príležitosť uzavrieť s treťou osobou určitú zmluvu. Nárok na odmenu vzniká sprostredkovateľovi spravidla až uzavretím sprostredkúvanej zmluvy medzi záujemcom a treťou osobou." },
+        { "question": "Čo sú obstarávacie zmluvy?", "answer": "Obstarávacie zmluvy zahŕňajú najmä zmluvu o obstaraní veci a zmluvu o obstaraní predaja veci, pri ktorých sa obstarávateľ zaväzuje obstarať pre objednávateľa určitú vec alebo jej predaj. Objednávateľ sa zaväzuje zaplatiť odplatu za vykonanú obstarávaciu činnosť." }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "Zmluvy o preprave – pojem, podstatné náležitosti, druhy",
+      "definitions": [
+        { "question": "Čo je zmluva o preprave osôb?", "answer": "Zmluvou o preprave osôb sa dopravca zaväzuje prepraviť cestujúceho do miesta určenia dohodnutým dopravným prostriedkom, riadne a včas. Cestujúci je povinný zaplatiť cestovné podľa platných tarifných alebo zmluvných podmienok dopravcu." },
+        { "question": "Čo je zmluva o preprave nákladu?", "answer": "Zmluvou o preprave nákladu sa dopravca zaväzuje odosielateľovi, že prepraví zásielku z miesta odoslania do určeného miesta, a odosielateľ sa zaväzuje zaplatiť mu za to odplatu, prepravné. Dopravca zodpovedá za škodu na zásielke od jej prevzatia až po jej vydanie príjemcovi." },
+        { "question": "Aké druhy prepravných zmlúv zákon rozlišuje?", "answer": "Rozlišuje sa preprava osôb a preprava nákladu, pričom v rámci nákladnej prepravy môže ísť o prepravu vecí alebo osobitne o prepravu podľa druhu dopravného prostriedku. Osobitná úprava sa uplatňuje aj pri medzinárodnej preprave podľa príslušných medzinárodných zmlúv." }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Poistná zmluva – pojem, podstatné náležitosti",
+      "definitions": [
+        { "question": "Čo je poistná zmluva?", "answer": "Poistnou zmluvou sa poistiteľ zaväzuje poskytnúť poistné plnenie, ak nastane poistná udalosť vymedzená v zmluve alebo osobitnom predpise, a poistník sa zaväzuje platiť poistiteľovi poistné. Zmluva sa uzatvára písomne, pokiaľ zákon neustanovuje inak." },
+        { "question": "Aké sú podstatné náležitosti poistnej zmluvy?", "answer": "Podstatnými náležitosťami sú vymedzenie poistného rizika a poistnej udalosti, výška poistného a spôsob jeho platenia, ako aj určenie poistenej a oprávnenej osoby na poistné plnenie. Súčasťou zmluvy sú aj poistné podmienky upravujúce podrobnosti poistného vzťahu." },
+        { "question": "Aké druhy poistenia Občiansky zákonník rozlišuje?", "answer": "Rozlišuje sa poistenie škodové, ktoré nahrádza vzniknutú škodu, a poistenie obnosové, pri ktorom poistiteľ vypláca dohodnutú sumu bez ohľadu na vznik a výšku skutočnej škody. Poistenie sa ďalej člení podľa predmetu na poistenie osôb, majetku a zodpovednosti za škodu." }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "Zmluva o úschove a zmluva o združení – pojem, podstatné náležitosti",
+      "definitions": [
+        { "question": "Čo je zmluva o úschove?", "answer": "Zmluvou o úschove prijíma opatrovateľ od zloženca hnuteľnú vec, aby ju do jeho žiadosti riadne opatroval a vrátil. Ide o zmluvu, ktorá vzniká odovzdaním a prevzatím veci a môže byť dojednaná bezodplatne alebo za odplatu." },
+        { "question": "Čo je zmluva o združení?", "answer": "Zmluvou o združení sa viaceré osoby zaväzujú spojiť svoje úsilie a prostriedky na dosiahnutie dohodnutého spoločného účelu. Združenie podľa Občianskeho zákonníka nemá právnu subjektivitu a jeho účastníci zodpovedajú za záväzky voči tretím osobám spoločne a nerozdielne." },
+        { "question": "Aké sú podstatné náležitosti zmluvy o združení?", "answer": "Podstatnou náležitosťou je dohoda účastníkov o spoločnom účele, na dosiahnutie ktorého sa spájajú, a záväzok spojiť na tento účel svoju činnosť alebo majetkové hodnoty. Zmluva ďalej upravuje spôsob rozdelenia zisku a spôsob rozhodovania medzi účastníkmi združenia." }
+      ]
+    },
+    {
+      "id": "39",
+      "title": "Zmluva o dôchodku, stávka a hra – pojem, podstatné náležitosti",
+      "definitions": [
+        { "question": "Čo je zmluva o dôchodku?", "answer": "Zmluvou o dôchodku sa zriaďovateľ zaväzuje poskytovať oprávnenej osobe počas dohodnutej doby alebo doživotne pravidelné dávky, dôchodok. Zmluva musí byť uzatvorená písomne, inak je neplatná." },
+        { "question": "Čo sú stávka a hra podľa Občianskeho zákonníka?", "answer": "Stávka a hra sú záväzky, ktoré zákon označuje za neplatné a nevynútiteľné súdnou cestou, takže z nich nevzniká vymáhateľná pohľadávka. Ak však bolo dobrovoľne plnené, nemožno také plnenie požadovať späť ako bezdôvodné obohatenie." },
+        { "question": "Aký je vzťah stávky a hry k lotériám povoleným štátom?", "answer": "Výnimku z neplatnosti stávok a hier tvoria lotérie a iné podobné hry, ktoré boli povolené príslušným orgánom podľa osobitného zákona. Iba pri takto povolených hrách je pohľadávka na výhru súdne vymáhateľná." }
+      ]
+    },
+    {
+      "id": "40",
+      "title": "Verejná súťaž a verejný prísľub – pojem, podstatné náležitosti",
+      "definitions": [
+        { "question": "Čo je verejná súťaž?", "answer": "Verejnou súťažou vyhlasovateľ vyhlasuje neurčitému okruhu osôb súťaž o najvhodnejší návrh na uzavretie zmluvy alebo o iné plnenie a zaväzuje sa odovzdať cenu víťaznému návrhu. Podmienky súťaže musia byť vhodne uverejnené s určením predmetu súťaže a spôsobu podávania návrhov." },
+        { "question": "Čo je verejný prísľub?", "answer": "Verejným prísľubom vyhlasovateľ verejne prehlasuje, že poskytne odmenu tomu, kto splní určenú podmienku alebo dosiahne určitý výsledok. Záväzok vzniká priamo z jednostranného prejavu vyhlasovateľa bez potreby súhlasu tej osoby, ktorá podmienku neskôr splní." },
+        { "question": "Aký je rozdiel medzi verejnou súťažou a verejným prísľubom?", "answer": "Pri verejnej súťaži sa porovnáva viacero predložených návrhov a odmenu získa len ten, koho návrh bol vyhodnotený za najlepší. Pri verejnom prísľube nárok na odmenu vzniká každému, kto splní stanovenú podmienku, bez porovnávania s inými osobami." }
+      ]
+    }
+  ]
+}

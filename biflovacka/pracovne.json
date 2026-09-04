@@ -1,0 +1,457 @@
+{
+  "area": "Pracovné právo",
+  "slug": "pracovne",
+  "schemaVersion": "1.0",
+  "okruhy": [
+    {
+      "id": "1",
+      "title": "Pojem, predmet a systém pracovného práva, pramene pracovného práva",
+      "definitions": [
+        { "question": "Čo je predmetom pracovného práva?", "answer": "Predmetom pracovného práva sú spoločenské vzťahy, ktoré vznikajú pri výkone závislej práce zamestnanca pre zamestnávateľa, ako aj súvisiace vzťahy kolektívnej povahy. Základným prameňom tejto oblasti je Zákonník práce, teda zákon číslo 311 z roku 2001." },
+        { "question": "Aké pramene pracovného práva poznáme?", "answer": "Medzi pramene pracovného práva patrí Ústava Slovenskej republiky, Zákonník práce, osobitné zákony, kolektívne zmluvy a medzinárodné dohovory Medzinárodnej organizácie práce. Významnú úlohu zohráva aj právo Európskej únie, najmä smernice upravujúce pracovné podmienky." },
+        { "question": "Čo tvorí systém pracovného práva?", "answer": "Systém pracovného práva sa člení na individuálne pracovné právo, ktoré upravuje vzťah medzi zamestnancom a zamestnávateľom, a kolektívne pracovné právo, ktoré upravuje vzťahy medzi zamestnávateľmi a zástupcami zamestnancov. Súčasťou je aj právna úprava zamestnanosti a bezpečnosti práce." }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Základné zásady pracovného práva",
+      "definitions": [
+        { "question": "Aké základné zásady vyjadruje Zákonník práce?", "answer": "Zákonník práce vyjadruje najmä zásadu ochrany zamestnanca ako slabšej strany, zásadu rovnakého zaobchádzania, zásadu bezpečnosti a ochrany zdravia pri práci a zásadu slobody združovania. Tieto zásady sú vyjadrené v úvodných ustanoveniach zákona a slúžia na výklad ostatných noriem." },
+        { "question": "Čo znamená zásada ochrany zamestnanca?", "answer": "Zásada ochrany zamestnanca znamená, že pracovnoprávne predpisy majú chrániť postavenie zamestnanca ako ekonomicky a organizačne slabšej strany pracovného pomeru. Prejavuje sa napríklad v obmedzení možností výpovede zo strany zamestnávateľa a v úprave minimálnych pracovných podmienok." },
+        { "question": "Kedy sa uplatňuje zásada rovnakého zaobchádzania?", "answer": "Zásada rovnakého zaobchádzania sa uplatňuje pri uzatváraní pracovného pomeru, počas jeho trvania aj pri jeho skončení, pričom zakazuje akúkoľvek diskrimináciu zamestnancov. Vychádza z Ústavy Slovenskej republiky a je bližšie rozpracovaná v antidiskriminačnom zákone." }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Pojem závislej práce, švarcsystém",
+      "definitions": [
+        { "question": "Čo je závislá práca?", "answer": "Závislá práca je práca vykonávaná vo vzťahu nadriadenosti zamestnávateľa a podriadenosti zamestnanca, osobne zamestnancom pre zamestnávateľa, podľa jeho pokynov, v jeho mene, za mzdu a v pracovnom čase určenom zamestnávateľom. Takáto práca sa môže vykonávať výlučne v pracovnoprávnom vzťahu." },
+        { "question": "Čo je švarcsystém?", "answer": "Švarcsystém je nelegálne obchádzanie pracovnoprávnych predpisov, pri ktorom zamestnávateľ necháva vykonávať závislú prácu formálne samostatne zárobkovo činnou osobou na základe obchodnoprávneho vzťahu namiesto pracovnej zmluvy. Cieľom je obísť povinnosti súvisiace s odvodmi a ochranou zamestnanca." },
+        { "question": "Kedy hrozí zamestnávateľovi postih za švarcsystém?", "answer": "Postih hrozí vtedy, keď inšpekcia práce zistí, že fyzická osoba vykonáva pre objednávateľa činnosť napĺňajúcu znaky závislej práce bez uzatvoreného pracovnoprávneho vzťahu. Ide o nelegálne zamestnávanie podľa zákona o nelegálnej práci a nelegálnom zamestnávaní, za ktoré možno uložiť vysokú pokutu." }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Účastníci pracovnoprávnych vzťahov – zamestnanec",
+      "definitions": [
+        { "question": "Kto môže byť zamestnancom?", "answer": "Zamestnancom môže byť fyzická osoba, ktorá dovŕšila pätnásty rok veku a má spôsobilosť na právne úkony potrebnú na vznik pracovnoprávneho vzťahu. Pracovný pomer s takouto osobou však možno dohodnúť najskôr odo dňa, keď skončí povinnú školskú dochádzku." },
+        { "question": "Čo je spôsobilosť na právne úkony v pracovnoprávnych vzťahoch?", "answer": "Spôsobilosť fyzickej osoby mať a vlastnými úkonmi nadobúdať práva a povinnosti v pracovnoprávnych vzťahoch vzniká spravidla dňom, keď dovŕši pätnásty rok veku. Zamestnávateľ jej musí utvárať pracovné podmienky zodpovedajúce telesnému a duševnému rozvoju." },
+        { "question": "Aké povinnosti má zamestnanec voči zamestnávateľovi?", "answer": "Zamestnanec je povinný pracovať zodpovedne a riadne, plniť pokyny nadriadených, dodržiavať pracovnú disciplínu a využívať pracovný čas na výkon práce. Zároveň je povinný chrániť majetok zamestnávateľa a zachovávať mlčanlivosť o skutočnostiach, o ktorých sa dozvedel pri výkone zamestnania." }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Účastníci pracovnoprávnych vzťahov – zamestnávateľ",
+      "definitions": [
+        { "question": "Kto môže byť zamestnávateľom?", "answer": "Zamestnávateľom je právnická alebo fyzická osoba, ktorá zamestnáva aspoň jednu fyzickú osobu v pracovnoprávnom vzťahu a v prípadoch ustanovených zákonom aj v iných pracovných vzťahoch. Zamestnávateľ vystupuje v pracovnoprávnych vzťahoch vo svojom mene a má zodpovednosť vyplývajúcu z týchto vzťahov." },
+        { "question": "Aké povinnosti má zamestnávateľ voči zamestnancom?", "answer": "Zamestnávateľ je povinný prideľovať zamestnancovi dohodnutú prácu, platiť mu za vykonanú prácu mzdu, utvárať bezpečné a zdravie neohrozujúce pracovné podmienky a dodržiavať ostatné pracovné podmienky ustanovené právnymi predpismi. Zároveň musí zamestnancov oboznamovať s ich právami a povinnosťami." },
+        { "question": "Kedy koná za zamestnávateľa štatutárny orgán?", "answer": "Za zamestnávateľa, ktorý je právnickou osobou, koná v pracovnoprávnych vzťahoch štatutárny orgán alebo člen štatutárneho orgánu, prípadne ním poverený zamestnanec. Fyzická osoba ako zamestnávateľ koná osobne alebo prostredníctvom svojho zástupcu." }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Vznik pracovného pomeru, pracovná zmluva",
+      "definitions": [
+        { "question": "Čo je pracovná zmluva?", "answer": "Pracovná zmluva je dvojstranný právny úkon, ktorým vzniká pracovný pomer medzi zamestnancom a zamestnávateľom a ktorý musí obsahovať druh práce, miesto výkonu práce, deň nástupu do práce a mzdové podmienky. Zákonník práce vyžaduje jej písomnú formu." },
+        { "question": "Kedy vzniká pracovný pomer?", "answer": "Pracovný pomer vzniká odo dňa, ktorý bol dohodnutý v pracovnej zmluve ako deň nástupu do práce, bez ohľadu na to, či zamestnanec v tento deň skutočne prácu vykonával. Samotné uzatvorenie pracovnej zmluvy teda ešte pracovný pomer nezakladá." },
+        { "question": "Aké podstatné náležitosti musí obsahovať pracovná zmluva?", "answer": "Pracovná zmluva musí obsahovať druh práce, na ktorý sa zamestnanec prijíma, miesto výkonu práce, deň nástupu do práce a mzdové podmienky, ak nie sú dohodnuté v kolektívnej zmluve. Ostatné podmienky, ako je výmera dovolenky alebo výpovedná doba, možno upraviť aj odkazom na zákon." }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Zmena pracovného pomeru, preloženie, pracovná cesta",
+      "definitions": [
+        { "question": "Kedy možno zmeniť obsah pracovnej zmluvy?", "answer": "Obsah pracovnej zmluvy možno zmeniť len dohodou medzi zamestnávateľom a zamestnancom, a to formou písomného dodatku k pracovnej zmluve. Jednostranná zmena zo strany zamestnávateľa je prípustná iba vo výnimočných prípadoch ustanovených zákonom." },
+        { "question": "Čo je preloženie zamestnanca?", "answer": "Preloženie je zmena miesta výkonu práce na iné miesto, než bolo dohodnuté v pracovnej zmluve, ktorú možno vykonať len so súhlasom zamestnanca, ak zákon neustanovuje inak. Zamestnávateľ je povinný vopred prerokovať dôvod preloženia a jeho dobu so zamestnancom." },
+        { "question": "Čo je pracovná cesta?", "answer": "Pracovná cesta je časovo obmedzené vyslanie zamestnanca zamestnávateľom na výkon práce mimo dohodnutého miesta výkonu práce. Zamestnávateľ môže zamestnanca vyslať na pracovnú cestu len so súhlasom zamestnanca a zamestnancovi patrí náhrada cestovných výdavkov podľa osobitného zákona." }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Skončenie pracovného pomeru dohodou",
+      "definitions": [
+        { "question": "Čo je skončenie pracovného pomeru dohodou?", "answer": "Skončenie pracovného pomeru dohodou je dvojstranný právny úkon, ktorým sa zamestnávateľ a zamestnanec dohodnú na skončení pracovného pomeru k dohodnutému dňu. Dohoda musí mať písomnú formu, inak je neplatná." },
+        { "question": "Kedy je vhodné uzatvoriť dohodu o skončení pracovného pomeru?", "answer": "Dohoda je vhodná vtedy, keď obe strany majú záujem na rýchlom a bezkonfliktnom skončení pracovného pomeru bez plynutia výpovednej doby. Ak je dôvodom skončenia organizačná zmena alebo zdravotná nespôsobilosť, zamestnancovi patrí odstupné podľa Zákonníka práce." },
+        { "question": "Aké náležitosti musí mať dohoda o skončení pracovného pomeru?", "answer": "Dohoda musí obsahovať deň skončenia pracovného pomeru a musí byť uzavretá písomne, pričom ak sa skončenie viaže na dôvody podľa zákona, musia byť v dohode uvedené. Každá zo zmluvných strán dostane jedno vyhotovenie dohody." }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Skončenie pracovného pomeru výpoveďou zo strany zamestnávateľa",
+      "definitions": [
+        { "question": "Kedy môže zamestnávateľ dať zamestnancovi výpoveď?", "answer": "Zamestnávateľ môže dať zamestnancovi výpoveď len z dôvodov výslovne ustanovených v Zákonníku práce, napríklad pri zrušení alebo premiestnení zamestnávateľa, nadbytočnosti zamestnanca alebo neuspokojivom plnení pracovných úloh. Výpoveď musí byť písomná a doručená zamestnancovi." },
+        { "question": "Čo je výpovedná doba?", "answer": "Výpovedná doba je obdobie plynúce od doručenia výpovede, počas ktorého pracovný pomer ešte trvá a zamestnanec je povinný pracovať, ak sa strany nedohodnú inak. Jej dĺžka závisí od doby trvania pracovného pomeru a je najmenej jeden mesiac, spravidla dva alebo tri mesiace." },
+        { "question": "Kedy je výpoveď zo strany zamestnávateľa neplatná?", "answer": "Výpoveď je neplatná, ak nie je daná písomne a doručená zamestnancovi, ak neobsahuje skutkovo vymedzený výpovedný dôvod, alebo ak je daná v ochrannej dobe, napríklad počas dočasnej pracovnej neschopnosti zamestnanca. Zamestnanec sa neplatnosti môže domáhať žalobou na súde." }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Skončenie pracovného pomeru výpoveďou zo strany zamestnanca",
+      "definitions": [
+        { "question": "Kedy môže zamestnanec dať výpoveď zamestnávateľovi?", "answer": "Zamestnanec môže dať zamestnávateľovi výpoveď z akéhokoľvek dôvodu alebo aj bez uvedenia dôvodu, na rozdiel od zamestnávateľa, ktorý je viazaný zákonnými výpovednými dôvodmi. Výpoveď musí byť písomná a doručená zamestnávateľovi." },
+        { "question": "Aká je dĺžka výpovednej doby pri výpovedi zo strany zamestnanca?", "answer": "Výpovedná doba pri výpovedi danej zamestnancom je spravidla jeden mesiac, ak celkové trvanie pracovného pomeru u zamestnávateľa netrvalo aspoň rok, inak je najmenej dva mesiace. Výpovedná doba začína plynúť od prvého dňa kalendárneho mesiaca nasledujúceho po doručení výpovede." },
+        { "question": "Čo sa deje, ak zamestnanec počas výpovednej doby nenastúpi do práce?", "answer": "Ak zamestnanec počas výpovednej doby prestane vykonávať prácu bez súhlasu zamestnávateľa, môže sa zamestnávateľ domáhať náhrady škody, ktorá mu tým vznikla. Samotný pracovný pomer však zásadne trvá až do uplynutia výpovednej doby." }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Okamžité skončenie pracovného pomeru",
+      "definitions": [
+        { "question": "Čo je okamžité skončenie pracovného pomeru?", "answer": "Okamžité skončenie pracovného pomeru je jednostranný právny úkon, ktorým pracovný pomer zaniká priamo dňom doručenia okamžitého skončenia druhej strane, bez plynutia výpovednej doby. Zamestnávateľ ho môže použiť len vo výnimočných, zákonom presne vymedzených prípadoch." },
+        { "question": "Kedy môže zamestnávateľ okamžite skončiť pracovný pomer?", "answer": "Zamestnávateľ môže okamžite skončiť pracovný pomer, ak bol zamestnanec právoplatne odsúdený za úmyselný trestný čin, alebo ak porušil pracovnú disciplínu závažným spôsobom. Dôvod okamžitého skončenia musí byť v písomnom vyhotovení skutkovo vymedzený a nemožno ho dodatočne meniť." },
+        { "question": "Kedy môže zamestnanec okamžite skončiť pracovný pomer?", "answer": "Zamestnanec môže okamžite skončiť pracovný pomer, ak mu zamestnávateľ nevyplatil mzdu do pätnástich dní po splatnosti, alebo ak podľa lekárskeho posudku nemôže ďalej pracovať bez vážneho ohrozenia zdravia. V takom prípade mu patrí náhrada mzdy vo výške priemerného zárobku počas výpovednej doby." }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Skončenie pracovného pomeru v skúšobnej dobe",
+      "definitions": [
+        { "question": "Čo je skúšobná doba?", "answer": "Skúšobná doba je obdobie dohodnuté v pracovnej zmluve, počas ktorého môžu obe strany overiť, či im vzájomná spolupráca vyhovuje, a počas ktorého môže ktorákoľvek zo strán pracovný pomer jednoducho skončiť. Musí byť dohodnutá písomne, inak je neplatná." },
+        { "question": "Aká je maximálna dĺžka skúšobnej doby?", "answer": "Skúšobná doba nesmie byť dlhšia ako tri mesiace a pri vedúcom zamestnancovi v priamej riadiacej pôsobnosti štatutárneho orgánu nesmie presiahnuť šesť mesiacov. Skúšobnú dobu nemožno predlžovať nad rámec dohodnutý v pracovnej zmluve, s výnimkou zákonom uznaných prekážok v práci." },
+        { "question": "Ako možno skončiť pracovný pomer v skúšobnej dobe?", "answer": "V skúšobnej dobe môže ktorákoľvek zo strán skončiť pracovný pomer písomne, z akéhokoľvek dôvodu alebo bez uvedenia dôvodu, pričom oznámenie sa má doručiť druhej strane spravidla aspoň tri dni vopred. Pracovný pomer sa tak skončí dňom uvedeným v oznámení o skončení." }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Neplatné skončenie pracovného pomeru",
+      "definitions": [
+        { "question": "Kedy je skončenie pracovného pomeru neplatné?", "answer": "Skončenie pracovného pomeru je neplatné, ak nespĺňa zákonom ustanovené formálne alebo obsahové náležitosti, napríklad ak chýba výpovedný dôvod alebo bola výpoveď daná v ochrannej dobe. Neplatnosť skončenia môže zamestnanec aj zamestnávateľ uplatniť len na súde." },
+        { "question": "Aká je lehota na uplatnenie neplatnosti skončenia pracovného pomeru na súde?", "answer": "Neplatnosť skončenia pracovného pomeru možno uplatniť na súde najneskôr v lehote dvoch mesiacov odo dňa, keď sa mal pracovný pomer skončiť. Po márnom uplynutí tejto lehoty súd na neplatnosť neprihliadne, aj keby k nej inak došlo." },
+        { "question": "Čo patrí zamestnancovi pri neplatnom skončení pracovného pomeru zo strany zamestnávateľa?", "answer": "Ak súd určí, že skončenie bolo neplatné a zamestnanec oznámil, že trvá na ďalšom zamestnávaní, patrí mu náhrada mzdy odo dňa tohto oznámenia. Túto náhradu môže súd primerane znížiť, ak celková doba presiahne dvanásť mesiacov." }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Pracovný čas a doba odpočinku",
+      "definitions": [
+        { "question": "Čo je pracovný čas?", "answer": "Pracovný čas je časový úsek, v ktorom je zamestnanec k dispozícii zamestnávateľovi a vykonáva prácu podľa pracovnej zmluvy. Základná dĺžka pracovného času zamestnanca je najviac štyridsať hodín týždenne, ak Zákonník práce neustanovuje kratší pracovný čas." },
+        { "question": "Aká je minimálna doba nepretržitého denného odpočinku?", "answer": "Zamestnávateľ je povinný rozvrhnúť pracovný čas tak, aby zamestnanec mal medzi koncom jednej a začiatkom druhej zmeny nepretržitý odpočinok v trvaní najmenej dvanásť hodín počas dvadsiatich štyroch hodín. U mladistvých zamestnancov musí byť tento odpočinok najmenej štrnásť hodín." },
+        { "question": "Kedy vzniká zamestnancovi nárok na nepretržitý odpočinok v týždni?", "answer": "Zamestnávateľ je povinný rozvrhnúť pracovný čas tak, aby zamestnanec mal raz za týždeň nepretržitý odpočinok v trvaní najmenej dvoch po sebe nasledujúcich dní. Tento odpočinok by mal spravidla pripadať na sobotu a nedeľu alebo na tieto dni nadväzovať." }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Dovolenka na zotavenie",
+      "definitions": [
+        { "question": "Čo je dovolenka na zotavenie?", "answer": "Dovolenka na zotavenie je doba pracovného voľna s náhradou mzdy, ktorá slúži na regeneráciu pracovnej sily zamestnanca a na ktorú mu vzniká nárok za odpracované obdobie u zamestnávateľa. Základná výmera dovolenky je najmenej štyri týždne v kalendárnom roku." },
+        { "question": "Aká je výmera dovolenky zamestnanca staršieho ako tridsaťtri rokov?", "answer": "Zamestnancovi, ktorý do konca kalendárneho roka dovŕši najmenej tridsaťtri rokov veku, patrí dovolenka vo výmere najmenej päť týždňov. Rovnaká výmera patrí aj zamestnancovi trvale sa starajúcemu o dieťa." },
+        { "question": "Kedy určuje čerpanie dovolenky zamestnávateľ?", "answer": "Čerpanie dovolenky určuje zamestnávateľ po prerokovaní so zamestnancom podľa plánu dovoleniek so súhlasom zástupcov zamestnancov, pričom prihliada na jeho oprávnené záujmy. Zamestnávateľ je povinný oznámiť zamestnancovi čerpanie dovolenky aspoň štrnásť dní vopred." }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Prekážky v práci na strane zamestnanca",
+      "definitions": [
+        { "question": "Čo sú prekážky v práci na strane zamestnanca?", "answer": "Prekážky v práci na strane zamestnanca sú skutočnosti, pre ktoré zamestnanec dočasne nemôže vykonávať prácu, hoci mu bola pridelená, napríklad vlastná svadba či dočasná pracovná neschopnosť. Zákonník práce určuje, kedy patrí zamestnancovi pracovné voľno s náhradou mzdy alebo bez nej." },
+        { "question": "Kedy patrí zamestnancovi pracovné voľno s náhradou mzdy?", "answer": "Pracovné voľno s náhradou mzdy patrí zamestnancovi napríklad pri vlastnej svadbe, úmrtí rodinného príslušníka, sprevádzaní rodinného príslušníka k lekárovi alebo pri darovaní krvi. Rozsah a podmienky poskytnutia tohto voľna upravuje Zákonník práce a nariadenie vlády." },
+        { "question": "Čo je dôležitá osobná prekážka v práci?", "answer": "Dôležitá osobná prekážka v práci je udalosť týkajúca sa osoby zamestnanca, ktorá mu bráni dočasne vykonávať prácu, pričom zamestnávateľ je povinný ospravedlniť neprítomnosť zamestnanca v práci počas jej trvania. Patrí sem napríklad dočasná pracovná neschopnosť alebo ošetrovanie chorého člena rodiny." }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Prekážky v práci na strane zamestnávateľa",
+      "definitions": [
+        { "question": "Čo sú prekážky v práci na strane zamestnávateľa?", "answer": "Prekážky v práci na strane zamestnávateľa sú okolnosti, pre ktoré zamestnávateľ nemôže zamestnancovi prideľovať prácu, hoci je pripravený ju vykonávať, napríklad prestoj alebo prerušenie práce pre nepriaznivé poveternostné vplyvy. Zamestnancovi v takom prípade spravidla patrí náhrada mzdy." },
+        { "question": "Aká náhrada mzdy patrí zamestnancovi pri prestoji?", "answer": "Ak zamestnanec nemohol pracovať pre prechodnú poruchu na strojovom zariadení alebo v dodávke surovín či energie, ide o prestoj a patrí mu náhrada mzdy vo výške priemerného zárobku. Zamestnávateľ ho môže preradiť na inú prácu, ak to jeho zdravotný stav umožňuje." },
+        { "question": "Kedy ide o prekážku v práci z dôvodu iných vážnych prevádzkových dôvodov?", "answer": "O prekážku z vážnych prevádzkových dôvodov ide vtedy, keď zamestnávateľ dočasne nemôže prideľovať prácu v dohodnutom rozsahu, napríklad pre nedostatok zákaziek, po prerokovaní so zástupcami zamestnancov. Zamestnancovi patrí náhrada mzdy najmenej vo výške šesťdesiat percent zárobku." }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Mzda a jej zložky",
+      "definitions": [
+        { "question": "Čo je mzda?", "answer": "Mzda je peňažné plnenie alebo plnenie peňažnej hodnoty poskytované zamestnávateľom zamestnancovi za vykonanú prácu, ktoré sa dojednáva v pracovnej zmluve, kolektívnej zmluve alebo vnútornom mzdovom predpise. Mzda nesmie byť nižšia ako minimálna mzda ustanovená osobitným zákonom." },
+        { "question": "Aké zložky môže obsahovať mzda?", "answer": "Mzda sa spravidla skladá zo základnej zložky za vykonanú prácu a z pohyblivých zložiek, ako sú príplatky, prémie, odmeny alebo podiely na hospodárskom výsledku. Príplatky patria zamestnancovi napríklad za prácu nadčas, za prácu v noci alebo za prácu vo sviatok." },
+        { "question": "Kedy je zamestnávateľ povinný vyplatiť mzdu za prácu nadčas so zvýšením?", "answer": "Za prácu nadčas patrí zamestnancovi dosiahnutá mzda a mzdové zvýhodnenie najmenej vo výške dvadsaťpäť percent jeho priemerného zárobku, ak sa strany nedohodli na náhradnom voľne. Vedúcemu zamestnancovi mzdové zvýhodnenie niekedy nepatrí, ak je zohľadnené priamo v jeho mzde." }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Náhrada mzdy a priemerný zárobok",
+      "definitions": [
+        { "question": "Čo je priemerný zárobok?", "answer": "Priemerný zárobok je hodnota slúžiaca na výpočet náhrady mzdy a niektorých ďalších plnení, ktorá sa zisťuje z hrubej mzdy zúčtovanej zamestnancovi na výplatu a z obdobia odpracovaného v rozhodujúcom období. Rozhodujúcim obdobím je spravidla predchádzajúci kalendárny štvrťrok." },
+        { "question": "Kedy patrí zamestnancovi náhrada mzdy?", "answer": "Náhrada mzdy patrí zamestnancovi vtedy, keď z dôvodov ustanovených zákonom nemohol vykonávať prácu, hoci bol pripravený ju vykonávať, napríklad pri prekážkach na strane zamestnávateľa alebo pri čerpaní dovolenky. Výška náhrady sa spravidla určuje z priemerného zárobku zamestnanca." },
+        { "question": "Ako sa postupuje, ak zamestnanec neodpracoval v rozhodujúcom období žiadne dni?", "answer": "Ak zamestnanec v rozhodujúcom období neodpracoval ani jeden deň, namiesto priemerného zárobku sa použije pravdepodobný zárobok, ktorý zamestnávateľ zistí z toho, aký zárobok by pravdepodobne dosiahol. Prihliada sa aj na mzdu zamestnancov vykonávajúcich rovnakú prácu." }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Zodpovednosť zamestnanca za škodu",
+      "definitions": [
+        { "question": "Kedy zodpovedá zamestnanec zamestnávateľovi za škodu?", "answer": "Zamestnanec zodpovedá zamestnávateľovi za škodu, ktorú mu spôsobil zavineným porušením povinností pri plnení pracovných úloh alebo v priamej súvislosti s ním. Zamestnávateľ musí preukázať zavinenie zamestnanca, vznik škody a príčinnú súvislosť medzi porušením povinnosti a škodou." },
+        { "question": "Aká je zodpovednosť zamestnanca za schodok na zverených hodnotách?", "answer": "Ak zamestnanec prevzal na základe dohody o hmotnej zodpovednosti zverené hodnoty s povinnosťou vyúčtovania, zodpovedá za vzniknutý schodok bez ohľadu na mieru zavinenia. Zbaviť sa zodpovednosti môže len vtedy, ak preukáže, že schodok vznikol celkom alebo sčasti bez jeho zavinenia." },
+        { "question": "Aký je limit náhrady škody spôsobenej zamestnancom z nedbanlivosti?", "answer": "Pri škode spôsobenej zamestnancom z nedbanlivosti je výška náhrady škody obmedzená sumou štvornásobku jeho priemerného mesačného zárobku pred porušením povinnosti, ktorým škodu spôsobil. Toto obmedzenie neplatí, ak bola škoda spôsobená úmyselne, pod vplyvom alkoholu alebo iných omamných látok." }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Zodpovednosť zamestnávateľa za škodu",
+      "definitions": [
+        { "question": "Kedy zodpovedá zamestnávateľ zamestnancovi za škodu?", "answer": "Zamestnávateľ zodpovedá zamestnancovi za škodu, ktorá mu vznikla pri plnení pracovných úloh alebo v priamej súvislosti s nimi porušením právnych povinností alebo úmyselným konaním proti dobrým mravom. Táto zodpovednosť sa vzťahuje aj na škodu spôsobenú prevádzkovou nehodou." },
+        { "question": "Čo je zodpovednosť zamestnávateľa za škodu spôsobenú odloženými vecami?", "answer": "Zamestnávateľ zodpovedá za škodu na veciach, ktoré si zamestnanec odložil pri plnení pracovných úloh na určenom mieste, bez ohľadu na to, či škodu zavinil. Nárok na náhradu škody musí zamestnanec uplatniť u zamestnávateľa najneskôr do pätnástich dní odo dňa, keď sa o škode dozvedel." },
+        { "question": "Aká zodpovednosť má zamestnávateľ pri pracovnom úraze zamestnanca?", "answer": "Zamestnávateľ zodpovedá za škodu spôsobenú zamestnancovi pracovným úrazom pri plnení pracovných úloh, a to bez ohľadu na zavinenie, s výnimkou zákonom ustanovených liberačných dôvodov. Náhrada zahŕňa najmä stratu na zárobku, bolestné a sťaženie spoločenského uplatnenia." }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Bezpečnosť a ochrana zdravia pri práci",
+      "definitions": [
+        { "question": "Čo je povinnosťou zamestnávateľa v oblasti bezpečnosti a ochrany zdravia pri práci?", "answer": "Zamestnávateľ je povinný sústavne zaisťovať bezpečnosť a ochranu zdravia zamestnancov pri práci, prihliadať pritom na nebezpečenstvá a poškodenia zdravia a vykonávať opatrenia na ich odstránenie. Túto povinnosť upravuje Zákonník práce spolu so zákonom o bezpečnosti a ochrane zdravia pri práci." },
+        { "question": "Aké práva má zamestnanec v oblasti ochrany zdravia pri práci?", "answer": "Zamestnanec má právo na pracovné podmienky zaisťujúce bezpečnosť a ochranu zdravia pri práci, na informácie o rizikách a na potrebné osobné ochranné pracovné prostriedky. Má tiež právo odmietnuť vykonať prácu, ktorá bezprostredne a vážne ohrozuje jeho život alebo zdravie." },
+        { "question": "Kedy je zamestnávateľ povinný vykonať posúdenie rizika na pracovisku?", "answer": "Zamestnávateľ je povinný pravidelne, ako aj pri zavedení novej technológie alebo pracovného postupu, posudzovať riziko a hodnotiť nebezpečenstvá vyplývajúce z pracovného procesu na jednotlivých pracoviskách. Výsledky posúdenia rizika musí premietnuť do konkrétnych preventívnych opatrení." }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Pracovný poriadok a vnútorné predpisy zamestnávateľa",
+      "definitions": [
+        { "question": "Čo je pracovný poriadok?", "answer": "Pracovný poriadok je vnútorný predpis zamestnávateľa, ktorým sa bližšie konkretizujú ustanovenia Zákonníka práce podľa osobitných podmienok zamestnávateľa, najmä pracovná disciplína. Zamestnávateľ ho vydáva po predchádzajúcom súhlase zástupcov zamestnancov." },
+        { "question": "Kedy je zamestnávateľ povinný vydať pracovný poriadok?", "answer": "Zamestnávateľ, ktorý zamestnáva viac ako tridsať zamestnancov, je povinný vydať pracovný poriadok, ak nie je táto oblasť upravená v kolektívnej zmluve. Pracovný poriadok nadobúda účinnosť dňom, ktorý je v ňom určený, najskôr však dňom, keď bol u zamestnávateľa zverejnený." },
+        { "question": "Aký je vzťah vnútorného predpisu k pracovnej zmluve?", "answer": "Vnútorný predpis zamestnávateľa nesmie byť v rozpore so Zákonníkom práce ani kolektívnou zmluvou a nesmie ukladať zamestnancovi povinnosti, ani obmedzovať jeho práva nad rámec zákona. Ak je vnútorný predpis pre zamestnanca výhodnejší ako zákon, uplatní sa vnútorný predpis." }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Dohody o prácach vykonávaných mimo pracovného pomeru",
+      "definitions": [
+        { "question": "Čo sú dohody o prácach vykonávaných mimo pracovného pomeru?", "answer": "Ide o osobitné pracovnoprávne vzťahy, ktoré zamestnávateľ uzatvára na zabezpečenie príležitostných či krátkodobých prác, a to dohodu o vykonaní práce, dohodu o pracovnej činnosti a dohodu o brigádnickej práci študentov. Uzatvárajú sa výnimočne, ak nie je vhodné zabezpečiť prácu v pracovnom pomere." },
+        { "question": "Aký je rozsah práce pri dohode o vykonaní práce?", "answer": "Na základe dohody o vykonaní práce možno vykonať prácu v rozsahu najviac tristopäťdesiat hodín v kalendárnom roku, pričom sa doň započítava aj práca pre toho istého zamestnávateľa na základe inej takejto dohody. Dohoda sa uzatvára písomne a musí vymedzovať pracovnú úlohu." },
+        { "question": "Kedy možno uzatvoriť dohodu o brigádnickej práci študentov?", "answer": "Dohodu o brigádnickej práci študentov možno uzatvoriť so žiakom strednej školy alebo študentom vysokej školy, ktorý nedovŕšil dvadsaťšesť rokov veku, pričom rozsah práce nesmie presiahnuť dvadsať hodín týždenne v priemere. Táto dohoda umožňuje zvýhodnené odvodové zaťaženie." }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Kolektívne pracovné právo – pojem, subjekty",
+      "definitions": [
+        { "question": "Čo je kolektívne pracovné právo?", "answer": "Kolektívne pracovné právo je súbor právnych noriem upravujúcich vzťahy medzi zamestnávateľmi alebo ich organizáciami a odborovými organizáciami ako kolektívnymi predstaviteľmi zamestnancov. Zahŕňa najmä úpravu kolektívneho vyjednávania, kolektívnych zmlúv a riešenia kolektívnych sporov." },
+        { "question": "Kto sú subjekty kolektívneho pracovného práva?", "answer": "Subjektmi kolektívneho pracovného práva sú na strane zamestnancov odborové organizácie, prípadne zamestnanecké rady, a na strane zamestnávateľov jednotliví zamestnávatelia alebo ich organizácie. Osobitné postavenie má aj štát, ktorý sa zúčastňuje tripartitného sociálneho dialógu." },
+        { "question": "Čo je sociálny dialóg?", "answer": "Sociálny dialóg je systém rokovaní, konzultácií a výmeny informácií medzi zástupcami zamestnávateľov, zamestnancov a štátu s cieľom dosiahnuť dohodu v otázkach hospodárskej a sociálnej politiky. Na Slovensku sa realizuje najmä prostredníctvom Hospodárskej a sociálnej rady." }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Kolektívna zmluva – pojem, druhy, obsah",
+      "definitions": [
+        { "question": "Čo je kolektívna zmluva?", "answer": "Kolektívna zmluva je písomná zmluva medzi zamestnávateľom a odborovým orgánom, ktorá upravuje pracovné a mzdové podmienky, podmienky zamestnávania a vzťahy medzi zmluvnými stranami. Uzatvára sa podľa zákona o kolektívnom vyjednávaní, teda zákona číslo dva z roku tisícdeväťstodeväťdesiatjeden." },
+        { "question": "Aké druhy kolektívnych zmlúv poznáme?", "answer": "Rozlišujeme podnikovú kolektívnu zmluvu uzatváranú medzi zamestnávateľom a odborovou organizáciou u neho pôsobiacou a vyššiu kolektívnu zmluvu medzi organizáciou zamestnávateľov a odborovým zväzom pre celé odvetvie. Vyššiu zmluvu možno rozšíriť aj na ďalších zamestnávateľov." },
+        { "question": "Kedy je časť kolektívnej zmluvy neplatná?", "answer": "Časť kolektívnej zmluvy, ktorá upravuje nároky zamestnancov v menšom rozsahu, ako ustanovuje zákon, je neplatná a nahrádza sa príslušným ustanovením zákona. Kolektívna zmluva naopak môže priznať zamestnancom nároky vo väčšom rozsahu, než ustanovuje Zákonník práce." }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Odborová organizácia a jej postavenie",
+      "definitions": [
+        { "question": "Čo je odborová organizácia?", "answer": "Odborová organizácia je dobrovoľné združenie zamestnancov vznikajúce na základe práva na slobodné združovanie zaručeného Ústavou Slovenskej republiky, ktorého cieľom je obhajovať záujmy zamestnancov. Je právnickou osobou, ktorá vzniká dňom nasledujúcim po doručení návrhu na jej registráciu." },
+        { "question": "Aké oprávnenia má odborová organizácia u zamestnávateľa?", "answer": "Odborová organizácia má právo na prerokovanie a spolurozhodovanie v otázkach hromadného prepúšťania, na uzatváranie kolektívnej zmluvy a na kontrolu dodržiavania pracovnoprávnych predpisov. Zamestnávateľ je povinný umožniť jej pôsobenie a poskytovať jej potrebné informácie." },
+        { "question": "Kedy pôsobí u zamestnávateľa viacero odborových organizácií?", "answer": "Ak u zamestnávateľa pôsobí viacero odborových organizácií, zamestnávateľ musí konať s každou z nich, ak sa navzájom nedohodnú na spoločnom postupe. Pri uzatváraní kolektívnej zmluvy bez takej dohody je zamestnávateľ oprávnený uzavrieť ju s organizáciou s najväčším počtom členov." }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Zástupcovia zamestnancov, zamestnanecká rada",
+      "definitions": [
+        { "question": "Kto sú zástupcovia zamestnancov?", "answer": "Zástupcami zamestnancov sú podľa Zákonníka práce príslušný odborový orgán, zamestnanecká rada alebo zamestnanecký dôverník, ktorí zastupujú záujmy zamestnancov voči zamestnávateľovi. Zamestnávateľ je povinný s nimi prerokúvať alebo dohodovať otázky týkajúce sa dôležitých pracovných podmienok." },
+        { "question": "Čo je zamestnanecká rada?", "answer": "Zamestnanecká rada je volený orgán zástupcov zamestnancov, ktorý vzniká u zamestnávateľa, kde nepôsobí odborová organizácia alebo popri nej, a zastupuje zamestnancov v otázkach informovania a prerokovania. Na rozdiel od odborovej organizácie však nemá právo uzatvárať kolektívne zmluvy." },
+        { "question": "Kedy vzniká zamestnanecký dôverník?", "answer": "Zamestnanecký dôverník vzniká u zamestnávateľa, ktorý zamestnáva menej ako päťdesiat zamestnancov a kde nepôsobí odborová organizácia, ako zjednodušená forma zastúpenia zamestnancov. Volia ho zamestnanci priamou voľbou a jeho práva zodpovedajú právam zamestnaneckej rady." }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Kolektívne vyjednávanie",
+      "definitions": [
+        { "question": "Čo je kolektívne vyjednávanie?", "answer": "Kolektívne vyjednávanie je proces rokovania medzi zamestnávateľom a odborovou organizáciou o uzatvorení, zmene alebo skončení kolektívnej zmluvy, ktorý upravuje zákon o kolektívnom vyjednávaní. Cieľom je dosiahnuť dohodu o mzdových a pracovných podmienkach zamestnancov." },
+        { "question": "Kedy vzniká kolektívny spor pri kolektívnom vyjednávaní?", "answer": "Kolektívny spor vzniká vtedy, keď sa zmluvné strany nedohodnú na uzatvorení kolektívnej zmluvy v primeranej lehote, alebo keď sa nezhodnú na jej obsahu. Spor sa následne rieši za účasti sprostredkovateľa a v krajnom prípade rozhodcu podľa zákona o kolektívnom vyjednávaní." },
+        { "question": "Aká je úloha sprostredkovateľa v kolektívnom vyjednávaní?", "answer": "Sprostredkovateľ je nezávislá osoba zapísaná v zozname vedenom ministerstvom práce, ktorá pomáha stranám kolektívneho sporu dosiahnuť dohodu prostredníctvom rokovania. Ak sprostredkovanie nevedie k dohode, spor môže smerovať k rozhodcovskému konaniu alebo k štrajku." }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Štrajk a výluka",
+      "definitions": [
+        { "question": "Čo je štrajk?", "answer": "Štrajk je kolektívne prerušenie práce zamestnancami, ktorým odborová organizácia presadzuje svoje hospodárske a sociálne záujmy v kolektívnom spore o uzatvorenie kolektívnej zmluvy. Právo na štrajk je zaručené Ústavou Slovenskej republiky a jeho podmienky upravuje zákon o kolektívnom vyjednávaní." },
+        { "question": "Čo je výluka?", "answer": "Výluka je opatrenie zamestnávateľa, ktorým čiastočne alebo úplne zamedzí prístup zamestnancov na pracovisko a odoprie im pridelenie práce ako reakciu na kolektívny spor. Výluku možno vyhlásiť len za podmienok ustanovených zákonom o kolektívnom vyjednávaní a nesmie byť použitá svojvoľne." },
+        { "question": "Kedy je štrajk nezákonný?", "answer": "Štrajk je nezákonný, ak bol vyhlásený v rozpore so zákonom o kolektívnom vyjednávaní, napríklad bez predchádzajúceho neúspešného sprostredkovania, alebo ak sa ho zúčastňujú zamestnanci, ktorým zákon účasť zakazuje, napríklad sudcovia. O nezákonnosti štrajku rozhoduje súd na návrh dotknutej strany." }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Rovnaké zaobchádzanie a zákaz diskriminácie v pracovnoprávnych vzťahoch",
+      "definitions": [
+        { "question": "Čo je zásada rovnakého zaobchádzania v pracovnoprávnych vzťahoch?", "answer": "Zásada rovnakého zaobchádzania znamená zákaz diskriminácie zamestnancov z dôvodu pohlavia, veku, náboženstva, rasy, národnosti či sexuálnej orientácie pri prístupe k zamestnaniu, v pracovných podmienkach aj pri odmeňovaní. Túto zásadu rozpracúva antidiskriminačný zákon spolu so Zákonníkom práce." },
+        { "question": "Čo je nepriama diskriminácia v pracovnom práve?", "answer": "Nepriama diskriminácia nastáva vtedy, keď zdanlivo neutrálny predpis, kritérium alebo prax zamestnávateľa znevýhodňuje osobu na základe niektorého z chránených dôvodov bez objektívneho odôvodnenia. Zamestnávateľ sa jej môže dopustiť aj neúmyselne pri stanovení pracovných podmienok." },
+        { "question": "Kedy sa rozdielne zaobchádzanie nepovažuje za diskrimináciu?", "answer": "Rozdielne zaobchádzanie sa nepovažuje za diskrimináciu, ak je odôvodnené povahou práce, primerané a nevyhnutné na dosiahnutie sledovaného cieľa, napríklad pri vekovom obmedzení fyzicky náročnej profesie. Diskrimináciou nie sú ani opatrenia na vyrovnanie znevýhodnenia určitých skupín zamestnancov." }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Ochrana osobných údajov zamestnanca",
+      "definitions": [
+        { "question": "Aké povinnosti má zamestnávateľ pri spracúvaní osobných údajov zamestnanca?", "answer": "Zamestnávateľ smie spracúvať osobné údaje zamestnanca len v rozsahu nevyhnutnom na plnenie povinností z pracovnoprávneho vzťahu, a to podľa zákona o ochrane osobných údajov a všeobecného nariadenia o ochrane údajov. Zamestnanec musí byť o spracúvaní svojich údajov informovaný." },
+        { "question": "Kedy môže zamestnávateľ kontrolovať zamestnanca bez porušenia jeho súkromia?", "answer": "Zamestnávateľ môže vykonávať kontrolu zamestnanca len v rozsahu nevyhnutnom na ochranu svojich oprávnených záujmov a spôsobom, ktorý neznižuje jeho ľudskú dôstojnosť. Vopred musí so zástupcami zamestnancov prerokovať rozsah, spôsob a dobu trvania kontroly." },
+        { "question": "Čo je povinnosťou zamestnávateľa pri monitorovaní pracoviska kamerovým systémom?", "answer": "Ak zamestnávateľ zavádza kamerový systém na pracovisku, musí o tom vopred informovať zamestnancov a so záznamami zaobchádzať v súlade s predpismi o ochrane osobných údajov. Monitorovanie musí sledovať legitímny cieľ a nesmie neprimerane zasahovať do súkromia zamestnancov." }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Pracovné podmienky žien a mladistvých",
+      "definitions": [
+        { "question": "Aké osobitné pracovné podmienky platia pre tehotné zamestnankyne?", "answer": "Tehotné zamestnankyne a zamestnankyne do konca deviateho mesiaca po pôrode nesmú byť zamestnávané prácami fyzicky neprimeranými alebo škodlivými ich organizmu a nesmú pracovať nadčas. Zamestnávateľ je tiež povinný prispôsobiť im pracovné podmienky podľa ich zdravotného stavu." },
+        { "question": "Kto je mladistvý zamestnanec?", "answer": "Mladistvým zamestnancom sa podľa Zákonníka práce rozumie zamestnanec mladší ako osemnásť rokov, pre ktorého platia osobitné pracovné podmienky zamerané na ochranu jeho zdravia a vývoja. Mladistvého nemožno zamestnávať prácou nadčas ani prácou v noci s výnimkou osobitne vymedzených prípadov." },
+        { "question": "Aká je maximálna dĺžka pracovného času mladistvého zamestnanca?", "answer": "Pracovný čas mladistvého zamestnanca nesmie v priemere prekročiť tridsať hodín týždenne, aj keby pracoval pre viacerých zamestnávateľov, a v jednotlivých dňoch nesmie presiahnuť osem hodín. Tento limit má chrániť telesný a duševný vývoj mladistvého zamestnanca." }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Materská a rodičovská dovolenka",
+      "definitions": [
+        { "question": "Čo je materská dovolenka?", "answer": "Materská dovolenka je pracovné voľno poskytované žene v súvislosti s pôrodom a starostlivosťou o dieťa v celkovej výmere tridsaťštyri týždňov, ktoré sa spravidla nastupuje šesť až osem týždňov pred očakávaným pôrodom. Počas nej patrí zamestnankyni materské zo sociálneho poistenia." },
+        { "question": "Čo je rodičovská dovolenka?", "answer": "Rodičovská dovolenka je ďalšie pracovné voľno poskytované matke alebo otcovi na starostlivosť o dieťa, a to až do jeho troch rokov veku, prípadne šiestich rokov pri dieťati s dlhodobo nepriaznivým zdravotným stavom. Zamestnávateľ je povinný poskytnúť ju na žiadosť zamestnanca." },
+        { "question": "Kedy je zamestnávateľ povinný umožniť návrat zamestnankyne po materskej dovolenke?", "answer": "Zamestnávateľ je povinný zaradiť zamestnankyňu po skončení materskej alebo rodičovskej dovolenky na jej pôvodnú prácu a pracovisko, a ak to nie je možné, na inú prácu zodpovedajúcu pracovnej zmluve. Zamestnankyňu ani zamestnanca počas tejto doby nemožno prepustiť z dôvodu čerpania tohto voľna." }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "Agentúrne zamestnávanie a dočasné pridelenie",
+      "definitions": [
+        { "question": "Čo je agentúrne zamestnávanie?", "answer": "Agentúrne zamestnávanie je forma zamestnávania, pri ktorej agentúra dočasného zamestnávania uzatvára so zamestnancom pracovný pomer a dočasne ho prideľuje na výkon práce k inému, užívateľskému zamestnávateľovi. Túto oblasť upravuje Zákonník práce spolu so zákonom o službách zamestnanosti." },
+        { "question": "Čo je dočasné pridelenie zamestnanca?", "answer": "Dočasné pridelenie je vzťah, na základe ktorého zamestnanec agentúry vykonáva prácu pre užívateľského zamestnávateľa podľa jeho pokynov, pričom zamestnávateľom v pracovnoprávnom zmysle zostáva agentúra. Podmienky pridelenia sa dojednávajú v dohode medzi agentúrou a užívateľským zamestnávateľom." },
+        { "question": "Aké mzdové a pracovné podmienky patria dočasne pridelenému zamestnancovi?", "answer": "Dočasne pridelenému zamestnancovi patria najmenej rovnaké mzdové a pracovné podmienky, aké má porovnateľný zamestnanec užívateľského zamestnávateľa, vrátane rozsahu pracovného času a bezpečnosti pri práci. Pravidlo zabezpečuje rovnaké zaobchádzanie a bráni obchádzaniu mzdových štandardov." }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "Hromadné prepúšťanie",
+      "definitions": [
+        { "question": "Čo je hromadné prepúšťanie?", "answer": "Hromadné prepúšťanie je skončenie pracovných pomerov výpoveďou z organizačných dôvodov u väčšieho počtu zamestnancov v období tridsiatich dní, pričom rozhodný počet závisí od celkového počtu zamestnancov u zamestnávateľa. Podmienky hromadného prepúšťania upravuje Zákonník práce." },
+        { "question": "Aké povinnosti má zamestnávateľ pri hromadnom prepúšťaní?", "answer": "Zamestnávateľ je povinný najmenej mesiac vopred prerokovať zamýšľané hromadné prepúšťanie so zástupcami zamestnancov s cieľom obmedziť jeho rozsah alebo mu predísť. Zároveň je povinný o tomto zámere písomne informovať príslušný úrad práce, sociálnych vecí a rodiny." },
+        { "question": "Kedy vzniká zamestnancovi pri hromadnom prepúšťaní nárok na odstupné?", "answer": "Zamestnancovi, s ktorým zamestnávateľ skončí pracovný pomer výpoveďou v rámci hromadného prepúšťania, patrí odstupné, ktorého výška závisí od dĺžky trvania pracovného pomeru. Nárok vzniká popri plynutí výpovednej doby alebo namiesto nej, ak sa strany dohodnú na skončení dohodou." }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Konkurenčná doložka",
+      "definitions": [
+        { "question": "Čo je konkurenčná doložka?", "answer": "Konkurenčná doložka je dohoda, ktorou sa zamestnanec zaväzuje, že po skončení pracovného pomeru sa po dohodnutú dobu zdrží výkonu zárobkovej činnosti súťažnej povahy voči zamestnávateľovi. Zamestnávateľ sa zaväzuje poskytnúť mu za dodržanie tohto záväzku primeranú peňažnú náhradu." },
+        { "question": "Aká je maximálna dĺžka trvania konkurenčnej doložky?", "answer": "Konkurenčnú doložku možno dohodnúť najviac na jeden rok po skončení pracovného pomeru a zamestnancovi patrí za jej dodržiavanie náhrada najmenej vo výške polovice priemerného mesačného zárobku za každý mesiac. Dohodnúť ju možno len so zamestnancom s prístupom k dôverným informáciám či know-how." },
+        { "question": "Kedy môže zamestnanec od konkurenčnej doložky odstúpiť?", "answer": "Zamestnávateľ môže od konkurenčnej doložky odstúpiť len počas trvania pracovného pomeru, zatiaľ čo zamestnanec ju môže vypovedať, ak mu zamestnávateľ nevyplatil dohodnutú náhradu do pätnástich dní po splatnosti. Výpovedná doba pri vypovedaní zamestnancom je najviac jeden mesiac." }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "Zodpovednosť za škodu pri pracovných úrazoch a chorobách z povolania",
+      "definitions": [
+        { "question": "Čo je pracovný úraz?", "answer": "Pracovný úraz je poškodenie zdravia alebo smrť zamestnanca spôsobené nezávisle od jeho vôle krátkodobým, náhlym a násilným pôsobením vonkajších vplyvov pri plnení pracovných úloh alebo v priamej súvislosti s ním. Zamestnávateľ je povinný pracovný úraz vyšetriť a viesť o ňom evidenciu." },
+        { "question": "Čo je choroba z povolania?", "answer": "Choroba z povolania je ochorenie uznané zdravotníckym zariadením, ktoré vzniklo nepriaznivým pôsobením chemických, fyzikálnych, biologických alebo iných škodlivých vplyvov pracovného prostredia na zdravie zamestnanca. Zoznam chorôb z povolania je uvedený v prílohe zákona o sociálnom poistení." },
+        { "question": "Aké plnenia patria zamestnancovi pri pracovnom úraze?", "answer": "Zamestnancovi, ktorý utrpel pracovný úraz, patrí náhrada za stratu na zárobku, bolestné, sťaženie spoločenského uplatnenia, náhrada účelne vynaložených liečebných nákladov a náhrada vecnej škody. Časť týchto plnení zabezpečuje úrazové poistenie zamestnávateľa v rámci sociálneho poistenia." }
+      ]
+    },
+    {
+      "id": "39",
+      "title": "Inšpekcia práce – pôsobnosť a právomoci",
+      "definitions": [
+        { "question": "Čo je inšpekcia práce?", "answer": "Inšpekcia práce je štátny dozor nad dodržiavaním pracovnoprávnych predpisov, predpisov o bezpečnosti a ochrane zdravia pri práci a predpisov o zákaze nelegálnej práce, ktorý vykonávajú inšpektoráty práce a Národný inšpektorát práce. Ich pôsobnosť upravuje zákon o inšpekcii práce." },
+        { "question": "Aké oprávnenia má inšpektor práce pri výkone kontroly?", "answer": "Inšpektor práce je oprávnený vstupovať na pracoviská zamestnávateľa, požadovať potrebné doklady a vysvetlenia, ako aj ukladať opatrenia na odstránenie zistených nedostatkov. Za zistené porušenia môže inšpektorát práce uložiť zamestnávateľovi pokutu." },
+        { "question": "Kedy môže inšpektorát práce uložiť zamestnávateľovi pokutu za nelegálne zamestnávanie?", "answer": "Inšpektorát práce uloží pokutu vtedy, keď zistí, že zamestnávateľ umožnil výkon nelegálnej práce fyzickej osobe bez pracovnoprávneho vzťahu alebo bez ohlásenia do registra Sociálnej poisťovne. Výška pokuty sa odvíja od počtu nelegálne zamestnaných osôb a môže dosiahnuť desiatky tisíc eur." }
+      ]
+    },
+    {
+      "id": "40",
+      "title": "Riešenie individuálnych pracovných sporov",
+      "definitions": [
+        { "question": "Čo je individuálny pracovný spor?", "answer": "Individuálny pracovný spor je spor medzi konkrétnym zamestnancom a zamestnávateľom o práva a povinnosti vyplývajúce z pracovnoprávneho vzťahu, napríklad o platnosť skončenia pracovného pomeru alebo o zaplatenie mzdy. Takéto spory rozhodujú všeobecné súdy v civilnom sporovom konaní." },
+        { "question": "Kde sa rozhodujú individuálne pracovnoprávne spory?", "answer": "Individuálne pracovnoprávne spory rozhodujú okresné súdy ako súdy prvej inštancie postupom podľa Civilného sporového poriadku, pričom súd prihliada na osobitné postavenie zamestnanca ako slabšej strany. Zamestnanec sa môže obrátiť na súd aj so žalobou o neplatnosť skončenia pracovného pomeru." },
+        { "question": "Kedy môže zamestnanec požiadať o mimosúdne riešenie individuálneho sporu?", "answer": "Pred podaním žaloby na súd sa zamestnanec môže obrátiť aj na inšpektorát práce so sťažnosťou na porušenie pracovnoprávnych predpisov zo strany zamestnávateľa, prípadne využiť mediáciu ako spôsob mimosúdneho riešenia sporu. Tieto postupy však nenahrádzajú súdnu ochranu jeho práv." }
+      ]
+    },
+    {
+      "id": "41",
+      "title": "Riešenie kolektívnych pracovných sporov",
+      "definitions": [
+        { "question": "Čo je kolektívny pracovný spor?", "answer": "Kolektívny pracovný spor je spor medzi zamestnávateľom a odborovou organizáciou o uzatvorenie kolektívnej zmluvy alebo o plnenie záväzkov z nej, ktorý sa rieši podľa zákona o kolektívnom vyjednávaní. Delí sa na spor o uzatvorenie kolektívnej zmluvy a spor o plnenie jej záväzkov." },
+        { "question": "Ako sa rieši spor o uzatvorenie kolektívnej zmluvy?", "answer": "Spor o uzatvorenie kolektívnej zmluvy sa najprv rieši za účasti sprostredkovateľa, a ak sprostredkovanie nevedie k výsledku, strany môžu spor predložiť rozhodcovi, ktorého rozhodnutie je pre strany záväzné. Ak sa strany na rozhodcovi nedohodnú, odborová organizácia môže vyhlásiť štrajk." },
+        { "question": "Ako sa rieši spor o plnenie záväzkov z kolektívnej zmluvy?", "answer": "Spor o plnenie záväzkov vyplývajúcich z kolektívnej zmluvy rozhoduje na návrh niektorej zo strán rozhodca, ktorého rozhodnutie je záväzné a preskúmateľné súdom len v obmedzenom rozsahu. Týmto sporom nie je spor o uzatvorenie novej kolektívnej zmluvy, na ktorý sa vzťahuje iný postup." }
+      ]
+    },
+    {
+      "id": "42",
+      "title": "Zamestnávanie cudzincov",
+      "definitions": [
+        { "question": "Za akých podmienok môže byť cudzinec zamestnaný na Slovensku?", "answer": "Cudzinec môže byť na Slovensku zamestnaný, ak má povolenie na pobyt spojené s povolením na zamestnanie, prechodný pobyt za účelom zamestnania alebo modrú kartu, ak zákon neustanovuje výnimku. Podmienky upravuje zákon o službách zamestnanosti spolu so zákonom o pobyte cudzincov." },
+        { "question": "Kedy sa nevyžaduje povolenie na zamestnanie cudzinca?", "answer": "Povolenie na zamestnanie sa nevyžaduje najmä pri občanoch členských štátov Európskej únie a ich rodinných príslušníkoch, ktorí majú v pracovnoprávnych vzťahoch rovnaké postavenie ako občania Slovenska. Výnimky platia aj pre niektoré ďalšie kategórie cudzincov, napríklad štatutárnych zástupcov." },
+        { "question": "Čo je modrá karta?", "answer": "Modrá karta je doklad oprávňujúci štátneho príslušníka tretej krajiny na pobyt a zamestnanie na Slovensku vo vysokokvalifikovanom zamestnaní vyžadujúcom vysokoškolské vzdelanie alebo porovnateľnú odbornú prax. Vydáva sa na základe žiadosti a splnenia podmienok zákona o pobyte cudzincov." }
+      ]
+    },
+    {
+      "id": "43",
+      "title": "Štátna služba – osobitosti pracovnoprávneho vzťahu",
+      "definitions": [
+        { "question": "Čo je štátna služba?", "answer": "Štátna služba je osobitný právny vzťah medzi štátom a štátnym zamestnancom, ktorého obsahom je výkon štátnej správy alebo iných úloh vo verejnom záujme na základe zákona o štátnej službe. Na tento vzťah sa Zákonník práce vzťahuje len subsidiárne, ak zákon o štátnej službe neustanovuje inak." },
+        { "question": "Aký je rozdiel medzi štátnou službou a pracovným pomerom podľa Zákonníka práce?", "answer": "Štátna služba je verejnoprávny vzťah založený spravidla vymenovaním a prísnejšie upravený osobitným zákonom, zatiaľ čo pracovný pomer podľa Zákonníka práce je súkromnoprávny vzťah založený pracovnou zmluvou. Štátny zamestnanec má aj osobitné povinnosti, napríklad zvýšenú politickú neutralitu." },
+        { "question": "Kedy sa na štátneho zamestnanca použije Zákonník práce?", "answer": "Zákonník práce sa na štátneho zamestnanca použije len subsidiárne v otázkach, ktoré zákon o štátnej službe neupravuje, napríklad pri niektorých otázkach bezpečnosti a ochrany zdravia pri práci. Prednosť má vždy osobitná úprava v zákone o štátnej službe." }
+      ]
+    },
+    {
+      "id": "44",
+      "title": "Verejná služba – osobitosti pracovnoprávneho vzťahu",
+      "definitions": [
+        { "question": "Čo je verejná služba?", "answer": "Verejná služba je výkon práce vo verejnom záujme pre zamestnávateľov, akými sú obce, vyššie územné celky alebo príspevkové organizácie, v pracovnom pomere podľa Zákonníka práce s osobitosťami podľa zákona o výkone práce vo verejnom záujme. Líši sa od štátnej služby ako verejnoprávnej kategórie." },
+        { "question": "Aké osobitosti má odmeňovanie zamestnancov vo verejnej službe?", "answer": "Zamestnanci vo verejnej službe sú odmeňovaní podľa osobitného zákona o odmeňovaní niektorých zamestnancov pri výkone práce vo verejnom záujme, ktorý určuje tarifné triedy a platové stupne podľa vzdelania a praxe. Ich mzda sa označuje ako plat a jej zložky sú presne stanovené zákonom." },
+        { "question": "Kedy sa na zamestnanca vo verejnej službe vzťahuje Zákonník práce?", "answer": "Na zamestnanca vo verejnej službe sa Zákonník práce vzťahuje vždy, keď osobitný zákon o výkone práce vo verejnom záujme neustanovuje inak, napríklad pri vzniku a skončení pracovného pomeru. Osobitná úprava sa týka najmä odmeňovania a niektorých obmedzení súvisiacich s výkonom vo verejnom záujme." }
+      ]
+    },
+    {
+      "id": "45",
+      "title": "Pracovná disciplína a jej porušenie",
+      "definitions": [
+        { "question": "Čo je pracovná disciplína?", "answer": "Pracovná disciplína je súhrn povinností zamestnanca vyplývajúcich z právnych predpisov, pracovného poriadku a pokynov nadriadených, ktorých dodržiavanie je predpokladom riadneho plnenia pracovných úloh. Jej porušenie môže mať za následok pracovnoprávne postihy vrátane skončenia pracovného pomeru." },
+        { "question": "Aké stupne intenzity porušenia pracovnej disciplíny Zákonník práce rozlišuje?", "answer": "Zákonník práce rozlišuje menej závažné, závažné a osobitne závažné porušenie pracovnej disciplíny, pričom od tejto intenzity závisí, aký spôsob skončenia pracovného pomeru môže zamestnávateľ použiť. Pri opakovanom menej závažnom porušení je potrebné predchádzajúce písomné upozornenie zamestnanca." },
+        { "question": "Kedy môže zamestnávateľ dať výpoveď pre menej závažné porušenie pracovnej disciplíny?", "answer": "Zamestnávateľ môže dať zamestnancovi výpoveď pre menej závažné porušenie pracovnej disciplíny len vtedy, ak bol v posledných šiestich mesiacoch v súvislosti s takým porušením písomne upozornený na možnosť výpovede. Bez tohto predchádzajúceho upozornenia je výpoveď z tohto dôvodu neplatná." }
+      ]
+    },
+    {
+      "id": "46",
+      "title": "Priemerný zárobok a jeho zisťovanie",
+      "definitions": [
+        { "question": "Ako sa zisťuje priemerný zárobok zamestnanca?", "answer": "Priemerný zárobok sa zisťuje z hrubej mzdy zúčtovanej zamestnancovi v rozhodujúcom období a z počtu skutočne odpracovaných hodín, pričom rozhodujúcim obdobím je spravidla predchádzajúci kalendárny štvrťrok. Takto zistený priemerný zárobok sa uplatňuje počas celého nasledujúceho štvrťroka." },
+        { "question": "Na čo sa priemerný zárobok zamestnanca používa?", "answer": "Priemerný zárobok sa používa najmä na výpočet náhrady mzdy pri prekážkach v práci, náhrady mzdy pri dovolenke, mzdového zvýhodnenia za prácu nadčas a náhrady škody. Slúži tiež ako podklad pri výpočte odstupného a odchodného." },
+        { "question": "Kedy sa použije pravdepodobný zárobok namiesto priemerného zárobku?", "answer": "Pravdepodobný zárobok sa použije vtedy, keď zamestnanec v rozhodujúcom období neodpracoval žiadny deň, napríklad pri nástupe do zamestnania, a zisťuje sa z toho, aký zárobok by pravdepodobne dosiahol. Tento spôsob výpočtu zabezpečuje, aby zamestnanec nebol ukrátený na svojich nárokoch." }
+      ]
+    },
+    {
+      "id": "47",
+      "title": "Pracovné voľno a osobné prekážky v práci",
+      "definitions": [
+        { "question": "Čo je pracovné voľno?", "answer": "Pracovné voľno je doba, počas ktorej je zamestnanec ospravedlnene neprítomný v práci z dôvodov ustanovených zákonom alebo dohodnutých so zamestnávateľom, pričom podľa okolností mu môže, ale nemusí patriť náhrada mzdy. Poskytuje sa napríklad pri vyšetrení u lekára, sťahovaní alebo účasti na pohrebe." },
+        { "question": "Kedy patrí zamestnancovi pracovné voľno pri vyšetrení alebo ošetrení v zdravotníckom zariadení?", "answer": "Zamestnancovi patrí pracovné voľno s náhradou mzdy na nevyhnutne potrebný čas, ak vyšetrenie alebo ošetrenie nebolo možné vykonať mimo pracovného času. Ak sprevádza rodinného príslušníka, náhrada mzdy patrí len v rozsahu ustanovenom nariadením vlády." },
+        { "question": "Aké pracovné voľno patrí zamestnancovi pri sťahovaní?", "answer": "Pri sťahovaní zamestnanca, ktorý má vlastné bytové zariadenie, v záujme zamestnávateľa patrí zamestnancovi pracovné voľno s náhradou mzdy najviac na dva dni, pri sťahovaní v inom záujme len bez náhrady mzdy. Rozsah tohto voľna určuje nariadenie vlády, ktoré upravuje prekážky v práci." }
+      ]
+    },
+    {
+      "id": "48",
+      "title": "Zmluvná pokuta a jej obmedzenia v pracovnom práve",
+      "definitions": [
+        { "question": "Čo je zmluvná pokuta a je prípustná v pracovnom práve?", "answer": "Zmluvná pokuta je peňažná sankcia dohodnutá pre prípad porušenia zmluvnej povinnosti, bežná v obchodných a občianskoprávnych vzťahoch, ktorú však Zákonník práce medzi zamestnancom a zamestnávateľom v zásade nepripúšťa. Výnimkou je náhrada podľa konkurenčnej doložky s osobitným právnym režimom." },
+        { "question": "Prečo Zákonník práce obmedzuje použitie zmluvnej pokuty voči zamestnancovi?", "answer": "Zákonník práce obmedzuje použitie zmluvnej pokuty voči zamestnancovi z dôvodu ochrany zamestnanca ako slabšej strany, keďže jeho zodpovednosť za škodu je už osobitne a limitovane upravená v zákone. Dojednanie zmluvnej pokuty v pracovnej zmluve v jeho neprospech je preto neplatné." },
+        { "question": "Kedy môže byť dohodnutá peňažná náhrada podobná zmluvnej pokute v pracovnom práve?", "answer": "Peňažná náhrada podobná zmluvnej pokute môže byť dohodnutá napríklad v rámci konkurenčnej doložky, kde zamestnanec pri porušení záväzku zdržať sa konkurencie vráti zamestnávateľovi časť poskytnutej náhrady. Takéto dojednanie musí zostať v medziach výslovne ustanovených Zákonníkom práce." }
+      ]
+    },
+    {
+      "id": "49",
+      "title": "Skončenie pracovného pomeru so zdravotne postihnutým zamestnancom",
+      "definitions": [
+        { "question": "Aká je osobitná ochrana zdravotne postihnutého zamestnanca pri výpovedi?", "answer": "Zamestnávateľ potrebuje predchádzajúci súhlas príslušného úradu práce, sociálnych vecí a rodiny na výpoveď danú zamestnancovi so zdravotným postihnutím, s výnimkou niektorých výpovedných dôvodov, akým je napríklad zrušenie zamestnávateľa. Bez tohto súhlasu je výpoveď z takéhoto dôvodu neplatná." },
+        { "question": "Kedy môže zamestnávateľ skončiť pracovný pomer so zamestnancom so zdravotným postihnutím bez súhlasu úradu práce?", "answer": "Súhlas sa nevyžaduje, ak sa zamestnávateľ zrušuje alebo premiestňuje, ak zamestnanec stratil vzhľadom na zdravotný stav dlhodobo spôsobilosť vykonávať doterajšiu prácu, alebo pri okamžitom skončení pracovného pomeru. V ostatných prípadoch je súhlas nevyhnutnou podmienkou platnosti výpovede." },
+        { "question": "Aké povinnosti má zamestnávateľ voči zamestnancovi so zmenenou pracovnou schopnosťou pred skončením pracovného pomeru?", "answer": "Zamestnávateľ je povinný zabezpečovať zamestnancom so zdravotným postihnutím osobitné podmienky a podľa možností im utvárať podmienky zodpovedajúce ich zdravotnému stavu skôr, než pristúpi k skončeniu pracovného pomeru. Táto povinnosť vyplýva zo Zákonníka práce a zo zákona o službách zamestnanosti." }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "Medzinárodné a európske pracovné právo, vplyv práva EÚ",
+      "definitions": [
+        { "question": "Aký vplyv má právo Európskej únie na slovenské pracovné právo?", "answer": "Právo Únie výrazne ovplyvňuje slovenské pracovné právo prostredníctvom smerníc transponovaných do predpisov, napríklad v oblasti rovnakého zaobchádzania, pracovného času či informovania zamestnancov. Zákonník práce je v mnohých ustanoveniach priamym výsledkom harmonizácie s právom Únie." },
+        { "question": "Čo sú dohovory Medzinárodnej organizácie práce?", "answer": "Dohovory Medzinárodnej organizácie práce sú medzinárodné zmluvy, ktoré po ratifikácii zaväzujú Slovenskú republiku a stávajú sa súčasťou jej právneho poriadku s prednosťou pred zákonom. Upravujú napríklad slobodu združovania, zákaz nútenej práce či minimálny vek na vstup do zamestnania." },
+        { "question": "Ako Ústava Slovenskej republiky zaručuje pracovné práva?", "answer": "Ústava Slovenskej republiky v článkoch tridsaťpäť a tridsaťšesť zaručuje právo na slobodnú voľbu povolania, na prácu, na spravodlivé pracovné podmienky a na primerané odmeňovanie za vykonanú prácu. Tieto ústavné práva sú bližšie rozvedené v Zákonníku práce a súvisiacich predpisoch." }
+      ]
+    }
+  ]
+}

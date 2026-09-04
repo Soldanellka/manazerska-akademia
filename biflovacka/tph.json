@@ -1,0 +1,277 @@
+{
+  "area": "Trestné právo hmotné",
+  "slug": "tph",
+  "schemaVersion": "1.0",
+  "okruhy": [
+    {
+      "id": "1",
+      "title": "Pojem, funkcie a zásady trestného práva hmotného, pôsobnosť trestných zákonov",
+      "definitions": [
+        { "question": "Čo je trestné právo hmotné?", "answer": "Trestné právo hmotné určuje, aké konanie je trestným činom, aké podmienky treba splniť pre vznik trestnej zodpovednosti a aké tresty možno za takéto konanie uložiť. Základným prameňom je Trestný zákon, teda zákon číslo 300 z roku 2005." },
+        { "question": "Aké základné zásady ovládajú trestné právo hmotné?", "answer": "Medzi základné zásady patrí zásada zákonnosti, podľa ktorej niet trestného činu ani trestu bez zákona, ďalej zásada humanizmu, zásada individuálnej trestnej zodpovednosti a zásada primeranosti trestu. Tieto zásady chránia jednotlivca pred svojvoľným postihom štátnou mocou." },
+        { "question": "Kedy sa uplatňuje územná pôsobnosť trestných zákonov Slovenskej republiky?", "answer": "Územná pôsobnosť sa uplatňuje vtedy, keď bol trestný čin spáchaný na území Slovenskej republiky, bez ohľadu na štátnu príslušnosť páchateľa. Popri nej existuje aj osobná a subsidiárna pôsobnosť, ktoré rozširujú dosah trestného zákona aj na činy spáchané v cudzine." }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Trestný čin a jeho druhy, triedenie trestných činov",
+      "definitions": [
+        { "question": "Čo je trestný čin?", "answer": "Trestný čin je protiprávny čin, ktorého znaky sú uvedené v Trestnom zákone, ak tento zákon neustanovuje inak. Musí ísť o konanie spoločensky škodlivé, ktoré napĺňa všetky znaky skutkovej podstaty konkrétneho trestného činu." },
+        { "question": "Aké druhy trestných činov Trestný zákon rozlišuje?", "answer": "Trestný zákon rozlišuje prečiny a zločiny, pričom zločiny sa ďalej delia na obzvlášť závažné zločiny. Toto triedenie závisí najmä od výšky hornej hranice trestnej sadzby trestu odňatia slobody a od miery nedbanlivosti alebo úmyslu páchateľa." },
+        { "question": "Kedy ide o prečin a kedy o zločin?", "answer": "Prečinom je nedbanlivostný alebo úmyselný trestný čin s hornou hranicou trestnej sadzby odňatia slobody do päť rokov. Zločinom je úmyselný trestný čin s hornou hranicou trestnej sadzby prevyšujúcou päť rokov, pričom najprísnejšie sa trestajú obzvlášť závažné zločiny." }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Skutková podstata, pojem, znaky a triedenie",
+      "definitions": [
+        { "question": "Čo je skutková podstata trestného činu?", "answer": "Skutková podstata je zákonné vymedzenie znakov konkrétneho trestného činu, ktoré musia byť naplnené, aby bolo možné konanie páchateľa právne kvalifikovať ako trestný čin. Skladá sa zo znakov objektu, objektívnej stránky, subjektu a subjektívnej stránky." },
+        { "question": "Aké znaky tvoria skutkovú podstatu?", "answer": "Skutkovú podstatu tvoria štyri znaky, a to objekt čiže chránený záujem, objektívna stránka zahŕňajúca konanie a následok, subjekt čiže páchateľ, a subjektívna stránka vyjadrujúca zavinenie. Chýbanie čo i len jedného znaku vylučuje trestnú zodpovednosť." },
+        { "question": "Kedy hovoríme o kvalifikovanej skutkovej podstate?", "answer": "O kvalifikovanú skutkovú podstatu ide vtedy, keď zákon k základnej podstate pripája okolnosti zvyšujúce škodlivosť činu a odôvodňujúce prísnejší trest. Takouto okolnosťou býva napríklad ťažká ujma na zdraví alebo spáchanie činu na chránenej osobe." }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Objektívne znaky skutkovej podstaty trestného činu",
+      "definitions": [
+        { "question": "Čo tvorí objektívnu stránku trestného činu?", "answer": "Objektívnu stránku trestného činu tvorí konanie páchateľa, následok, ktorý toto konanie spôsobilo, a príčinná súvislosť medzi konaním a následkom. Niekedy patrí medzi znaky aj spôsob, miesto alebo čas spáchania činu." },
+        { "question": "Čo je objekt trestného činu?", "answer": "Objektom trestného činu je spoločenský záujem, hodnota alebo vzťah, ktorý je trestným činom porušený alebo ohrozený, napríklad život, zdravie, majetok alebo verejný poriadok. Objekt je základom pre systematické triedenie trestných činov v osobitnej časti Trestného zákona." },
+        { "question": "Kedy je daná príčinná súvislosť medzi konaním a následkom?", "answer": "Príčinná súvislosť je daná vtedy, keď následok by nenastal bez konania páchateľa, teda ak konanie bolo nevyhnutnou podmienkou vzniku škodlivého následku. Pri viacerých súčasne pôsobiacich príčinách sa skúma, či konanie páchateľa bolo príčinou dostatočne významnou." }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Páchateľ trestného činu, znaky páchateľa – fyzická osoba, právnická osoba",
+      "definitions": [
+        { "question": "Kto môže byť páchateľom trestného činu?", "answer": "Páchateľom trestného činu môže byť fyzická osoba, ktorá je trestne zodpovedná a v čase činu dovŕšila štrnásty rok veku, alebo za podmienok ustanovených osobitným zákonom aj právnická osoba. Páchateľom je ten, kto trestný čin spáchal sám vlastným konaním." },
+        { "question": "Čo je špeciálny subjekt trestného činu?", "answer": "Špeciálny subjekt je páchateľ, ktorý musí popri všeobecných predpokladoch spĺňať aj osobitnú vlastnosť či postavenie vyžadované skutkovou podstatou, napríklad postavenie verejného činiteľa. Bez tejto vlastnosti nemôže byť osoba páchateľom takého trestného činu." },
+        { "question": "Kedy je fyzická osoba trestne nezodpovedná pre nedostatok veku?", "answer": "Fyzická osoba je trestne nezodpovedná, ak v čase činu ešte nedovŕšila štrnásty rok veku, keďže sa u nej predpokladá nedostatočná rozumová a vôľová vyspelosť. Voči nej možno uplatniť len opatrenia podľa predpisov o sociálnoprávnej ochrane detí." }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Subjektívna stránka skutkovej podstaty trestného činu, omyl v trestnom práve",
+      "definitions": [
+        { "question": "Čo je zavinenie a aké formy pozná Trestný zákon?", "answer": "Zavinenie je vnútorný psychický vzťah páchateľa k spáchanému protiprávnemu činu a je základnou podmienkou trestnej zodpovednosti. Trestný zákon rozlišuje úmysel, ktorý môže byť priamy alebo nepriamy, a nedbanlivosť, ktorá môže byť vedomá alebo nevedomá." },
+        { "question": "Čo je skutkový omyl?", "answer": "Skutkový omyl je nesprávna predstava páchateľa o okolnosti, ktorá je znakom skutkovej podstaty, napríklad keď si myslí, že strieľa na zviera, no zasiahne človeka. Takýto omyl spravidla vylučuje úmyselné zavinenie vo vzťahu k danej okolnosti." },
+        { "question": "Kedy ide o právny omyl v trestnom práve?", "answer": "Právny omyl nastáva vtedy, keď sa páchateľ mylne domnieva, že jeho konanie nie je trestné, hoci je zakázané zákonom. Neznalosť zákona spravidla páchateľa neospravedlňuje, no pri neodvrátiteľnom omyle môže dôjsť k vylúčeniu trestnej zodpovednosti." }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Okolnosti vylučujúce protiprávnosť",
+      "definitions": [
+        { "question": "Čo sú okolnosti vylučujúce protiprávnosť?", "answer": "Okolnosti vylučujúce protiprávnosť sú situácie, za ktorých inak trestné konanie nie je protiprávne, pretože chráni dôležitý spoločenský záujem alebo je vykonávané v súlade s právom. Patrí sem najmä nutná obrana, krajná núdza a oprávnené použitie zbrane." },
+        { "question": "Čo je nutná obrana?", "answer": "Nutná obrana je konanie, ktorým niekto odvracia priamo hroziaci alebo trvajúci útok na záujem chránený Trestným zákonom, pričom nesmie ísť o zjavne neprimeranú obranu vzhľadom na okolnosti útoku. Osoba konajúca v medziach nutnej obrany nekoná protiprávne." },
+        { "question": "Kedy ide o krajnú núdzu?", "answer": "O krajnú núdzu ide vtedy, keď niekto odvracia priamo hroziace nebezpečenstvo záujmu chránenému Trestným zákonom tým, že spôsobí inému menšiu ujmu, než ktorá hrozila. Nesmie ísť o následok zjavne neprimeraný závažnosti hroziaceho nebezpečenstva." }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Vývinové štádiá trestného činu",
+      "definitions": [
+        { "question": "Čo je príprava na trestný čin?", "answer": "Príprava je úmyselné vytváranie podmienok na spáchanie obzvlášť závažného zločinu, napríklad zháňanie prostriedkov, pomôcok alebo spolčovanie sa s inou osobou. Trestná je len vtedy, ak to zákon výslovne ustanovuje pri danom trestnom čine." },
+        { "question": "Čo je pokus trestného činu?", "answer": "Pokus je konanie bezprostredne smerujúce k dokonaniu trestného činu, ktorého sa páchateľ dopustil v úmysle spáchať trestný čin, ale k dokonaniu nedošlo. Pokus sa trestá spravidla podľa trestnej sadzby ustanovenej pre dokonaný trestný čin." },
+        { "question": "Kedy je trestný čin dokonaný?", "answer": "Trestný čin je dokonaný vtedy, keď sú naplnené všetky znaky jeho skutkovej podstaty, teda konanie aj následok vyžadovaný zákonom. Od dokonania treba odlišovať ukončenie trestného činu, ktoré môže nastať neskôr, napríklad pri trvajúcich trestných činoch." }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Trestná súčinnosť a účastníctvo",
+      "definitions": [
+        { "question": "Čo je spolupáchateľstvo?", "answer": "Spolupáchateľstvo je forma trestnej súčinnosti, pri ktorej trestný čin spáchali spoločným konaním dve alebo viaceré osoby, z ktorých každá zodpovedá tak, akoby ho spáchala sama. Vyžaduje sa spoločný úmysel a vzájomné vedomie o účasti na trestnej činnosti." },
+        { "question": "Aké formy účastníctva Trestný zákon pozná?", "answer": "Trestný zákon pozná tri formy účastníctva, a to organizátorstvo, návod a pomoc, pričom účastník sa trestá podľa trestnej sadzby ustanovenej pre trestný čin, na ktorom sa zúčastnil. Účastníctvo je akcesorickej povahy a viaže sa na hlavný trestný čin páchateľa." },
+        { "question": "Kedy ide o návod na trestný čin?", "answer": "O návod ide vtedy, keď niekto úmyselne vzbudí v inej osobe rozhodnutie spáchať trestný čin, napríklad presviedčaním, sľubmi alebo výhražkami. Návodca zodpovedá len vtedy, ak sa hlavný páchateľ o spáchanie trestného činu aspoň pokúsil." }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Súbeh trestných činov a recidíva",
+      "definitions": [
+        { "question": "Čo je súbeh trestných činov?", "answer": "Súbeh trestných činov nastáva vtedy, keď páchateľ spácha dva alebo viac trestných činov skôr, než bol za ktorýkoľvek z nich právoplatne odsúdený. Rozlišuje sa jednočinný súbeh pri jednom konaní a viacčinný súbeh pri viacerých samostatných konaniach." },
+        { "question": "Čo je recidíva v trestnom práve?", "answer": "Recidíva je opakované spáchanie trestného činu osobou, ktorá už bola v minulosti za trestný čin právoplatne odsúdená. Recidíva sa považuje za priťažujúcu okolnosť a môže byť dôvodom pre uloženie prísnejšieho trestu alebo pre kvalifikovanú skutkovú podstatu." },
+        { "question": "Kedy sa ukladá súhrnný trest?", "answer": "Súhrnný trest sa ukladá vtedy, keď súd odsudzuje páchateľa za čin spáchaný ešte pred vyhlásením skoršieho rozsudku za iný čin, pričom skorší výrok o treste sa zruší. Páchateľ tak nemá byť za súbeh trestaný prísnejšie, než keby bol súdený naraz." }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Pojem a účel trestu, jednotlivé druhy trestov",
+      "definitions": [
+        { "question": "Čo je účelom trestu?", "answer": "Účelom trestu je chrániť spoločnosť pred páchateľom tak, že sa mu zabráni v ďalšej trestnej činnosti, vytvoria sa podmienky na jeho nápravu a zároveň sa pôsobí výchovne aj na ostatných členov spoločnosti. Trest zároveň vyjadruje morálne odsúdenie páchateľa." },
+        { "question": "Aké druhy trestov Trestný zákon ustanovuje?", "answer": "Trestný zákon ustanovuje viacero druhov trestov, medzi ktoré patrí trest odňatia slobody, domáceho väzenia, povinnej práce, peňažný trest, prepadnutie majetku, zákaz činnosti a trest vyhostenia. Súd ukladá trest podľa povahy a závažnosti spáchaného činu." },
+        { "question": "Kedy môže súd uložiť trest odňatia slobody s podmienečným odkladom?", "answer": "Súd môže podmienečne odložiť výkon trestu odňatia slobody, ak vzhľadom na osobu páchateľa a okolnosti prípadu možno dôvodne predpokladať, že aj bez jeho výkonu povedie riadny život. Súčasne určí skúšobnú dobu, počas ktorej sa páchateľ musí osvedčiť." }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Ochranné opatrenia a výchovné opatrenia",
+      "definitions": [
+        { "question": "Čo sú ochranné opatrenia?", "answer": "Ochranné opatrenia sú sankcie sui generis, ktoré Trestný zákon ukladá namiesto trestu alebo popri ňom s cieľom chrániť spoločnosť pred nebezpečnými osobami alebo vecami. Patrí sem ochranné liečenie, ochranná výchova, ochranný dohľad a zhabanie veci." },
+        { "question": "Kedy sa ukladá ochranné liečenie?", "answer": "Ochranné liečenie súd uloží páchateľovi, ktorý spáchal čin inak trestný v stave nepríčetnosti alebo ktorý sa oddáva zneužívaniu návykovej látky, ak jeho pobyt na slobode je nebezpečný. Ukladá sa v ústavnej alebo ambulantnej forme podľa povahy poruchy páchateľa." },
+        { "question": "Čo je výchovné opatrenie u mladistvých?", "answer": "Výchovné opatrenie je nástroj, ktorým súd u mladistvého páchateľa uprednostňuje výchovné pôsobenie pred trestom, napríklad probačným dohľadom alebo výchovnými povinnosťami. Cieľom je pozitívne ovplyvniť správanie mladistvého bez potreby uložiť mu trest." }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Trestná zodpovednosť a trestanie mladistvých",
+      "definitions": [
+        { "question": "Kto sa považuje za mladistvého v trestnom práve?", "answer": "Mladistvým sa v zmysle Trestného zákona rozumie páchateľ, ktorý v čase spáchania trestného činu dovŕšil štrnásty rok a neprekročil osemnásty rok svojho veku. Na trestnú zodpovednosť mladistvých sa vzťahujú osobitné, miernejšie pravidlá zohľadňujúce ich vek." },
+        { "question": "Aké osobitosti platia pri trestaní mladistvých?", "answer": "Pri trestaní mladistvých sú horné hranice trestných sadzieb znížené spravidla na polovicu a súd prednostne volí výchovné opatrenia pred trestom odňatia slobody. Cieľom je predovšetkým výchovné pôsobenie a náprava mladistvého, nie represia." },
+        { "question": "Kedy je vylúčená trestná zodpovednosť mladistvého?", "answer": "Trestná zodpovednosť mladistvého je vylúčená vtedy, keď v čase činu jeho rozumová a mravná vyspelosť nedosahovala úroveň zodpovedajúcu veku, takže nebol schopný rozpoznať protiprávnosť konania alebo ho ovládať. Táto podmienka sa posudzuje individuálne." }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Trestná zodpovednosť a trestanie právnických osôb",
+      "definitions": [
+        { "question": "Čo upravuje zákon o trestnej zodpovednosti právnických osôb?", "answer": "Zákon číslo 91 z roku 2016 upravuje podmienky trestnej zodpovednosti právnických osôb, druhy trestov, ktoré im možno uložiť, a postup v konaní proti nim. Právnická osoba zodpovedá za trestný čin spáchaný v jej prospech, v jej mene, v rámci jej činnosti alebo jej prostredníctvom." },
+        { "question": "Aké tresty možno uložiť právnickej osobe?", "answer": "Právnickej osobe možno uložiť tresty ako zrušenie právnickej osoby, prepadnutie majetku, peňažný trest, prepadnutie veci, zákaz činnosti či zákaz účasti vo verejnom obstarávaní. Voľba trestu závisí od povahy a závažnosti spáchaného trestného činu." },
+        { "question": "Kedy je právnická osoba trestne zodpovedná za konanie fyzickej osoby?", "answer": "Právnická osoba je trestne zodpovedná vtedy, ak protiprávny čin spáchala osoba oprávnená konať v jej mene, prípadne zamestnanec konajúci na základe rozhodnutia štatutárneho orgánu. Táto zodpovednosť existuje popri individuálnej trestnej zodpovednosti tejto fyzickej osoby." }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Dôvody zániku trestnosti a trestu, zahladenie odsúdenia",
+      "definitions": [
+        { "question": "Čo je premlčanie trestného stíhania?", "answer": "Premlčanie trestného stíhania je zánik trestnosti činu plynutím zákonom stanovenej doby po jeho spáchaní, pričom dĺžka premlčacej doby závisí od hornej hranice trestnej sadzby. Najzávažnejšie trestné činy, ako je genocídium, sa nepremlčujú vôbec." },
+        { "question": "Čo je účinná ľútosť?", "answer": "Účinná ľútosť je dôvod zániku trestnosti, keď páchateľ dobrovoľne odstráni alebo napraví škodlivý následok svojho konania, prípadne čin oznámi skôr, než sa oň orgány činné v trestnom konaní dozvedia. Uplatňuje sa len pri taxatívne vymedzených trestných činoch." },
+        { "question": "Kedy dochádza k zahladeniu odsúdenia?", "answer": "K zahladeniu odsúdenia dochádza vtedy, keď odsúdený viedol po výkone alebo odpustení trestu riadny život počas zákonom určenej doby, po ktorej sa naň hľadí, akoby nebol odsúdený. Zahladením zaniká záznam o odsúdení v registri trestov." }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Vplyv práva Európskej únie na trestné právo hmotné",
+      "definitions": [
+        { "question": "Ako pôsobí právo Európskej únie na trestné právo hmotné Slovenskej republiky?", "answer": "Právo Európskej únie ovplyvňuje trestné právo hmotné najmä prostredníctvom smerníc, ktoré členským štátom ukladajú povinnosť kriminalizovať závažné konania, napríklad obchodovanie s ľuďmi. Slovenská republika tieto smernice transponuje do Trestného zákona." },
+        { "question": "Čo je princíp vzájomného uznávania v justičnej spolupráci v trestných veciach?", "answer": "Princíp vzájomného uznávania znamená, že rozhodnutie súdu jedného členského štátu Európskej únie sa priamo uznáva a vykonáva v inom členskom štáte bez osobitného schvaľovacieho konania. Na tomto princípe stojí napríklad európsky zatýkací rozkaz." },
+        { "question": "Kedy sa uplatňuje európsky zatýkací rozkaz?", "answer": "Európsky zatýkací rozkaz sa uplatňuje vtedy, keď justičný orgán jedného členského štátu žiada iný štát o zatknutie a odovzdanie osoby na účely trestného stíhania alebo výkonu trestu. Nahrádza klasické vydávacie konanie a zrýchľuje justičnú spoluprácu v Európskej únii." }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Trestné činy proti životu",
+      "definitions": [
+        { "question": "Čo je trestný čin vraždy?", "answer": "Vražda je úmyselné usmrtenie iného človeka a patrí medzi najzávažnejšie trestné činy proti životu. Kvalifikované podstaty postihujú prísnejšie vraždu spáchanú s osobitným motívom alebo na chránenej osobe." },
+        { "question": "Čo je trestný čin zabitia?", "answer": "Zabitie je usmrtenie iného v silnom rozrušení spôsobenom predchádzajúcim konaním poškodeného, prípadne z ľútosti nad ním, čo zákon posudzuje miernejšie ako vraždu. Rozhodujúcim znakom je citové rozpoloženie páchateľa vyvolané konaním obete." },
+        { "question": "Kedy ide o usmrtenie z nedbanlivosti?", "answer": "O usmrtenie z nedbanlivosti ide vtedy, keď páchateľ spôsobí smrť iného porušením dôležitej povinnosti vyplývajúcej z jeho zamestnania, povolania či funkcie, hoci úmysel usmrtiť chýba. Trestá sa miernejšie než úmyselné usmrtenie, prísnejšie pri hrubom porušení povinnosti." }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Trestné činy proti zdraviu a trestné činy ohrozujúce život alebo zdravie",
+      "definitions": [
+        { "question": "Čo je trestný čin ublíženia na zdraví?", "answer": "Ublíženie na zdraví je úmyselné spôsobenie poruchy zdravia inej osoby, ktorá jej sťažuje obvyklý spôsob života alebo výkon povolania po určitú dobu. Trestný zákon rozlišuje jednoduché ublíženie a ťažkú ujmu na zdraví podľa závažnosti následku." },
+        { "question": "Čo je ťažká ujma na zdraví?", "answer": "Ťažká ujma na zdraví je vážna porucha zdravia alebo vážne ochorenie, napríklad zmrzačenie, strata alebo podstatné oslabenie zmyslu, alebo dlhodobá porucha zdravia trvajúca dlhší čas. Spôsobenie ťažkej ujmy sa trestá výrazne prísnejšie ako jednoduché ublíženie na zdraví." },
+        { "question": "Kedy ide o trestný čin ohrozovania pohlavnou chorobou vrátane HIV?", "answer": "Ide o trestný čin vtedy, keď osoba vediac o tom, že je nakazená pohlavnou chorobou alebo vírusom HIV, vystaví iného nebezpečenstvu nákazy touto chorobou. Postihuje sa tu nebezpečné konanie ohrozujúce zdravie iných osôb bez ohľadu na to, či k samotnej nákaze skutočne došlo." }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Trestné činy proti slobode",
+      "definitions": [
+        { "question": "Čo je trestný čin obmedzovania osobnej slobody?", "answer": "Obmedzovanie osobnej slobody je konanie, ktorým páchateľ inému bez oprávnenia bráni užívať osobnú slobodu, napríklad tak, že mu zabráni opustiť určité miesto. Trestá sa prísnejšie, ak je spáchané voči chránenej osobe alebo so zbraňou." },
+        { "question": "Čo je trestný čin únosu?", "answer": "Únos je konanie, pri ktorom páchateľ prekonaním odporu alebo lsťou premiestni inú osobu a zadržiava ju s cieľom vydierania, získania výhody alebo iného sledovaného účelu. Ide o obzvlášť závažný zásah do osobnej slobody a slobody pohybu poškodenej osoby." },
+        { "question": "Kedy ide o trestný čin vydierania?", "answer": "O vydieranie ide vtedy, keď páchateľ násilím, hrozbou násilia alebo hrozbou inej ťažkej ujmy núti iného, aby niečo konal, opomenul alebo strpel. Prísnejšie sa trestá, ak spôsobí značnú škodu alebo ak koná so zbraňou." }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Trestné činy proti ľudskej dôstojnosti",
+      "definitions": [
+        { "question": "Čo je trestný čin znásilnenia?", "answer": "Znásilnenie je násilné donútenie inej osoby k pohlavnému styku alebo zneužitie jej bezbrannosti na taký styk. Ide o jeden z najzávažnejších trestných činov proti ľudskej dôstojnosti, pričom prísnejšie sa trestá spáchanie na chránenej osobe alebo so spôsobením ťažkej ujmy." },
+        { "question": "Čo je trestný čin sexuálneho zneužívania?", "answer": "Sexuálne zneužívanie postihuje vykonanie súlože alebo iného pohlavného styku s osobou mladšou ako pätnásť rokov, prípadne zneužitie jej závislosti alebo dôverčivosti. Chráni sa tým predovšetkým sexuálna nedotknuteľnosť detí a mladistvých osôb." },
+        { "question": "Kedy ide o trestný čin súlože medzi príbuznými?", "answer": "O tento trestný čin ide vtedy, keď dôjde k súloži medzi príbuznými v priamom rade alebo medzi súrodencami, teda medzi osobami, medzi ktorými zákon takýto pohlavný styk zakazuje. Chráneným záujmom je tu morálka a zdravý vývin rodinných vzťahov." }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Trestné činy proti rodine a mládeži",
+      "definitions": [
+        { "question": "Čo je trestný čin zanedbania povinnej výživy?", "answer": "Zanedbanie povinnej výživy je neplnenie zákonnej vyživovacej povinnosti voči dieťaťu alebo inej oprávnenej osobe aspoň počas zákonom určenej doby, hoci na to má páchateľ objektívne možnosti. Chránenou hodnotou je tu riadna výživa a starostlivosť o oprávnenú osobu." },
+        { "question": "Čo je trestný čin týrania blízkej a zverenej osoby?", "answer": "Týranie blízkej a zverenej osoby postihuje sústavné alebo dlhodobé páchanie telesného či psychického utrpenia na osobe blízkej alebo zverenej do starostlivosti páchateľa. Zahŕňa fyzické násilie, ponižovanie, zastrašovanie aj obmedzovanie základných potrieb obete." },
+        { "question": "Kedy ide o trestný čin ohrozovania mravnej výchovy mládeže?", "answer": "Ide o tento trestný čin vtedy, keď osoba zodpovedná za výchovu dieťaťa vydá ho nebezpečenstvu spustnutia tým, že ho zvádza alebo ponecháva k nemravnému životu. Postihuje sa tu ohrozenie zdravého mravného a sociálneho vývoja maloletého." }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Trestné činy proti majetku",
+      "definitions": [
+        { "question": "Čo je trestný čin krádeže?", "answer": "Krádež je prisvojenie si cudzej veci jej zmocnením sa, pričom trestnosť závisí od spôsobenej škody alebo od spôsobu spáchania, napríklad vlámaním alebo pri krízovej situácii. Ide o jeden z najčastejších trestných činov proti majetku v praxi." },
+        { "question": "Čo je trestný čin podvodu?", "answer": "Podvod je konanie, ktorým páchateľ uvedie inú osobu do omylu alebo využije jej omyl a spôsobí tak na cudzom majetku škodu, pričom sám seba alebo iného obohatí. Prísnosť trestu závisí najmä od výšky spôsobenej škody." },
+        { "question": "Kedy ide o trestný čin sprenevery?", "answer": "O spreneveru ide vtedy, keď si páchateľ prisvojí cudziu vec, ktorá mu bola zverená, a naloží s ňou v rozpore s účelom, na ktorý mu bola zverená. Na rozdiel od krádeže tu páchateľ mal vec už predtým oprávnene v držbe." }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Trestné činy hospodárske",
+      "definitions": [
+        { "question": "Čo je trestný čin skrátenia dane a poistného?", "answer": "Tento trestný čin postihuje konanie, ktorým páchateľ v väčšom rozsahu skráti daň, poistné na sociálne poistenie, verejné zdravotné poistenie alebo príspevok na sociálne zabezpečenie. Chráneným záujmom je riadny výber verejných príjmov a fungovanie štátneho rozpočtu." },
+        { "question": "Čo je trestný čin legalizácie príjmu z trestnej činnosti?", "answer": "Legalizácia príjmu z trestnej činnosti, teda pranie špinavých peňazí, postihuje konanie, ktorým páchateľ zastiera pôvod majetku z trestnej činnosti a snaží sa ho začleniť do legálneho ekonomického obehu. Chráni sa tým transparentnosť finančného systému." },
+        { "question": "Kedy ide o trestný čin machinácie pri verejnom obstarávaní a verejnej dražbe?", "answer": "O tento trestný čin ide vtedy, keď páchateľ v súvislosti s verejným obstarávaním alebo dražbou koná v rozpore s právnym predpisom, napríklad dohodne s iným záujemcom cenu na úkor ostatných. Chráni sa tým riadna hospodárska súťaž a nakladanie s verejnými prostriedkami." }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Trestné činy všeobecne nebezpečné a trestné činy proti životnému prostrediu",
+      "definitions": [
+        { "question": "Čo je trestný čin všeobecného ohrozenia?", "answer": "Všeobecné ohrozenie je konanie, ktorým páchateľ úmyselne alebo z nedbanlivosti spôsobí požiar, povodeň alebo inú podobnú udalosť, čím ohrozí život, zdravie ľudí alebo cudzí majetok vo väčšom rozsahu. Postačuje samotný vznik nebezpečenstva." },
+        { "question": "Čo je trestný čin nedovolenej výroby a držby omamných a psychotropných látok?", "answer": "Tento trestný čin postihuje neoprávnenú výrobu, dovoz, vývoz, prevoz, prechovávanie alebo predaj omamných a psychotropných látok, jedov alebo prekurzorov. Prísnosť trestu závisí najmä od množstva látky a od toho, či páchateľ koná ako člen organizovanej skupiny." },
+        { "question": "Kedy ide o trestný čin poškodzovania a ohrozovania životného prostredia?", "answer": "O tento trestný čin ide vtedy, keď páchateľ poruší predpisy o ochrane životného prostredia a spôsobí tak poškodenie alebo ohrozenie pôdy, vody, ovzdušia či iných zložiek prostredia vo väčšom rozsahu. Chráni sa tým zdravé životné prostredie pre budúce generácie." }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Trestné činy proti republike",
+      "definitions": [
+        { "question": "Čo je trestný čin vlastizrady?", "answer": "Vlastizrada je konanie občana Slovenskej republiky, ktorý v spojení s cudzou mocou spácha trestný čin ohrozenia ústavného zriadenia, zvrchovanosti alebo obranyschopnosti štátu. Ide o jeden z najzávažnejších trestných činov namierených proti republike." },
+        { "question": "Čo je trestný čin teroru?", "answer": "Teror je konanie, ktorým páchateľ úkladne usmrtí ústavného činiteľa alebo verejného činiteľa v úmysle ohroziť ústavné zriadenie republiky alebo jej obranyschopnosť. Postihuje sa tu útok na kľúčové osoby štátu s politickým motívom." },
+        { "question": "Kedy ide o trestný čin sabotáže?", "answer": "O sabotáž ide vtedy, keď páchateľ v úmysle poškodiť ústavné zriadenie, zvrchovanosť alebo obranyschopnosť republiky poškodí, zničí alebo urobí neupotrebiteľným zariadenie dôležité pre plnenie úloh štátu. Chráni sa tým riadne fungovanie kľúčovej infraštruktúry štátu." }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Trestné činy proti poriadku vo verejných veciach",
+      "definitions": [
+        { "question": "Čo je trestný čin marenia úlohy verejného činiteľa?", "answer": "Tento trestný čin postihuje konanie, ktorým páchateľ použije násilie alebo hrozbu násilia v úmysle zmariť alebo sťažiť výkon právomoci verejného činiteľa. Chráni sa tým riadny a nerušený výkon verejnej moci." },
+        { "question": "Čo je trestný čin krivej výpovede a krivej prísahy?", "answer": "Krivá výpoveď spočíva v tom, že svedok alebo znalec pred súdom alebo iným orgánom uvedie nepravdu o okolnosti, ktorá má podstatný význam pre rozhodnutie. Chráni sa tým dôveryhodnosť dokazovania a riadny priebeh súdneho či iného úradného konania." },
+        { "question": "Kedy ide o trestný čin nadržovania?", "answer": "O nadržovanie ide vtedy, keď páchateľ pomôže inému páchateľovi uniknúť trestnému stíhaniu, trestu alebo ochrannému opatreniu, napríklad ho ukryje alebo mu poskytne prostriedky na útek. Zákon za určitých podmienok vylučuje z trestnosti nadržovanie v prospech osoby blízkej." }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Korupcia",
+      "definitions": [
+        { "question": "Čo je trestný čin prijímania úplatku?", "answer": "Prijímanie úplatku je konanie, ktorým verejný činiteľ alebo iná osoba v súvislosti s obstarávaním veci všeobecného záujmu žiada alebo prijme úplatok, teda neoprávnenú výhodu. Ide o jeden zo základných korupčných trestných činov chrániacich nestrannosť rozhodovania." },
+        { "question": "Čo je trestný čin podplácania?", "answer": "Podplácanie je konanie osoby, ktorá inému poskytne, ponúkne alebo sľúbi úplatok v súvislosti s obstarávaním veci všeobecného záujmu, aby dosiahla neoprávnené zaobchádzanie. Ide o zrkadlový trestný čin k prijímaniu úplatku, spravidla stíhaný spoločne." },
+        { "question": "Kedy je páchateľ korupčného trestného činu beztrestný?", "answer": "Páchateľ, ktorý poskytol, ponúkol alebo sľúbil úplatok, je beztrestný vtedy, ak to urobil len preto, že bol oň požiadaný, a dobrovoľne to bez odkladu oznámil orgánu činnému v trestnom konaní. Toto ustanovenie motivuje páchateľov spolupracovať pri odhaľovaní korupcie." }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Trestné činy proti iným právam a slobodám",
+      "definitions": [
+        { "question": "Čo je trestný čin porušovania domovej slobody?", "answer": "Porušovanie domovej slobody je neoprávnené vniknutie do obydlia iného alebo neoprávnené zotrvanie v ňom napriek výzve na jeho opustenie. Chráni sa tým ústavne zaručené právo na nedotknuteľnosť obydlia." },
+        { "question": "Čo je trestný čin ohovárania?", "answer": "Ohováranie je konanie, ktorým páchateľ o inom oznámi nepravdivý údaj, ktorý je spôsobilý značnou mierou ohroziť jeho vážnosť u spoluobčanov, poškodiť ho v zamestnaní alebo narušiť jeho rodinné vzťahy. Chráni sa tým česť a dobré meno fyzickej osoby." },
+        { "question": "Kedy ide o trestný čin porušovania tajomstva dopravovaných správ?", "answer": "O tento trestný čin ide vtedy, keď páchateľ úmyselne poruší listové tajomstvo alebo tajomstvo inej dopravovanej správy, napríklad ju otvorí, zničí alebo sa s jej obsahom neoprávnene oboznámi. Chráni sa tým ústavné právo na súkromie a dôvernosť komunikácie." }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Trestné činy proti brannosti, proti civilnej službe, proti službe v ozbrojených silách a proti obrane vlasti, trestné činy vojenské",
+      "definitions": [
+        { "question": "Čo je trestný čin vyhýbania sa výkonu vojenskej služby?", "answer": "Tento trestný čin postihuje konanie osoby, ktorá sa úmyselne vyhýba výkonu vojenskej služby, napríklad predstieraním choroby alebo sebapoškodením. Chráni sa tým riadne plnenie brannej povinnosti a obranyschopnosť štátu." },
+        { "question": "Čo je trestný čin zbehnutia?", "answer": "Zbehnutie je konanie vojaka, ktorý opustí svoj útvar alebo službu s úmyslom vyhnúť sa natrvalo povinnosti vojenskej služby. Ide o jeden z najzávažnejších vojenských trestných činov, keďže priamo ohrozuje bojaschopnosť ozbrojených síl." },
+        { "question": "Kedy ide o trestný čin neposlušnosti?", "answer": "O neposlušnosť ide vtedy, keď podriadený odoprie splniť rozkaz nadriadeného alebo ho vôbec nesplní, hoci ide o zákonný rozkaz súvisiaci s plnením služobných povinností. Chráni sa tým vojenská subordinácia a riadne fungovanie velenia v ozbrojených silách." }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Trestné činy proti mieru, proti ľudskosti, trestné činy terorizmu, extrémizmu a trestné činy vojnové",
+      "definitions": [
+        { "question": "Čo je trestný čin genocídia?", "answer": "Genocídium je konanie, ktorým páchateľ v úmysle úplne alebo čiastočne zničiť národnostnú, etnickú, rasovú alebo náboženskú skupinu spôsobí smrť jej príslušníkom alebo im spôsobí ťažkú ujmu na zdraví. Trestnosť tohto najzávažnejšieho činu sa nikdy nepremlčuje." },
+        { "question": "Čo je trestný čin terorizmu?", "answer": "Trestný čin terorizmu postihuje konanie, ktorým páchateľ v úmysle zastrašiť obyvateľstvo alebo donútiť vládu či organizáciu niečo konať spácha útok ohrozujúci život, zdravie alebo majetok vo väčšom rozsahu. Úprava vychádza zo smerníc Európskej únie o boji proti terorizmu." },
+        { "question": "Kedy ide o trestný čin extrémizmu?", "answer": "O trestný čin extrémizmu ide vtedy, keď páchateľ verejne prejavuje sympatie k hnutiu smerujúcemu k potlačeniu práv a slobôd, alebo popiera či schvaľuje zločiny fašistického režimu. Chráni sa tým demokratické zriadenie pred prejavmi nenávisti." }
+      ]
+    }
+  ]
+}

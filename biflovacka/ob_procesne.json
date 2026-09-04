@@ -1,0 +1,412 @@
+{
+  "area": "Občianske právo procesné",
+  "slug": "ob_procesne",
+  "schemaVersion": "1.0",
+  "okruhy": [
+    {
+      "id": "1",
+      "title": "Pojem civilného práva procesného a civilného procesu, pramene, druhy civilného procesu",
+      "definitions": [
+        { "question": "Čo je civilné právo procesné?", "answer": "Civilné právo procesné je súbor noriem upravujúcich postup súdov a účastníkov pri prejednávaní súkromnoprávnych sporov. Zabezpečuje spravodlivú a predvídateľnú ochranu práv. Hlavnými prameňmi sú Civilný sporový poriadok, Civilný mimosporový poriadok a Správny súdny poriadok." },
+        { "question": "Čo je civilný proces?", "answer": "Civilný proces je zákonom upravený postup súdu a účastníkov smerujúci k prejednaniu veci a vydaniu rozhodnutia. Prebieha od začatia konania cez dokazovanie až po rozhodnutie a jeho výkon. Cieľom je poskytnúť spravodlivú ochranu ohrozeným alebo porušeným právam." },
+        { "question": "Aké druhy civilného procesu poznáme?", "answer": "Civilný proces sa člení na sporové konanie podľa Civilného sporového poriadku, mimosporové konanie podľa Civilného mimosporového poriadku a správne súdnictvo. Sporové konanie rieši spory strán s protichodnými záujmami, mimosporové konanie chráni aj verejný záujem." }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Základné princípy civilného procesu, spoločné a osobitné princípy CSP, CMP, SSP",
+      "definitions": [
+        { "question": "Čo sú základné princípy civilného procesu?", "answer": "Základné princípy sú všeobecné zásady, ktorými sa riadi výklad procesných noriem, napríklad rovnosť strán, kontradiktórnosť či hospodárnosť konania. Sú vyjadrené v úvodných ustanoveniach procesných kódexov. Slúžia ako vodidlo pri medzerách v zákone." },
+        { "question": "Aké princípy sú spoločné pre sporové, mimosporové a správne súdne konanie?", "answer": "Medzi spoločné princípy patrí právo na spravodlivý proces, zákonný sudca, rovnosť strán, verejnosť konania a povinnosť postupovať bez zbytočných prieťahov. Vychádzajú z Ústavy a Európskeho dohovoru o ľudských právach. Uplatňujú sa vo všetkých troch procesných kódexoch." },
+        { "question": "Čím sa líšia osobitné princípy mimosporového konania od sporového?", "answer": "V sporovom konaní ovláda proces prejednávacia zásada a strany nesú dôkazné bremeno, kým v mimosporovom prevažuje vyšetrovacia zásada a súd môže konať aj bez návrhu. Dôvodom je ochrana osôb, ktoré sa nevedia samy dostatočne brániť, napríklad detí." }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Súdy a ich postavenie v civilnom konaní, organizácia súdov",
+      "definitions": [
+        { "question": "Čo je postavenie súdu v civilnom konaní?", "answer": "Súd je nezávislý štátny orgán, ktorý poskytuje ochranu ohrozeným alebo porušeným právam a rozhoduje o právach a povinnostiach účastníkov. Koná nestranne, viazaný ústavou a zákonmi. Jeho rozhodnutia sú záväzné a vynútiteľné štátnou mocou." },
+        { "question": "Aká je sústava súdov v Slovenskej republike?", "answer": "Sústavu tvoria okresné súdy ako súdy prvej inštancie, krajské súdy ako odvolacie súdy, Najvyšší súd Slovenskej republiky ako dovolací súd a Najvyšší správny súd pre správne súdnictvo. Táto štruktúra zabezpečuje viacstupňovú kontrolu rozhodnutí." },
+        { "question": "Čo je špecializácia súdov v civilnom konaní?", "answer": "Špecializácia znamená, že niektoré agendy prejednávajú výlučne určené súdy, napríklad obchodné spory či insolvenčné konania. Cieľom je zvýšiť odbornosť rozhodovania v zložitých oblastiach. Príkladom je jeden súd určený pre insolvenčnú agendu." }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Zloženie súdu a vylúčenie sudcu",
+      "definitions": [
+        { "question": "Čo je zloženie súdu v civilnom konaní?", "answer": "Vo veciach patriacich okresnému súdu koná spravidla samosudca, kým v odvolacom a dovolacom konaní rozhoduje senát troch sudcov. Výnimočne zákon pripúšťa senátne rozhodovanie aj na prvej inštancii. Zloženie súdu určuje vopred rozvrh práce." },
+        { "question": "Kedy je sudca vylúčený z prejednávania veci?", "answer": "Sudca je vylúčený, ak so zreteľom na jeho pomer k veci, účastníkom alebo ich zástupcom možno mať pochybnosti o jeho nezaujatosti. Dôvodom je aj jeho účasť na konaní v tej istej veci v nižšej inštancii. O vylúčení rozhoduje nadriadený súd." },
+        { "question": "Ako prebieha námietka zaujatosti sudcu?", "answer": "Účastník musí vzniesť námietku zaujatosti hneď, ako sa o dôvode dozvie, a odôvodniť ju konkrétnymi skutočnosťami. Rozhoduje o nej iný senát alebo nadriadený súd bez zbytočného odkladu. Na nedôvodnú alebo oneskorenú námietku súd neprihliada." }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Subjekty civilného procesu",
+      "definitions": [
+        { "question": "Čo sú subjekty civilného procesu?", "answer": "Subjektmi sú súd, strany sporu alebo účastníci konania a ďalšie osoby zúčastnené na konaní, ako svedkovia, znalci či intervenienti. Každý subjekt má v konaní vlastné procesné práva a povinnosti. Ich súčinnosť je predpokladom riadneho priebehu konania." },
+        { "question": "Kto sú hlavné procesné subjekty v sporovom konaní?", "answer": "Hlavnými subjektmi sú súd rozhodujúci o veci a strany sporu, teda žalobca a žalovaný s protichodnými záujmami. Popri nich môžu vystupovať vedľajší účastníci alebo zástupcovia strán. Ich postavenie vyjadruje zásada rovnosti zbraní." },
+        { "question": "Aké postavenie majú vedľajšie subjekty, napríklad znalec alebo tlmočník?", "answer": "Znalec, tlmočník či svedok sú vedľajšími subjektmi prispievajúcimi k zisteniu skutkového stavu, no sami nie sú stranami sporu. Znalec podáva odborné vyjadrenie, tlmočník zabezpečuje jazykovú zrozumiteľnosť a svedok vypovedá o vnímaných skutočnostiach." }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Právomoc súdov",
+      "definitions": [
+        { "question": "Čo je právomoc súdu?", "answer": "Právomoc súdu je oprávnenie súdnej sústavy prejednávať a rozhodovať určitý okruh vecí odlišujúce ju od právomoci iných orgánov, napríklad správnych orgánov či rozhodcovských súdov. Nedostatok právomoci vedie k zastaveniu konania a postúpeniu veci príslušnému orgánu." },
+        { "question": "Kedy súd skúma svoju právomoc?", "answer": "Súd skúma svoju právomoc kedykoľvek počas konania, keďže ide o procesnú podmienku nevyhnutnú na konanie vo veci. Pri jej nedostatku konanie zastaví a vec postúpi príslušnému orgánu. Výnimky platia, ak zákon určuje iný postup." },
+        { "question": "Aký je vzťah právomoci súdov k rozhodcovským súdom?", "answer": "Ak majú strany platne dohodnutú rozhodcovskú doložku, právomoc všeobecného súdu je vylúčená v prospech rozhodcovského súdu. Súd na námietku strany konanie zastaví, ak zistí existenciu platnej rozhodcovskej zmluvy. Rešpektuje sa tak autonómia vôle strán." }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Príslušnosť súdov",
+      "definitions": [
+        { "question": "Čo je vecná príslušnosť súdu?", "answer": "Vecná príslušnosť určuje, ktorý stupeň súdnej sústavy má vec prejednať ako súd prvej inštancie. Spravidla ňou je poverený okresný súd, no zákon môže pre osobitné veci určiť príslušnosť krajského súdu. Nedostatok sa rieši postúpením veci." },
+        { "question": "Čo je miestna príslušnosť súdu?", "answer": "Miestna príslušnosť určuje, ktorý konkrétny súd rovnakého stupňa má vec prejednať, spravidla podľa bydliska či sídla žalovaného. Zákon pripúšťa aj výlučnú miestnu príslušnosť, napríklad podľa polohy nehnuteľnosti. Niekedy ju možno dohodnúť." },
+        { "question": "Kedy ide o kauzálnu príslušnosť súdu?", "answer": "Kauzálna príslušnosť sa uplatňuje, keď zákon zveruje určitý druh vecí konkrétne určenému súdu bez ohľadu na bežné pravidlá, napríklad insolvenčnú agendu jedinému súdu. Cieľom je sústrediť špecializovanú agendu. Táto príslušnosť je výlučná a nemenná dohodou." }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Strany sporu a účastníci konania, spoločenstvo účastníkov, intervenient",
+      "definitions": [
+        { "question": "Kto sú strany sporu?", "answer": "Stranami sporu sú žalobca, ktorý sa domáha ochrany svojho práva, a žalovaný, proti ktorému žaloba smeruje. Obaja majú v konaní rovnaké procesné práva a súd s nimi zaobchádza rovnocenne. Ich postavenie zaniká právoplatným skončením konania." },
+        { "question": "Čo je procesné spoločenstvo účastníkov?", "answer": "Procesné spoločenstvo vzniká, keď na strane žalobcu alebo žalovaného vystupuje viacero osôb so spoločným skutkovým alebo právnym základom. Rozlišuje sa samostatné a nerozlučné spoločenstvo podľa toho, či rozhodnutie musí byť pre všetkých rovnaké." },
+        { "question": "Kto je intervenient v civilnom konaní?", "answer": "Intervenient, teda vedľajší účastník, je osoba s právnym záujmom na výsledku sporu, ktorá vstupuje do konania na podporu jednej zo strán. Vstupuje podaním, s ktorým musí súhlasiť podporovaná strana. Nemôže však nakladať s predmetom konania namiesto nej." }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Zastúpenie v civilnom konaní",
+      "definitions": [
+        { "question": "Čo je zastúpenie v civilnom konaní?", "answer": "Zastúpenie znamená, že za účastníka koná v konaní iná osoba na základe zákona, rozhodnutia orgánu alebo splnomocnenia. Úkony zástupcu majú rovnaké účinky, ako keby ich urobil samotný účastník. Rozlišuje sa zákonné, procesné a zmluvné zastúpenie." },
+        { "question": "Kedy je potrebné povinné zastúpenie advokátom?", "answer": "Povinné zastúpenie advokátom vyžaduje zákon najmä v dovolacom konaní, ak dovolateľ sám nemá právnické vzdelanie. Cieľom je zabezpečiť odbornú kvalitu podania pred najvyšším súdom. Výnimky platia napríklad pre štát alebo právnicky vzdelané osoby." },
+        { "question": "Aký je rozdiel medzi splnomocnencom a opatrovníkom na zastupovanie?", "answer": "Splnomocnenec zastupuje účastníka na základe jeho slobodnej vôle vyjadrenej v plnomocenstve, kým opatrovníka ustanovuje súd, ak si účastník nemôže zvoliť zástupcu sám, napríklad pre neznámy pobyt. Opatrovník koná v záujme účastníka aj bez jeho súhlasu." }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Procesné úkony súdu",
+      "definitions": [
+        { "question": "Čo sú procesné úkony súdu?", "answer": "Procesné úkony súdu sú prejavy vôle súdu smerujúce k vedeniu konania, napríklad predvolanie na pojednávanie, uznesenia či rozsudok. Musia byť v súlade so zákonom a riadne odôvodnené. Sú záväzné pre účastníkov od okamihu ich oznámenia." },
+        { "question": "Aké formy majú rozhodnutia súdu ako procesné úkony?", "answer": "Súd rozhoduje formou rozsudku vo veci samej alebo formou uznesenia o procesných otázkach, v mimosporovom konaní aj o veci samej. Obe formy musia mať zákonom predpísané náležitosti vrátane výroku a poučenia. Voľba formy závisí od povahy otázky." },
+        { "question": "Čo je súdna lehota ako procesný úkon súdu?", "answer": "Súdna lehota je lehota určená súdom na vykonanie úkonu účastníkom, napríklad na doplnenie podania. Na rozdiel od zákonnej lehoty ju súd môže na žiadosť predĺžiť, ak sú na to vážne dôvody. Zmeškanie súdnej lehoty možno za splnenia podmienok odpustiť." }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Doručovanie v súdnom konaní",
+      "definitions": [
+        { "question": "Čo je doručovanie v súdnom konaní?", "answer": "Doručovanie je postup, ktorým sa písomnosti súdu dostávajú do dispozičnej sféry účastníkov alebo iných osôb zúčastnených na konaní. Riadne doručenie je podmienkou, aby písomnosť vyvolala právne účinky, napríklad začatie plynutia lehoty na odvolanie." },
+        { "question": "Kedy nastáva fikcia doručenia?", "answer": "Fikcia doručenia nastáva, ak sa adresát v mieste doručenia nezdržiava a písomnosť sa napriek uloženiu neprevezme v úložnej lehote. Po jej márnom uplynutí sa písomnosť považuje za doručenú. Neuplatní sa pri písomnostiach bez možnosti náhradného doručenia." },
+        { "question": "Aký je rozdiel medzi doručením do vlastných rúk a klasickým doručením?", "answer": "Doručenie do vlastných rúk sa používa pri dôležitých písomnostiach, ako žaloba či rozsudok, a vyžaduje prevzatie adresátom alebo splnenie fikcie doručenia. Klasické doručenie postačuje pri bežných písomnostiach, možno ho vykonať aj vhodením do schránky." }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Procesné úkony účastníkov konania",
+      "definitions": [
+        { "question": "Čo sú procesné úkony účastníkov konania?", "answer": "Procesné úkony účastníkov sú prejavy vôle voči súdu alebo iným účastníkom, ktorými uplatňujú svoje procesné práva, napríklad žaloba či návrh na vykonanie dôkazu. Musia byť urobené v predpísanej forme a lehote. Súd posudzuje ich platnosť podľa obsahu." },
+        { "question": "Aké náležitosti musí mať procesný úkon účastníka?", "answer": "Procesný úkon musí byť určitý, zrozumiteľný a musí z neho byť zrejmé, komu je adresovaný, kto ho robí a čoho sa účastník domáha. Písomné podanie musí byť podpísané a doplnené prílohami. Nedostatky môže súd vyzvať účastníka odstrániť." },
+        { "question": "Kedy je procesný úkon účastníka neúčinný?", "answer": "Procesný úkon je neúčinný, ak ho urobila osoba bez procesnej spôsobilosti, nebol urobený v predpísanej forme alebo po uplynutí neplynulej zákonnej lehoty. Súd na taký úkon neprihliada. Výnimočne možno zmeškanie lehoty odpustiť na návrh účastníka." }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Procesné podmienky",
+      "definitions": [
+        { "question": "Čo sú procesné podmienky konania?", "answer": "Procesné podmienky sú predpoklady, ktorých splnenie umožňuje súdu vo veci konať a rozhodnúť, napríklad právomoc súdu alebo spôsobilosť byť účastníkom konania. Súd ich skúma z úradnej povinnosti počas celého konania. Ich nedostatok vedie k zastaveniu konania." },
+        { "question": "Kedy súd konanie zastaví pre nedostatok procesnej podmienky?", "answer": "Súd konanie zastaví, ak zistí neodstrániteľný nedostatok, napríklad prekážku už právoplatne rozhodnutej veci, alebo ak sa odstrániteľný nedostatok nenapraví napriek výzve. Zastavenie má formu uznesenia, proti ktorému je prípustné odvolanie." },
+        { "question": "Aký je rozdiel medzi odstrániteľnou a neodstrániteľnou prekážkou konania?", "answer": "Odstrániteľná prekážka, napríklad chýbajúce plnomocenstvo, sa dá napraviť na výzvu súdu, kým neodstrániteľná prekážka, ako prekážka rozsúdenej veci, vedie k okamžitému zastaveniu konania. Pri odstrániteľnej prekážke súd poskytuje primeranú lehotu na nápravu." }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Podanie a žaloba",
+      "definitions": [
+        { "question": "Čo je podanie v civilnom konaní?", "answer": "Podanie je akýkoľvek procesný úkon účastníka adresovaný súdu, ktorým sa domáha vykonania určitého úkonu, napríklad žaloba či odvolanie. Musí obsahovať zákonom predpísané náležitosti a musí byť zrozumiteľné. Súd ho posudzuje podľa obsahu, nie označenia." },
+        { "question": "Čo je žaloba a aké má náležitosti?", "answer": "Žaloba je podanie, ktorým sa žalobca domáha začatia sporového konania a rozhodnutia o svojom nároku voči žalovanému. Musí obsahovať vylíčenie rozhodujúcich skutočností, dôkazy a žalobný petit, teda presné vymedzenie požadovaného." },
+        { "question": "Kedy súd žalobu odmietne?", "answer": "Súd žalobu odmietne, ak napriek výzve na odstránenie vád zostane neurčitá alebo nezrozumiteľná natoľko, že v konaní nemožno pokračovať. Odmietnutie má formu uznesenia s prípustným odvolaním. Žalobca môže podať žalobu znovu po odstránení nedostatkov." }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Dispozičné procesné úkony v súdnom konaní",
+      "definitions": [
+        { "question": "Čo sú dispozičné procesné úkony?", "answer": "Dispozičné procesné úkony sú prejavy vôle strán, ktorými nakladajú s predmetom konania alebo so samotným konaním, napríklad späťvzatie žaloby, uznanie nároku alebo zmier. Odrážajú zásadu dispozičnosti ovládajúcu sporové konanie." },
+        { "question": "Kedy môže žalobca vziať žalobu späť?", "answer": "Žalobca môže vziať žalobu späť kedykoľvek počas konania, no ak sa tak stane po začatí pojednávania, je potrebný súhlas žalovaného. Súd späťvzatie vezme na vedomie uznesením a konanie zastaví, ibaže by to odporovalo záujmom žalovaného." },
+        { "question": "Čo je súdny zmier ako dispozičný úkon strán?", "answer": "Súdny zmier je dohoda strán o vyriešení sporu, ktorú súd schváli, ak neodporuje zákonu ani dobrým mravom. Schválený zmier má účinky právoplatného rozsudku a je exekučným titulom. Ak ho súd neschváli, pokračuje v konaní a rozhodne rozsudkom." }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Priebeh konania na súde prvej inštancie, predbežné prejednanie sporu",
+      "definitions": [
+        { "question": "Ako prebieha konanie na súde prvej inštancie?", "answer": "Konanie začína podaním žaloby, pokračuje jej preskúmaním, výmenou vyjadrení strán, predbežným prejednaním sporu a dokazovaním na pojednávaní, a končí vydaním rozhodnutia vo veci samej. Súd dbá na hospodárnosť a rýchlosť postupu." },
+        { "question": "Čo je predbežné prejednanie sporu?", "answer": "Predbežné prejednanie sporu je štádium, v ktorom súd so stranami vyjasňuje sporné a nesporné skutočnosti, poučuje ich o dôkaznom bremene a pripravuje vec na pojednávanie. Slúži na koncentráciu konania a zabránenie prieťahom pri dôkazoch." },
+        { "question": "Aký je účel prípravy pojednávania súdom prvej inštancie?", "answer": "Účelom je zabezpečiť, aby sa vec na pojednávaní prejednala hospodárne a bez zbytočných prieťahov, napríklad vyžiadaním listín alebo predvolaním svedkov vopred. Súd tak predchádza odročovaniu pojednávania z dôvodu nepripravenosti." }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Pojednávanie – jeho príprava a priebeh",
+      "definitions": [
+        { "question": "Čo je pojednávanie v civilnom konaní?", "answer": "Pojednávanie je ústne a spravidla verejné prejednanie veci pred súdom, na ktorom sa vykonáva dokazovanie a strany prednášajú svoje stanoviská. Je hlavným nástrojom zásad ústnosti, verejnosti a bezprostrednosti konania. Súd na ňom zvyčajne vyhlasuje rozsudok." },
+        { "question": "Kedy môže súd rozhodnúť bez nariadenia pojednávania?", "answer": "Súd môže rozhodnúť bez pojednávania, ak to zákon pripúšťa, napríklad pri platobnom rozkaze alebo so súhlasom oboch strán. Aj vtedy musí byť zachované právo strán vyjadriť sa k veci. Takéto rozhodnutie musí byť riadne odôvodnené." },
+        { "question": "Aké sú základné zásady priebehu pojednávania?", "answer": "Pojednávanie sa riadi zásadou verejnosti, ústnosti a priamosti, teda súd rozhoduje na základe toho, čo bolo bezprostredne prednesené pred ním. Predsedajúci sudca riadi jeho priebeh a dbá na hospodárnosť. Z pojednávania sa vyhotovuje zápisnica." }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Neodkladné a zabezpečovacie opatrenia podľa CSP",
+      "definitions": [
+        { "question": "Čo je neodkladné opatrenie podľa Civilného sporového poriadku?", "answer": "Neodkladné opatrenie je dočasná úprava pomerov strán, ktorú súd nariadi, ak je potrebné bezodkladne upraviť pomery alebo hrozí ohrozenie výkonu rozhodnutia. Súd rozhoduje spravidla bez vypočutia protistrany. Trvá len po čas nevyhnutný na ochranu práva." },
+        { "question": "Čo je zabezpečovacie opatrenie?", "answer": "Zabezpečovacie opatrenie slúži na zabezpečenie peňažnej alebo nepeňažnej pohľadávky pred vydaním rozhodnutia vo veci, napríklad zablokovaním majetku dlžníka. Nariaďuje sa pri odôvodnenej obave zo zmarenia budúceho výkonu rozhodnutia." },
+        { "question": "Kedy súd zruší neodkladné alebo zabezpečovacie opatrenie?", "answer": "Súd opatrenie zruší, ak pominuli dôvody, pre ktoré bolo nariadené, alebo sa preukáže, že návrh bol nedôvodný. Zaniká aj uplynutím doby jeho trvania alebo právoplatným rozhodnutím vo veci samej. Za neopodstatnené opatrenie zodpovedá navrhovateľ za škodu." }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Neodkladné a zabezpečovacie opatrenia podľa CMP",
+      "definitions": [
+        { "question": "Čo je neodkladné opatrenie podľa Civilného mimosporového poriadku?", "answer": "V mimosporovom konaní súd nariaďuje neodkladné opatrenie najmä na ochranu maloletého dieťaťa, keď treba okamžite upraviť výživu, styk alebo starostlivosť. Súd môže konať aj bez návrhu. Opatrenie platí do rozhodnutia vo veci samej." },
+        { "question": "Kedy súd nariadi neodkladné opatrenie o výchove maloletého dieťaťa?", "answer": "Súd nariadi opatrenie, ak je ohrozený život, zdravie alebo priaznivý vývoj dieťaťa a treba bezodkladne upraviť jeho pomery ešte pred meritórnym rozhodnutím. Rozhoduje spravidla ihneď, aj bez vypočutia druhého rodiča." },
+        { "question": "Aký je rozdiel medzi zabezpečovacím opatrením v mimosporovom a sporovom konaní?", "answer": "V mimosporovom konaní chráni zabezpečovacie opatrenie najmä osobný stav a záujmy ohrozenej osoby, napríklad dieťaťa, kým v sporovom konaní chráni majetkové nároky strán. Súd v mimosporovom konaní prihliada predovšetkým na najlepší záujem chráneného subjektu." }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Prostriedky procesného útoku, prostriedky procesnej obrany a koncentrácia konania",
+      "definitions": [
+        { "question": "Čo sú prostriedky procesného útoku?", "answer": "Prostriedky procesného útoku sú tvrdenia žalobcu o rozhodujúcich skutočnostiach a označenie dôkazov na ich preukázanie. Musia byť uplatnené najneskôr do skončenia predbežného prejednania sporu. Ich neskoršie uplatnenie súd môže odmietnuť ako oneskorené." },
+        { "question": "Čo sú prostriedky procesnej obrany?", "answer": "Prostriedky procesnej obrany sú tvrdenia a dôkazy žalovaného smerujúce k spochybneniu žalobcovho nároku, napríklad námietka premlčania. Rovnako ako útočné prostriedky podliehajú zásade koncentrácie konania. Ich včasné uplatnenie je predpokladom úspešnej obrany." },
+        { "question": "Čo je koncentrácia konania?", "answer": "Koncentrácia konania je zásada, podľa ktorej musia strany uplatniť prostriedky útoku a obrany najneskôr do skončenia predbežného prejednania sporu. Po tomto okamihu súd na oneskorené tvrdenia spravidla neprihliada. Cieľom je zabrániť prieťahom v konaní." }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Dokazovanie v civilnom procese – pojmy, predmet, priebeh a hodnotenie dôkazov",
+      "definitions": [
+        { "question": "Čo je dokazovanie v civilnom procese?", "answer": "Dokazovanie je činnosť súdu a strán zameraná na zistenie skutkového stavu potrebného na rozhodnutie vo veci. Súd vykonáva dôkazy navrhnuté stranami, výnimočne aj z vlastnej iniciatívy. Výsledky hodnotí podľa svojej úvahy, jednotlivo aj v súvislosti." },
+        { "question": "Čo je predmetom dokazovania?", "answer": "Predmetom dokazovania sú sporné skutočnosti medzi stranami, ktoré majú význam pre rozhodnutie vo veci z hľadiska hmotného práva. Nesporné alebo všeobecne známe skutočnosti sa nedokazujú. Rozsah dokazovania určuje súd podľa tvrdení strán." },
+        { "question": "Ako súd hodnotí vykonané dôkazy?", "answer": "Súd hodnotí dôkazy podľa zásady voľného hodnotenia, teda podľa svojej úvahy, pričom prihliada na všetko, čo v konaní vyšlo najavo. Každý dôkaz posudzuje jednotlivo aj v súvislosti s ostatnými. Výsledok hodnotenia musí zrozumiteľne odôvodniť." }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Dôkazné prostriedky v civilnom procese",
+      "definitions": [
+        { "question": "Čo sú dôkazné prostriedky?", "answer": "Dôkazné prostriedky sú zákonom pripustené zdroje poznatkov o skutočnostiach dôležitých pre rozhodnutie, napríklad výsluch svedka, znalecký posudok, listiny alebo obhliadka. Zoznam nie je uzavretý. Súd rozhoduje, ktoré z navrhnutých dôkazov vykoná." },
+        { "question": "Čo je výsluch svedka ako dôkazný prostriedok?", "answer": "Výsluch svedka je vypočutie osoby, ktorá vníma skutočnosti dôležité pre rozhodnutie vo veci a je povinná vypovedať pravdivo. Svedok môže odoprieť výpoveď len zo zákonom uznaných dôvodov. Za nepravdivú výpoveď hrozí trestnoprávna zodpovednosť." },
+        { "question": "Kedy súd nariadi znalecké dokazovanie?", "answer": "Súd nariadi znalecké dokazovanie, ak je na zistenie skutkového stavu potrebné odborné posúdenie presahujúce jeho vlastné znalosti, napríklad pri príčine škody. Znalecký posudok súd hodnotí ako každý iný dôkaz. Strany môžu voči nemu vzniesť námietky." }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Rozsudok – pojem, druhy, náležitosti písomného vyhotovenia",
+      "definitions": [
+        { "question": "Čo je rozsudok?", "answer": "Rozsudok je rozhodnutie súdu, ktorým sa vo veci samej rozhoduje o nároku uplatnenom žalobou. Vydáva sa v mene Slovenskej republiky a je základným výsledkom sporového konania. Musí obsahovať výrok, odôvodnenie a poučenie o opravnom prostriedku." },
+        { "question": "Aké druhy rozsudkov civilné právo procesné pozná?", "answer": "Civilné právo procesné pozná napríklad rozsudok pre zmeškanie, rozsudok pre uznanie, čiastočný rozsudok, medzitýmny a doplňujúci rozsudok. Každý sa vydáva za osobitných procesných podmienok. Spoločným znakom je, že rozhodujú o veci samej alebo jej časti." },
+        { "question": "Aké náležitosti musí mať písomné vyhotovenie rozsudku?", "answer": "Písomné vyhotovenie musí obsahovať označenie súdu a účastníkov, výrok, odôvodnenie so skutkovými zisteniami a právnym posúdením, ako aj poučenie o odvolaní. Bez riadneho odôvodnenia je rozsudok spravidla dôvodom na jeho zrušenie v odvolacom konaní." }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Právoplatnosť a vykonateľnosť rozsudku",
+      "definitions": [
+        { "question": "Čo je právoplatnosť rozsudku?", "answer": "Právoplatnosť rozsudku nastáva, keď ho už nemožno napadnúť odvolaním, a jeho výrok sa stáva záväzným a nezmeniteľným. Právoplatné rozhodnutie zakladá prekážku rozsúdenej veci pre ďalšie konanie o tom istom nároku. Súd ju vyznačuje doložkou." },
+        { "question": "Čo je vykonateľnosť rozsudku?", "answer": "Vykonateľnosť je spôsobilosť rozsudku byť podkladom pre nútený výkon rozhodnutia, ak povinný dobrovoľne nesplní uloženú povinnosť. Rozsudok sa stáva vykonateľným spravidla márnym uplynutím lehoty na plnenie po nadobudnutí právoplatnosti." },
+        { "question": "Kedy je rozsudok vykonateľný bez ohľadu na jeho právoplatnosť?", "answer": "Predbežnú vykonateľnosť má rozsudok, ak tak zákon výslovne ustanovuje, napríklad pri niektorých nárokoch na výživné. Účelom je poskytnúť rýchlu ochranu naliehavým nárokom. Odvolanie proti takému rozsudku nemá odkladný účinok na jeho výkon." }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Uznesenie – pojem, náležitosti, sťažnosť proti uzneseniu",
+      "definitions": [
+        { "question": "Čo je uznesenie v civilnom konaní?", "answer": "Uznesenie je rozhodnutie súdu, ktorým sa rozhoduje o procesných otázkach v priebehu konania, napríklad o zastavení konania alebo o trovách. V mimosporovom konaní môže mať povahu rozhodnutia vo veci samej. Musí obsahovať výrok a spravidla aj odôvodnenie." },
+        { "question": "Aké náležitosti má uznesenie?", "answer": "Uznesenie obsahuje označenie súdu a účastníkov, výrok, odôvodnenie, ak ho zákon vyžaduje, a poučenie o opravnom prostriedku. Niektoré jednoduché procesné uznesenia možno vyhlásiť len ústne do zápisnice. Písomné vyhotovenie sa doručuje účastníkom." },
+        { "question": "Čo je sťažnosť proti uzneseniu?", "answer": "Sťažnosť je opravný prostriedok proti niektorým uzneseniam vydaným v priebehu konania, najmä v mimosporovom konaní alebo pri rozhodnutiach vyššieho súdneho úradníka. O sťažnosti rozhoduje spravidla ten istý súd, ktorý napadnuté uznesenie vydal." }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Skrátené konania a skrátené rozhodnutia",
+      "definitions": [
+        { "question": "Čo je skrátené konanie v civilnom procese?", "answer": "Skrátené konanie je zjednodušený postup umožňujúci rýchlejšie rozhodnutie vo veciach, kde je nárok dostatočne preukázaný listinami, napríklad konanie o platobnom rozkaze. Súd v ňom rozhoduje spravidla bez nariadenia pojednávania a urýchľuje vymáhanie nesporných nárokov." },
+        { "question": "Čo je platobný rozkaz ako skrátené rozhodnutie?", "answer": "Platobný rozkaz je rozhodnutie, ktorým súd bez vypočutia žalovaného uloží zaplatiť peňažnú pohľadávku, ak žalobca doložil listiny osvedčujúce nárok. Žalovaný sa môže brániť odporom, čím rozkaz stráca účinnosť. Inak nadobudne účinky právoplatného rozsudku." },
+        { "question": "Kedy súd nemôže vydať platobný rozkaz?", "answer": "Súd platobný rozkaz nevydá, ak nie je známy pobyt žalovaného, ak by sa mal doručovať do cudziny alebo ak listiny dostatočne neosvedčujú uplatnený nárok. Vtedy nariadi pojednávanie a rozhoduje v riadnom konaní. Zamietnutie návrhu nebráni pokračovaniu konania." }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Spory s ochranou slabšej strany",
+      "definitions": [
+        { "question": "Čo sú spory s ochranou slabšej strany?", "answer": "Ide o osobitnú kategóriu sporov, v ktorých Civilný sporový poriadok posilňuje procesné postavenie strany považovanej za slabšiu, najmä spotrebiteľa alebo zamestnanca. Súd v nich aktívnejšie chráni slabšiu stranu, napríklad širším poučovaním." },
+        { "question": "Aké výhody má slabšia strana v spotrebiteľských sporoch?", "answer": "Spotrebiteľ má výhodu v tom, že súd môže aj bez návrhu prihliadnuť na neprijateľné zmluvné podmienky a poskytuje mu širšie poučenie o procesných právach. Dôkazné bremeno je čiastočne prenesené na dodávateľa. Pravidlá vychádzajú aj z práva Európskej únie." },
+        { "question": "Prečo civilný proces osobitne chráni zamestnanca v pracovnoprávnych sporoch?", "answer": "Zamestnanec je v pracovnoprávnom vzťahu považovaný za slabšiu stranu pre ekonomickú a organizačnú závislosť od zamestnávateľa. Súd preto venuje osobitnú pozornosť poučovacej povinnosti a spravodlivému rozloženiu dôkazného bremena v takýchto sporoch." }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Opravné systémy a opravné prostriedky v súdnom konaní",
+      "definitions": [
+        { "question": "Čo je opravný systém civilného procesu?", "answer": "Opravný systém je súhrn inštitútov umožňujúcich preskúmať a napraviť nesprávne rozhodnutia súdu, ktorý sa delí na riadne a mimoriadne opravné prostriedky. Riadnym prostriedkom je odvolanie, mimoriadnymi dovolanie a žaloba na obnovu konania." },
+        { "question": "Aký je rozdiel medzi riadnym a mimoriadnym opravným prostriedkom?", "answer": "Riadny opravný prostriedok smeruje proti rozhodnutiu, ktoré ešte nenadobudlo právoplatnosť, a odkladá jej nadobudnutie. Mimoriadny prostriedok naopak napáda už právoplatné rozhodnutie a spravidla nemá odkladný účinok. Príkladom je odvolanie a dovolanie." },
+        { "question": "Aký je účel opravných prostriedkov v civilnom procese?", "answer": "Účelom je zabezpečiť kontrolu správnosti a zákonnosti súdnych rozhodnutí a umožniť účastníkom domáhať sa nápravy chybného rozhodnutia. Prispievajú tiež k jednotnosti súdnej praxe, najmä prostredníctvom dovolania na Najvyššom súde Slovenskej republiky." }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Odvolanie – pojem a prípustnosť odvolania",
+      "definitions": [
+        { "question": "Čo je odvolanie v civilnom konaní?", "answer": "Odvolanie je riadny opravný prostriedok, ktorým sa účastník domáha preskúmania neprávoplatného rozhodnutia súdu prvej inštancie odvolacím súdom. Podáva sa na súde, ktorý rozhodnutie vydal, v lehote spravidla pätnásť dní od doručenia rozhodnutia." },
+        { "question": "Kedy je odvolanie prípustné?", "answer": "Odvolanie je prípustné proti rozsudku a proti uzneseniam, pri ktorých to zákon výslovne pripúšťa, napríklad proti zastaveniu konania. Proti niektorým čisto procesným uzneseniam je odvolanie vylúčené. Prípustnosť súd skúma pred vecným prejednaním." },
+        { "question": "Aké dôvody odvolania môže odvolateľ uplatniť?", "answer": "Odvolateľ môže namietať nesprávne zistenie skutkového stavu, nesprávne právne posúdenie veci, procesné vady konania alebo neúplnosť dokazovania. Dôvody musí v odvolaní konkrétne uviesť, inak odvolací súd skúma rozhodnutie len v obmedzenom rozsahu." }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Konanie o odvolaní na súde 1. inštancie a na odvolacom súde, rozhodnutie odvolacieho súdu",
+      "definitions": [
+        { "question": "Čo robí súd prvej inštancie po podaní odvolania?", "answer": "Súd prvej inštancie doručí odvolanie ostatným účastníkom na vyjadrenie a postúpi spis odvolaciemu súdu. V niektorých prípadoch môže odvolaniu sám vyhovieť, ak sú splnené zákonné podmienky autoremedúry. Táto fáza pripravuje vec na rozhodnutie odvolacím súdom." },
+        { "question": "Ako prebieha konanie na odvolacom súde?", "answer": "Odvolací súd preskúma napadnuté rozhodnutie v rozsahu vymedzenom odvolaním, pričom vychádza zo skutkového stavu zisteného prvou inštanciou, ak dokazovanie nezopakuje. Môže nariadiť pojednávanie alebo rozhodnúť aj bez neho, ak to zákon pripúšťa." },
+        { "question": "Aké rozhodnutia môže vydať odvolací súd?", "answer": "Odvolací súd môže rozhodnutie potvrdiť, zmeniť, zrušiť a vrátiť na ďalšie konanie, alebo zrušiť a konanie zastaviť. Zmenu vykoná, ak má dostatočný podklad na vlastné rozhodnutie. Zrušenie je odôvodnené najmä pri nedostatočne zistenom skutkovom stave." }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Dovolanie – pojem, priebeh konania o dovolaní, rozhodnutie o dovolaní",
+      "definitions": [
+        { "question": "Čo je dovolanie?", "answer": "Dovolanie je mimoriadny opravný prostriedok, ktorým sa účastník domáha preskúmania právoplatného rozhodnutia odvolacieho súdu Najvyšším súdom Slovenskej republiky. Prípustné je len z dôvodov taxatívne vymedzených zákonom, napríklad pri zásadnej procesnej vade." },
+        { "question": "Ako prebieha konanie o dovolaní?", "answer": "Konanie sa začína podaním dovolania na súde prvej inštancie, ktorý ho postúpi Najvyššiemu súdu Slovenskej republiky. Ten najprv skúma prípustnosť dovolania a až potom jeho dôvodnosť. Konanie sa vedie spravidla bez nariadenia pojednávania." },
+        { "question": "Aké rozhodnutie môže vydať dovolací súd?", "answer": "Dovolací súd dovolanie odmietne, ak nie je prípustné, zamietne ho, ak je nedôvodné, alebo mu vyhovie a napadnuté rozhodnutie zruší, prípadne vec vráti na ďalšie konanie. Súd viazaný právnym názorom dovolacieho súdu vo veci znovu rozhodne." }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Žaloba na obnovu konania – pojem, podmienky prípustnosti, rozhodnutie",
+      "definitions": [
+        { "question": "Čo je žaloba na obnovu konania?", "answer": "Žaloba na obnovu konania je mimoriadny opravný prostriedok, ktorým sa účastník domáha zrušenia právoplatného rozhodnutia a nového prejednania veci, ak vyšli najavo skutočnosti alebo dôkazy, ktoré nemohol bez svojej viny použiť v pôvodnom konaní." },
+        { "question": "Kedy je žaloba na obnovu konania prípustná?", "answer": "Žaloba je prípustná, ak existujú skutočnosti alebo dôkazy, ktoré účastník nemohol bez svojej viny uplatniť skôr a ktoré by mohli priniesť priaznivejšie rozhodnutie. Musí byť podaná v zákonnej lehote od momentu, keď sa účastník o dôvode dozvedel." },
+        { "question": "Ako súd rozhoduje o žalobe na obnovu konania?", "answer": "Súd najprv posudzuje prípustnosť obnovy a ak sú splnené podmienky, povolí obnovu a pôvodné konanie sa vo veci znovu prejedná. Ak dôvody nie sú preukázané, žalobu zamietne. Pôvodné rozhodnutie zostáva formálne v platnosti až do vydania nového." }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Dovolanie generálneho prokurátora a kasačná sťažnosť",
+      "definitions": [
+        { "question": "Čo je dovolanie generálneho prokurátora?", "answer": "Dovolanie generálneho prokurátora je mimoriadny opravný prostriedok, ktorý môže podať na podnet účastníka, ak je to nevyhnutné na ochranu jeho práv a inak ju nemožno dosiahnuť. Podáva sa proti právoplatnému rozhodnutiu a rozhoduje o ňom Najvyšší súd." },
+        { "question": "Čo je kasačná sťažnosť?", "answer": "Kasačná sťažnosť je mimoriadny opravný prostriedok v správnom súdnictve, ktorým sa účastník domáha preskúmania právoplatného rozhodnutia krajského súdu Najvyšším správnym súdom. Kasačný súd napadnuté rozhodnutie zruší, ak zistí dôvodnosť sťažnosti." },
+        { "question": "Aký je vzťah kasačnej sťažnosti k dovolaniu v sporovom konaní?", "answer": "Kasačná sťažnosť plní v správnom súdnictve obdobnú funkciu ako dovolanie v sporovom konaní, teda zjednocuje judikatúru a napráva zásadné pochybenia. Uplatňuje sa výlučne vo veciach správneho súdnictva a rozhoduje o nej Najvyšší správny súd." }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Členenie CMP, jeho vzťah k CSP, osobitosti konaní podľa CMP",
+      "definitions": [
+        { "question": "Ako sa člení Civilný mimosporový poriadok?", "answer": "Civilný mimosporový poriadok sa člení na všeobecnú časť upravujúcu spoločné inštitúty a osobitnú časť upravujúcu jednotlivé konania, napríklad o dedičstve, osvojení či spôsobilosti na právne úkony. Spoločné inštitúty sa použijú, ak osobitná časť neurčuje inak." },
+        { "question": "Aký je vzťah Civilného mimosporového poriadku k Civilnému sporovému poriadku?", "answer": "Civilný mimosporový poriadok je vo vzťahu k Civilnému sporovému poriadku osobitným predpisom, ktorý sa použije prednostne pri ním upravených konaniach. Ak niektorú otázku neupravuje, subsidiárne sa použijú ustanovenia Civilného sporového poriadku." },
+        { "question": "Aké sú osobitosti konaní podľa Civilného mimosporového poriadku?", "answer": "Mimosporové konania sa vyznačujú vyšetrovacou zásadou, možnosťou súdu konať aj bez návrhu a širšími právomocami pri zisťovaní skutkového stavu z úradnej moci. Súd chráni najmä verejný záujem alebo osoby, ktoré sa nevedia samy dostatočne brániť." }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "Konania v niektorých rodinnoprávnych veciach",
+      "definitions": [
+        { "question": "Čo sú konania v rodinnoprávnych veciach podľa CMP?", "answer": "Ide o mimosporové konania týkajúce sa najmä rozvodu manželstva, úpravy práv k maloletým deťom, výživného alebo osvojenia. Súd v nich koná spravidla aj bez návrhu a rozhoduje s prihliadnutím na najlepší záujem dieťaťa." },
+        { "question": "Ako prebieha konanie o rozvod manželstva?", "answer": "Konanie o rozvod manželstva sa začína na návrh jedného z manželov a súd zisťuje, či je manželstvo tak vážne rozvrátené, že nemožno očakávať obnovenie spolužitia. Ak majú manželia maloleté dieťa, súd zároveň upraví výkon rodičovských práv naň." },
+        { "question": "Kedy súd rozhoduje o úprave styku s maloletým dieťaťom?", "answer": "Súd rozhoduje o styku rodiča s dieťaťom, ak sa rodičia nedohodnú alebo si to vyžaduje záujem dieťaťa, buď v konaní o rozvode, alebo samostatne. Prihliada predovšetkým na názor dieťaťa primeraný jeho veku. Rozhodnutie možno zmeniť pri zmene pomerov." }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "Konanie o dedičstve",
+      "definitions": [
+        { "question": "Čo je konanie o dedičstve?", "answer": "Konanie o dedičstve je mimosporové konanie, v ktorom súd prostredníctvom notára ako súdneho komisára zisťuje dedičov, majetok patriaci do dedičstva a rozhoduje o jeho nadobudnutí. Začína sa bez návrhu, len čo sa súd dozvie o úmrtí osoby." },
+        { "question": "Kto je súdny komisár v konaní o dedičstve?", "answer": "Súdnym komisárom je notár poverený súdom na vykonanie úkonov v konaní o dedičstve, ktorý zisťuje okruh dedičov a súpis aktív a pasív. Koná v mene súdu a jeho úkony majú rovnaké účinky, ako keby ich vykonal súd sám. Zodpovedá za ne disciplinárne aj majetkovo." },
+        { "question": "Ako sa končí konanie o dedičstve?", "answer": "Konanie o dedičstve sa spravidla končí uznesením, ktorým súd potvrdí nadobudnutie dedičstva jedinému dedičovi, schváli dohodu dedičov o vyporiadaní, alebo potvrdí nadobudnutie podľa dedičských podielov. Bez majetku poručiteľa sa konanie zastaví." }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Konania v niektorých statusových veciach fyzických osôb",
+      "definitions": [
+        { "question": "Čo sú statusové veci fyzických osôb?", "answer": "Statusové veci sú konania týkajúce sa osobného stavu fyzickej osoby, napríklad o spôsobilosti na právne úkony, o vyhlásenie za mŕtveho alebo dôkaz smrti. Upravuje ich Civilný mimosporový poriadok s dôrazom na ochranu dotknutej osoby." },
+        { "question": "Čo je konanie o obmedzení svojprávnosti?", "answer": "Konanie o obmedzení svojprávnosti je konanie, v ktorom súd na návrh alebo aj bez návrhu rozhoduje o obmedzení spôsobilosti osoby na právne úkony pre trvalú duševnú poruchu. Musí posudzovanú osobu vypočuť a vyžiadať znalecký posudok a ustanoviť opatrovníka." },
+        { "question": "Čo je konanie o vyhlásenie za mŕtveho?", "answer": "Konanie o vyhlásenie za mŕtveho sa vedie, ak nezvestná osoba nejaví po určenú dobu známky života a okolnosti nasvedčujú jej smrti. Súd v rozhodnutí určí deň považovaný za deň smrti. Právoplatným rozhodnutím zaniká manželstvo a otvára sa dedičské konanie." }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "Výkon rozhodnutia vo veciach starostlivosti o maloletých",
+      "definitions": [
+        { "question": "Čo je výkon rozhodnutia vo veciach starostlivosti o maloletých?", "answer": "Ide o osobitný postup podľa Civilného mimosporového poriadku, ktorým sa vynucuje splnenie povinností uložených rozhodnutím súdu vo veciach starostlivosti o maloletých, napríklad umožniť styk s dieťaťom. Súd pritom dbá predovšetkým na záujem dieťaťa." },
+        { "question": "Aké prostriedky výkonu rozhodnutia súd použije, ak povinný neplní styk s dieťaťom?", "answer": "Súd najprv povinného upozorní na možné následky a môže mu uložiť poriadkovú pokutu, ak povinnosť neplní. Ak to nevedie k náprave, môže nariadiť výkon priamym odňatím dieťaťa za asistencie orgánu sociálnoprávnej ochrany detí." },
+        { "question": "Prečo sa výkon rozhodnutia vo veciach maloletých líši od bežnej exekúcie?", "answer": "Tento výkon sa neuskutočňuje podľa Exekučného poriadku, ale podľa osobitných ustanovení Civilného mimosporového poriadku, keďže predmetom nie je majetková pohľadávka, ale ochrana osoby dieťaťa. Súd postupuje citlivejšie so zapojením orgánu ochrany detí." }
+      ]
+    },
+    {
+      "id": "39",
+      "title": "Exekučné konanie – pojem, funkcie, predpoklady začatia a priebeh",
+      "definitions": [
+        { "question": "Čo je exekučné konanie?", "answer": "Exekučné konanie je konanie podľa Exekučného poriadku, v ktorom sa na návrh oprávneného núteným spôsobom vymáha splnenie povinnosti uloženej exekučným titulom, ktorú povinný dobrovoľne nesplnil. Vedie ho súdny exekútor poverený súdom." },
+        { "question": "Aké sú predpoklady začatia exekučného konania?", "answer": "Predpokladom je existencia vykonateľného exekučného titulu, podanie návrhu na vykonanie exekúcie oprávneným a poverenie exekútora súdom. Titul musí priznávať vykonateľné právo a označovať povinného aj oprávneného. Bez toho súd poverenie neudelí." },
+        { "question": "Ako prebieha priebeh exekučného konania?", "answer": "Exekučné konanie sa začína podaním návrhu exekútorovi, ktorý ho postúpi súdu na udelenie poverenia. Po jeho udelení exekútor zisťuje majetok povinného a vykonáva zrážky alebo predaj majetku. Konanie sa končí vymožením pohľadávky alebo zastavením exekúcie." }
+      ]
+    },
+    {
+      "id": "40",
+      "title": "Základné princípy exekučného konania, exekučné tituly",
+      "definitions": [
+        { "question": "Aké sú základné princípy exekučného konania?", "answer": "Exekučné konanie ovládajú zásady hospodárnosti, primeranosti použitých prostriedkov a ochrany práv povinného popri účinnom vymožení pohľadávky oprávneného. Exekútor musí voliť spôsob exekúcie primeraný výške pohľadávky. Určitý majetok povinného je pred exekúciou chránený." },
+        { "question": "Čo je exekučný titul?", "answer": "Exekučný titul je rozhodnutie alebo iná verejná listina priznávajúca vykonateľné právo, ktorá je podkladom na nariadenie exekúcie, napríklad právoplatný rozsudok alebo notárska zápisnica so súhlasom na vykonateľnosť. Musí presne označovať oprávneného a povinného." },
+        { "question": "Aké druhy exekučných titulov Exekučný poriadok pripúšťa?", "answer": "Exekučný poriadok pripúšťa ako tituly najmä súdne rozhodnutia, rozhodcovské rozsudky, notárske zápisnice s doložkou vykonateľnosti a rozhodnutia iných orgánov podľa osobitného zákona. Každý titul musí byť vykonateľný, teda musí uplynúť lehota na plnenie." }
+      ]
+    },
+    {
+      "id": "41",
+      "title": "Subjekty exekučného konania, postavenie tzv. tretích osôb",
+      "definitions": [
+        { "question": "Kto sú subjekty exekučného konania?", "answer": "Subjektmi exekučného konania sú súd, poverený súdny exekútor, oprávnený a povinný, ako aj prípadné tretie osoby, ktorých práva môžu byť exekúciou dotknuté. Exekútor vykonáva úkony smerujúce k vymoženiu pohľadávky pod dohľadom súdu." },
+        { "question": "Aké postavenie majú tretie osoby v exekučnom konaní?", "answer": "Tretie osoby, napríklad manžel povinného alebo vlastník postihnutej veci, môžu byť exekúciou dotknuté, hoci samy nie sú účastníkmi konania. Zákon im priznáva prostriedky ochrany, najmä excindačnú žalobu na vylúčenie veci z exekúcie." },
+        { "question": "Čo je excindačná žaloba tretej osoby?", "answer": "Excindačná žaloba je žaloba, ktorou tretia osoba tvrdiaca vlastnícke právo k veci postihnutej exekúciou navrhuje jej vylúčenie z exekúcie. Podáva sa proti oprávnenému a povinnému v zákonnej lehote. Úspešná žaloba vylučuje vec z ďalšieho postihu." }
+      ]
+    },
+    {
+      "id": "42",
+      "title": "Odklad exekúcie, zastavenie exekúcie",
+      "definitions": [
+        { "question": "Čo je odklad exekúcie?", "answer": "Odklad exekúcie je dočasné pozastavenie exekučných úkonov, ktoré súd povolí, ak sa povinný bez svojej viny ocitol prechodne v postavení, kde by neodkladné vykonanie exekúcie malo preň obzvlášť nepriaznivé následky. Po odpadnutí dôvodov exekúcia pokračuje." },
+        { "question": "Kedy súd zastaví exekúciu?", "answer": "Súd zastaví exekúciu, ak sa preukáže, že exekučný titul nie je vykonateľný, pohľadávka zanikla, alebo exekúcia postihuje majetok, ktorý jej nepodlieha. Rozhoduje na návrh alebo aj bez návrhu. Zastavením exekučné konanie definitívne končí." },
+        { "question": "Aký je rozdiel medzi odkladom a zastavením exekúcie?", "answer": "Odklad exekúcie je len dočasným prerušením, po ktorom môže konanie pokračovať, kým zastavenie konanie s konečnou platnosťou ukončuje. Odklad sa povoľuje pri prechodných ťažkostiach povinného, zastavenie predpokladá trvalý dôvod nemožnosti pokračovať." }
+      ]
+    },
+    {
+      "id": "43",
+      "title": "Rozhodcovské konanie a alternatívne spôsoby riešenia sporov (mediácia, konciliácia)",
+      "definitions": [
+        { "question": "Čo je rozhodcovské konanie?", "answer": "Rozhodcovské konanie je alternatívny spôsob riešenia majetkových sporov podľa zákona o rozhodcovskom konaní, v ktorom o spore rozhoduje rozhodca na základe platnej rozhodcovskej zmluvy strán. Rozhodcovský rozsudok je po nadobudnutí vykonateľnosti exekučným titulom." },
+        { "question": "Čo je mediácia ako alternatívny spôsob riešenia sporov?", "answer": "Mediácia je mimosúdny proces, v ktorom nezávislý mediátor pomáha stranám sporu dosiahnuť vzájomne prijateľnú dohodu, bez toho aby sám o spore rozhodoval. Je založená na dobrovoľnosti a dôvernosti a jej výsledkom je mediačná dohoda." },
+        { "question": "Čo je konciliácia a čím sa líši od mediácie?", "answer": "Konciliácia je zmierovacie konanie, pri ktorom tretia nezávislá osoba aktívnejšie navrhuje riešenie sporu, na rozdiel od mediátora, ktorý stranám pomáha nájsť riešenie samy. Oba postupy patria medzi alternatívne spôsoby riešenia sporov mimo súdu." }
+      ]
+    },
+    {
+      "id": "44",
+      "title": "Postavenie a činnosť notára",
+      "definitions": [
+        { "question": "Aké je postavenie notára podľa Notárskeho poriadku?", "answer": "Notár je štátom splnomocnená osoba vykonávajúca notársku činnosť, najmä spisovanie verejných listín, osvedčovanie právne významných skutočností a výkon funkcie súdneho komisára v dedičskom konaní. Pri výkone činnosti je nezávislý a viazaný zákonom." },
+        { "question": "Čo je notárska zápisnica a aký má význam?", "answer": "Notárska zápisnica je verejná listina spísaná notárom o právnom úkone so zvýšenou dôkaznou silou, ktorá pri súhlase povinného s vykonateľnosťou môže slúžiť ako exekučný titul bez súdneho konania. Používa sa napríklad pri uznaní dlhu." },
+        { "question": "Akú úlohu má notár ako súdny komisár?", "answer": "Notár ako súdny komisár vykonáva z poverenia súdu úkony v konaní o dedičstve, najmä zisťuje dedičov a majetok poručiteľa a pripravuje podklady na rozhodnutie. Jeho úkony majú rovnaké účinky, ako keby ich vykonal súd sám, čo odbremeňuje súdy." }
+      ]
+    },
+    {
+      "id": "45",
+      "title": "Správne súdnictvo, základná charakteristika",
+      "definitions": [
+        { "question": "Čo je správne súdnictvo?", "answer": "Správne súdnictvo je systém súdnej ochrany, ktorým súdy podľa Správneho súdneho poriadku preskúmavajú zákonnosť rozhodnutí a postupov orgánov verejnej správy na návrh dotknutej osoby. Konanie vedú správne súdy a vo veciach kasačnej sťažnosti Najvyšší správny súd." },
+        { "question": "Aké konania patria do správneho súdnictva?", "answer": "Do správneho súdnictva patrí najmä konanie o žalobách proti rozhodnutiam a postupom orgánov verejnej správy, konanie o žalobách proti nečinnosti a konanie vo volebných veciach. Spoločným znakom je preskúmanie výkonu verejnej moci nezávislým súdom." },
+        { "question": "Aký je vzťah Správneho súdneho poriadku k Civilnému sporovému poriadku?", "answer": "Správny súdny poriadok je samostatným kódexom upravujúcim správne súdnictvo, ktorý sa subsidiárne dopĺňa použitím Civilného sporového poriadku, ak niektorú otázku sám neupravuje. Základné zásady civilného konania sa tak primerane uplatňujú aj pred správnymi súdmi." }
+      ]
+    }
+  ]
+}

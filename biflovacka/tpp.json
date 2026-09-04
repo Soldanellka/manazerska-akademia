@@ -1,0 +1,277 @@
+{
+  "area": "Trestné právo procesné",
+  "slug": "tpp",
+  "schemaVersion": "1.0",
+  "okruhy": [
+    {
+      "id": "1",
+      "title": "Základné zásady trestného konania",
+      "definitions": [
+        { "question": "Čo je zásada prezumpcie neviny?", "answer": "Prezumpcia neviny znamená, že na osobu obvinenú z trestného činu sa hľadí ako na nevinnú, kým jej vina nie je vyslovená právoplatným odsudzujúcim rozsudkom súdu. Vyplýva priamo z Ústavy Slovenskej republiky a je premietnutá aj do Trestného poriadku ako jedna zo základných zásad konania." },
+        { "question": "Čo znamená zásada nemo tenetur se ipsum accusare?", "answer": "Táto zásada vyjadruje, že obvinený nie je povinný vypovedať ani inak sa usvedčovať a jeho mlčanie nemožno vykladať v jeho neprospech. Súvisí s právom na obhajobu a s ochranou pred sebaobviňovaním, ktoré patrí medzi základné práva chránené Ústavou Slovenskej republiky." },
+        { "question": "Aké zásady ovládajú dokazovanie pred súdom?", "answer": "Ide najmä o zásadu ústnosti, bezprostrednosti a kontradiktórnosti, podľa ktorých súd rozhoduje na základe dôkazov vykonaných priamo pred ním a strany majú možnosť sa k nim vzájomne vyjadriť. Tieto zásady zabezpečujú spravodlivý a transparentný priebeh trestného konania." }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Ochrana základných práv a slobôd v trestnom konaní",
+      "definitions": [
+        { "question": "Čo je právo na obhajobu v trestnom konaní?", "answer": "Právo na obhajobu zaručuje každému, proti komu sa vedie trestné konanie, možnosť brániť sa všetkými zákonnými prostriedkami, vyjadrovať sa k obvineniam a zvoliť si obhajcu. Toto právo je zaručené Ústavou Slovenskej republiky a jeho porušenie predstavuje závažnú procesnú vadu konania." },
+        { "question": "Kedy možno obmedziť osobnú slobodu v trestnom konaní?", "answer": "Osobnú slobodu možno obmedziť iba na základe zákona a spôsobom, ktorý ustanovuje, napríklad zaistením, zadržaním alebo väzbou, pričom musia byť splnené konkrétne zákonné dôvody. Každé takéto obmedzenie podlieha súdnej kontrole a osoba musí byť bezodkladne poučená o svojich právach." },
+        { "question": "Aké právo má obvinený vo vzťahu k jazyku konania?", "answer": "Obvinený, ktorý neovláda jazyk, v ktorom sa konanie vedie, má právo na tlmočníka a na preklad podstatných písomností bezplatne. Toto právo zabezpečuje, že sa obvinený môže efektívne oboznámiť s obvinením a plnohodnotne uplatňovať svoju obhajobu." }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Subjekty a strany trestného konania",
+      "definitions": [
+        { "question": "Čo je rozdiel medzi subjektom a stranou trestného konania?", "answer": "Subjekty trestného konania sú všetky osoby a orgány, ktoré majú v konaní procesné práva a povinnosti, teda napríklad súd, prokurátor, obvinený, poškodený či svedok. Strany trestného konania sú užšou skupinou subjektov, ktoré majú vlastný záujem na výsledku konania, najmä prokurátor a obvinený." },
+        { "question": "Kto je stranou v konaní pred súdom?", "answer": "Stranou konania pred súdom je predovšetkým prokurátor ako verejný žalobca a obvinený spolu so svojím obhajcom, prípadne aj poškodený, pokiaľ uplatňuje nárok na náhradu škody. Strany majú rovnaké procesné postavenie a možnosť predkladať dôkazy a vyjadrovať sa k nim." },
+        { "question": "Aké postavenie má prokurátor v trestnom konaní?", "answer": "Prokurátor zastupuje štát a verejný záujem na stíhaní trestných činov, podáva obžalobu a v konaní pred súdom vystupuje ako strana s právom navrhovať dôkazy a opravné prostriedky. Zároveň vykonáva dozor nad zachovávaním zákonnosti v prípravnom konaní." }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Súdy v trestnom konaní, orgány činné v trestnom konaní a pomocné osoby",
+      "definitions": [
+        { "question": "Čo sú orgány činné v trestnom konaní?", "answer": "Medzi orgány činné v trestnom konaní patrí policajt, orgán poverený vykonávaním vyšetrovania a prokurátor, ktorí spoločne zabezpečujú odhaľovanie a objasňovanie trestných činov v prípravnom konaní. Súd medzi tieto orgány nepatrí, keďže vykonáva nezávislé rozhodovanie o vine a treste." },
+        { "question": "Kto rozhoduje o väzbe a iných zásahoch do práv v prípravnom konaní?", "answer": "O väzbe, domovej prehliadke a ďalších závažných zásahoch do základných práv rozhoduje v prípravnom konaní súd, spravidla na návrh prokurátora, prostredníctvom sudcu pre prípravné konanie. Táto právomoc zabezpečuje nezávislú súdnu kontrolu nad postupom orgánov činných v trestnom konaní." },
+        { "question": "Aké je postavenie pomocných osôb v trestnom konaní?", "answer": "Pomocnými osobami sú napríklad znalec, tlmočník, prekladateľ alebo probačný a mediačný úradník, ktorí sa podieľajú na trestnom konaní, ale nerozhodujú o veci samej. Ich úlohou je poskytnúť odborné podklady alebo súčinnosť potrebnú na riadny priebeh konania." }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Obvinený, postavenie obvineného v trestnom konaní, výsluch obvineného",
+      "definitions": [
+        { "question": "Čo je obvinený v trestnom konaní?", "answer": "Obvinený je osoba, proti ktorej bolo vznesené obvinenie na základe uznesenia orgánu činného v trestnom konaní, čím sa stáva subjektom s procesnými právami vrátane práva na obhajobu. Od tohto momentu má obvinený právo vyjadriť sa k skutočnostiam, ktoré sa mu kladú za vinu." },
+        { "question": "Kedy sa vykonáva výsluch obvineného?", "answer": "Výsluch obvineného sa vykonáva bezodkladne po vznesení obvinenia, pričom obvinený musí byť najprv poučený o svojich právach vrátane práva nevypovedať. Obvinený má právo vyjadriť sa ku všetkým skutočnostiam, ktoré sa mu kladú za vinu, a k dôkazom, o ktoré sa obvinenie opiera." },
+        { "question": "Aké práva má obvinený počas výsluchu?", "answer": "Obvinený má právo nevypovedať, právo na prítomnosť obhajcu pri výsluchu a právo klásť otázky spoluobvineným či svedkom. Zároveň má právo žiadať doplnenie dokazovania a navrhovať vykonanie ďalších dôkazov vo svoj prospech." }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Obhajca, osoby so samostatnými obhajovacími právami",
+      "definitions": [
+        { "question": "Čo je nutná obhajoba?", "answer": "Nutná obhajoba je stav, keď musí mať obvinený obhajcu už v prípravnom konaní, napríklad ak je vo väzbe, je mladistvý alebo mu hrozí prísny trest. Ak si obvinený obhajcu nezvolí sám, ustanoví mu ho súd, aby bolo zabezpečené jeho právo na obhajobu." },
+        { "question": "Kto sú osoby so samostatnými obhajovacími právami?", "answer": "Sú to napríklad manžel, manželka alebo príbuzní obvineného v priamom rade, ktorí môžu v jeho prospech podávať žiadosti, opravné prostriedky a zvoliť mu obhajcu aj bez jeho súhlasu. Ich úlohou je posilniť ochranu práv obvineného najmä vtedy, keď sám nemôže konať." },
+        { "question": "Aké je postavenie obhajcu v trestnom konaní?", "answer": "Obhajca poskytuje obvinenému právnu pomoc, zastupuje jeho záujmy a je oprávnený nahliadať do spisu, zúčastňovať sa vyšetrovacích úkonov a podávať opravné prostriedky v jeho prospech. Obhajca je viazaný pokynmi obvineného, pokiaľ nie sú v rozpore so zákonom." }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Poškodený, obeť a zúčastnená osoba",
+      "definitions": [
+        { "question": "Čo je poškodený v trestnom konaní?", "answer": "Poškodený je osoba, ktorej bola trestným činom spôsobená škoda na zdraví, majetku alebo iných právach chránených zákonom. Poškodený má právo uplatniť si nárok na náhradu škody v trestnom konaní a navrhovať vykonanie dôkazov." },
+        { "question": "Kto je obeťou trestného činu?", "answer": "Obeťou je fyzická osoba, ktorej bola trestným činom spôsobená ujma, pričom zákon o obetiach trestných činov jej priznáva osobitné práva na informácie, ochranu a odbornú pomoc. Postavenie obete je širšie ako postavenie poškodeného a kladie dôraz na jej ochranu pred sekundárnou viktimizáciou." },
+        { "question": "Čo je zúčastnená osoba v trestnom konaní?", "answer": "Zúčastnená osoba je ten, ktorého vec bola alebo mala byť zaistená v trestnom konaní, hoci sám nie je obvinený ani poškodený. Má právo vyjadriť sa k dôvodom zaistenia veci a podávať proti tomuto rozhodnutiu opravné prostriedky." }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Procesné úkony, poskytovanie informácií v trestnom konaní",
+      "definitions": [
+        { "question": "Čo je procesný úkon v trestnom konaní?", "answer": "Procesný úkon je akékoľvek konanie orgánu činného v trestnom konaní, súdu alebo strany, ktoré má právne účinky na priebeh a výsledok konania, napríklad výsluch, obhliadka alebo podanie obžaloby. Procesné úkony musia byť vykonané spôsobom a formou, ktorú predpisuje Trestný poriadok." },
+        { "question": "Kedy majú strany právo na poskytnutie informácií o konaní?", "answer": "Strany majú právo nahliadať do spisu a získavať informácie o priebehu konania od jeho začiatku, s výnimkou prípadov, keď by to mohlo zmariť účel prípravného konania. Poškodený a obvinený musia byť informovaní najmä o výsledku konania a o rozhodnutiach, ktoré sa ich týkajú." },
+        { "question": "Aké formy majú procesné úkony v trestnom konaní?", "answer": "Procesné úkony sa vykonávajú spravidla písomne alebo ústne do zápisnice, pričom o každom dôležitom úkone sa spisuje záznam obsahujúci miesto, čas a priebeh úkonu. Niektoré úkony, ako výsluch, možno zaznamenávať aj obrazovo alebo zvukovo, ak to zákon pripúšťa." }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Zaistenie osôb na účely trestného konania",
+      "definitions": [
+        { "question": "Čo je zaistenie osoby v trestnom konaní?", "answer": "Zaistenie osoby je dočasné obmedzenie osobnej slobody, ktoré vykonáva policajt na základe zákonných dôvodov, napríklad na zabránenie úteku alebo ovplyvňovaniu svedkov. Zaistená osoba musí byť bezodkladne poučená o dôvodoch zaistenia a o svojich právach." },
+        { "question": "Kedy musí byť zaistená osoba prepustená?", "answer": "Zaistená osoba musí byť prepustená hneď, ako pominú dôvody zaistenia, najneskôr však do štyridsiatich ôsmich hodín od obmedzenia osobnej slobody, ak nedôjde k odovzdaniu veci súdu na rozhodnutie o väzbe. Prekročenie tejto lehoty by predstavovalo nezákonné obmedzenie osobnej slobody." },
+        { "question": "Aký je rozdiel medzi zadržaním a väzbou?", "answer": "Zadržanie je krátkodobé obmedzenie slobody osoby podozrivej alebo obvinenej, ktoré vykonáva policajt alebo prokurátor bezprostredne po spáchaní činu. Väzba je naproti tomu dlhodobejšie obmedzenie slobody, o ktorom rozhoduje výlučne súd na základe zákonom stanovených väzobných dôvodov." }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Zaistenie vecí pre účely trestného konania",
+      "definitions": [
+        { "question": "Čo je zaistenie veci dôležitej pre trestné konanie?", "answer": "Ide o procesný úkon, ktorým orgán činný v trestnom konaní zabezpečí vec potrebnú na objasnenie skutočností dôležitých pre trestné konanie, napríklad ako dôkaz. Osoba, ktorá vec vydá alebo u ktorej sa vec odníme, musí byť o dôvodoch zaistenia riadne poučená." },
+        { "question": "Kedy možno vec odňať bez predchádzajúcej výzvy na vydanie?", "answer": "Vec možno odňať priamo, ak osoba na výzvu vec dobrovoľne nevydá alebo ak hrozí nebezpečenstvo z omeškania, napríklad riziko jej zničenia alebo ukrytia. O odňatí veci sa spisuje zápisnica a osobe sa vydá potvrdenie o prevzatí zaistenej veci." },
+        { "question": "Aké je postavenie zúčastnenej osoby pri zaistení majetku?", "answer": "Osoba, ktorej majetok bol zaistený, má právo byť oboznámená s dôvodmi zaistenia a podať proti nemu sťažnosť, ak s ním nesúhlasí. Zaistenie majetku sa zrušuje, len čo pominie účel, na ktorý bolo nariadené, prípadne ak sa preukáže, že majetok nesúvisí s trestnou činnosťou." }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Informačno-technické prostriedky v trestnom konaní",
+      "definitions": [
+        { "question": "Čo sú informačno-technické prostriedky v trestnom konaní?", "answer": "Sú to technické prostriedky slúžiace na odhaľovanie a zaznamenávanie skutočností dôležitých pre trestné konanie, napríklad odpočúvanie a záznam telekomunikačnej prevádzky alebo obrazovo-zvukové záznamy. Ich použitie je prípustné len pri závažnejších trestných činoch a so súhlasom sudcu." },
+        { "question": "Kedy možno použiť odpočúvanie a záznam telekomunikačnej prevádzky?", "answer": "Odpočúvanie možno nariadiť len vtedy, ak je vedené trestné konanie pre obzvlášť závažný zločin alebo iný taxatívne vymenovaný trestný čin a sledovaný účel nemožno dosiahnuť inak. O jeho nariadení rozhoduje na návrh prokurátora sudca pre prípravné konanie príkazom v písomnej forme." },
+        { "question": "Aké je postavenie osoby, voči ktorej boli informačno-technické prostriedky použité?", "answer": "Osoba musí byť po skončení použitia týchto prostriedkov, ak to účel konania dovoľuje, upovedomená o tejto skutočnosti a má právo žiadať preskúmanie zákonnosti príkazu. Táto kontrola slúži ako záruka proti neprimeranému zásahu do práva na súkromie a listové tajomstvo." }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Prostriedky operatívno-pátracej činnosti v trestnom konaní",
+      "definitions": [
+        { "question": "Čo sú prostriedky operatívno-pátracej činnosti?", "answer": "Ide o osobitné metódy, akými sú predstieraný prevod, sledovanie osôb a vecí alebo použitie agenta, ktoré slúžia na odhaľovanie a dokumentovanie závažnej trestnej činnosti. Tieto prostriedky sa používajú najmä vtedy, ak by bolo odhalenie páchateľov inými prostriedkami podstatne sťažené." },
+        { "question": "Kedy možno nasadiť agenta v trestnom konaní?", "answer": "Agenta možno použiť len pri odhaľovaní, zisťovaní a usvedčovaní páchateľov obzvlášť závažných zločinov alebo korupcie, a to na základe povolenia predsedu senátu Najvyššieho súdu na návrh prokurátora. Agent koná utajovaným spôsobom a jeho totožnosť podlieha osobitnej ochrane." },
+        { "question": "Aké je postavenie sledovania osôb a vecí ako operatívneho prostriedku?", "answer": "Sledovanie osôb a vecí je utajované zisťovanie informácií technickými prostriedkami bez vedomia sledovanej osoby, ktoré nariaďuje prokurátor alebo so súhlasom sudcu, ak zasahuje do nedotknuteľnosti obydlia. Slúži na zistenie skutočností dôležitých pre trestné konanie." }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Dokazovanie (pojem, etapy, špeciálne zásady) a dôkazné prostriedky",
+      "definitions": [
+        { "question": "Čo je dokazovanie v trestnom konaní?", "answer": "Dokazovanie je procesná činnosť orgánov činných v trestnom konaní a súdu, ktorou sa zisťuje skutkový stav veci potrebný na rozhodnutie, a to bez dôvodných pochybností v rozsahu nevyhnutnom na rozhodnutie. Zahŕňa vyhľadávanie, vykonávanie a hodnotenie dôkazov." },
+        { "question": "Aké sú etapy dokazovania?", "answer": "Dokazovanie prebieha vo fázach vyhľadávania dôkazov, ich zabezpečenia, vykonania pred orgánom činným v trestnom konaní alebo súdom a napokon hodnotenia podľa vnútorného presvedčenia založeného na uvážení všetkých okolností. Každá etapa musí prebiehať v súlade so zásadou zákonnosti." },
+        { "question": "Čo sú dôkazné prostriedky v trestnom konaní?", "answer": "Dôkazným prostriedkom môže byť výsluch obvineného, svedka alebo znalca, listina, obhliadka, znalecký posudok alebo vecný dôkaz, teda čokoľvek, čo môže prispieť k objasneniu veci. Dôkazný prostriedok musí byť získaný zákonným spôsobom, inak je pred súdom neprípustný." }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Svedok v trestnom konaní",
+      "definitions": [
+        { "question": "Čo je povinnosť svedčiť v trestnom konaní?", "answer": "Každý, kto je na to vyzvaný, je povinný vypovedať ako svedok o skutočnostiach dôležitých pre trestné konanie, ktoré sám vnímal alebo o ktorých sa dozvedel. Túto povinnosť možno v zákonom stanovených prípadoch odmietnuť, napríklad z dôvodu blízkeho príbuzenského vzťahu k obvinenému." },
+        { "question": "Kedy má svedok právo odoprieť výpoveď?", "answer": "Svedok má právo odoprieť výpoveď, ak by ňou spôsobil nebezpečenstvo trestného stíhania sebe alebo osobám blízkym, ako aj v prípadoch, keď je viazaný povinnosťou mlčanlivosti, ktorej nebol zbavený. Toto právo chráni osobnú integritu svedka pred nútením k sebaobviňovaniu." },
+        { "question": "Aké osobitné opatrenia sa uplatňujú pri ochrane svedka?", "answer": "Pri ohrozenom alebo utajenom svedkovi možno vykonať výsluch tak, aby jeho podoba a totožnosť zostali utajené, prípadne s využitím technických zariadení prenášajúcich obraz a zvuk. Uplatňujú sa vtedy, keď je ohrozený jeho život, zdravie alebo sloboda." }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Odborná činnosť a znalecká činnosť v trestnom konaní",
+      "definitions": [
+        { "question": "Čo je rozdiel medzi odborným vyjadrením a znaleckým posudkom?", "answer": "Odborné vyjadrenie podáva odborník na vyriešenie jednoduchších otázok vyžadujúcich osobitné znalosti, zatiaľ čo znalecký posudok vypracúva znalec zapísaný v zozname znalcov pri zložitejších otázkach. Znalecký posudok má vyššiu dôkaznú váhu a znalec zaň nesie osobnú zodpovednosť." },
+        { "question": "Kedy je nutné pribrať znalca do trestného konania?", "answer": "Znalca je potrebné pribrať vtedy, keď rozhodnutie o veci závisí od objasnenia skutočností vyžadujúcich odborné znalosti, napríklad pri posúdení duševného stavu obvineného alebo príčiny smrti. O pribratí znalca rozhoduje orgán činný v trestnom konaní alebo súd uznesením." },
+        { "question": "Aké povinnosti má znalec pri vypracovaní posudku?", "answer": "Znalec je povinný vykonať znaleckú činnosť osobne, nestranne a s náležitou odbornou starostlivosťou, pričom v posudku musí uviesť postup skúmania a odôvodniť svoje závery. Za vedome nepravdivý znalecký posudok znalcovi hrozí trestná zodpovednosť." }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Rozhodnutia v trestnom konaní",
+      "definitions": [
+        { "question": "Čo sú formy rozhodnutí v trestnom konaní?", "answer": "Trestný poriadok upravuje tri základné formy rozhodnutí, ktorými sú rozsudok, uznesenie a príkaz, pričom každá z nich sa vydáva v inej procesnej situácii a inou zákonom určenou formou. Rozsudkom sa rozhoduje najmä o vine a treste, uznesením sa rozhoduje o väčšine ostatných procesných otázok." },
+        { "question": "Kedy nadobúda rozhodnutie právoplatnosť?", "answer": "Rozhodnutie nadobúda právoplatnosť, ak proti nemu nebol podaný prípustný opravný prostriedok v zákonnej lehote alebo ak sa ho oprávnené osoby vzdali. Právoplatnosť znamená, že rozhodnutie je záväzné a nemožno ho už napadnúť riadnym opravným prostriedkom." },
+        { "question": "Aké náležitosti musí mať rozsudok?", "answer": "Rozsudok musí obsahovať výrok, odôvodnenie a poučenie o opravnom prostriedku, pričom výrok jednoznačne uvádza, či bol obžalovaný uznaný vinným, alebo bol spod obžaloby oslobodený. Odôvodnenie musí byť zrozumiteľné a musí vysvetľovať, na základe akých dôkazov a úvah súd k záveru dospel." }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Časti a štádiá trestného konania",
+      "definitions": [
+        { "question": "Čo sú štádiá trestného konania?", "answer": "Trestné konanie sa člení na prípravné konanie, konanie pred súdom vrátane predbežného prejednania obžaloby a hlavného pojednávania a napokon konanie o opravných prostriedkoch. Každé štádium má vlastný účel a je ukončené osobitným rozhodnutím alebo úkonom." },
+        { "question": "Kedy sa začína trestné stíhanie?", "answer": "Trestné stíhanie sa začína momentom, keď orgán činný v trestnom konaní vydá uznesenie o začatí trestného stíhania na základe zistených skutočností nasvedčujúcich, že bol spáchaný trestný čin. Od tohto momentu možno vykonávať úkony smerujúce k objasneniu a vyšetreniu veci." },
+        { "question": "Aké je postavenie výkonu rozhodnutia ako súčasti trestného konania?", "answer": "Výkon rozhodnutia je záverečnou fázou trestného konania, v ktorej sa realizuje právoplatne uložený trest alebo ochranné opatrenie, napríklad výkon trestu odňatia slobody. Bez tejto fázy by rozhodnutie súdu zostalo len formálnym aktom bez reálneho účinku." }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Predsúdne konanie",
+      "definitions": [
+        { "question": "Čo je predsúdne konanie?", "answer": "Predsúdne konanie je štádium trestného konania, ktoré predchádza podaniu obžaloby a zahŕňa postup pred začatím trestného stíhania a samotné prípravné konanie. Jeho účelom je zabezpečiť a vyhodnotiť dôkazy potrebné na rozhodnutie, či sa vec postúpi súdu." },
+        { "question": "Kedy sa vykonáva postup pred začatím trestného stíhania?", "answer": "Tento postup prebieha vtedy, keď orgán činný v trestnom konaní preveruje oznámenie o skutočnostiach nasvedčujúcich spáchaniu trestného činu ešte pred vydaním uznesenia o začatí trestného stíhania. Cieľom je zistiť, či existuje dôvodné podozrenie odôvodňujúce ďalší procesný postup." },
+        { "question": "Aké formy má prípravné konanie?", "answer": "Prípravné konanie prebieha formou vyšetrovania alebo skráteného vyšetrovania, pričom skrátené vyšetrovanie sa koná pri menej závažných trestných činoch a je jednoduchšie a rýchlejšie. Výsledkom je rozhodnutie, či sa podá obžaloba, návrh na dohodu o vine a treste, alebo sa vec inak vybaví." }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Rozhodnutia po skončení prípravného konania",
+      "definitions": [
+        { "question": "Čo môže prokurátor urobiť po skončení vyšetrovania?", "answer": "Prokurátor po preskúmaní spisu môže podať obžalobu na súd, zastaviť alebo prerušiť trestné stíhanie, podmienečne ho zastaviť, schváliť zmier, alebo predložiť súdu návrh na dohodu o vine a treste. Voľba postupu závisí od zisteného skutkového stavu." },
+        { "question": "Kedy sa trestné stíhanie zastavuje?", "answer": "Trestné stíhanie sa zastavuje, ak sa zistí, že skutok nie je trestným činom, že ho nespáchal obvinený, alebo že je trestné stíhanie neprípustné, napríklad pre premlčanie. O zastavení rozhoduje prokurátor alebo v konaní pred súdom sudca uznesením." },
+        { "question": "Aké podmienky musia byť splnené pre podmienečné zastavenie trestného stíhania?", "answer": "Podmienečné zastavenie je možné pri prečinoch, ak sa obvinený k skutku priznal, nahradil škodu alebo sa s poškodeným inak vyrovnal a vzhľadom na jeho osobu možno dôvodne predpokladať, že sa v skúšobnej dobe osvedčí. Ak sa obvinený v skúšobnej dobe neosvedčí, v trestnom stíhaní sa pokračuje." }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Dozor a úkony prokurátora v predsúdnom konaní",
+      "definitions": [
+        { "question": "Čo je dozor prokurátora v prípravnom konaní?", "answer": "Dozor prokurátora je jeho oprávnenie a súčasne povinnosť sledovať zákonnosť postupu polície v prípravnom konaní, dávať policajtovi záväzné pokyny a rušiť jeho nezákonné rozhodnutia. Dozor zaručuje, že vyšetrovanie prebieha v súlade s Trestným poriadkom a s ochranou práv obvineného." },
+        { "question": "Kedy môže prokurátor prevziať vec do vlastného vyšetrovania?", "answer": "Prokurátor môže kedykoľvek počas prípravného konania prevziať akúkoľvek vec a vykonávať v nej úkony osobne, ak to považuje za potrebné, najmä pri zložitých alebo závažných prípadoch. Táto právomoc mu umožňuje priamo zabezpečiť zákonnosť a úplnosť dokazovania." },
+        { "question": "Aké opravné prostriedky má prokurátor voči rozhodnutiam policajta?", "answer": "Prokurátor môže zrušiť nezákonné alebo neopodstatnené uznesenie policajta a nahradiť ho vlastným rozhodnutím alebo mu vec vrátiť s pokynom na doplnenie vyšetrovania. Táto právomoc vyplýva z jeho postavenia dozorujúceho orgánu nad zákonnosťou prípravného konania." }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Preskúmanie obžaloby a predbežné prejednanie obžaloby",
+      "definitions": [
+        { "question": "Čo je preskúmanie obžaloby súdom?", "answer": "Po podaní obžaloby súd preskúma, či boli splnené podmienky na jej podanie a či je spis kompletný, pričom zisťuje, či nie sú dôvody na vrátenie veci prokurátorovi alebo na zastavenie trestného stíhania. Až po tomto preskúmaní sa nariaďuje hlavné pojednávanie." },
+        { "question": "Kedy sa nariaďuje predbežné prejednanie obžaloby?", "answer": "Predbežné prejednanie obžaloby nariaďuje predseda senátu vtedy, ak sú pochybnosti o tom, či je obžaloba dostatočným podkladom na hlavné pojednávanie, napríklad pre nedostatky skutkových zistení alebo procesné vady. Koná sa na neverejnom zasadnutí bez účasti strán." },
+        { "question": "Aké rozhodnutia môže súd urobiť pri predbežnom prejednaní obžaloby?", "answer": "Súd môže vec vrátiť prokurátorovi na došetrenie, prerušiť alebo zastaviť trestné stíhanie, postúpiť vec inému orgánu, alebo naopak nariadiť hlavné pojednávanie, ak zistí, že obžaloba je dôvodná. Rozhoduje o tom uznesením senátu." }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Hlavné pojednávanie",
+      "definitions": [
+        { "question": "Čo je hlavné pojednávanie?", "answer": "Hlavné pojednávanie je ústredná časť súdneho konania, na ktorej súd na základe vykonaného dokazovania rozhoduje o vine a treste obžalovaného v súlade so zásadami ústnosti, verejnosti a bezprostrednosti. Vedie ho predseda senátu, ktorý zodpovedá za jeho riadny priebeh." },
+        { "question": "Kedy je prítomnosť obžalovaného na hlavnom pojednávaní povinná?", "answer": "Prítomnosť obžalovaného je spravidla povinná, ak ide o trestný čin, na ktorý zákon ustanovuje trest odňatia slobody presahujúci určitú hranicu, alebo ak to súd považuje za nevyhnutné na riadne objasnenie veci. V zákonom vymedzených prípadoch možno konať aj v neprítomnosti obžalovaného." },
+        { "question": "Aký je priebeh dokazovania na hlavnom pojednávaní?", "answer": "Dokazovanie na hlavnom pojednávaní zahŕňa výsluch obžalovaného, svedkov a znalcov, čítanie listinných dôkazov a vykonanie obhliadky, pričom strany majú právo klásť otázky a vyjadrovať sa ku každému vykonanému dôkazu. Súd hodnotí dôkazy až po ich vykonaní priamo pred senátom." }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Meritórne rozhodnutia súdu na hlavnom pojednávaní",
+      "definitions": [
+        { "question": "Čo je odsudzujúci rozsudok?", "answer": "Odsudzujúcim rozsudkom súd uznáva obžalovaného vinným zo skutku uvedeného v obžalobe, ak bolo na základe vykonaného dokazovania bez dôvodných pochybností preukázané, že skutok spáchal a napĺňa znaky trestného činu. Súčasťou rozsudku je aj výrok o treste alebo upustenie od jeho uloženia." },
+        { "question": "Kedy súd vyhlási oslobodzujúci rozsudok?", "answer": "Súd oslobodí obžalovaného spod obžaloby vtedy, ak sa nepreukázalo, že sa stal skutok uvedený v obžalobe, ak skutok nie je trestným činom, alebo ak sa nepreukázalo, že ho spáchal obžalovaný. Oslobodzujúci rozsudok musí byť rovnako ako odsudzujúci riadne odôvodnený." },
+        { "question": "Aké ďalšie meritórne rozhodnutie môže súd vydať na hlavnom pojednávaní?", "answer": "Súd môže na hlavnom pojednávaní tiež trestné stíhanie zastaviť alebo prerušiť, prípadne vec postúpiť inému orgánu, ak zistí, že nejde o trestný čin, ale napríklad o priestupok. Tieto rozhodnutia sa vydávajú uznesením a nahrádzajú rozhodnutie o vine a treste." }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Verejné a neverejné zasadnutie súdu",
+      "definitions": [
+        { "question": "Čo je verejné zasadnutie súdu?", "answer": "Verejné zasadnutie je forma súdneho konania mimo hlavného pojednávania, na ktorej sa rozhoduje napríklad o podmienečnom prepustení alebo o schválení dohody o vine a treste, a je prístupné verejnosti. Jeho priebeh sa primerane riadi ustanoveniami o hlavnom pojednávaní." },
+        { "question": "Kedy súd rozhoduje na neverejnom zasadnutí?", "answer": "Na neverejnom zasadnutí súd rozhoduje o otázkach, pri ktorých zákon nevyžaduje prítomnosť verejnosti ani strán, napríklad pri predbežnom prejednaní obžaloby alebo pri niektorých rozhodnutiach o sťažnosti. Rozhodnutie sa vydáva uznesením bez ústneho pojednávania so stranami." },
+        { "question": "Aký je rozdiel medzi verejným zasadnutím a hlavným pojednávaním?", "answer": "Hlavné pojednávanie slúži na meritórne rozhodnutie o vine a treste a vyžaduje si spravidla prítomnosť obžalovaného, zatiaľ čo verejné zasadnutie sa koná na prejednanie inak vymedzeného okruhu procesných otázok. Oba typy pojednávaní sú však prístupné verejnosti, ak zákon neustanoví výnimku." }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Riadne opravné prostriedky",
+      "definitions": [
+        { "question": "Čo je sťažnosť ako riadny opravný prostriedok?", "answer": "Sťažnosť je riadny opravný prostriedok proti uzneseniu, ktorý môže podať osoba, ktorej sa uznesenie priamo dotýka, v lehote určenej Trestným poriadkom. Ak zákon výslovne neustanovuje, že sťažnosť nie je prípustná, možno ju podať proti každému uzneseniu." },
+        { "question": "Kedy je prípustné odvolanie proti rozsudku?", "answer": "Odvolanie je prípustné proti rozsudku súdu prvého stupňa a môžu ho podať obžalovaný, prokurátor v jeho neprospech aj v prospech, ako aj poškodený vo výroku o náhrade škody, a to v zákonnej lehote od doručenia rozsudku. Odvolací súd následne preskúma napadnutý rozsudok v rozsahu podaného odvolania." },
+        { "question": "Aké účinky má podanie riadneho opravného prostriedku?", "answer": "Riadny opravný prostriedok má spravidla odkladný účinok, čo znamená, že napadnuté rozhodnutie nenadobúda právoplatnosť ani vykonateľnosť, kým o ňom nerozhodne nadriadený orgán. Táto vlastnosť odlišuje riadne opravné prostriedky od mimoriadnych, ktoré smerujú proti už právoplatným rozhodnutiam." }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Mimoriadne opravné prostriedky",
+      "definitions": [
+        { "question": "Čo je dovolanie v trestnom konaní?", "answer": "Dovolanie je mimoriadny opravný prostriedok proti právoplatnému rozhodnutiu súdu, ktorý možno podať len z taxatívne vymedzených dôvodov, napríklad pri zásadnom porušení práva na obhajobu. O dovolaní rozhoduje Najvyšší súd Slovenskej republiky." },
+        { "question": "Kedy možno podať obnovu konania?", "answer": "Obnovu konania možno navrhnúť vtedy, ak vyjdú najavo skutočnosti alebo dôkazy skôr neznáme súdu, ktoré by mohli samy osebe alebo v spojení so skutočnosťami už skôr známymi odôvodniť iné rozhodnutie vo veci. Návrh sa podáva súdu, ktorý vo veci rozhodoval v prvom stupni." },
+        { "question": "Aký je účel sťažnosti pre porušenie zákona?", "answer": "Sťažnosť pre porušenie zákona podáva minister spravodlivosti alebo generálny prokurátor proti právoplatnému rozhodnutiu, ktorým bol porušený zákon, ak toto porušenie zasiahlo do práv niektorej zo strán konania. O sťažnosti rozhoduje Najvyšší súd Slovenskej republiky." }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Osobitné spôsoby konania",
+      "definitions": [
+        { "question": "Čo je konanie o dohode o vine a treste?", "answer": "Ide o osobitný spôsob konania, pri ktorom sa prokurátor a obvinený dohodnú na uznaní viny, druhu a výmere trestu, prípadne na náhrade škody, a túto dohodu následne schvaľuje súd rozsudkom na verejnom zasadnutí. Tento postup zrýchľuje konanie pri jednoznačne preukázaných okolnostiach." },
+        { "question": "Kedy sa uplatňuje konanie proti mladistvým?", "answer": "Konanie proti mladistvým sa uplatňuje voči osobám, ktoré v čase spáchania trestného činu dovŕšili štrnásty rok a neprekročili osemnásty rok veku, pričom kladie osobitný dôraz na výchovné pôsobenie a ochranu záujmov mladistvého. Zabezpečujú ho špecializovaní sudcovia a prokurátori." },
+        { "question": "Aké je konanie o uznaní a výkone cudzích rozhodnutí?", "answer": "Ide o osobitný postup, ktorým súd Slovenskej republiky rozhoduje o uznaní a výkone rozhodnutia vydaného súdom iného štátu, napríklad rozsudku alebo príkazu na zaistenie majetku, na základe medzinárodnej zmluvy. Uznaním sa cudzie rozhodnutie stáva vykonateľným na Slovensku." }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Probácia a mediácia v trestnom konaní",
+      "definitions": [
+        { "question": "Čo je probácia v trestnom konaní?", "answer": "Probácia je odborná činnosť zameraná na sledovanie správania odsúdeného počas skúšobnej doby a na pomoc pri jeho spoločenskej integrácii, ktorú vykonáva probačný a mediačný úradník. Uplatňuje sa najmä pri podmienečnom odsúdení alebo podmienečnom prepustení z výkonu trestu." },
+        { "question": "Kedy sa využíva mediácia v trestnom konaní?", "answer": "Mediácia sa využíva pri menej závažných trestných činoch na dosiahnutie mimosúdneho urovnania vzťahu medzi obvineným a poškodeným, napríklad formou zmieru alebo dohody o náhrade škody. Výsledok mediácie môže byť podkladom pre rozhodnutie o zmieri alebo o podmienečnom zastavení trestného stíhania." },
+        { "question": "Aké je postavenie probačného a mediačného úradníka?", "answer": "Probačný a mediačný úradník je odborný zamestnanec súdu, ktorý vykonáva probačnú a mediačnú činnosť, sprostredkúva zmierovacie konanie a vypracúva pre súd správy o osobných pomeroch obvineného. Jeho činnosť prispieva k individualizácii trestu a k naprávaniu vzťahov narušených trestným činom." }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Právny styk s cudzinou (pojem, zásady, jednotlivé formy)",
+      "definitions": [
+        { "question": "Čo je právny styk s cudzinou v trestnom konaní?", "answer": "Právny styk s cudzinou je súhrn foriem medzinárodnej spolupráce v trestných veciach, ktorými orgány Slovenskej republiky žiadajú o súčinnosť cudzí štát alebo vybavujú jeho žiadosti, napríklad extradíciu či právnu pomoc. Vykonáva sa na základe medzinárodných zmlúv alebo zásady vzájomnosti." },
+        { "question": "Kedy sa uplatňuje zásada vzájomnosti v styku s cudzinou?", "answer": "Zásada vzájomnosti sa uplatňuje vtedy, ak medzi Slovenskou republikou a žiadajúcim štátom nie je uzatvorená medzinárodná zmluva upravujúca danú formu spolupráce, pričom sa predpokladá, že cudzí štát bude rovnako postupovať pri obdobnej žiadosti. Vzájomnosť posudzuje ministerstvo spravodlivosti." },
+        { "question": "Aké sú základné formy právneho styku s cudzinou?", "answer": "Medzi základné formy patrí vydávanie osôb, teda extradícia, prevzatie a odovzdanie trestného konania, ako aj právna pomoc spočívajúca napríklad vo vykonaní výsluchu alebo doručovaní písomností v cudzine. Realizujú sa prostredníctvom justičných orgánov, prípadne cez ministerstvo spravodlivosti." }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Spolupráca v trestných veciach medzi štátmi Európskej únie",
+      "definitions": [
+        { "question": "Čo je európsky zatýkací rozkaz?", "answer": "Európsky zatýkací rozkaz je rozhodnutie justičného orgánu členského štátu Európskej únie, ktorým žiada iný členský štát o zadržanie a odovzdanie hľadanej osoby na účely trestného stíhania alebo výkonu trestu. Vykonáva sa na zásade vzájomného uznávania a je rýchlejší ako klasická extradícia." },
+        { "question": "Kedy sa uplatňuje európsky príkaz na zaistenie dôkazov alebo majetku?", "answer": "Tento príkaz sa uplatňuje vtedy, keď justičný orgán jedného členského štátu potrebuje zabezpečiť dôkaz alebo majetok nachádzajúci sa na území iného členského štátu Únie na účely prebiehajúceho trestného konania. Vykonávajúci štát ho uzná a vykoná bez zbytočného odkladu." },
+        { "question": "Aké je postavenie Eurojustu a Európskej prokuratúry v justičnej spolupráci?", "answer": "Eurojust je agentúra Európskej únie, ktorá koordinuje vyšetrovanie a stíhanie závažnej cezhraničnej trestnej činnosti medzi členskými štátmi, zatiaľ čo Európska prokuratúra priamo vyšetruje a stíha trestné činy poškodzujúce finančné záujmy Únie. Obe posilňujú justičnú spoluprácu." }
+      ]
+    }
+  ]
+}
