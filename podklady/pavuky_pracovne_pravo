@@ -1,0 +1,1786 @@
+# Pamäťové pavúky – Pracovné právo (A1–A50)
+
+Formát zhodný s podklady/pavuky_hmotne.md:
+"## A{n} — Názov" → cieľový A{n}.json
+"**Centrum:** text" → spider.center
+"### Názov vetvy" → branches[].label
+"- položka" → branches[].leaves[]
+
+POZOR: zdrojom je pamäťový dump, NIE oficiálny sylabus ŠZS.
+Pred nasadením porovnaj s ŠZS pre pracovné právo.
+
+## A1 — Pojem, predmet, systém a funkcie pracovného práva; závislá práca
+
+**Centrum:** Pracovné právo – závislá práca × individuálne × kolektívne × funkcie × zákaz švarcsystému
+
+### Pojem pracovného práva
+- Pracovné právo upravuje právne vzťahy vznikajúce pri výkone závislej práce medzi zamestnancom a zamestnávateľom.
+- Zahŕňa: pracovný pomer, práva a povinnosti účastníkov, kolektívne vzťahy, služby zamestnanosti a súvisiace oblasti
+
+### Predmet pracovného práva
+- Pracovné právo pokrýva: individuálne pracovnoprávne vzťahy (pracovný pomer, pracovná zmluva, pracovný čas, mzda)
+- Pracovné právo pokrýva: kolektívne pracovnoprávne vzťahy (kolektívne zmluvy, štrajk, výluka)
+- Pracovné právo pokrýva: súvisiace vzťahy (zamestnanosť, BOZP, sociálny dialóg)
+
+### Systém pracovného práva
+- Rozdelenie: Individuálne pracovné právo – pracovný pomer, pracovná zmluva, práva a povinnosti zamestnanca a zamestnávateľa
+- Kolektívne pracovné právo – odbory, kolektívne vyjednávanie, štrajk, výluka.
+
+### Funkcie pracovného práva
+- Ochranná – chráni zamestnanca ako slabšiu stranu.
+- Regulačná – upravuje pracovné vzťahy.
+- Kontrolná – dohľad nad dodržiavaním predpisov.
+- Výchovná – kultivuje pracovné prostredie a správanie účastníkov.
+
+### Závislá práca – definícia
+- Závislá práca je osobná práca, ktorá sa vykonáva: podľa pokynov zamestnávateľa, v jeho mene, v pracovnom čase určenom zamestnávateľom, vo vzťahu nadriadenosti a podriadenosti, za mzdu
+- Rozhoduje skutočný obsah práce, nie názov zmluvy.
+
+### Judikatúra
+- R 19/1977 – rozhoduje obsah práce, nie formálne označenie zmluvy.
+- R 9/1971 – používanie vlastného pracovného nástroja nevylučuje pracovný pomer.
+
+### Švarcsystém
+- Nezákonné predstieranie podnikania pri práci, ktorá má znaky závislej práce.
+- Ak práca má znaky závislej práce → musí byť vykonávaná v pracovnom pomere, nie na živnosť.
+
+## A2 — Pracovnoprávne aspekty práva na štrajk a výluku
+
+**Centrum:** Štrajk × výluka × kolektívny spor × sprostredkovanie × zodpovednosť za škodu
+
+### Právo na štrajk
+- ústavne garantované čl. 37 ods. 4 Ústavy SR
+- upravené v zákone o kolektívnom vyjednávaní
+- ide o kolektívny prostriedok riešenia sporov medzi zamestnancami a zamestnávateľom
+
+### Štrajk – definícia a podmienky
+- Štrajk je kolektívne prerušenie práce zamestnancami.
+- Podmienky: možno ho vyhlásiť len v spore o uzavretie kolektívnej zmluvy
+- Podmienky: až po neúspešnom sprostredkovaní
+- Podmienky: vyhlasuje ho výlučne odborová organizácia
+- Podmienky: nesmie ohroziť život, zdravie, bezpečnosť
+- Počas štrajku: zamestnancom nepatrí mzda, ide o prekážku na strane zamestnanca
+
+### Výluka
+- Výluka je jednostranné neprideľovanie práce zo strany zamestnávateľa.
+- Charakteristika: krajné opatrenie v kolektívnom spore, počas výluky ide o prekážku v práci na strane zamestnávateľa, dopad na náhradu mzdy závisí od typu výluky (zákonná × nezákonná)
+
+### Nezákonný štrajk alebo výluka
+- Nezákonnosť nastáva najmä vtedy, ak: štrajk bol vyhlásený bez sprostredkovania, štrajk/výluka nesplnili zákonné podmienky, ohrozujú život, zdravie alebo bezpečnosť
+- Následky: vzniká zodpovednosť za škodu, odbory alebo zamestnávateľ nesú následky nezákonného konania
+
+### Dopady na mzdu
+- štrajk → mzda nepatrí
+- výluka → prekážka na strane zamestnávateľa → náhrada mzdy podľa zákona
+
+## A3 — Pramene pracovného práva
+
+**Centrum:** Pramene pracovného práva – Ústava × Zákonník práce × osobitné zákony × kolektívne zmluvy × interné predpisy × MOP × EÚ
+
+### Ústava SR
+- Ústava garantuje základné pracovné práva: právo na prácu, spravodlivé pracovné podmienky, ochranu práce, právo na štrajk
+- Je najvyšším prameňom pracovného práva.
+
+### Zákonník práce (zákon č. 311/2001 Z. z.)
+- Základný zákonný prameň pracovného práva.
+- Upravuje: individuálne pracovné právo (pracovný pomer, pracovná zmluva, pracovný čas, mzda), kolektívne pracovné právo (kolektívne zmluvy, štrajk, výluka)
+
+### Osobitné zákony
+- Doplňujú Zákonník práce v špecifických oblastiach: zákon o inšpekcii práce, zákon o BOZP, zákon o kolektívnom vyjednávaní, zákon o službách zamestnanosti
+- Patria sem aj vykonávacie predpisy, nariadenia vlády a vyhlášky.
+
+### Autonómne pramene – kolektívne zmluvy
+- uzatvárajú ich odbory a zamestnávateľ,
+- môžu len zlepšovať postavenie zamestnanca, nikdy nie zhoršovať,
+- upravujú mzdy, benefity, pracovné podmienky, sociálne istoty.
+
+### Interné predpisy zamestnávateľa
+- najnižší prameň pracovného práva,
+- musia byť v súlade so zákonom,
+- nemôžu odnímať zákonné práva zamestnanca.
+- Príklad: interná smernica nemôže zrušiť zákonný príplatok.
+
+### Právo EÚ
+- Najmä smernice: pracovný čas, rovnaké zaobchádzanie, BOZP, informovanie a konzultácie so zamestnancami
+- Smernice harmonizujú pracovné podmienky v EÚ.
+
+### Medzinárodné pramene – MOP
+- Dohovory a odporúčania Medzinárodnej organizácie práce: minimálne pracovné štandardy, ochrana zamestnancov, zákaz nútenej práce, rovnaké zaobchádzanie
+
+### Hierarchia prameňov
+- Od najvyššieho po najnižší: Ústava SR, Zákony (Zákonník práce + osobitné zákony), Kolektívne zmluvy, Pracovná zmluva, Interné predpisy, Zásada: výhodnejšie pre zamestnanca má prednosť
+
+## A4 — Pracovná zmluva: pojem × forma × obsah × informovanie
+
+**Centrum:** Pracovná zmluva – vznik pracovného pomeru × povinné náležitosti × forma × informovanie × skúšobná doba
+
+### Pojem pracovnej zmluvy
+- Pracovná zmluva je dohoda medzi zamestnancom a zamestnávateľom, ktorou sa zakladá pracovný pomer.
+- Zamestnanec sa zaväzuje vykonávať závislú prácu, zamestnávateľ vytvára pracovné podmienky a poskytuje mzdu.
+
+### Forma pracovnej zmluvy
+- má byť písomná,
+- ak písomná forma chýba → pracovný pomer je platný,
+- zamestnávateľ musí formu doplniť bezodkladne.
+- Písomná forma je povinnosť zamestnávateľa, nie podmienka platnosti.
+
+### Podstatné náležitosti pracovnej zmluvy
+- Musí obsahovať štyri povinné údaje: druh práce, miesto výkonu práce, deň nástupu do práce, mzdové podmienky
+- Bez týchto náležitostí je zmluva neúplná.
+
+### Fakultatívne náležitosti
+- Možno dohodnúť: pracovný čas, výpovedné doby, benefity, konkurenčnú doložku, ďalšie podmienky podľa potrieb strán
+
+### Skúšobná doba
+- musí byť dohodnutá písomne,
+- najneskôr v deň nástupu do práce,
+- umožňuje obom stranám overiť vhodnosť pracovného pomeru.
+
+### Informačná povinnosť zamestnávateľa
+- Do 7 dní od vzniku pracovného pomeru musí zamestnávateľ informovať o: pracovnom čase, dovolenke, výpovedných dobách, odmeňovaní, kolektívnej zmluve, orgánoch sociálneho zabezpečenia
+- Povinnosť vychádza aj zo smernice EÚ o transparentných a predvídateľných pracovných podmienkach.
+
+### Odstúpenie od pracovnej zmluvy
+- Možné len do začiatku výkonu práce.
+- Typicky ak: sa zamestnanec nedostaví do práce, existuje dôvod na okamžité skončenie pracovného pomeru
+
+### Judikatúra
+- R 19/1977 – rozhoduje skutočný obsah práce.
+- R 9/1971 – vlastný pracovný nástroj nevylučuje pracovný pomer.
+- R 26/1995 – kolektívna zmluva nemôže rozširovať účasť odborov nad rámec zákona.
+- R 44/2012 – pracovné miesto ostáva voľné aj pri prisľúbení obsadenia.
+
+## A5 — Medzinárodné a európske pracovné právo
+
+**Centrum:** MOP × právo EÚ × smernice × Súdny dvor EÚ × Európska sociálna charta × EDĽP
+
+### Právo EÚ – smernice
+- Smernice EÚ určujú minimálne štandardy, ktoré musia členské štáty transponovať do svojho práva.
+- Témy: pracovný čas (max. týždenný čas, prestávky), rovnaké zaobchádzanie a zákaz diskriminácie, BOZP, vysielanie pracovníkov, transparentné pracovné podmienky
+- Smernice harmonizujú pracovné podmienky v EÚ.
+
+### Súdny dvor EÚ
+- zabezpečuje jednotný výklad pracovného práva EÚ,
+- jeho rozhodnutia sú záväzné pre členské štáty,
+- často dopĺňa alebo spresňuje obsah smerníc (napr. pracovný čas, dovolenka, rovnaké zaobchádzanie).
+
+### Európska sociálna charta
+- Dokument Rady Európy, ktorý chráni: sociálne práva, pracovné práva, právo na spravodlivé pracovné podmienky, právo na kolektívne vyjednávanie
+- Európsky dohovor o ľudských právach (EDĽP)
+- Hoci nejde o pracovný kódex, EDĽP ovplyvňuje pracovné právo
+- zákaz nútenej práce (čl. 4)
+- zákaz diskriminácie (čl. 14)
+- ochrana ľudskej dôstojnosti
+- právo na spravodlivé konanie (pracovné spory pred súdom)
+
+### Transpozícia a prednosť práva EÚ
+- smernice sa musia premietnuť do vnútroštátneho práva,
+- v prípade rozporu má právo EÚ prednosť,
+- vnútroštátne predpisy sa musia prispôsobiť európskym normám.
+
+## A6 — Nelegálna práca × nelegálne zamestnávanie × inšpekcia práce
+
+**Centrum:** Nelegálna práca – nelegálne zamestnávanie – Sociálna poisťovňa – cudzinec – inšpekcia práce – sankcie
+
+### Nelegálna práca
+- Nelegálna práca je výkon závislej práce fyzickou osobou
+- bez pracovnoprávneho vzťahu
+- bez prihlásenia do Sociálnej poisťovne
+- bez povolenia na pobyt alebo prácu (pri cudzincoch)
+- alebo bez splnenia iných zákonných podmienok
+- Ide o najzávažnejšie porušenie pracovnoprávnych predpisov.
+
+### Nelegálne zamestnávanie
+- Konanie zamestnávateľa, ktorý umožní výkon nelegálnej práce
+- neprihlási zamestnanca do Sociálnej poisťovne pred začiatkom práce
+- nechá pracovať osobu bez pracovnej zmluvy
+- zamestná cudzinca bez povolení
+- obchádza pracovnoprávne predpisy (napr. švarcsystém)
+- Zodpovednosť nesie zamestnávateľ, nie zamestnanec.
+- Cudzinec – povolenie na pobyt a prácu
+- Pri cudzincoch je nelegálna práca aj výkon práce: bez povolenia na pobyt, bez povolenia na zamestnanie, alebo bez splnenia osobitných podmienok podľa zákona o službách zamestnanosti
+
+### Inšpekcia práce
+- Orgán dozoru nad: dodržiavaním pracovnoprávnych predpisov, BOZP, zákazom nelegálnej práce a nelegálneho zamestnávania
+- Právomoci: vstupovať do prevádzok, vyžadovať dokumenty, vypočúvať osoby, ukladať vysoké pokuty
+- Pokuty sa ukladajú bez ohľadu na úmysel zamestnávateľa.
+
+### Sankcie
+- Pokuty za nelegálne zamestnávanie môžu dosiahnuť: desiatky tisíc eur, pri opakovanom porušení ešte viac
+- Cieľ sankcií: ochrana zamestnancov, férová hospodárska súťaž, boj proti sociálnemu dumpingu a tieňovej ekonomike
+
+## A7 — Pracovný pomer: charakteristika × vznik × založenie × povinnosti
+
+**Centrum:** Pracovný pomer – synalagmatický vzťah × vznik × pracovná zmluva × povinnosti strán × faktický pracovný pomer
+
+### Charakteristika pracovného pomeru
+- Pracovný pomer je synalagmatický vzťah: zamestnanec vykonáva osobne závislú prácu, zamestnávateľ poskytuje mzdu a pracovné podmienky
+- Obsah pracovného pomeru tvoria: práva a povinnosti strán, pracovné podmienky, režim BOZP, rovnaké zaobchádzanie
+
+### Vznik pracovného pomeru
+- Najčastejšie vzniká: pracovnou zmluvou, dňom uvedeným v pracovnej zmluve
+- Môže vzniknúť aj: zo zákona (napr. fikcia pracovného pomeru pri nedovolenom dočasnom pridelení), fakticky (zamestnanec pracuje so súhlasom zamestnávateľa bez zmluvy)
+
+### Pracovná zmluva
+- Musí byť písomná, ale jej absencia nespôsobuje neplatnosť pracovného pomeru.
+- Musí obsahovať: druh práce, miesto výkonu práce, deň nástupu, mzdové podmienky
+
+### Predzmluvné vzťahy
+- Zamestnávateľ musí: informovať uchádzača o pracovných a mzdových podmienkach
+- Zamestnávateľ musí: informovať o rizikách práce
+- Zamestnávateľ musí: nesmie požadovať informácie zasahujúce do osobnostných práv (rodinný stav, tehotenstvo, politické názory)
+
+### Faktický pracovný pomer
+- Vzniká, keď: zamestnanec vykonáva závislú prácu, zamestnávateľ o tom vie, neexistuje platná pracovná zmluva
+- Zamestnanec má rovnaké práva ako pri riadnom pracovnom pomere: mzda, dovolenka, náhrady, BOZP
+
+### Povinnosti zamestnávateľa
+- Zamestnávateľ musí: prideľovať prácu podľa zmluvy
+- Zamestnávateľ musí: platiť mzdu
+- Zamestnávateľ musí: zabezpečiť BOZP
+- Zamestnávateľ musí: vytvárať pracovné podmienky
+- Zamestnávateľ musí: dodržiavať rovnaké zaobchádzanie
+- Zamestnávateľ musí: prihlásiť zamestnanca do Sociálnej poisťovne pred začiatkom práce
+
+### Povinnosti zamestnanca
+- Zamestnanec musí: vykonávať prácu osobne, riadne a včas, dodržiavať pracovnú disciplínu, dodržiavať BOZP, chrániť majetok zamestnávateľa
+
+### Judikatúra
+- R 28/2011 – ak po odvolaní z funkcie nie je dohodnutý druh práce, ide o prekážku na strane zamestnávateľa.
+- R 44/2012 – pracovné miesto ostáva voľné aj pri prisľúbení obsadenia.
+
+## A8 — Kolektívne vyjednávanie
+
+**Centrum:** Kolektívne vyjednávanie – sociálny dialóg × kolektívna zmluva × sprostredkovanie × rozhodca × štrajk/výluka
+
+### Pojem kolektívneho vyjednávania
+- Kolektívne vyjednávanie je proces rokovania medzi: odborovou organizáciou, zamestnávateľom alebo združením zamestnávateľov
+- Cieľom je uzavrieť kolektívnu zmluvu, ktorá upravuje pracovné a mzdové podmienky.
+
+### Kolektívna zmluva
+- Môže upravovať: mzdy a odmeňovanie, pracovný čas, dovolenku, BOZP, benefity, sociálny fond, ďalšie pracovné podmienky
+- Kolektívna zmluva môže byť výhodnejšia ako zákon, nikdy nie horšia.
+
+### Zásady kolektívneho vyjednávania
+- Vyjednávanie sa riadi zásadami: dobrovoľnosti, rovnosti strán, dobrej viery, povinnosti rokovať, rešpektovania sociálneho dialógu
+- Strany musia rokovať čestne, pravdivo a s cieľom dosiahnuť dohodu.
+
+### Postup pri nedohode
+- Ak sa strany nedohodnú: sprostredkovanie – povinný krok, nestranný sprostredkovateľ
+- Ak sa strany nedohodnú: rozhodca – nestranná osoba, ktorá môže spor vyriešiť
+- Ak sa strany nedohodnú: až potom štrajk (zamestnanci) alebo výluka (zamestnávateľ)
+
+### Typy kolektívnych zmlúv
+- Podniková kolektívna zmluva – u konkrétneho zamestnávateľa.
+- Kolektívna zmluva vyššieho stupňa – medzi odborovým zväzom a združením zamestnávateľov.
+- Kolektívna zmluva je záväzná pre všetkých zamestnancov, na ktorých sa vzťahuje.
+
+### Krajné opatrenia – štrajk a výluka
+- Štrajk – krajné opatrenie zamestnancov; kolektívne prerušenie práce.
+- Výluka – krajné opatrenie zamestnávateľa; neprideľovanie práce.
+- Obe opatrenia sú možné až po neúspešnom sprostredkovaní a rozhodcovi.
+
+## A9 — Pracovný pomer na neurčitý čas × pracovný pomer na určitú dobu
+
+**Centrum:** Neurčitý čas × určitá doba × reťazenie × automatická premena × výnimky
+
+### Pracovný pomer na neurčitý čas
+- základná a preferovaná forma pracovného pomeru
+- poskytuje najvyššiu stabilitu a ochranu
+- ak zmluva neobsahuje dobu trvania → automaticky ide o neurčitý čas
+- ak zmluva na dobu určitú nespĺňa zákonné podmienky → považuje sa za neurčitý čas
+
+### Pracovný pomer na určitú dobu
+- výnimka, nie pravidlo
+- možno ho dohodnúť len za zákonných podmienok
+- trvanie max. 2 roky
+- v rámci 2 rokov možno predĺžiť alebo opätovne dohodnúť najviac dvakrát
+- cieľ: zabrániť zneužívaniu dočasných pracovných pomerov
+
+### Reťazenie zmlúv
+- max. 2 predĺženia/opätovné dohodnutia v rámci 2 rokov
+- ak zamestnávateľ prekročí limity → pracovný pomer sa považuje za neurčitý čas
+- prísna regulácia chráni zamestnanca pred neistotou
+
+### Automatická premena na neurčitý čas
+- Nastáva, ak: zamestnanec po uplynutí dohodnutej doby pokračuje vo výkone práce, zamestnávateľ o tom vie
+- V takom prípade sa pracovný pomer zo zákona mení na pracovný pomer na neurčitý čas.
+
+### Výnimky pri dobe určitej
+- Dlhšie trvanie alebo viacnásobné predĺženie je možné pri
+- zastupovaní zamestnanca
+- sezónnych prácach
+- prechodnom zvýšení počtu zamestnancov
+- vysokoškolských učiteľoch
+- osobitných zákonných situáciách
+
+### Ochrana zamestnanca
+- Zamestnanec na dobu určitú nesmie byť: znevýhodnený oproti porovnateľnému zamestnancovi na neurčitý čas, diskriminovaný pri odmeňovaní, BOZP, benefitoch či pracovných podmienkach
+
+## A10 — Kolektívne zmluvy: charakteristika × druhy × forma × obsah × uzatváranie
+
+**Centrum:** Kolektívna zmluva – autonómny prameň × odbory × zamestnávateľ × obsah × uzatváranie × sprostredkovanie × rozhodca
+
+### Charakteristika kolektívnej zmluvy
+- Kolektívna zmluva je výsledok kolektívneho vyjednávania medzi: odborovou organizáciou, zamestnávateľom alebo zamestnávateľským združením
+- Je autonómnym prameňom pracovného práva a môže: zlepšovať pracovné podmienky, nikdy zhoršovať postavenie zamestnanca oproti zákonu
+
+### Druhy kolektívnych zmlúv
+- Podniková kolektívna zmluva – medzi odbormi a konkrétnym zamestnávateľom.
+- Kolektívna zmluva vyššieho stupňa – medzi odborovým zväzom a združením zamestnávateľov.
+- Kolektívna zmluva pre verejnú službu – špecifická úprava pre verejný sektor.
+
+### Forma kolektívnej zmluvy
+- musí byť písomná,
+- účinnosť nadobúda dňom podpisu alebo neskorším dňom uvedeným v zmluve,
+- je záväzná pre všetkých zamestnancov, na ktorých sa vzťahuje.
+
+### Obsah kolektívnej zmluvy
+- Môže upravovať: mzdy a odmeňovanie, pracovný čas, dovolenku, BOZP, sociálny fond, benefity, ďalšie pracovné podmienky
+- Obsah musí byť v súlade so zákonom a môže byť výhodnejší pre zamestnancov.
+
+### Uzatváranie kolektívnej zmluvy
+- Proces sa riadi zákonom o kolektívnom vyjednávaní a zásadami: dobrovoľnosti, rovnosti strán, dobrej viery, povinnosti rokovať
+- Vyjednávanie vedú odbory, nie jednotliví zamestnanci.
+
+### Sprostredkovanie a rozhodca
+- Ak sa strany nedohodnú: Sprostredkovanie – povinný krok, nestranný sprostredkovateľ
+- Rozhodca – nestranná osoba, ktorá môže spor vyriešiť.
+- Až potom je možné vyhlásiť štrajk alebo výluku.
+
+### Rozšírenie záväznosti
+- Kolektívna zmluva vyššieho stupňa môže byť: rozšírená na ďalších zamestnávateľov, rozhodnutím ministerstva práce
+
+## A11 — Pôsobnosť pracovného práva
+
+**Centrum:** Pôsobnosť pracovného práva – vecná × osobná × územná × časová × osobitné predpisy × vysielanie pracovníkov
+
+### Vecná pôsobnosť
+- Zákonník práce upravuje: závislú prácu, pracovný pomer, dohody mimo pracovného pomeru, kolektívne pracovnoprávne vzťahy, BOZP, niektoré súvisiace vzťahy (zamestnanosť, sociálny dialóg)
+- Vecná pôsobnosť odpovedá na otázku: aké typy vzťahov Zákonník práce upravuje.
+
+### Osobná pôsobnosť
+- Vzťahuje sa najmä na: zamestnancov vykonávajúcich závislú prácu, zamestnávateľov, osoby v pracovnoprávnych vzťahoch
+- Osobitná úprava platí pre: štátnu službu, verejnú službu, ozbrojené zbory, niektoré profesie s osobitným režimom
+
+### Územná pôsobnosť
+- Zákonník práce platí na území SR.
+- Pri vysielaní pracovníkov do iného štátu EÚ sa uplatňuje: slovenské pracovné právo, minimálne štandardy hostiteľského štátu (pracovný čas, minimálna mzda, BOZP)
+- Územná pôsobnosť rieši otázku: kde právna úprava platí.
+
+### Časová pôsobnosť
+- Určuje: odkedy právna norma platí, dokedy účinkuje, ako sa uplatňuje pri zmenách zákona (prechodné ustanovenia)
+- Časová pôsobnosť odpovedá na otázku: kedy právna úprava platí.
+
+### Vysielanie pracovníkov
+- Pri vyslaní zamestnanca do iného štátu EÚ platí
+- slovenské pracovné právo
+- povinnosť zabezpečiť minimálne pracovné podmienky hostiteľského štátu
+- povinnosti podľa smernice o vysielaní pracovníkov
+
+### Osobitné predpisy
+- Niektoré skupiny zamestnancov sa riadia osobitnými zákonmi: zákon o štátnej službe, zákon o výkone práce vo verejnom záujme, zákony o ozbrojených zboroch
+
+## A12 — Druhy pracovného pomeru
+
+**Centrum:** Druhy pracovného pomeru – neurčitý čas × určitá doba × kratší pracovný čas × sezónna práca × telepráca
+
+### Pracovný pomer na neurčitý čas
+- základná a preferovaná forma pracovného pomeru
+- poskytuje najvyššiu stabilitu a ochranu
+- ak zmluva neobsahuje dobu trvania → ide o neurčitý čas
+- ak pracovný pomer na určitú dobu nie je dohodnutý písomne alebo nespĺňa zákonné podmienky → považuje sa za neurčitý čas
+
+### Pracovný pomer na určitú dobu (§ 48 ZP)
+- výnimka, nie pravidlo
+- trvanie max. 2 roky
+- v rámci 2 rokov možno predĺžiť alebo opätovne dohodnúť najviac dvakrát
+- cieľ: zabrániť zneužívaniu dočasných pracovných pomerov
+- zamestnanec na dobu určitú nesmie byť znevýhodnený oproti zamestnancovi na neurčitý čas
+
+### Reťazenie zmlúv
+- max. 2 predĺženia/opätovné dohodnutia v rámci 2 rokov
+- ak zamestnanec po uplynutí doby určitej pokračuje vo výkone práce s vedomím zamestnávateľa → pracovný pomer sa automaticky mení na neurčitý čas
+
+### Kratší pracovný čas (§ 49 ZP)
+- zamestnanec môže požiadať o kratší pracovný čas
+- zamestnávateľ musí žiadosti vyhovieť, ak tomu nebránia vážne prevádzkové dôvody
+- typické pri rodičoch, zdravotných dôvodoch, štúdiu
+
+### Osobitné druhy pracovného pomeru
+- Patria sem: sezónna práca – výnimka umožňujúca flexibilitu pri dobe určitej
+- Patria sem: zastupovanie – pri materskej/rodičovskej dovolenke
+- Patria sem: projekty – časovo obmedzené úlohy
+- Patria sem: vysokoškolskí učitelia – osobitné pravidlá pre dobu určitú
+
+### Telepráca a domácka práca (§ 52 ZP)
+- práca vykonávaná mimo pracoviska zamestnávateľa
+- pravidelne a s využitím informačných technológií
+- musí byť dohodnutá, nemožno ju jednostranne nariadiť
+- zamestnanec má rovnaké práva ako pri práci na pracovisku
+
+## A13 — Pôsobnosť Zákonníka práce
+
+**Centrum:** Pôsobnosť ZP – vecná × osobná × územná × časová × závislá práca × vysielanie pracovníkov
+
+### Vecná pôsobnosť (§ 1 ZP)
+- Zahŕňa úpravu: závislej práce (kľúčový základ pôsobnosti), pracovného pomeru, dohôd mimo pracovného pomeru, kolektívnych pracovnoprávnych vzťahov, BOZP
+- Typy vecnej pôsobnosti: priama úplná – ZP sa uplatní v plnom rozsahu
+- Typy vecnej pôsobnosti: priama obmedzená – len niektoré ustanovenia
+- Typy vecnej pôsobnosti: delegovaná – ZP sa použije, ak osobitný predpis odkáže
+- Typy vecnej pôsobnosti: subsidiárna – použije sa, ak osobitný predpis neobsahuje úpravu (napr. zdravotníci, doprava, cirkvi, umelci)
+
+### Osobná pôsobnosť
+- ZP sa vzťahuje na: zamestnancov vykonávajúcich závislú prácu, zamestnávateľov
+- Osobitné predpisy platia pre: štátnu službu, verejnú službu, ozbrojené zbory, cirkvi, zdravotníkov, dopravu, umelcov
+
+### Územná pôsobnosť
+- ZP platí na území SR.
+- Pri vysielaní pracovníkov do iného štátu EÚ sa uplatňuje: slovenské pracovné právo, minimálne pracovné podmienky hostiteľského štátu (smernica 96/71/ES)
+
+### Časová pôsobnosť
+- Určuje: odkedy právna norma platí, dokedy účinkuje, ako sa uplatňuje pri novelách (prechodné ustanovenia)
+
+### Delegovaná a subsidiárna pôsobnosť
+- Delegovaná – osobitný predpis výslovne odkáže na použitie ZP.
+- Subsidiárna – ZP sa použije tam, kde osobitný predpis nemá vlastnú úpravu.
+
+### Vysielanie pracovníkov
+- Pri vyslaní zamestnanca do iného štátu EÚ: vzťahuje sa naňho slovenský ZP, musí mať zabezpečené minimálne podmienky hostiteľského štátu (mzda, pracovný čas, BOZP)
+
+### Judikatúra
+- R 9/1971 – vlastný pracovný nástroj nevylučuje pracovný pomer.
+- R 19/1977 – rozhoduje skutočný obsah práce.
+- R 36/2005 – zákaz diskriminácie pri informovaní zamestnancov.
+- R 44/2012 – voľné pracovné miesto pri výpovedi.
+- R 57/2014 – úrok z omeškania aj pre štátnych zamestnancov.
+
+## A14 — Materská × otcovská × rodičovská dovolenka
+
+**Centrum:** Ochrana rodičovstva – materská × otcovská × rodičovská × náhradná starostlivosť × návrat do práce
+
+### Materská dovolenka
+- Patrí žene v súvislosti s pôrodom a starostlivosťou o dieťa.
+- Trvanie: 34 týždňov, 37 týždňov osamelá žena, 43 týždňov pri viacpočetnom pôrode, 14 týždňov, ak sa dieťa narodí mŕtve
+- Začiatok: spravidla 6 týždňov pred pôrodom, najskôr 8 týždňov pred pôrodom
+- Mužovi patrí rovnaký rozsah, ak sa stará o narodené dieťa.
+
+### Otcovská dovolenka
+- Patrí mužovi odo dňa narodenia dieťaťa.
+- Trvanie: 28 týždňov, 31 týždňov osamelý muž, 37 týždňov pri viacpočetných deťoch
+- Osobitný nárok: prvých 14 dní po pôrode
+
+### Rodičovská dovolenka (§ 166 ods. 2 ZP)
+- Patrí žene alebo mužovi po skončení materskej/otcovskej dovolenky.
+- Trvanie: do 3 rokov veku dieťaťa, do 6 rokov, ak má dieťa dlhodobo nepriaznivý zdravotný stav
+- Možnosť predĺženia: po dohode so zamestnávateľom možno čerpať do 5 rokov, pri zdravotnom postihnutí do 8 rokov
+
+### Náhradná starostlivosť
+- Pri prevzatí dieťaťa do náhradnej starostlivosti patrí: materská/rodičovská dovolenka v trvaní 28, 31 alebo 37 týždňov podľa situácie
+
+### Oznamovacia povinnosť rodiča
+- Rodič musí oznámiť: nástup na dovolenku, prerušenie, skončenie, najmenej mesiac vopred
+
+### Návrat do práce
+- Zamestnávateľ je povinný: zaradiť rodiča na pôvodnú prácu, ak to nie je možné → na inú vhodnú prácu
+- Rodič je v ochrannej dobe – zamestnávateľ mu nesmie dať výpoveď (s výnimkami podľa zákona).
+
+## A15 — Pracovnoprávne vzťahy: charakteristika × obsah × druhy
+
+**Centrum:** Pracovnoprávne vzťahy – závislá práca × pracovný pomer × dohody × kolektívne vzťahy × BOZP
+
+### Charakteristika pracovnoprávnych vzťahov
+- Pracovnoprávne vzťahy vznikajú pri výkone závislej práce medzi: zamestnancom, zamestnávateľom
+- Základom je pracovný pomer, ktorý je najtypickejšou formou realizácie závislej práce podľa § 1 ods. 2 ZP.
+- Zahŕňajú aj: dohody mimo pracovného pomeru, kolektívne vzťahy, BOZP, ďalšie súvisiace vzťahy
+
+### Závislá práca
+- Závislá práca sa vyznačuje: osobným výkonom práce, podriadenosťou zamestnanca, pokynovou právomocou zamestnávateľa, výkonom práce v mene zamestnávateľa, za mzdu
+- Rozhoduje skutočný obsah práce, nie názov zmluvy.
+
+### Obsah pracovnoprávnych vzťahov
+- Obsah tvoria práva a povinnosti účastníkov.
+- Zamestnávateľ musí: prideľovať prácu, platiť mzdu, zabezpečiť BOZP, vytvárať pracovné podmienky, dodržiavať rovnaké zaobchádzanie
+- Zamestnanec musí: vykonávať prácu osobne, riadne a včas, dodržiavať pracovnú disciplínu, dodržiavať BOZP, chrániť majetok zamestnávateľa
+
+### Druhy pracovnoprávnych vzťahov
+- Individuálne pracovnoprávne vzťahy
+- pracovný pomer,
+- dohody o prácach mimo pracovného pomeru.
+
+### Kolektívne pracovnoprávne vzťahy
+- kolektívne vyjednávanie,
+- kolektívne zmluvy,
+- štrajk,
+- výluka.
+- Vzťahy súvisiace s BOZP
+- povinnosti zamestnávateľa,
+- práva zamestnanca,
+- kontrola inšpekcie práce.
+- Kolektívne vzťahy
+- Zahŕňajú: sociálny dialóg, kolektívne vyjednávanie, uzatváranie kolektívnych zmlúv, riešenie sporov (sprostredkovanie, rozhodca), štrajk a výluku
+
+### BOZP ako súčasť pracovnoprávnych vzťahov
+- BOZP je neoddeliteľnou súčasťou pracovnoprávnych vzťahov
+- zamestnávateľ musí zabezpečiť bezpečné pracovné prostredie
+- zamestnanec musí dodržiavať predpisy BOZP
+- inšpekcia práce kontroluje dodržiavanie BOZP
+
+## A16 — Postavenie zástupcov zamestnancov v pracovnoprávnych vzťahoch
+
+**Centrum:** Zástupcovia zamestnancov – odbory × zamestnanecká rada × dôverník × informovanie × prerokovanie × ochrana
+
+### Formy zastúpenia (§ 11a ZP)
+- Tri formy zastúpenia zamestnancov: odborová organizácia, zamestnanecká rada, zamestnanecký dôverník
+- Všetky sú legitímnymi zástupcami, ale s rozdielnou intenzitou právomocí.
+
+### Odborová organizácia – najsilnejší zástupca
+- Odbory majú najširšie právomoci
+- vedú kolektívne vyjednávanie
+- uzatvárajú kolektívne zmluvy
+- kontrolujú dodržiavanie pracovnoprávnych predpisov
+- poskytujú právnu ochranu zamestnancom
+- majú právo na informácie a prerokovanie
+- sú partnerom pri štrajku a výluke
+- Kolektívnu zmluvu môže uzavrieť len odborová organizácia.
+
+### Zamestnanecká rada
+- volený orgán zamestnancov,
+- pôsobí najmä v oblasti informovania a prerokovania,
+- nemá právomoc uzatvárať kolektívne zmluvy,
+- zastupuje zamestnancov tam, kde nepôsobia odbory.
+
+### Zamestnanecký dôverník
+- individuálny zástupca zamestnancov,
+- pôsobí v menších podnikoch,
+- má práva podobné zamestnaneckej rade,
+- zameraný na informovanie, prerokovanie a komunikáciu so zamestnávateľom.
+
+### Práva zástupcov – informovanie a prerokovanie (§ 12 ZP)
+- Zamestnávateľ musí informovať a prerokovať: zásadné otázky pracovných podmienok, organizačné zmeny, hromadné prepúšťanie, BOZP, zmeny v odmeňovaní, opatrenia týkajúce sa zamestnancov
+- Nesplnenie povinnosti je porušením zákona.
+
+### Ochrana zástupcov zamestnancov
+- Zástupcovia majú osobitnú ochranu pred výpoveďou
+- zamestnávateľ im môže dať výpoveď len so súhlasom odborovej organizácie
+- alebo po splnení zákonných podmienok
+- zákaz diskriminácie a postihovania za výkon funkcie
+
+### Zákazy postihovania
+- Zamestnávateľ nesmie: brániť činnosti zástupcov, postihovať zamestnancov za výkon práv, zasahovať do nezávislosti odborov, rady či dôverníka
+
+## A17 — Základné zásady pracovného práva
+
+**Centrum:** Zásady pracovného práva – rovnosť × zákaz diskriminácie × dobré mravy × BOZP × koaličná sloboda × ochrana zamestnanca
+
+### Rovnaké zaobchádzanie a zákaz diskriminácie
+- zakazuje akúkoľvek diskrimináciu (pohlavie, vek, rasa, náboženstvo, zdravotný stav, tehotenstvo, odborová činnosť),
+- vychádza z Ústavy SR, antidiskriminačného zákona a smerníc EÚ,
+- zamestnávateľ musí zabezpečiť rovnaké podmienky pre porovnateľných zamestnancov.
+
+### Zmluvná sloboda
+- strany si môžu dohodnúť pracovné podmienky,
+- limitom je ochrana zamestnanca – nemožno sa odchýliť v neprospech zamestnanca,
+- zásada autonómie vôle je obmedzená kogentnými ustanoveniami ZP.
+
+### Dobré mravy a zákaz zneužitia práva
+- právne úkony nesmú odporovať dobrým mravom,
+- zákaz šikany, nátlaku, bossingu, mobbingu,
+- zákaz zneužitia právomoci zamestnávateľa (napr. účelové výpovede).
+
+### Právo na mzdu a vhodné pracovné podmienky
+- zamestnanec má právo na spravodlivú odmenu,
+- zamestnávateľ musí zabezpečiť vhodné pracovné podmienky,
+- zásada sociálnej ochrany zamestnanca.
+
+### Participácia zamestnancov
+- právo zamestnancov byť informovaní a prerokovať zásadné otázky,
+- účasť zástupcov zamestnancov na rozhodovaní,
+- súčasť sociálneho dialógu.
+
+### Ochrana života a zdravia – BOZP
+- zamestnávateľ musí zabezpečiť bezpečné pracovné prostredie,
+- povinnosť predchádzať rizikám,
+- zásada prevencie a ochrany zdravia.
+
+### Koaličná sloboda
+- právo zakladať odbory,
+- právo na kolektívne vyjednávanie,
+- právo na štrajk a výluku,
+- zákaz postihovania za odborovú činnosť.
+
+### Ochrana súkromia zamestnanca
+- zákaz neoprávneného monitorovania,
+- zásada primeranosti pri kontrole,
+- ochrana osobných údajov.
+
+## A18 — Dohody o prácach vykonávaných mimo pracovného pomeru (DVP × DPČ × DBPŠ)
+
+**Centrum:** DVP × DPČ × DBPŠ – výnimočné vzťahy × limity × písomná forma × BOZP × zákaz nadčasov
+
+### Charakteristika dohôd (§ 223 – § 228a ZP)
+- Dohody sú osobitné pracovnoprávne vzťahy, ktoré
+- nezakladajú pracovný pomer
+- sú určené na príležitostné, krátkodobé, sezónne práce
+- nesmú nahrádzať závislú prácu vykonávanú pravidelne, v podriadenosti a podľa pokynov zamestnávateľa
+
+### Dohoda o vykonaní práce (DVP)
+- vhodná na jednorazové úlohy, projekty, krátke práce,
+- limit: max. 350 hodín ročne,
+- musí obsahovať: druh práce, odmenu, rozsah, dobu trvania,
+- zákaz nadčasov a pracovnej pohotovosti.
+
+### Dohoda o pracovnej činnosti (DPČ)
+- vhodná na pravidelnejšie, ale obmedzené činnosti,
+- limit: max. 10 hodín týždenne,
+- písomná forma povinná,
+- zákaz nadčasov, pracovnej pohotovosti,
+- možnosť dlhšieho trvania ako DVP.
+
+### Dohoda o brigádnickej práci študentov (DBPŠ)
+- len pre študentov do 26 rokov,
+- limit: max. 20 hodín týždenne (v priemere),
+- vhodná na sezónne práce, brigády, letné zamestnanie,
+- písomná forma povinná,
+- zákaz nadčasov a pracovnej pohotovosti.
+
+### Spoločné znaky dohôd
+- Všetky dohody musia byť: písomné
+- Všetky dohody musia byť: obsahovať druh práce, odmenu, rozsah práce, dobu trvania
+- Všetky dohody musia byť: rešpektovať BOZP
+- Všetky dohody musia byť: rešpektovať zákaz nadčasov a pracovnej pohotovosti
+- Všetky dohody musia byť: rešpektovať zásadu rovnakého zaobchádzania
+
+### Limity pracovného času
+- DVP – 350 hodín ročne,
+- DPČ – 10 hodín týždenne,
+- DBPŠ – 20 hodín týždenne (priemerne).
+- Limity chránia zamestnanca pred zneužívaním dohôd namiesto pracovného pomeru.
+
+### Skončenie dohôd
+- Dohody možno skončiť: dohodou strán, výpoveďou (bez uvedenia dôvodu), okamžitým skončením (pri závažnom porušení povinností)
+- Výpovedná lehota je spravidla 15 dní, ak sa strany nedohodnú inak.
+
+## A19 — Diskriminácia v pracovnom práve × negatívna × pozitívna
+
+**Centrum:** Diskriminácia – priama × nepriama × pozitívna × rovnaké zaobchádzanie × chránené znaky
+
+### Pojem diskriminácie
+- Diskriminácia je nerovnaké, nespravodlivé alebo znevýhodňujúce zaobchádzanie so zamestnancom alebo uchádzačom o zamestnanie.
+- Zákaz diskriminácie vyplýva z: Ústavy SR, § 13 Zákonníka práce, antidiskriminačného zákona
+- Vzťahuje sa na všetky fázy pracovnoprávneho vzťahu: prijímanie, odmeňovanie, pracovné podmienky, kariérny postup, vzdelávanie, disciplinárne opatrenia, skončenie pracovného pomeru
+
+### Chránené znaky
+- Patria sem: pohlavie, rasa, etnický pôvod, vek, zdravotné postihnutie, náboženstvo, sexuálna orientácia, manželský a rodinný stav, politické zmýšľanie, odborová činnosť
+
+### Priama diskriminácia
+- Priama diskriminácia = menej priaznivé zaobchádzanie priamo z dôvodu chráneného znaku.
+- Príklad: zamestnávateľ odmietne prijať ženu s odôvodnením, že „ženy túto prácu nezvládnu“.
+
+### Nepriama diskriminácia
+- Nepriama diskriminácia = navonok neutrálne pravidlo, ktoré v praxi znevýhodňuje určitú skupinu.
+- Príklad: pracovný čas do 18:00 výrazne znevýhodňuje rodičov malých detí.
+
+### Pozitívna diskriminácia
+- Pozitívna diskriminácia = zákonom dovolené opatrenia na odstránenie znevýhodnenia.
+- Príklady: podpora osôb so zdravotným postihnutím, podpora rodičov pri zosúladení práce a rodiny
+
+### Zákaz postihovania (§ 13 ods. 3 ZP)
+- Zamestnávateľ nesmie: postihovať zamestnanca za uplatňovanie jeho práv, brániť mu v podaní sťažnosti, znevýhodniť ho za činnosť odborov alebo zástupcov zamestnancov
+
+### Judikatúra
+- R 24/2009 – nevyplatenie odmeny za podanie sťažnosti = diskriminácia.
+- R 36/2005 – neinformovanie zamestnankýň na materskej = diskriminácia.
+- R 83/2021 – odmena za skutočne vykonanú prácu aj pri interných obmedzeniach.
+
+## A20 — Okamžité skončenie pracovného pomeru
+
+**Centrum:** Okamžité skončenie – mimoriadny spôsob × písomná forma × doručenie × presný dôvod × zákonné lehoty
+
+### Podstata okamžitého skončenia
+- najprísnejší spôsob skončenia pracovného pomeru,
+- pôsobí okamžite dňom doručenia,
+- ide o jednostranný právny úkon,
+- dôvod musí byť presne skutkovo vymedzený – nemožno ho meniť ani dopĺňať.
+
+### Dôvody zamestnávateľa (§ 68 ZP)
+- Zamestnávateľ môže okamžite skončiť pracovný pomer len v dvoch prípadoch: právoplatné odsúdenie za úmyselný trestný čin, závažné porušenie pracovnej disciplíny
+- Judikatúra zdôrazňuje potrebu hodnotiť intenzitu porušenia podľa okolností prípadu.
+
+### Dôvody zamestnanca (§ 69 ZP)
+- Zamestnanec môže okamžite skončiť pracovný pomer, ak
+- zamestnávateľ nevyplatil mzdu do 15 dní po splatnosti
+- podľa lekárskeho posudku nemôže ďalej vykonávať prácu bez ohrozenia zdravia a zamestnávateľ ho nepreradil
+- je bezprostredne ohrozený život alebo zdravie
+- mladistvý aj pri ohrození morálky
+
+### Forma a doručenie
+- musí byť písomné,
+- musí byť doručené druhej strane,
+- musí obsahovať konkrétny skutkový opis (čo, kedy, ako).
+
+### Lehoty
+- zamestnávateľ: 2 mesiace od zistenia dôvodu, najneskôr 1 rok od vzniku dôvodu,
+- zamestnanec: 1 mesiac od zistenia dôvodu.
+
+### Neplatnosť a náhrada mzdy
+- Pri neplatnom okamžitom skončení má zamestnanec nárok na: náhradu mzdy za 2 mesiace priemerného zárobku
+
+### Ochranná doba
+- Zamestnávateľ nemôže okamžite skončiť pracovný pomer s
+- tehotnou zamestnankyňou
+- zamestnankyňou na materskej
+- zamestnancom na rodičovskej alebo otcovskej dovolenke
+- osamelým rodičom starajúcim sa o dieťa do 3 rokov
+- osobou starajúcou sa o osobu s ŤZP
+
+## A21 — Zmena pracovnej zmluvy × preradenie na inú prácu
+
+**Centrum:** Zmena pracovnej zmluvy – dohoda × preradenie × zdravotné dôvody × tehotenstvo × vhodná práca
+
+### Zmena pracovnej zmluvy
+- mení obsah pracovného pomeru (druh práce, miesto, čas, mzda),
+- je možná len písomnou dohodou zamestnanca a zamestnávateľa,
+- zamestnávateľ nemôže jednostranne meniť pracovnú zmluvu,
+- výnimkou je preradenie podľa § 55 ZP.
+
+### Preradenie – podstata (§ 55 ZP)
+- jediný prípad, keď môže zamestnávateľ jednostranne zmeniť druh práce,
+- ide o dočasnú zmenu, nie o trvalú úpravu pracovnej zmluvy,
+- musí byť odôvodnené zákonom.
+
+### Povinné preradenie
+- Zamestnávateľ musí preradiť zamestnanca: zo zdravotných dôvodov (lekársky posudok), pri tehotenstve, pri chorobe z povolania, pri karanténnych opatreniach, na základe rozhodnutia súdu
+- Zamestnanec je povinný preradenie akceptovať.
+
+### Fakultatívne preradenie
+- Možné len vo výnimočných situáciách: odvracanie následkov havárie, mimoriadne okolnosti, naliehavé potreby prevádzky
+- Musí byť časovo obmedzené a primerané.
+
+### Vhodnosť práce
+- Preradenie musí byť: vhodné vzhľadom na zdravotný stav, primerané schopnostiam a kvalifikácii, nesmie byť ponižujúce alebo neprimerané
+- Ak vhodná práca neexistuje, môže ísť o výpovedný dôvod podľa § 63 ods. 1 písm. c).
+
+### Písomné oznámenie
+- Ak preradenie spôsobí zmenu pracovnej zmluvy, zamestnávateľ musí vydať: písomné oznámenie, s uvedením dôvodu a trvania preradenia
+
+### Návrat na pôvodnú prácu
+- Po odpadnutí dôvodov preradenia je zamestnávateľ povinný: zaradiť zamestnanca späť na pôvodnú prácu, alebo na inú rovnocennú prácu, ak pôvodná už neexistuje
+
+## A22 — Zodpovednosť zamestnávateľa za pracovné úrazy a choroby z povolania
+
+**Centrum:** Zodpovednosť zamestnávateľa – objektívna × pracovný úraz × choroba z povolania × náhrada škody × úrazové poistenie
+
+### Podstata zodpovednosti (§ 192 – 198 ZP)
+- zodpovednosť je objektívna – nezávisí od zavinenia zamestnávateľa,
+- zamestnávateľ zodpovedá za škodu vzniknutú pri plnení pracovných úloh alebo v priamej súvislosti s nimi,
+- zahŕňa všeobecnú aj osobitnú zodpovednosť.
+
+### Pracovný úraz
+- Pracovný úraz je: náhle, krátkodobé, násilné poškodenie zdravia, spôsobené vonkajšími vplyvmi, pri práci alebo v priamej súvislosti s ňou
+- Príklady: pád z rebríka, úraz strojom, zranenie pri manipulácii s materiálom
+
+### Choroba z povolania
+- Choroba z povolania je: ochorenie uvedené v zozname chorôb z povolania, vzniká v dôsledku dlhodobého pôsobenia rizikových faktorov, potvrdzuje ju odborné pracovné lekárstvo
+- Príklady: karpálny tunel, silikóza, hlukové poškodenie sluchu
+
+### Možnosti zbavenia sa zodpovednosti
+- Zamestnávateľ sa môže zbaviť zodpovednosti: celkom, ak škodu spôsobil zamestnanec úmyselne
+- sčasti, ak: zamestnanec porušil BOZP, bol pod vplyvom alkoholu alebo omamných látok, konal ľahkomyseľne
+- Dôkazné bremeno nesie zamestnávateľ.
+
+### Náhrady škody
+- Zamestnancovi patrí: náhrada za bolesť
+- Zamestnancovi patrí: náhrada za sťaženie spoločenského uplatnenia
+- Zamestnancovi patrí: strata na zárobku počas PN aj po jej skončení
+- Zamestnancovi patrí: náklady liečenia
+- Zamestnancovi patrí: vecná škoda (napr. poškodené okuliare, oblečenie)
+
+### Úrazové poistenie
+- náhrady poskytuje zamestnávateľ,
+- sú kryté úrazovým poistením podľa zákona o sociálnom poistení,
+- Sociálna poisťovňa prepláca zamestnávateľovi časť nákladov.
+
+## A23 — Subjekty pracovného práva × pracovnoprávna subjektivita
+
+**Centrum:** Subjekty pracovného práva – zamestnanec × zamestnávateľ × subjektivita × spôsobilosť × osobitné subjekty
+
+### Zamestnanec
+- Zamestnancom je: fyzická osoba vykonávajúca závislú prácu, podľa pokynov zamestnávateľa, v jeho mene, za mzdu
+- Závislá práca je definovaná v § 1 ods. 2 ZP – osobný výkon, podriadenosť, pokyny, pracovný čas, odmena.
+
+### Zamestnávateľ
+- Zamestnávateľom je: fyzická alebo právnická osoba, ktorá zamestnáva aspoň jedného zamestnanca
+- Vznik subjektivity: právnická osoba – zápis do registra, fyzická osoba – vznik SZČO alebo iné zákonné formy
+
+### Pracovnoprávna subjektivita
+- Zahŕňa štyri zložky: spôsobilosť mať práva a povinnosti (pasívna)
+- Zahŕňa štyri zložky: spôsobilosť vlastnými úkonmi ich nadobúdať (aktívna)
+- Zahŕňa štyri zložky: deliktuálna spôsobilosť – niesť následky porušenia povinností
+- Zahŕňa štyri zložky: procesná spôsobilosť – vystupovať v konaní pred súdom
+- Zamestnanec ju nadobúda: dovŕšením 15 rokov, ukončením povinnej školskej dochádzky
+
+### Spôsobilosť na právne úkony
+- Zamestnanec musí byť schopný vykonávať právne úkony súvisiace s pracovným pomerom.
+- Mladiství majú osobitnú ochranu a obmedzenia (ľahké práce, skrátený čas, zákaz rizikových činností).
+
+### Deliktuálna a procesná spôsobilosť
+- Deliktuálna spôsobilosť = schopnosť niesť následky porušenia pracovných povinností (napr. zodpovednosť za škodu).
+- Procesná spôsobilosť = schopnosť vystupovať v konaní pred súdom alebo inšpekciou práce.
+
+### Osobitné subjekty pracovného práva
+- Patria sem: odbory, zamestnanecké rady, zamestnaneckí dôverníci, zástupcovia pre BOZP, štát (inšpekcia práce, ministerstvo)
+- Ich funkcie: kontrolná, informačná, zastupiteľská, ochranná
+
+## A24 — Zodpovednosť zamestnávateľa za škodu
+
+**Centrum:** Zodpovednosť zamestnávateľa – objektívna × všeobecná × osobitná × náhrada škody × BOZP
+
+### Všeobecná zodpovednosť (§ 192 ZP)
+- Vzniká pri škode spôsobenej: porušením právnych povinností zamestnávateľa, porušením povinností jeho zamestnancov, nedostatočnou organizáciou práce, porušením BOZP
+- Je objektívna – nezávisí od zavinenia.
+
+### Osobitná zodpovednosť (§ 193 – 198 ZP)
+- Zahŕňa škodu: na odložených veciach (kabáty, tašky, osobné predmety), pri odvracaní škody (zamestnanec koná v záujme zamestnávateľa), pri pracovných úrazoch, pri chorobách z povolania
+
+### Pracovné úrazy
+- Pracovný úraz je: náhle, krátkodobé, násilné poškodenie zdravia, spôsobené vonkajšími vplyvmi, pri plnení pracovných úloh alebo v priamej súvislosti s nimi
+- Zamestnávateľ zodpovedá bez ohľadu na zavinenie.
+
+### Choroby z povolania
+- Choroba z povolania je: ochorenie uvedené v zozname chorôb z povolania, spôsobené dlhodobým pôsobením rizikových faktorov, potvrdené pracovným lekárstvom
+
+### Zbavenie sa zodpovednosti
+- Zamestnávateľ sa môže zbaviť zodpovednosti: celkom, ak škodu spôsobil zamestnanec úmyselne
+- sčasti, ak: porušil BOZP, bol pod vplyvom alkoholu alebo drog, konal ľahkomyseľne
+- Dôkazné bremeno nesie zamestnávateľ.
+
+### Náhrady škody
+- Zamestnancovi patrí: skutočná škoda, ušlý zárobok, náklady liečenia, vecná škoda, pri úrazoch: bolesť a sťaženie spoločenského uplatnenia
+- Náhrady sú kryté úrazovým poistením podľa zákona o sociálnom poistení.
+
+### Prevencia a BOZP
+- Cieľom právnej úpravy je: motivovať zamestnávateľa k prevencii, zabezpečiť bezpečné pracovné prostredie, minimalizovať riziká
+
+## A25 — Prekážky v práci na strane zamestnanca
+
+**Centrum:** Prekážky na strane zamestnanca – všeobecný záujem × branná povinnosť × kvalifikácia × osobné prekážky
+
+### Všeobecný záujem (§ 136 – 138 ZP)
+- Zamestnanec má pracovné voľno pri činnostiach vo verejnom záujme, napr.: darovanie krvi, svadba, pohreb, účasť na súdnom konaní ako svedok, výkon verejnej funkcie, činnosť odborov
+- Náhrada mzdy sa poskytuje podľa zákona – niekedy plná, niekedy čiastočná, niekedy žiadna.
+
+### Branná povinnosť, ozbrojené sily (§ 138 – 138b ZP)
+- Patrí sem: pravidelné cvičenie, úlohy ozbrojených síl, dobrovoľná vojenská príprava
+- Zamestnanec má nárok na pracovné voľno, niekedy aj na náhradu mzdy alebo dávky zo sociálneho poistenia.
+
+### Zvyšovanie kvalifikácie (§ 140 ZP)
+- Zamestnanec má pracovné voľno pri: štúdiu, skúškach, vzdelávaní súvisiacom s výkonom práce
+- Ak ide o prehlbovanie kvalifikácie, zamestnávateľ poskytuje pracovné voľno s náhradou mzdy.
+- Pri zvyšovaní kvalifikácie je voľno bez náhrady, ak sa strany nedohodnú inak.
+
+### Dôležité osobné prekážky (§ 141 ZP)
+- Najčastejšie situácie: PN (práceneschopnosť) – dávka zo sociálneho poistenia, nie mzda
+- Najčastejšie situácie: OČR – ošetrovanie člena rodiny, dávka zo SP
+- Najčastejšie situácie: svadba zamestnanca
+- Najčastejšie situácie: narodenie dieťaťa
+- Najčastejšie situácie: úmrtie rodinného príslušníka
+- Najčastejšie situácie: sťahovanie
+- Najčastejšie situácie: návšteva lekára
+- Najčastejšie situácie: starostlivosť o dieťa
+- Zákon presne určuje počet dní a nárok na náhradu mzdy.
+
+### Náhrada mzdy
+- Podľa druhu prekážky: niekedy plná náhrada (napr. darovanie krvi), niekedy čiastočná, niekedy bez náhrady, pri PN a OČR sa poskytujú dávky sociálneho poistenia
+
+### Oznamovacia povinnosť
+- Zamestnanec musí: prekážku oznámiť bez zbytočného odkladu, preukázať ju (napr. potvrdenie od lekára, predvolanie na súd)
+
+## A26 — Dni pracovného pokoja × pracovná pohotovosť × sviatky
+
+**Centrum:** Dni pracovného pokoja – nedele × sviatky × odpočinok × pohotovosť × mzdové zvýhodnenie
+
+### Dni pracovného pokoja
+- Patria sem: nedele, štátne sviatky, ďalšie dni, na ktoré pripadá týždenný odpočinok
+- Zamestnanec má právo na nepretržitý odpočinok.
+
+### Sviatky
+- Sviatky sú zákonom určené dni pracovného pokoja (napr. 1. január, Veľká noc, 1. máj, 29. august, Vianoce).
+- Práca je možná len: pri nevyhnutných službách, pri naliehavých opravách, v zdravotníctve, v doprave, pri nepretržitej prevádzke
+
+### Práca v dňoch pracovného pokoja
+- Práca je výnimočná a musí byť: odôvodnená, v súlade so zákonom, kompenzovaná mzdovým zvýhodnením
+- Zamestnávateľ musí rešpektovať zásadu odpočinku a regenerácie.
+
+### Pracovná pohotovosť
+- Pracovná pohotovosť je stav, keď je zamestnanec pripravený na výkon práce na pokyn zamestnávateľa.
+- Druhy: pohotovosť na pracovisku – považuje sa za pracovný čas, pohotovosť mimo pracoviska – nie je pracovným časom, ale patrí za ňu náhrada
+- Pohotovosť musí byť dohodnutá v pracovnej zmluve alebo kolektívnej zmluve.
+
+### Mzdové zvýhodnenie
+- Za prácu vo sviatok patrí: minimálne 100 % priemerného zárobku ako mzdové zvýhodnenie, možnosť náhradného voľna po dohode
+- Za prácu v nedeľu patrí: minimálne 50 % priemerného zárobku
+
+### Zákaz maloobchodného predaja
+- Zákon zakazuje maloobchodný predaj počas väčšiny sviatkov.
+- Výnimky: čerpacie stanice, lekárne, predaj na letiskách, predaj v nemocniciach
+- Cieľom je ochrana zamestnancov v maloobchode.
+
+## A27 — Spôsoby skončenia pracovného pomeru × formálne náležitosti × odstupné × odchodné
+
+**Centrum:** Skončenie pracovného pomeru – dohoda × výpoveď × okamžité skončenie × skúšobná doba × odstupné × odchodné
+
+### Spôsoby skončenia pracovného pomeru (§ 59 ZP)
+- Kogentné, uzavretý výpočet: dohoda
+- Kogentné, uzavretý výpočet: výpoveď
+- Kogentné, uzavretý výpočet: okamžité skončenie
+- Kogentné, uzavretý výpočet: skončenie v skúšobnej dobe
+- Kogentné, uzavretý výpočet: uplynutie doby určitej
+- Kogentné, uzavretý výpočet: smrť zamestnanca
+- Kogentné, uzavretý výpočet: úradné rozhodnutie
+- Kogentné, uzavretý výpočet: iné zákonné dôvody (napr. porušenie podmienok dočasného pridelenia)
+
+### Formálne náležitosti
+- písomná forma (výpoveď, okamžité skončenie, dohoda),
+- doručenie druhej strane,
+- výpoveď zamestnávateľa musí byť odôvodnená,
+- dôvod musí byť presne skutkovo vymedzený.
+
+### Dohoda (§ 60 ZP)
+- najflexibilnejší spôsob,
+- musí byť písomná,
+- na žiadosť zamestnanca musí obsahovať dôvod,
+- účinky nastávajú dňom uvedeným v dohode.
+
+### Výpoveď (§ 63 – 64 ZP)
+- jednostranný právny úkon,
+- zamestnávateľ musí uviesť konkrétny zákonný dôvod,
+- výpovedná lehota: 1 – 3 mesiace podľa dĺžky trvania pomeru,
+- zákaz výpovede v ochrannej dobe.
+
+### Okamžité skončenie (§ 68 – 70 ZP)
+- mimoriadny spôsob,
+- pôsobí okamžite,
+- prísne zákonné dôvody (úmyselný trestný čin, závažná disciplína; nevyplatenie mzdy, ohrozenie zdravia).
+
+### Skončenie v skúšobnej dobe (§ 72 ZP)
+- bez uvedenia dôvodu,
+- musí byť písomné,
+- doručené pred uplynutím skúšobnej doby.
+
+### Odstupné (§ 76 ZP)
+- Patrí pri skončení pracovného pomeru
+- z organizačných dôvodov (§ 63 ods. 1 písm. a – c)
+- zo zdravotných dôvodov (strata spôsobilosti)
+- pri pracovnom úraze alebo chorobe z povolania – 10-násobok priemerného zárobku
+- Výška podľa dĺžky trvania pomeru: 1 – 4-násobok priemerného zárobku, pri úrazoch a chorobách z povolania až 10-násobok
+
+### Odchodné (§ 76a ZP)
+- jednorazové plnenie,
+- patrí pri prvom skončení pracovného pomeru po vzniku nároku na dôchodok,
+- výška: minimálne priemerný mesačný zárobok.
+
+## A28 — Prestávky v práci × denný odpočinok × týždenný odpočinok
+
+**Centrum:** Prestávky – 6 h × denný odpočinok 12 h × týždenný odpočinok 24 + 12 h × mladiství
+
+### Prestávky v práci (§ 91 ZP)
+- prestávka na odpočinok a jedenie musí byť najneskôr po 6 hodinách práce,
+- pri mladistvých po 4,5 hodinách,
+- trvá minimálne 30 minút,
+- spravidla sa nezapočítava do pracovného času,
+- môže byť rozdelená na viac častí, ak to povaha práce vyžaduje.
+
+### Denný odpočinok (§ 92 ZP)
+- medzi dvoma zmenami musí byť minimálne 12 hodín,
+- pri mladistvých 14 hodín,
+- výnimky sú možné len pri nepretržitých prevádzkach, mimoriadnych udalostiach, sezónnych prácach, ale odpočinok nesmie klesnúť pod 8 hodín.
+
+### Týždenný odpočinok (§ 93 ZP)
+- musí trvať minimálne 24 hodín + denný odpočinok,
+- spravidla pripadá na nedeľu,
+- pri nepretržitých prevádzkach môže byť poskytnutý aj v iný deň,
+- zamestnanec musí mať v týždni nepretržitý odpočinok.
+
+### Mladiství
+- prestávka po 4,5 hodinách,
+- denný odpočinok 14 hodín,
+- týždenný odpočinok musí byť poskytnutý v celku,
+- zákaz nočnej práce (okrem výnimiek).
+
+### Výnimky
+- Možné len v zákonom určených prípadoch: nepretržité prevádzky, poľnohospodárstvo, mimoriadne udalosti, naliehavé opravy
+
+### Ochrana zdravia
+- Cieľom úpravy je: predchádzať preťaženiu, chrániť bezpečnosť a zdravie, zabezpečiť regeneráciu síl, podporiť rovnováhu medzi pracovným a súkromným životom
+
+## A29 — Pracovnoprávne skutočnosti
+
+**Centrum:** Pracovnoprávne skutočnosti – vznik × zmena × zánik × právne úkony × právne udalosti
+
+### Právne úkony
+- Najčastejšie pracovnoprávne skutočnosti: pracovná zmluva, dohoda o skončení, výpoveď, okamžité skončenie, zmena pracovnej zmluvy
+- Musí byť dodržaná: písomná forma, doručenie, určitosť a zrozumiteľnosť
+
+### Právne udalosti
+- Skutočnosti, ktoré nastávajú nezávisle od vôle účastníkov: smrť zamestnanca, uplynutie doby určitej, vznik invalidity, iné udalosti, ktoré zákon spája so zánikom pomeru
+
+### Rozhodnutia orgánov
+- Pracovnoprávne vzťahy ovplyvňujú: lekársky posudok (zdravotná nespôsobilosť), rozhodnutie súdu, rozhodnutie inšpekcie práce, rozhodnutie úradu práce (napr. zákaz činnosti)
+
+### Faktické úkony
+- Skutočnosti založené na konaní: výkon práce, nástup do práce – pracovný pomer vzniká dňom nástupu, splnenie pracovných povinností, porušenie disciplíny
+
+### Protiprávne úkony
+- Konania porušujúce pracovnoprávne povinnosti: závažné porušenie disciplíny, neoprávnené nakladanie s majetkom, porušenie BOZP, šikana, mobbing, bossing
+- Môžu viesť k: výpovedi, okamžitému skončeniu, zodpovednosti za škodu
+
+### Pracovná zmluva (§ 43 ZP)
+- Musí obsahovať: druh práce, miesto výkonu práce, deň nástupu, mzdu (ak nie je určená v kolektívnej zmluve)
+- Môže obsahovať aj: skúšobnú dobu, benefity, pracovné podmienky, ďalšie dohodnuté náležitosti
+
+### Skúšobná doba (§ 45 ZP)
+- musí byť písomná,
+- max. 3 mesiace,
+- pri vedúcich zamestnancoch 6 mesiacov,
+- počas skúšobnej doby možno skončiť pomer bez uvedenia dôvodu.
+
+### Vznik a zánik pracovného pomeru
+- Vznik: uzavretím pracovnej zmluvy, nástupom do práce
+- Zánik: právnym úkonom (výpoveď, dohoda, okamžité skončenie), právnou udalosťou (smrť, uplynutie doby), rozhodnutím orgánu, priamo zo zákona
+
+## A30 — Pracovná disciplína × sankcie za porušenie
+
+**Centrum:** Pracovná disciplína – povinnosti × porušenia × sankcie × výpoveď × okamžité skončenie
+
+### Pracovná disciplína (§ 81 ZP + interné predpisy)
+- Zahŕňa všetky povinnosti zamestnanca: povinnosti podľa Zákonníka práce, pracovnej zmluvy, kolektívnej zmluvy, pracovného poriadku, pokynov zamestnávateľa, BOZP
+- Porušenie musí byť zavinené (úmysel alebo nedbanlivosť).
+
+### Druhy porušenia pracovnej disciplíny
+- Posudzujú sa podľa: miery zavinenia, následkov, doterajšieho správania, charakteru povinnosti, okolností prípadu
+- Tri úrovne: menej závažné, závažné, obzvlášť hrubé
+
+### Menej závažné porušenie
+- Príklady: opakované meškanie, nedodržanie interných pravidiel, menšie nedostatky v práci
+- Sankcia: výpoveď je možná až po písomnom upozornení na porušenie povinností
+
+### Závažné porušenie
+- Príklady: hrubé porušenie BOZP, odmietnutie pokynu, príchod do práce pod vplyvom alkoholu
+- Sankcia: okamžité skončenie pracovného pomeru, ak je intenzita dostatočná
+
+### Obzvlášť hrubé porušenie
+- Najvyššia intenzita: úmyselné konanie proti záujmom zamestnávateľa, krádež, fyzické útoky, závažné ohrozenie života alebo zdravia
+- Sankcia: okamžité skončenie je spravidla odôvodnené
+
+### Sankcie za porušenie disciplíny
+- Zákon umožňuje len: krátenie dovolenky (§ 109 ods. 3 ZP), výpoveď (§ 63 ods. 1 písm. e) ZP), okamžité skončenie (§ 68 ods. 1 písm. b) ZP)
+- Zamestnávateľ nesmie ukladať pokuty, zrážky zo mzdy ani iné disciplinárne tresty.
+
+### Prekluzívne lehoty
+- Zamestnávateľ musí konať: do 2 mesiacov od zistenia porušenia, najneskôr do 1 roka od jeho spáchania
+- Po uplynutí lehoty už sankciu uložiť nemožno.
+
+## A31 — Zodpovednosť zamestnanca za škodu
+
+**Centrum:** Zodpovednosť zamestnanca – subjektívna × zavinenie × všeobecná × osobitná × rozsah náhrady
+
+### Subjektívna zodpovednosť (§ 179 ZP)
+- Zamestnanec zodpovedá za škodu, ktorú spôsobil: zavineným porušením povinností, pri plnení pracovných úloh alebo v priamej súvislosti s nimi, úmyselným konaním proti dobrým mravom
+- Zavinenie môže byť: nedbanlivosť, úmysel
+
+### Všeobecná zodpovednosť
+- Má dve formy: § 179 ZP – užší zmysel, Zamestnanec zodpovedá za škodu spôsobenú porušením povinností pri práci
+- Platí prezumpcia neviny – zamestnávateľ musí preukázať zavinenie.
+- § 181 ZP – širší zmysel
+- Zodpovednosť za porušenie oznamovacej a zakročovacej povinnosti.
+- Zamestnanec musí zabrániť škode alebo ju oznámiť.
+
+### Oznamovacia a zakročovacia povinnosť (§ 181 ZP)
+- Zamestnanec je povinný: upozorniť na hroziacu škodu, zakročiť, ak je to možné, predchádzať škodám
+- Porušenie zakladá zodpovednosť aj bez priameho spôsobenia škody.
+
+### Osobitná zodpovednosť
+- Má prezumpciu viny – zamestnanec zodpovedá, pokiaľ nepreukáže, že škoda nevznikla jeho zavinením.
+- Patrí sem: schodok na zverených hodnotách (§ 182 – 184 ZP), strata zverených predmetov (§ 185 ZP)
+
+### Schodok na zverených hodnotách
+- Zamestnanec zodpovedá za schodok, ak: prevzal hodnoty na základe písomného potvrdenia, má možnosť s nimi samostatne nakladať
+- Zodpovedá v plnej výške, ak nepreukáže, že schodok nevznikol jeho zavinením.
+
+### Strata zverených predmetov (§ 185 ZP)
+- Zamestnanec zodpovedá za stratu: nástrojov, pracovných pomôcok, osobitných predmetov zverených na písomné potvrdenie
+- Zodpovednosť je v plnej výške.
+
+### Rozsah náhrady škody
+- Závisí od formy zavinenia: Nedbanlivosť, Limit: 4-násobok priemerného mesačného zárobku
+- Úmysel alebo alkohol/drogy
+- Náhrada v plnej výške, vrátane ušlého zisku, ak to neodporuje dobrým mravom.
+- Osobitná zodpovednosť
+- Vždy plná výška, ak zamestnanec nepreukáže, že škoda nevznikla jeho zavinením.
+
+## A32 — Pracovný čas × rozvrhnutie × konto pracovného času × tehotné ženy a rodičia
+
+**Centrum:** Pracovný čas – limity × rozvrhnutie × konto × ochrana tehotných a rodičov
+
+### Pracovný čas (§ 85 ZP)
+- Pracovný čas je čas, v ktorom je zamestnanec: k dispozícii zamestnávateľovi, vykonáva prácu, plní povinnosti podľa pracovnej zmluvy
+- Je to kogentná úprava – nemožno sa odchýliť v neprospech zamestnanca.
+
+### Limity pracovného času
+- Maximálny týždenný pracovný čas: 40 hodín – základný, 38¾ hodiny – dvojzmenná prevádzka, 37½ hodiny – trojzmenná a nepretržitá prevádzka, 33½ hodiny – rizikové pracoviská
+- Mladiství: max. 8 hodín denne, zákaz nadčasov a nočnej práce (s výnimkami)
+
+### Rovnomerné rozvrhnutie (§ 86 ZP)
+- pracovný čas je rozvrhnutý rovnomerne na jednotlivé dni,
+- max. 9 hodín denne,
+- rozdiel medzi týždňami nesmie byť väčší ako 3 hodiny,
+- vhodné pre stabilné prevádzky.
+
+### Nerovnomerné rozvrhnutie (§ 87 ZP)
+- pracovná zmena môže trvať až 12 hodín,
+- priemerný týždenný pracovný čas nesmie prekročiť zákonný limit v období: 4 mesiacov, alebo 12 mesiacov (pri kolektívnej zmluve)
+- Používa sa pri sezónnych, nepretržitých alebo kolísavých prevádzkach.
+
+### Konto pracovného času (§ 87a ZP)
+- Osobitný režim nerovnomerného rozvrhnutia
+- vytvára sa kladný účet (viac odpracovaných hodín) a záporný účet (menej odpracovaných hodín)
+- zamestnávateľ musí poskytovať stabilnú základnú mzdu
+- vedie účet konta pracovného času
+- vyrovnávacie obdobie max. 30 mesiacov
+- cieľ: flexibilita pri kolísaní práce
+
+### Tehotné ženy
+- Osobitná ochrana: zákaz nočnej práce (§ 98 ZP), zákaz nadčasov (§ 97 ZP), povinnosť preradiť na dennú prácu, povinnosť preradiť pri práci ohrozujúcej zdravie matky alebo plodu
+
+### Rodičia detí
+- Rodičia detí mladších ako 15 rokov
+- právo žiadať kratší pracovný čas alebo inú úpravu pracovného času (§ 49 ZP)
+- zamestnávateľ musí vyhovieť, ak tomu nebránia vážne prevádzkové dôvody
+- ochrana pri nočnej práci a nadčasoch
+
+## A33 — Právna úprava odmeňovania v podnikateľskej sfére
+
+**Centrum:** Odmeňovanie – mzda × minimálna mzda × mzdové nároky × zvýhodnenia × rovnaká mzda
+
+### Minimálna mzda
+- Zamestnávateľ nesmie poskytnúť mzdu nižšiu ako: minimálna mzda podľa zákona č. 663/2007 Z. z, alebo minimálny mzdový nárok podľa stupňa náročnosti práce (§ 120 ZP)
+- Minimálne mzdové nároky zabezpečujú spravodlivé odmeňovanie podľa: zložitosti, zodpovednosti, namáhavosti práce
+
+### Minimálne mzdové nároky (§ 120 ZP)
+- Stupeň náročnosti práce (1–6) určuje: minimálny koeficient, ktorý sa násobí minimálnou mzdou
+- Vyšší stupeň = vyšší minimálny mzdový nárok.
+
+### Rovnaká mzda (§ 119a ZP)
+- Zamestnávateľ musí zabezpečiť: rovnakú mzdu za rovnakú prácu, alebo prácu rovnakej hodnoty
+- Zákaz diskriminácie sa vzťahuje na: pohlavie, vek, rasu, etnický pôvod, zdravotné postihnutie, odborovú činnosť, ďalšie chránené znaky
+
+### Mzdové zvýhodnenia
+- Zákonník práce upravuje povinné zvýhodnenia
+- nadčas – min. 25 % priemerného zárobku
+- sviatok – min. 100 %
+- sobota – min. 50 %
+- nedeľa – min. 100 %
+- nočná práca – min. 40 %
+- sťažený výkon práce – min. 20 %
+
+### Naturálna mzda (§ 119 ZP)
+- musí byť dohodnutá,
+- nesmie byť v rozpore s BOZP,
+- nesmie byť poskytovaná vo forme alkoholu alebo omamných látok.
+
+### Splatnosť a výplata mzdy (§ 129 – 130 ZP)
+- Zamestnávateľ musí: vyplácať mzdu najneskôr v nasledujúcom mesiaci, poskytovať výplatnú pásku, vyplácať mzdu v eurách, mzdu v cudzej mene len ak je to dohodnuté
+
+## A34 — Dôležité osobné prekážky v práci na strane zamestnanca
+
+**Centrum:** Osobné prekážky – ospravedlnenie × pracovné voľno × náhrada mzdy × PN × OČR
+
+### Pojem osobných prekážok (§ 141 ZP)
+- Dôležité osobné prekážky sú situácie, keď zamestnanec: objektívne nemôže vykonávať prácu, prekážka je nezávislá od zamestnávateľa, zákon presne určuje, či patrí voľno a či patrí náhrada mzdy
+- Cieľ: ochrana zamestnanca v neodkladných životných situáciách.
+
+### Oznamovacia povinnosť
+- Zamestnanec musí: prekážku oznámiť bez zbytočného odkladu, preukázať jej trvanie (napr. potvrdenie lekára, predvolanie na súd)
+
+### Prekážky bez náhrady mzdy
+- Zamestnávateľ len ospravedlní neprítomnosť: PN (práceneschopnosť), karanténa, OČR – ošetrovanie člena rodiny, starostlivosť o dieťa, iné zdravotné prekážky kryté sociálnym poistením
+- Náhradu mzdy poskytuje Sociálna poisťovňa formou dávok.
+
+### Prekážky s náhradou mzdy
+- Zamestnávateľ musí poskytnúť pracovné voľno s náhradou mzdy
+- vyšetrenie alebo ošetrenie – nevyhnutný čas
+- sprevádzanie rodinného príslušníka k lekárovi
+- úmrtie blízkej osoby – 2 dni + 1 deň na pohreb
+- svadba zamestnanca – 1 deň
+- narodenie dieťaťa – 1 deň pre otca
+- sťahovanie – 1 deň (pri zmene bydliska)
+- Prekážky bez náhrady mzdy, ale s povinným voľnom
+- Zamestnávateľ musí poskytnúť voľno, ale bez náhrady mzdy: súdne konanie (ako účastník), účasť na štátnych skúškach, iné osobné úkony, ak sú nevyhnutné
+
+### Prekážky podľa uváženia zamestnávateľa
+- Zamestnávateľ môže poskytnúť voľno dobrovoľne: osobné záležitosti, rodinné udalosti mimo zákonného zoznamu, administratívne úkony (napr. vybavenie na úradoch)
+- Rozsah pracovného voľna – nariadenie vlády č. 76/2005 Z. z.
+- Príklady: úmrtie blízkej osoby – 2 + 1 deň, svadba zamestnanca – 1 deň, sťahovanie – 1 deň, vyšetrenie – nevyhnutný čas, sprevádzanie – 1 deň, narodenie dieťaťa – 1 deň
+
+### Prekážky z iných dôvodov (§ 136 – 140 ZP)
+- Patria sem: všeobecný záujem (darovanie krvi, výkon verejnej funkcie), branná povinnosť, zvyšovanie kvalifikácie
+
+## A35 — Osobitné pracovné podmienky žien, tehotných žien, matiek a rodičov
+
+**Centrum:** Ochrana žien a rodičov – zákaz nočnej práce × preradenie × úprava pracovného času × ochranná doba
+
+### Tehotné ženy (§ 161 – § 164 ZP)
+- Majú najvyššiu úroveň ochrany: zákaz nočnej práce
+- Majú najvyššiu úroveň ochrany: zákaz nadčasov
+- Majú najvyššiu úroveň ochrany: povinnosť zamestnávateľa preradiť na dennú prácu
+- Majú najvyššiu úroveň ochrany: zákaz prác ohrozujúcich tehotenstvo (zoznam podľa nariadenia vlády č. 272/2004 Z. z.)
+- Majú najvyššiu úroveň ochrany: zákaz vysielania na pracovné cesty bez súhlasu (§ 57 ZP)
+
+### Matky do 9 mesiacov po pôrode a dojčiace ženy
+- Majú rovnakú ochranu ako tehotné: zákaz nočnej práce, zákaz nadčasov, povinnosť preradenia pri rizikovej práci
+- právo na prestávky na dojčenie (§ 170 ZP): 2× 30 minút denne, po 9 mesiacoch 1× 30 minút
+
+### Rodičia detí mladších ako 15 rokov (§ 164 ZP)
+- Majú právo: žiadať kratší pracovný čas, žiadať inú úpravu pracovného času, zamestnávateľ musí vyhovieť, ak tomu nebránia vážne prevádzkové dôvody
+- Zamestnávateľ musí dôvody preukázať.
+
+### Osamelí rodičia
+- Majú osobitnú ochranu: zákaz nočnej práce, zákaz nadčasov bez súhlasu, zvýšená ochrana pri rozvrhovaní pracovného času
+
+### Preradenie a zakázané práce (§ 162 ZP)
+- Zamestnávateľ musí preradiť: tehotnú ženu, matku do 9 mesiacov po pôrode, dojčiacu ženu
+- ak vykonáva: zakázanú prácu, prácu ohrozujúcu zdravie, nočnú prácu
+- Zoznam zakázaných prác je v nariadení vlády č. 272/2004 Z. z.
+
+### Ochrana pred výpoveďou (§ 64 ZP)
+- Zákaz výpovede platí pre: tehotné ženy, matky na materskej dovolenke, rodičov na rodičovskej dovolenke, osamelých rodičov starajúcich sa o dieťa do 3 rokov
+- Výpoveď je možná len vo výnimočných prípadoch (napr. zrušenie zamestnávateľa).
+
+### Pracovné cesty a dojčenie
+- tehotné ženy nesmú byť vyslané na pracovnú cestu bez súhlasu,
+- dojčiace ženy majú nárok na špeciálne prestávky,
+- zamestnávateľ musí prispôsobiť pracovné podmienky.
+
+## A36 — Predpoklady zodpovednosti za škodu v pracovnom práve
+
+**Centrum:** Zodpovednosť za škodu – predpoklady × zamestnanec × zamestnávateľ × zavinenie × príčinná súvislosť
+
+### Predpoklady zodpovednosti
+- Musí byť splnené všetkých päť podmienok: existencia pracovnoprávneho vzťahu, protiprávny úkon (porušenie povinnosti), vznik škody, príčinná súvislosť, zavinenie (len pri zamestnancovi)
+
+### Zodpovednosť zamestnanca (§ 179 a nasl. ZP)
+- Je subjektívna – vyžaduje sa zavinenie.
+- Zamestnanec zodpovedá za škodu spôsobenú: porušením povinností pri práci, úmyselným konaním proti dobrým mravom
+- Pri všeobecnej zodpovednosti platí prezumpcia neviny – zamestnávateľ musí preukázať zavinenie.
+
+### Zodpovednosť zamestnávateľa
+- Je objektívna – zavinenie sa nevyžaduje.
+- Predpoklady: pracovný úraz alebo choroba z povolania, vznik škody, príčinná súvislosť
+
+### Zavinenie
+- Formy zavinenia: nedbanlivosť, úmysel
+- Pri niektorých druhoch zodpovednosti sa zavinenie predpokladá: schodok na zverených hodnotách, strata zverených predmetov
+
+### Príčinná súvislosť
+- Musí byť preukázané, že škoda vznikla v dôsledku konania zamestnanca alebo pracovného úrazu.
+
+### Druhy škody
+- Skutočná škoda – poškodenie majetku, náklady, strata hodnoty,
+- Ušlý zisk – len pri úmysle alebo alkohole, ak to neodporuje dobrým mravom.
+
+### Limity náhrady škody
+- pri nedbanlivosti: max. 4–4,5-násobok priemerného zárobku,
+- pri úmysle, alkohole, schodku alebo strate predmetov: plná náhrada.
+
+## A37 — Výpoveď × výpovedná doba × zákaz výpovede
+
+**Centrum:** Výpoveď – dôvody × forma × výpovedná doba × zákaz výpovede × ochranná doba
+
+### Pojem výpovede (§ 62 ZP)
+- Výpoveď je: jednostranný právny úkon, smeruje k skončeniu pracovného pomeru, účinky nastávajú uplynutím výpovednej doby
+
+### Výpoveď zamestnanca
+- Zamestnanec môže dať výpoveď: z akéhokoľvek dôvodu, alebo bez uvedenia dôvodu
+- Musí byť: písomná, doručená zamestnávateľovi
+
+### Výpoveď zamestnávateľa (§ 63 ods. 1 ZP)
+- Zamestnávateľ môže dať výpoveď len z taxatívnych dôvodov, napr.: organizačné dôvody, zrušenie zamestnávateľa, premiestnenie, nadbytočnosť
+- zdravotné dôvody
+- dlhodobá strata spôsobilosti.
+- porušenie pracovnej disciplíny
+- menej závažné porušenia po upozornení.
+- neuspokojivé pracovné výsledky
+- po písomnom upozornení.
+- Dôvod musí byť: presne skutkovo vymedzený, nemenný – nemožno ho dodatočne meniť
+
+### Formálne náležitosti
+- Zamestnávateľ musí: prerokovať výpoveď so zástupcami zamestnancov
+- Zamestnávateľ musí: splniť ponukovú povinnosť
+- Zamestnávateľ musí: získať súhlas úradu práce pri výpovedi ZŤP
+- Zamestnávateľ musí: informovať zákonného zástupcu mladistvého
+- Zamestnávateľ musí: doručiť výpoveď písomne
+
+### Ponuková povinnosť (§ 63 ods. 2 ZP)
+- Zamestnávateľ musí ponúknuť: inú vhodnú prácu, ak ju má k dispozícii
+- Ak ponukovú povinnosť nesplní, výpoveď je neplatná.
+
+### Výpovedná doba (§ 62 ods. 6 ZP)
+- Minimálne: 1 mesiac
+- Pri organizačných a zdravotných dôvodoch: 1 mesiac – pomer < 1 rok, 2 mesiace – pomer 1–5 rokov, 3 mesiace – pomer > 5 rokov
+- Začína plynúť: prvým dňom mesiaca nasledujúceho po doručení výpovede
+
+### Zákaz výpovede (§ 64 ZP)
+- Zamestnanec je chránený v ochrannej dobe: PN, tehotenstvo, materská dovolenka, rodičovská dovolenka, mimoriadna služba, dobrovoľná vojenská príprava, dočasná nespôsobilosť na nočnú prácu
+- Zákaz sa neuplatní pri: zrušení zamestnávateľa, organizačných dôvodoch, dôvodoch na okamžité skončenie
+
+## A38 — Osobitné pracovné podmienky mladistvých zamestnancov
+
+**Centrum:** Mladiství – <18 rokov × zákaz rizikových prác × zákaz nočnej práce × zákaz nadčasov × lekárske prehliadky
+
+### Pojem mladistvého (§ 40 ods. 3 ZP)
+- Mladistvý zamestnanec je osoba: mladšia ako 18 rokov, s osobitnou právnou ochranou, ktorá vyplýva z ich fyzického, psychického a sociálneho vývoja
+
+### Zamestnávanie mladistvých
+- Zamestnávateľ môže mladistvých zamestnávať len prácami: primeranými ich telesnému a rozumovému rozvoju, ktoré neohrozujú ich mravnosť, ktoré sú bezpečné a vhodné
+- Zamestnávateľ musí: viesť evidenciu mladistvých, zabezpečiť vstupné a pravidelné lekárske prehliadky, spolupracovať so zákonným zástupcom
+
+### Zakázané práce (nariadenie vlády č. 286/2004 Z. z.)
+- Mladistvým sú zakázané práce: pod zemou, so zvýšeným rizikom úrazu, neprimerané ich vývoju, ohrozujúce bezpečnosť iných osôb, s toxickými látkami, vibráciami, extrémnou fyzickou záťažou
+
+### Nočná práca a nadčasy
+- Mladiství nesmú: vykonávať nočnú prácu, pracovať nadčas, byť zaradení do nepretržitých prevádzok
+- Výnimka: mladiství nad 16 rokov v rámci prípravy na povolanie, max. 1 hodina nočnej práce, musí bezprostredne nadväzovať na dennú prácu
+
+### Pracovná pohotovosť
+- Mladiství nesmú: vykonávať pracovnú pohotovosť, byť pripravení na výkon práce mimo pracovného času
+
+### Lekárske prehliadky
+- Zamestnávateľ musí zabezpečiť: vstupnú lekársku prehliadku pred vznikom pracovného pomeru, pravidelné prehliadky počas trvania pomeru, zvýšenú kontrolu pri rizikových faktoroch
+
+### Zákonný zástupca
+- Zamestnávateľ musí: informovať zákonného zástupcu o výpovedi
+- Zamestnávateľ musí: informovať o okamžitom skončení
+- Zamestnávateľ musí: vyžiadať si stanovisko pri skončení pracovného pomeru
+- Zamestnávateľ musí: spolupracovať pri riešení pracovných podmienok
+
+## A39 — Dovolenka × krátenie dovolenky
+
+**Centrum:** Dovolenka – výmera × nárok × krátenie × 21 dní × 100 dní × PN × rodičovská
+
+### Výmera dovolenky (§ 103 ZP)
+- Základná výmera: 4 týždne, 5 týždňov – zamestnanec nad 33 rokov, 8 týždňov – pedagogickí a odborní zamestnanci
+
+### Vznik nároku
+- Nárok na celoročnú dovolenku vzniká po: 60 odpracovaných dňoch v kalendárnom roku
+- Nárok vzniká aj pri kratšom trvaní pracovného pomeru – pomerná časť.
+
+### Pomerná časť dovolenky
+- Pri kratšom trvaní pracovného pomeru: za každý celý mesiac trvania pomeru patrí 1/12 ročnej výmery
+
+### Krátenie dovolenky (§ 109 ZP)
+- Krátenie je možné len zo zákonných dôvodov: dlhodobá PN, rodičovská dovolenka, neospravedlnená absencia, iné prekážky na strane zamestnanca
+- Limity: prvých 100 dní prekážok sa nekráti, za každých 21 dní prekážok možno krátiť o 1/12 ročnej výmery
+
+### Prekážky na strane zamestnanca
+- Prekážky, ktoré môžu viesť ku kráteniu: PN nad 100 dní, rodičovská dovolenka, neospravedlnená absencia, dlhodobé osobné prekážky
+
+### PN a rodičovská dovolenka
+- PN sa kráti až po 100 dňoch,
+- rodičovská dovolenka sa kráti od začiatku (nie je chránená ako materská).
+
+### Materská dovolenka
+- nikdy sa nekráti,
+- materská dovolenka je chránená ako výkon práce.
+
+## A40 — Vznik odborov × postavenie odborov × právomoci
+
+**Centrum:** Odbory – vznik × registrácia × kolektívne vyjednávanie × prerokovanie × ochrana funkcionárov
+
+### Vznik odborov
+- Odbory vznikajú: na základe ústavného práva združovania, registráciou stanov na Ministerstve vnútra SR, podľa zákona o združovaní občanov
+- Odbory sú: nezávislé od zamestnávateľa, nezávislé od štátu, financované z členských príspevkov
+
+### Postavenie odborov v pracovnoprávnych vzťahoch
+- Odbory sú: najsilnejší zástupca zamestnancov, jediný subjekt oprávnený uzatvárať kolektívne zmluvy, partner zamestnávateľa pri prerokovaní zásadných otázok
+- Zamestnávateľ je povinný: umožniť odborom pôsobenie na pracovisku, poskytovať im informácie, prerokovať zákonom určené otázky
+
+### Právomoci odborov
+- Odbory majú právo: kontrolovať dodržiavanie pracovnoprávnych predpisov
+- Odbory majú právo: prerokovať pracovný poriadok, BOZP, organizačné zmeny, hromadné prepúšťanie
+- Odbory majú právo: spolurozhodovať v otázkach sociálnej politiky
+- Odbory majú právo: kolektívne vyjednávať a uzatvárať kolektívne zmluvy
+
+### Zástupcovia zamestnancov
+- Patria sem: odborová organizácia, zamestnanecká rada, zamestnanecký dôverník, zástupca pre BOZP
+- Odbory majú: najširšie právomoci (kontrola, spolurozhodovanie, vyjednávanie)
+- Rada a dôverník majú: právo na informácie a prerokovanie, nie však právo uzatvárať kolektívne zmluvy
+
+### Kolektívne vyjednávanie
+- Odbory sú jediným subjektom, ktorý môže: uzatvárať kolektívne zmluvy, vyjednávať o mzdách, pracovných podmienkach, sociálnych benefitoch, iniciovať kolektívny spor
+
+### Prerokovanie a informácie
+- Zamestnávateľ musí odborom prerokovať: pracovný poriadok, BOZP, organizačné zmeny, hromadné prepúšťanie, zásadné otázky pracovných podmienok
+
+### Ochrana odborových funkcionárov (§ 240 ZP)
+- Odboroví funkcionári majú: zákaz výpovede počas výkonu funkcie, ochranu ešte 6 mesiacov po skončení funkcie, zamestnávateľ im môže dať výpoveď len so súhlasom odborov
+
+## A41 — Predzmluvné vzťahy
+
+**Centrum:** Predzmluvné vzťahy – údaje × povinnosti × zákaz diskriminácie × práva uchádzača
+
+### Povolené údaje (§ 41 ZP)
+- Zamestnávateľ môže požadovať len údaje
+- súvisiace s prácou
+- potrebné na posúdenie spôsobilosti uchádzača
+- pri prvom zamestnaní len nevyhnutné informácie
+- pri uchádzačovi, ktorý už pracoval: pracovný posudok, potvrdenie o zamestnaní
+
+### Zakázané údaje
+- Zamestnávateľ nesmie zisťovať: tehotenstvo, rodinné pomery, politickú či odborovú príslušnosť, bezúhonnosť, ak to nevyžaduje osobitný predpis, informácie nesúvisiace s výkonom práce
+
+### Povinnosti zamestnávateľa
+- Zamestnávateľ musí: oboznámiť uchádzača s pracovnými a mzdovými podmienkami
+- Zamestnávateľ musí: informovať o právach a povinnostiach vyplývajúcich z pracovnej zmluvy
+- Zamestnávateľ musí: overiť zdravotnú alebo psychickú spôsobilosť, ak to vyžaduje osobitný predpis
+- Zamestnávateľ musí: pri mladistvom uchádzačovi zabezpečiť lekárske vyšetrenie a vyžiadať si vyjadrenie zákonného zástupcu
+
+### Práva uchádzača
+- Uchádzač má právo: na rovnaké zaobchádzanie
+- Uchádzač má právo: na ochranu pred diskrimináciou
+- Uchádzač má právo: na primeranú peňažnú náhradu, ak zamestnávateľ poruší zákaz diskriminácie alebo požaduje zakázané údaje
+- Uchádzač má právo: uvádzať len pravdivé údaje
+- Uchádzač má právo: informovať o skutočnostiach, ktoré bránia výkonu práce
+
+### Mladiství uchádzači
+- Zamestnávateľ musí: zabezpečiť lekársku prehliadku, vyžiadať stanovisko zákonného zástupcu, rešpektovať osobitné obmedzenia pri zamestnávaní mladistvých
+
+### Rovnaké zaobchádzanie
+- Predzmluvné vzťahy sú chránené: zákazom diskriminácie, povinnosťou konať čestne a pravdivo, zásadou transparentnosti
+
+## A42 — Sociálna politika zamestnávateľa
+
+**Centrum:** Sociálna politika – povinné × dobrovoľné × BOZP × stravovanie × benefity
+
+### Povinná sociálna politika
+- Zamestnávateľ musí zabezpečiť: BOZP – bezpečné pracovné prostredie, školenia, ochranné prostriedky, prevencia rizík
+- Zamestnávateľ musí zabezpečiť: stravovanie – povinnosť zabezpečiť stravu alebo príspevok
+- Zamestnávateľ musí zabezpečiť: pracovné podmienky – hygienické, technické, organizačné
+- Zamestnávateľ musí zabezpečiť: prekážky v práci – poskytovanie voľna podľa zákona
+- Zamestnávateľ musí zabezpečiť: ochranu zdravia – lekárske prehliadky, ergonomické podmienky
+- Zamestnávateľ musí zabezpečiť: dodržiavanie Zákonníka práce – mzda, pracovný čas, odpočinok
+
+### Dobrovoľná sociálna politika
+- Zamestnávateľ môže poskytovať: príspevky na šport, kultúru, vzdelávanie
+- Zamestnávateľ môže poskytovať: príspevky na dopravu
+- Zamestnávateľ môže poskytovať: zdravotnú starostlivosť (napr. preventívne prehliadky)
+- Zamestnávateľ môže poskytovať: dôchodkové sporenie
+- Zamestnávateľ môže poskytovať: flexibilný pracovný čas
+- Zamestnávateľ môže poskytovať: home office
+- Zamestnávateľ môže poskytovať: firemné akcie
+- Zamestnávateľ môže poskytovať: programy well-beingu a duševného zdravia
+- Cieľ: motivácia, lojalita, znižovanie fluktuácie.
+- BOZP – základ sociálnej politiky
+- Zamestnávateľ musí: hodnotiť riziká, poskytovať OOPP, zabezpečiť školenia, vytvoriť bezpečné pracovné prostredie, spolupracovať so zástupcami zamestnancov
+
+### Stravovanie (§ 152 ZP)
+- Zamestnávateľ musí: zabezpečiť stravu alebo finančný príspevok, stravovanie je povinné, nie dobrovoľné, príspevok musí byť minimálne 55 % ceny jedla
+
+### Pracovné podmienky
+- Zahŕňajú: pracovné prostredie, teplotu, osvetlenie, hluk, pracovné nástroje a vybavenie, organizáciu práce
+
+### Benefity
+- Benefity musia byť: poskytované nediskriminačne, transparentné, často upravené v kolektívnej zmluve
+
+### Kolektívna zmluva
+- Môže rozšíriť sociálnu politiku: vyššie príspevky, dlhšia dovolenka, príspevky na rekreáciu, sociálny fond, ďalšie benefity nad rámec zákona
+
+## A43 — Odmeňovanie v nepodnikateľskej sfére
+
+**Centrum:** Plat – tarifné tabuľky × trieda × stupeň × osobný príplatok × verejný sektor
+
+### Plat vs. mzda
+- v podnikateľskej sfére → mzda,
+- vo verejnom sektore → plat,
+- plat je zákonom určený, nie dohodou.
+
+### Tarifné tabuľky (zákon č. 553/2003 Z. z.)
+- Plat sa určuje podľa: platovej triedy – náročnosť práce, platového stupňa – dĺžka započítanej praxe
+- Zamestnávateľ nemôže určiť plat svojvoľne.
+
+### Platová trieda
+- Určuje sa podľa: katalógu pracovných činností, zložitosti, zodpovednosti a náročnosti práce
+- Zaradenie do nižšej triedy je nezákonné.
+
+### Platový stupeň
+- Závisí od: započítanej praxe, prax sa započítava podľa pravidiel zákona (nie vždy 1:1)
+- Vyšší stupeň = vyšší plat.
+
+### Zložky platu
+- Plat sa skladá z: tarifného platu, osobného príplatku, príplatkov (noc, sviatok, víkend), odmien, ďalších zákonných zložiek
+
+### Osobný príplatok
+- Možno ho priznať: za kvalitný výkon, za špecifické schopnosti, musí byť objektívne odôvodnený, nesmie byť diskriminačný
+
+### Transparentnosť a rovnosť
+- Odmeňovanie vo verejnom sektore musí byť: rovnaké, predvídateľné, nediskriminačné, kontrolovateľné
+
+## A44 — Zvyšovanie × prehlbovanie kvalifikácie
+
+**Centrum:** Kvalifikácia – prehlbovanie × zvyšovanie × kvalifikačná dohoda × náklady × pracovné voľno
+
+### Prehlbovanie kvalifikácie (§ 153 ZP)
+- povinnosť zamestnanca,
+- dopĺňanie, udržiavanie alebo obnovovanie vedomostí,
+- BOZP, školenia, kurzy, rekvalifikácia pri zmene pracoviska,
+- považuje sa za výkon práce – patrí mzda,
+- náklady hradí zamestnávateľ.
+- Možno uzavrieť dohodu len ak náklady presiahnu 1700 €.
+
+### Zvyšovanie kvalifikácie (§ 154 – 155 ZP)
+- získanie vyššieho stupňa vzdelania (napr. VŠ),
+- dobrovoľné – zamestnávateľ nemusí umožniť,
+- vyžaduje písomnú kvalifikačnú dohodu,
+- zamestnávateľ poskytuje pracovné voľno, náhradu mzdy, úhradu nákladov.
+
+### Kvalifikačná dohoda
+- Musí byť: písomná, max. na 5 rokov, obsahovať záväzok zamestnanca zotrvať v pracovnom pomere, obsahovať presnú výšku nákladov a spôsob ich úhrady
+
+### Náhrada nákladov
+- Zamestnanec uhrádza náklady len: ak poruší záväzok zotrvať, ak sú náklady preukázané, ak dohoda je platná a zákonná
+
+### Pracovné voľno a mzda
+- Pri zvyšovaní kvalifikácie: patrí pracovné voľno, patrí náhrada mzdy, zamestnávateľ hradí náklady podľa dohody
+- Pri prehlbovaní kvalifikácie: ide o výkon práce – patrí mzda
+
+### Výnimky z povinnosti uhradiť náklady
+- Zamestnanec nehradí náklady, ak skončenie pracovného pomeru nastalo
+- z organizačných dôvodov
+- pre zdravotnú nespôsobilosť
+- pre chorobu z povolania
+- pri materskej alebo rodičovskej dovolenke
+- pre porušenie povinností zamestnávateľa
+
+## A45 — Prekážky v práci na strane zamestnávateľa
+
+**Centrum:** Prekážky na strane zamestnávateľa – prestoje × počasie × vážne prevádzkové dôvody × kurzarbeit × náhrada mzdy
+
+### Prestoje (§ 142 ods. 1 ZP)
+- Vznikajú pri: poruche stroja, výpadku surovín, technických poruchách, iných prevádzkových problémoch
+- Náhrada mzdy: 100 % priemerného zárobku, ak zamestnanec nie je preradený na inú prácu
+- Nepriaznivé poveternostné vplyvy (§ 142 ods. 2 ZP)
+- Ide o situácie, keď: počasie znemožňuje výkon práce (napr. stavebné práce, poľnohospodárstvo)
+- Náhrada mzdy: minimálne 50 % priemerného zárobku, môže byť vyššia podľa kolektívnej zmluvy
+
+### Iné prekážky na strane zamestnávateľa (§ 142 ods. 3 ZP)
+- Patria sem: protiprávne konanie zamestnávateľa, organizačné zlyhania, chybné plánovanie práce
+- Náhrada mzdy: 100 % priemerného zárobku
+
+### Vážne prevádzkové dôvody (§ 142 ods. 4 ZP)
+- Podmienky: musia byť vymedzené v písomnej dohode so zástupcami zamestnancov, zamestnávateľ ich nemôže určiť jednostranne
+- Náhrada mzdy: minimálne 60 % priemerného zárobku
+- Možnosť: využitie konta pracovného času
+
+### Konto pracovného času
+- Používa sa pri: kolísaní práce, vážnych prevádzkových dôvodoch
+- Umožňuje: kladný účet (viac odpracovaných hodín), záporný účet (menej odpracovaných hodín)
+
+### Kurzarbeit (podpora v čase skrátenej práce)
+- Podmienky: dohoda so zástupcami zamestnancov alebo so zamestnancom, prekážka na strane zamestnávateľa
+- Náhrada mzdy: minimálne 80 % priemerného zárobku
+
+## A46 — Nároky z neplatného skončenia pracovného pomeru
+
+**Centrum:** Neplatné skončenie – žaloba × 2 mesiace × trvanie pomeru × náhrada mzdy × fikcia skončenia
+
+### Neplatnosť skončenia (§ 77 – 80 ZP)
+- Neplatné skončenie nastáva, ak: právny úkon nespĺňa zákonné podmienky, je daný v ochrannej dobe, dôvod nie je skutkovo vymedzený, chýbajú formálne náležitosti
+- Ide o relatívnu neplatnosť – musí sa jej dovolať dotknutý účastník.
+
+### Lehota 2 mesiace
+- Žalobu o neplatnosť treba podať: do 2 mesiacov od dňa, keď sa mal pracovný pomer skončiť, ide o prekluzívnu lehotu – po jej uplynutí nárok zaniká
+
+### Neplatné skončenie zo strany zamestnanca
+- Ak zamestnanec neplatne skončí pracovný pomer
+- zamestnávateľ môže trvať na ďalšom zamestnávaní
+- pracovný pomer trvá
+- zamestnanec je povinný nastúpiť do práce
+- ak nenastúpi → zamestnávateľ môže požadovať náhradu škody
+- Ak zamestnávateľ netrvá na ďalšom zamestnávaní: pracovný pomer sa považuje za skončený dohodou (fikcia skončenia)
+
+### Neplatné skončenie zo strany zamestnávateľa
+- Ak zamestnávateľ neplatne skončí pracovný pomer
+- zamestnanec môže oznámiť, že trvá na ďalšom zamestnávaní
+- pracovný pomer trvá
+- zamestnávateľ musí prideľovať prácu alebo poskytnúť náhradu mzdy
+- Ak zamestnanec netrvá na ďalšom zamestnávaní: pracovný pomer sa považuje za skončený dohodou, patrí mu náhrada mzdy za výpovednú dobu
+
+### Náhrada mzdy (§ 79 ZP)
+- Pri trvaní na ďalšom zamestnávaní
+- patrí náhrada mzdy vo výške priemerného zárobku
+- najviac za 36 mesiacov
+- súd môže náhradu po 12 mesiacoch znížiť alebo nepriznať
+- pri whistlebloweroch sa náhrada neobmedzuje
+- Pri netrvaní: patrí náhrada mzdy za výpovednú dobu
+
+### Fikcia skončenia
+- Ak dotknutá strana netrvá na ďalšom zamestnávaní: pracovný pomer sa považuje za skončený dohodou, vzniká nárok na náhradu mzdy za výpovednú dobu
+
+### Judikatúra
+- R 39/1985 – treba skúmať, či po neplatnej výpovedi nedošlo k platnému skončeniu pracovného pomeru.
+- R 47/1997 – ak zamestnávateľ neprideľuje prácu po oznámení zamestnanca, patrí náhrada mzdy podľa § 142.
+
+## A47 — Skončenie pracovného pomeru × dohoda × skúšobná doba × hromadné prepúšťanie
+
+**Centrum:** Skončenie pracovného pomeru – dohoda × skúšobná doba × hromadné prepúšťanie × kogentné pravidlá
+
+### Spôsoby skončenia pracovného pomeru (§ 59 ZP)
+- Kogentné spôsoby: dohoda
+- Kogentné spôsoby: výpoveď
+- Kogentné spôsoby: okamžité skončenie
+- Kogentné spôsoby: skončenie v skúšobnej dobe
+- Kogentné spôsoby: uplynutie času (pri pracovnom pomere na dobu určitú)
+- Kogentné spôsoby: smrť zamestnanca
+- Kogentné spôsoby: úradné rozhodnutie
+- Kogentné spôsoby: skončenie priamo zo zákona (napr. § 58 ods. 7 ZP)
+
+### Dohoda o skončení pracovného pomeru (§ 60 ZP)
+- Charakteristika: dvojstranný právny úkon, vyžaduje zhodný prejav vôle, musí byť písomná, ale jej nedodržanie nespôsobuje neplatnosť
+- Obsah: deň skončenia môže byť určený dátumom alebo opisne
+- dôvod sa uvádza len: na žiadosť zamestnanca, alebo pri dôvodoch podľa § 63 ods. 1 písm. a–c
+- Dôležité: dohoda je dobrovoľná, zamestnávateľ nesmie zamestnanca nútiť k podpisu
+- Skončenie pracovného pomeru v skúšobnej dobe (§ 72 ZP)
+- jednostranný právny úkon,
+- zamestnanec aj zamestnávateľ môžu skončiť bez uvedenia dôvodu,
+- musí byť písomné,
+- oznámenie sa má doručiť spravidla 3 dni vopred (poriadková lehota).
+- Ochrana
+- zákaz skončenia s: tehotnou ženou, matkou do 9 mesiacov po pôrode, dojčiacou ženou, mužom na otcovskej dovolenke, výnimka: dôvody nesúvisiace s tehotenstvom/materstvom
+
+### Hromadné prepúšťanie (§ 73 ZP)
+- Nastáva, ak zamestnávateľ rozviaže pracovný pomer z organizačných dôvodov s väčším počtom zamestnancov v priebehu 30 dní
+- 20–100 zamestnancov → najmenej 10 prepustených
+- 100–300 zamestnancov → najmenej 10 %
+- 300+ zamestnancov → najmenej 30 prepustených
+- Povinnosti zamestnávateľa: prerokovať so zástupcami zamestnancov, poskytnúť informácie, informovať úrad práce, dodržať zákonné lehoty
+- Sankcia: pri porušení povinností patrí zamestnancovi náhrada mzdy najmenej vo výške dvojnásobku priemerného zárobku
+
+### Formálne náležitosti
+- písomná forma,
+- doručenie,
+- presné skutkové vymedzenie dôvodu (pri výpovedi),
+- prerokovanie so zástupcami zamestnancov.
+
+### Ochrana vybraných zamestnancov
+- tehotné ženy,
+- matky do 9 mesiacov po pôrode,
+- dojčiace ženy,
+- muži na otcovskej dovolenke.
+- Zamestnávateľ ich nemôže skončiť v skúšobnej dobe, okrem výnimočných dôvodov nesúvisiacich s tehotenstvom/materstvom.
+
+### Náhrada mzdy pri porušení povinností
+- Pri hromadnom prepúšťaní: náhrada mzdy min. dvojnásobok priemerného zárobku
+
+## A48 — Bezpečnosť a ochrana zdravia pri práci (BOZP)
+
+**Centrum:** BOZP – povinnosti zamestnávateľa × povinnosti zamestnanca × riziká × OOPP × kontrola
+
+### Povinnosti zamestnávateľa (§ 146 – 150 ZP, zákon č. 124/2006 Z. z.)
+- Zamestnávateľ musí: sústavne zabezpečovať BOZP
+- Zamestnávateľ musí: hodnotiť riziká a vypracovať dokument o posúdení rizík
+- Zamestnávateľ musí: vydávať vnútorné predpisy BOZP
+- Zamestnávateľ musí: zabezpečiť školenia BOZP
+- Zamestnávateľ musí: poskytovať OOPP bezplatne
+- Zamestnávateľ musí: zabezpečiť prvú pomoc, evakuáciu, PO
+- Zamestnávateľ musí: organizovať rekondičné pobyty pre rizikové kategórie
+- Zamestnávateľ musí: zriadiť komisiu BOZP (100+ zamestnancov)
+- Zamestnávateľ musí: spolupracovať so zástupcami zamestnancov pre BOZP
+
+### Povinnosti zamestnanca
+- Zamestnanec musí: dodržiavať predpisy BOZP
+- Zamestnanec musí: používať OOPP
+- Zamestnanec musí: zúčastňovať sa školení
+- Zamestnanec musí: oznamovať nebezpečné situácie
+- Zamestnanec musí: podrobiť sa testu na alkohol a omamné látky
+- Zamestnanec musí: dodržiavať zákaz fajčenia
+- Zamestnanec musí: zúčastniť sa rekondičných pobytov
+- Má právo: odmietnuť prácu pri bezprostrednom ohrození života alebo zdravia
+
+### Hodnotenie rizík
+- Zamestnávateľ musí: identifikovať nebezpečné faktory, vyhodnotiť ich závažnosť, prijať opatrenia na ich odstránenie alebo minimalizáciu, pravidelne aktualizovať dokumentáciu
+- OOPP (osobné ochranné pracovné prostriedky)
+- Zamestnávateľ musí: poskytovať OOPP bezplatne, zabezpečiť ich údržbu, výmenu a kontrolu, viesť evidenciu vydaných OOPP
+
+### Školenia BOZP
+- sú povinné,
+- považujú sa za výkon práce – patrí mzda,
+- musia byť pravidelné a preukázateľné (podpisová listina).
+
+### Rekondičné pobyty
+- Povinné pri práci v: 3. a 4. kategórii rizika, zamestnávateľ ich musí hradiť, cieľom je regenerácia zdravia
+
+### Kontrola BOZP
+- Kontrolu vykonávajú: inšpekcia práce, odborové orgány, zástupcovia zamestnancov pre BOZP, komisia BOZP
+- Pri porušení povinností: zamestnávateľ nesie zodpovednosť za pracovný úraz
+
+## A49 — Práca nadčas × nočná práca × evidencia pracovného času
+
+**Centrum:** Nadčas – limity × nočná práca × zdravotná spôsobilosť × evidencia × ochrana zamestnancov
+
+### Práca nadčas (§ 97 ZP)
+- Nadčas je práca: nad určený týždenný pracovný čas, vykonávaná na príkaz zamestnávateľa alebo s jeho súhlasom, musí byť výnimočná, nie pravidelná
+
+### Limity nadčasov
+- Zákon stanovuje: 150 hodín nariadeného nadčasu ročne, 400 hodín celkového nadčasu (vrátane dohodnutého), vyššie limity sú možné len pri kolektívnej zmluve
+
+### Zákazy nadčasov
+- Nadčas nemožno nariadiť: tehotným ženám, matkám do 9 mesiacov po pôrode, dojčiacim ženám, osamelým rodičom bez súhlasu, mladistvým (<18 rokov)
+
+### Nočná práca (§ 98 ZP)
+- Nočná práca je práca: medzi 22:00 – 6:00, vyžaduje zdravotnú spôsobilosť, zamestnávateľ musí zabezpečiť posúdenie zdravotného stavu
+- Osobitná ochrana: tehotné ženy, matky do 9 mesiacov po pôrode, dojčiace ženy, osamelí rodičia
+
+### Zdravotná spôsobilosť
+- Zamestnávateľ musí: zabezpečiť lekárske posúdenie, pravidelne kontrolovať zdravotný stav nočných pracovníkov, preradiť zamestnanca, ak nočnú prácu nemôže vykonávať
+
+### Príplatky
+- Za nadčas a nočnú prácu patrí: príplatok za nadčas, príplatok za nočnú prácu, príplatok za sviatok, príplatok za víkend
+
+### Evidencia pracovného času (§ 99 ZP)
+- Zamestnávateľ musí viesť presnú evidenciu: začiatok a koniec pracovného času, prestávky, nadčasy, nočnú prácu, pracovnú pohotovosť
+- Nestačí evidovať len počet hodín – musí byť presná a podrobná.
+
+## A50 — Dohody × pracovný pomer
+
+**Centrum:** Dohody vs. pracovný pomer – flexibilita × limity × nároky × ochrana × závislá práca
+
+### Dohody – všeobecne (§ 223–228a ZP)
+- Dohody sú: DoVP – dohoda o vykonaní práce, DBPŠ – dohoda o brigádnickej práci študentov, DPČ – dohoda o pracovnej činnosti
+- Charakteristika: uzatvárajú sa výnimočne, sú vhodné na krátkodobú, sezónnu, príležitostnú prácu, nezakladajú pracovný pomer, poskytujú obmedzené práva
+
+### Pracovný pomer
+- Pracovný pomer je: základná forma závislej práce, poskytuje dovolenku, výpovednú ochranu, odstupné, obsahuje pracovný čas, prestávky, prekážky v práci, garantuje sociálne istoty a stabilitu
+
+### Limity dohôd
+- DoVP – max. 350 hodín ročne,
+- DBPŠ – max. 20 hodín týždenne v priemere,
+- DPČ – max. 10 hodín týždenne,
+- pri dohodách nemožno nariadiť nadčas,
+- pracovný čas pri dohodách max. 12 hodín denne (mladiství 8 hodín).
+
+### Práva pri dohodách
+- Pri dohodách nepatrí: dovolenka, odstupné, výpovedná doba (ak nie je dohodnutá), prekážky v práci s náhradou mzdy, ochrana pri výpovedi ako v pracovnom pomere
+- Patrí: odmena za vykonanú prácu, príplatky podľa zákona (napr. sviatok, noc, víkend)
+
+### Závislá práca (§ 1 ZP)
+- Ak práca má znaky závislej práce: vykonáva sa osobne, podľa pokynov zamestnávateľa, v pracovnom čase, v mene zamestnávateľa, za mzdu, musí byť vykonávaná v pracovnom pomere, nie na dohodu
+
+### Skončenie dohôd
+- dohody musia byť písomné,
+- skončenie podľa podmienok v dohode,
+- ak nie je dohodnuté – skončenie výpoveďou alebo uplynutím času,
+- bez výpovednej ochrany ako v pracovnom pomere.
+
+### Porovnanie výhod
+- Pracovný pomer poskytuje: stabilitu, dovolenku, odstupné, ochranu pri výpovedi, prekážky v práci, sociálne istoty
+- Dohody poskytujú: flexibilitu, jednoduché skončenie, vhodné na doplnkovú prácu
