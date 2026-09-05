@@ -1,0 +1,235 @@
+{
+  "id": "A2",
+  "title": "Asertívne pravidlá",
+  "schemaVersion": "1.1",
+  "tags": [
+    "asertivita",
+    "práva",
+    "hranice"
+  ],
+  "theory": [
+    {
+      "heading": "Moje práva sú aj tvoje",
+      "text": "Rámec recipročnosti stojí nad celým zoznamom práv: každé právo, ktoré si nárokujem pre seba, má rovnako aj druhý. Asertivita nie je zbraň — je to rešpekt k obom stranám. Keď si niektoré právo nárokuješ len pre seba, prestáva to byť asertivita a začína to byť presadzovanie sa cez druhého."
+    },
+    {
+      "heading": "Desať práv v skratke",
+      "text": "Mám právo povedať nie bez pocitu viny. Zmeniť názor. Urobiť chybu a niesť za ňu zodpovednosť. Povedať neviem alebo nerozumiem. Požiadať o to, čo chcem. Mať svoje pocity a vyjadriť ich. Rozhodovať o svojich veciach. Byť vypočutý a braný vážne. Nebyť závislý od súhlasu druhých. A povedať, že si to potrebujem premyslieť."
+    },
+    {
+      "heading": "Láskavosť verzus oprávnený nárok",
+      "text": "Byť láskavý neznamená vždy povedať áno. Láskavosť je dar, ktorý dávaš slobodne. Oprávnený nárok je niečo, na čo máš právo — povedať nie, mať súkromie, zmeniť názor, byť rešpektovaný. Problém nastáva, keď si zamieňaš „som milý“ s „nemám právo odmietnuť“. Keď vieš, čo je dar a čo právo, prestaneš sa cítiť vinný za to, že sa staráš aj o seba."
+    },
+    {
+      "heading": "Dramatický trojuholník",
+      "text": "Obeť, záchranca a agresor. Keď spadnem do roly obete, priťahujem si tie druhé dve — niekto ma zachraňuje, niekto na mňa útočí, a točíme sa dokola. Vystúpiť sa dá jediným smerom: do dospelej, asertívnej polohy — poviem, čo cítim a čo potrebujem, bez útoku a bez sebazapretia."
+    },
+    {
+      "heading": "Čo sa deje v tele: amygdala",
+      "text": "Keď sa cítiš napadnutý — slovom, výčitkou, tlakom — amygdala spustí poplach skôr, než stihneš rozmyslieť. Telo prepne do jedného z troch režimov: boj, útek alebo zamrznutie. Preto niekedy zareaguješ inak, než by si chcel; nie je to slabosť, je to biológia. Čo s tým: pomenuj to, jeden pomalý nádych a výdych, a až potom odpovedz. Pauza nie je slabosť — je to tvoja moc."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Štyri komunikačné štýly sú pasívny, agresívny, pasívne-agresívny a asertívny. Ktorá veta je pasívne-agresívna?",
+      "options": [
+        "„Nestíham to, potrebujem posunúť termín.“",
+        "„Ale nie, to nič, veď mne je to jedno.“",
+        "„Toto si mal spraviť ty, nie ja!“"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — pasívne-agresívny štýl naznačí a pichne, ale priamo nepovie. Druhý cíti napätie a nevie, na čom je.",
+      "explanation_incorrect": "Nie — prvá veta je asertívna, tretia agresívna. Pasívna agresia naznačuje a pichá, ale priamo nepovie nič."
+    },
+    {
+      "question": "„Mám právo požiadať o to, čo chcem.“ Čo k tomuto právu neodmysliteľne patrí?",
+      "options": [
+        "Že druhý má plné právo odmietnuť",
+        "Že prosbu treba vždy zdôvodniť",
+        "Že požiadať sa dá len raz"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — bez práva druhého odmietnuť by to nebola prosba, ale tlak.",
+      "explanation_incorrect": "Nie — k právu požiadať patrí právo druhého odmietnuť. Inak by to nebola prosba, ale nátlak."
+    },
+    {
+      "question": "„Mám právo urobiť chybu.“ Ako znie druhá, recipročná strana tohto práva?",
+      "options": [
+        "Že chyby netreba priznávať",
+        "Že druhý sa smie pomýliť bez toho, aby som mu to pripomínal navždy",
+        "Že za chybu nenesiem zodpovednosť"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — právo urobiť chybu ide vždy so zodpovednosťou zaň a s rovnakou zhovievavosťou voči druhému.",
+      "explanation_incorrect": "Nie — právo urobiť chybu je neoddeliteľné od zodpovednosti zaň. A recipročne: aj druhý sa smie pomýliť."
+    },
+    {
+      "question": "Kedy prestáva byť asertivita asertivitou?",
+      "options": [
+        "Keď zvýšim hlas",
+        "Keď si právo nárokujem len pre seba a druhému ho nedoprajem",
+        "Keď ustúpim"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — práva bez recipročnosti sa menia na nástroj presadzovania sa cez druhého.",
+      "explanation_incorrect": "Nie — rozhoduje recipročnosť. Rámec „moje práva sú aj tvoje“ drží celý model pohromade."
+    },
+    {
+      "question": "Kolega chce, aby si za neho urobil jeho prácu. Ako je to s láskavosťou a oprávneným nárokom?",
+      "options": [
+        "Je to len láskavosť a nemá právo o ňu žiadať",
+        "Je to jeho oprávnený nárok, veď sme tím",
+        "Pomôcť môžem ako dar — a rovnako mám právo povedať nie"
+      ],
+      "correct": 2,
+      "explanation_correct": "Správne — pomoc je dar, nie povinnosť. Rozhoduje tvoja sloboda, nie jeho tlak.",
+      "explanation_incorrect": "Nie — požiadať smie, ale nárok na tvoju prácu nemá. Pomoc je dar, ktorý smieš dať aj nedať."
+    },
+    {
+      "question": "Čo je dramatický trojuholník?",
+      "options": [
+        "Tri fázy každého konfliktu",
+        "Točenie sa v rolách obeť, záchranca a agresor",
+        "Tri štýly komunikácie"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — keď spadnem do roly obete, priťahujem si tie ďalšie dve a kolotoč sa točí dokola.",
+      "explanation_incorrect": "Nie — sú to tri roly, ktoré sa navzájom priťahujú: obeť, záchranca a agresor. Von vedie jediný smer: dospelá, asertívna poloha."
+    },
+    {
+      "question": "Prečo v napätí zareagujeme inak, než by sme chceli?",
+      "options": [
+        "Je to slabosť charakteru",
+        "Amygdala spustí poplach — boj, útek alebo zamrznutie — skôr, než stihneme rozmyslieť",
+        "Lebo nemáme dosť argumentov"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — je to biológia, nie zlyhanie. Jeden pomalý nádych dá mozgu pár sekúnd, aby sa zapla rozvážna časť.",
+      "explanation_incorrect": "Nie — nie je to slabosť charakteru. Amygdala spustí poplach skôr, než stihneš rozmyslieť; pomáha pomenovanie a jeden pomalý nádych."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Recipročnosť práv",
+      "definition": "Každé právo, ktoré si nárokujem pre seba, má rovnako aj druhý. Bez toho sa z práva stáva výsada."
+    },
+    {
+      "term": "Láskavosť",
+      "definition": "Dar, ktorý dávaš slobodne — a slobodne ho smieš aj nedať. Nie je to povinnosť."
+    },
+    {
+      "term": "Oprávnený nárok",
+      "definition": "Niečo, na čo máš právo: povedať nie, mať súkromie, zmeniť názor, byť rešpektovaný."
+    },
+    {
+      "term": "Dramatický trojuholník",
+      "definition": "Obeť, záchranca a agresor — tri roly, ktoré sa navzájom priťahujú. Von vedie dospelá, asertívna poloha."
+    },
+    {
+      "term": "Amygdala",
+      "definition": "Strážca v mozgu, ktorý spustí poplach skôr, než stihneš rozmyslieť: boj, útek alebo zamrznutie. Pomáha pauza a jeden pomalý nádych."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 2 — Zmena názoru pred tímom",
+      "difficulty": "ťažšia",
+      "steps": [
+        {
+          "question": "Zadanie: Minulý týždeň si tímu oznámil rozhodnutie. Odvtedy prišli nové čísla, ktoré ukazujú, že rozhodnutie bolo zlé. Bojíš sa, že zmena názoru ťa pred tímom oslabí. Ako postupovať?",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Ktoré asertívne právo je tu v hre?",
+          "options": [
+            "Právo povedať nie",
+            "Právo zmeniť názor",
+            "Právo nebyť závislý od súhlasu druhých"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — nový údaj má viesť k novému rozhodnutiu. To nie je slabosť, ale rozum.",
+          "explanation_incorrect": "Nie — kľúčové je právo zmeniť názor. Držať sa rozhodnutia napriek novým faktom nie je pevnosť, ale strach z priznania."
+        },
+        {
+          "question": "Krok 2: Ako to tímu povedať?",
+          "options": [
+            "Ticho zmeniť smer a nekomentovať to",
+            "Pomenovať nové čísla a povedať, čo z nich vyplýva",
+            "Zvaliť to na nepresné podklady od kolegov"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — zmena názoru s vysvetlením dôvere neuberá, práve naopak: ukazuje, že rozhodujem podľa faktov.",
+          "explanation_incorrect": "Nie — tiché otočenie ani hľadanie vinníka dôveru nezvýšia. Pomenuj nové fakty a dôsledok, ktorý z nich plynie."
+        },
+        {
+          "question": "Krok 3: Kolega povie: „Tak sme to mohli rovno robiť poriadne.“ Čo je asertívna reakcia?",
+          "options": [
+            "„Máš pravdu, prvé rozhodnutie stálo na neúplných dátach.“",
+            "„Ty by si to spravil lepšie?“",
+            "„Nemal som k dispozícii nič iné, tak to neriešme.“"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — negatívna asercia prizná to, čo je pravda, a kritike odoberie ostrie. Bez sebaobviňovania.",
+          "explanation_incorrect": "Nie — protiútok ani obrana rozhovor neposunú. Pokojne priznaj pravdivú časť a pokračuj vecne."
+        },
+        {
+          "question": "Krok 4: Čo z toho má tím?",
+          "options": [
+            "Vie, že rozhodnutia sa dajú spochybniť novými dátami",
+            "Vie, že šéfovi sa dá vyhovoriť čokoľvek",
+            "Vie, že rozhodnutia sú len dočasné"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — tím sa naučí, že rozhoduje fakt, nie ego. To je presne to, čo chceš, aby vedeli.",
+          "explanation_incorrect": "Nie — nejde o to, že rozhodnutia neplatia, ale o to, že sa opravujú podľa faktov, nie podľa toho, kto ich vyslovil."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Asertivita — pravidlá",
+    "branches": [
+      {
+        "label": "Rámec",
+        "leaves": [
+          "Moje práva sú aj tvoje — bez recipročnosti je to výsada, nie právo.",
+          "Cieľ: udržať vlastnú hranicu, nie zlomiť cudzie nie.",
+          "Aby z toho nikto nevyšiel ako porazený."
+        ]
+      },
+      {
+        "label": "Vybrané práva",
+        "leaves": [
+          "Povedať nie bez pocitu viny — a zniesť nie od druhého.",
+          "Zmeniť názor — nový údaj má viesť k novému rozhodnutiu.",
+          "Urobiť chybu a niesť za ňu zodpovednosť.",
+          "Povedať neviem — predstierať istotu je drahšie."
+        ]
+      },
+      {
+        "label": "Dar verzus nárok",
+        "leaves": [
+          "Láskavosť je dar, ktorý dávaš slobodne.",
+          "Oprávnený nárok je to, na čo máš právo.",
+          "Zámena „som milý“ za „nemám právo odmietnuť“ je zdroj pocitu viny."
+        ]
+      },
+      {
+        "label": "Čo sa deje pod povrchom",
+        "leaves": [
+          "Dramatický trojuholník — obeť, záchranca, agresor.",
+          "Amygdala — boj, útek, zamrznutie skôr než rozmyslíš.",
+          "Pauza a nádych vracajú do dospelej polohy."
+        ]
+      }
+    ]
+  },
+  "summary": "Asertívne práva stoja na jedinom rámci: moje práva sú aj tvoje práva. Každé právo, ktoré si nárokujem pre seba, má rovnako aj druhý — inak sa z práva stáva výsada a z asertivity nástroj presadzovania sa cez druhého. Medzi kľúčové práva patrí: povedať nie bez pocitu viny, zmeniť názor, urobiť chybu a niesť za ňu zodpovednosť, povedať neviem alebo nerozumiem, požiadať o to, čo chcem, mať svoje pocity a vyjadriť ich, rozhodovať o svojich veciach, byť vypočutý a braný vážne, nebyť závislý od súhlasu druhých a vypýtať si čas na rozmyslenie. Ku každému právu patrí jeho recipročná strana: keď smiem povedať nie, musím zniesť aj nie od druhého; keď smiem zmeniť názor, nesmiem to vyčítať ako nespoľahlivosť druhému. Dôležité je rozlíšiť láskavosť od oprávneného nároku. Láskavosť je dar, ktorý dávaš slobodne a slobodne ho smieš aj nedať. Oprávnený nárok je to, na čo máš právo. Zámena vety „som milý“ za vetu „nemám právo odmietnuť“ je najčastejším zdrojom pocitu viny. Pod povrchom konfliktov pracuje dramatický trojuholník: obeť, záchranca a agresor sa navzájom priťahujú a kolotoč sa točí dokola. Vystúpiť sa dá jediným smerom — do dospelej, asertívnej polohy. A pri silných reakciách treba počítať s biológiou: amygdala spustí poplach skôr, než stihneme rozmyslieť, a telo prepne do režimu boj, útek alebo zamrznutie. Pomenovanie stavu, jeden pomalý nádych a až potom odpoveď vracajú rozhovor do dospelej polohy. Pauza nie je slabosť, je to tvoja moc."
+}

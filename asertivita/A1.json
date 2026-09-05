@@ -1,0 +1,249 @@
+{
+  "id": "A1",
+  "title": "Asertívne techniky",
+  "schemaVersion": "1.1",
+  "tags": [
+    "asertivita",
+    "techniky",
+    "komunikácia"
+  ],
+  "theory": [
+    {
+      "heading": "Tri cesty, štyri štýly",
+      "text": "Keď na teba niekto tlačí, máš tri cesty. Bojovať — presadíš sa, ale zraníš. Vzdať sa — ustúpiš, ale zradíš seba. A tretia cesta: asertivita — udržíš svoje a zároveň neublížiš. V praxi rozlišujeme štyri štýly: pasívny, agresívny, pasívne-agresívny a asertívny. Ten tretí býva v práci najzradnejší — naznačuje a pichá, ale priamo nepovie nič, takže sa nedá chytiť za slovo."
+    },
+    {
+      "heading": "Cieľ asertivity",
+      "text": "Nie je to o tom vyhrať nad druhým. Je to o tom povedať svoje a zároveň prijať teba — a spolu nájsť riešenie, s ktorým sme obaja spokojní. Aby z toho nikto nevyšiel ako porazený. A pozor: cieľom je udržať vlastnú hranicu, nikdy nie zlomiť cudzie nie."
+    },
+    {
+      "heading": "Ja-výrok",
+      "text": "Namiesto „ty vždy…“ povedz „mrzí ma… keď… potrebujem…“. Fakt plus pocit plus potreba. Na takú vetu sa ťažko odpovedá obranou, lebo neobsahuje súd o človeku. Pozor na ty-výrok v prezlečení: veta, ktorá začína „cítim, že si…“, je stále hodnotenie druhého."
+    },
+    {
+      "heading": "Pokazená platňa a právo povedať nie",
+      "text": "Pokazená platňa pokojne opakuje tú istú hranicu bez nových argumentov: „Rozumiem ti, a predsa nie.“ Nedáva čomu oponovať. A veta „Nie, to mi nevyhovuje.“ je celá odpoveď — nemusí za ňou nasledovať výhovorka. Dlhé vysvetľovanie navyše ukazuje, kde sa dá tlačiť ďalej."
+    },
+    {
+      "heading": "Keď prichádza kritika",
+      "text": "Negatívna asercia pokojne prizná to, čo je pravda: „Máš pravdu, druhú časť som podcenil.“ Bez sebaobviňovania, bez lavíny ospravedlnení. Otvorené dvere pripustia to, čo pripustiť možno, a zvyšok nechajú bez obhajoby: „Môže sa stať, že to tak pôsobilo.“ Útok tak nemá do čoho naraziť a rozhovor stratí napätie."
+    },
+    {
+      "heading": "Pomenovanie hry, hranice a pauza",
+      "text": "Keď cítiš pasívnu agresiu, pomenuj ju láskavo: „Znie to, akoby ti to vadilo — povedz mi priamo, čo sa deje?“ Keď rozhovor prekročí čiaru, povedz to nahlas: „Rozprávať sa môžeme, ale týmto tónom nie.“ A keď potrebuješ čas: „Potrebujem si to premyslieť, ozvem sa do večera.“ Pauza nie je vyhýbanie — je to súčasť slobodného rozhodnutia."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kolega ťa už tretíkrát prehovára, aby si prebral jeho službu. Pokojne odpovieš „Rozumiem ti, a predsa nie.“ — a keď tlačí ďalej, zopakuješ to isté. Akú techniku si použil?",
+      "options": [
+        "Pokazenú platňu",
+        "Ja-výrok",
+        "Pomenovanie hry"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — pokazená platňa pokojne opakuje tú istú hranicu bez nových argumentov, a tým nedáva čomu oponovať.",
+      "explanation_incorrect": "Nie — ide o pokazenú platňu: pokojné opakovanie tej istej vety bez nových argumentov a bez zvyšovania hlasu."
+    },
+    {
+      "question": "Ktorá veta je Ja-výrok?",
+      "options": [
+        "„Ty vždy meškáš s podkladmi.“",
+        "„Mrzí ma, keď podklady prídu deň pred termínom — potrebujem sa na ne vedieť spoľahnúť.“",
+        "„Cítim, že si nezodpovedný.“"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — fakt, pocit a potreba, bez obviňovania. Presne toto sa ťažko zhadzuje zo stola.",
+      "explanation_incorrect": "Nie — Ja-výrok je fakt plus pocit plus potreba. Veta „cítim, že si nezodpovedný“ je ty-výrok v prezlečení: začína slovom cítim, ale pokračuje hodnotením človeka."
+    },
+    {
+      "question": "„Nie, to mi nevyhovuje.“ Musí za touto vetou nasledovať vysvetlenie?",
+      "options": [
+        "Áno, inak to vyznie neslušne",
+        "Nie — je to celá odpoveď",
+        "Áno, ak ide o nadriadeného"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — právo povedať nie nie je veta, za ktorou musí prísť výhovorka.",
+      "explanation_incorrect": "Nie — je to celá odpoveď. Dlhé vysvetľovanie navyše ukazuje, kde sa dá tlačiť ďalej."
+    },
+    {
+      "question": "Kolega ti vyčíta: „Tá tvoja prezentácia bola dosť chaotická.“ Odpovieš: „Máš pravdu, druhá časť mi ušla.“ Akú techniku si použil?",
+      "options": [
+        "Negatívnu aserciu",
+        "Pokazenú platňu",
+        "Pomenovanie hranice"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — negatívna asercia pokojne prizná to, čo je pravda, a tým kritike odoberie ostrie.",
+      "explanation_incorrect": "Nie — ide o negatívnu aserciu: pokojné priznanie pravdivej časti kritiky, bez sebaobviňovania a bez lavíny ospravedlnení."
+    },
+    {
+      "question": "Šéf povie: „Ty si vždy taký pomalý.“ Odpovieš „Môže sa stať, že ti to tak pripadá.“ a do obrany nejdeš. Aká je to technika?",
+      "options": [
+        "Otvorené dvere",
+        "Ja-výrok",
+        "Pauza"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — otvorené dvere pripustia to, čo pripustiť možno, a zvyšok nechajú bez obhajoby. Útok nemá do čoho naraziť.",
+      "explanation_incorrect": "Nie — ide o techniku otvorených dverí: súhlasím s tým, čo je na kritike možné, a nebránim sa zvyšku."
+    },
+    {
+      "question": "Kolegyňa napíše: „No nič. Veď to je jedno. Aj tak ti na tom asi nezáleží.“ Ktorá reakcia je asertívna?",
+      "options": [
+        "„Prepáč, čo som spravil? Povedz, napravím to!“",
+        "„Tak keď je to jedno, tak čo riešiš?“",
+        "„Znie to, akoby ti to vadilo. Mne na tom záleží — povedz mi priamo, čo sa deje?“"
+      ],
+      "correct": 2,
+      "explanation_correct": "Správne — pomenovanie hry láskavo pomenuje nevyslovené a pozve na priamy rozhovor.",
+      "explanation_incorrect": "Nie — prvé dve reakcie tú hru len roztočia ďalej. Asertívne je pomenovať nevyslovené a pozvať druhého k priamej reči."
+    },
+    {
+      "question": "Rozhovor sa zvrhol na osobné poznámky. Ako pomenovať hranicu?",
+      "options": [
+        "„Ty si fakt bezočivý.“",
+        "„Rozprávať sa môžeme, ale týmto tónom nie. Skúsme znova pokojne.“",
+        "„Mne je to jedno, hovor si čo chceš.“"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — pomenovanie hranice povie nahlas, kde je čiara, bez útoku na človeka. A ponúka cestu späť do rozhovoru.",
+      "explanation_incorrect": "Nie — hranicu treba pomenovať bez útoku na človeka a s ponukou pokračovať pokojne."
+    },
+    {
+      "question": "Čo je cieľom asertivity?",
+      "options": [
+        "Presadiť si svoje",
+        "Udržať vlastnú hranicu — nikdy nie zlomiť cudzie nie",
+        "Vyhnúť sa konfliktu"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — povedať svoje a zároveň počuť druhého. Aby z toho nikto nevyšiel ako porazený.",
+      "explanation_incorrect": "Nie — cieľom je udržať vlastnú hranicu. Vo chvíli, keď asertivitou tlačím druhého k ústupku, prestala byť asertivitou."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Ja-výrok",
+      "definition": "Fakt plus pocit plus potreba, bez obviňovania. „Mrzí ma, keď podklady prídu deň pred termínom — potrebujem sa na ne vedieť spoľahnúť.“"
+    },
+    {
+      "term": "Pokazená platňa",
+      "definition": "Pokojné opakovanie tej istej hranice bez nových argumentov. „Rozumiem ti, a predsa nie.“"
+    },
+    {
+      "term": "Negatívna asercia",
+      "definition": "Pokojné priznanie toho, čo je na kritike pravda — bez sebaobviňovania a bez ospravedlňovania. „Máš pravdu, tú časť som podcenil.“"
+    },
+    {
+      "term": "Otvorené dvere",
+      "definition": "Pripustím to, čo pripustiť možno, a zvyšok nechám bez obhajoby. „Môže sa stať, že to tak pôsobilo.“"
+    },
+    {
+      "term": "Pomenovanie hry",
+      "definition": "Láskavé pomenovanie nevyslovenej pasívnej agresie a pozvanie k priamemu rozhovoru."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 1 — Kolega tlačí na prevzatie služby",
+      "difficulty": "stredná",
+      "steps": [
+        {
+          "question": "Zadanie: Kolega ťa už tretíkrát tento mesiac prehovára, aby si prebral jeho víkendovú službu. Argumentuje, že ty nemáš rodinu a jemu to vychádza horšie. Ty však tento víkend plány máš. Ako to vyriešiť asertívne?",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Čo urobiť ako prvé?",
+          "options": [
+            "Podrobne vysvetliť, prečo tento víkend nemôžeš",
+            "Povedať jasné nie bez výhovoriek",
+            "Súhlasiť a nabudúce si dať pozor"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — „Nie, tento víkend to nejde.“ je celá odpoveď. Dlhé vysvetľovanie by mu ukázalo, kde tlačiť ďalej.",
+          "explanation_incorrect": "Nie — čím podrobnejšie vysvetľuješ, tým viac miest na protiargument mu dávaš. Jasné nie stačí."
+        },
+        {
+          "question": "Krok 2: Tlačí ďalej: „Veď ty nemáš rodinu, tebe je to jedno.“ Čo teraz?",
+          "options": [
+            "Pokojne zopakovať tú istú vetu — pokazená platňa",
+            "Vysvetliť, že aj ty máš svoj život",
+            "Pripomenúť mu, koľkokrát si mu už vyhovel"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — „Chápem, a predsa nie.“ Bez nových argumentov, bez zvyšovania hlasu.",
+          "explanation_incorrect": "Nie — obhajovať sa ani počítať staré zásluhy netreba. Stačí pokojne zopakovať tú istú hranicu."
+        },
+        {
+          "question": "Krok 3: Povie: „No nič. Veď je to jedno, aj tak sa na teba nedá spoľahnúť.“ Ako reagovať?",
+          "options": [
+            "Nevšímať si to",
+            "Pomenovať hru a pozvať ho k priamej reči",
+            "Odpovedať rovnako štipľavo"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — „Znie to, akoby ťa to mrzelo. Povedz mi priamo, čo potrebuješ, a pozrieme sa na to.“ Vyvedieš to z hry.",
+          "explanation_incorrect": "Nie — ticho ani štipľavá odpoveď hru neukončia. Pomenuj nevyslovené a pozvi ho k priamemu rozhovoru."
+        },
+        {
+          "question": "Krok 4: O aký výsledok ti vlastne išlo?",
+          "options": [
+            "Aby kolega uznal, že nemá pravdu",
+            "Aby si udržal vlastnú hranicu a vzťah ostal otvorený",
+            "Aby ťa už nikdy o nič nežiadal"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — cieľom je udržať vlastnú hranicu, nie zlomiť druhého. Aby z toho nikto nevyšiel ako porazený.",
+          "explanation_incorrect": "Nie — cieľom asertivity nie je vyhrať nad druhým ani ho odradiť, ale udržať hranicu tak, aby vzťah ostal otvorený."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Asertivita — techniky",
+    "branches": [
+      {
+        "label": "Keď hovorím svoje",
+        "leaves": [
+          "Ja-výrok — fakt plus pocit plus potreba, bez súdu o človeku.",
+          "Právo povedať nie — „Nie, to mi nevyhovuje.“ je celá odpoveď.",
+          "Pomenovanie hranice — povedať nahlas, kde je čiara, a ponúknuť cestu späť."
+        ]
+      },
+      {
+        "label": "Keď na mňa tlačia",
+        "leaves": [
+          "Pokazená platňa — pokojné opakovanie tej istej vety bez nových argumentov.",
+          "Pauza — „Potrebujem si to premyslieť, ozvem sa do večera.“",
+          "Pomenovanie hry — láskavo pomenovať nevyslovenú pasívnu agresiu."
+        ]
+      },
+      {
+        "label": "Keď prichádza kritika",
+        "leaves": [
+          "Negatívna asercia — pokojne priznať, čo je pravda, bez sebaobviňovania.",
+          "Otvorené dvere — pripustiť možné a zvyšok nechať bez obhajoby.",
+          "Otázka na konkrétnosť — „Čo konkrétne ti nesedelo?“"
+        ]
+      },
+      {
+        "label": "Čo techniku pokazí",
+        "leaves": [
+          "Dlhé ospravedlňovanie — ukazuje, kde sa dá tlačiť ďalej.",
+          "Ty-výrok v prezlečení — „cítim, že si…“ je stále hodnotenie.",
+          "Snaha zlomiť cudzie nie — vtedy to už nie je asertivita."
+        ]
+      }
+    ]
+  },
+  "summary": "Asertivita je tretia cesta medzi bojom a ústupom: udržať vlastnú hranicu a zároveň neublížiť. Rozlišujeme štyri komunikačné štýly — pasívny (ustúpim, aby bol pokoj), agresívny (presadím sa silou), pasívne-agresívny (naznačujem a pichám, ale priamo nepoviem) a asertívny (poviem, čo potrebujem, pokojne a priamo). Pasívne-agresívny býva v práci najzradnejší, lebo sa nedá chytiť za slovo. Základnou technikou je Ja-výrok: fakt plus pocit plus potreba, bez obviňovania. Pozor na ty-výrok v prezlečení, teda vetu, ktorá začína slovom cítim a pokračuje hodnotením človeka. Keď na mňa niekto tlačí, pomáha pokazená platňa, teda pokojné opakovanie tej istej hranice bez nových argumentov; právo povedať nie, kde veta „Nie, to mi nevyhovuje.“ je celá odpoveď bez povinnej výhovorky; a pauza, teda vypýtanie si času na rozmyslenie. Keď prichádza kritika, používame negatívnu aserciu — pokojné priznanie toho, čo je pravda, bez sebaobviňovania a bez lavíny ospravedlnení — a techniku otvorených dverí, ktorá pripustí to, čo pripustiť možno, a zvyšok nechá bez obhajoby, takže útok nemá do čoho naraziť. Pri pasívnej agresii pomáha pomenovanie hry: láskavo pomenovať nevyslovené a pozvať druhého k priamemu rozhovoru. Keď rozhovor prekročí čiaru, pomenujeme hranicu nahlas a zároveň ponúkneme cestu späť. Techniku najrýchlejšie pokazí dlhé ospravedlňovanie — prezrádza, že si nie som istý svojím právom. Cieľom asertivity nie je presadiť sa ani vyhnúť sa konfliktu, ale udržať vlastnú hranicu — nikdy nie zlomiť cudzie nie."
+}
