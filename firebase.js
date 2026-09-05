@@ -1,17 +1,9 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-import { getDatabase } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
-
 const firebaseConfig = {
-  apiKey: "AIzaSyCcD7gAuGPcEFdVokOg15DgWBGazwNkvIw",
-  authDomain: "lexarena-af45f.firebaseapp.com",
-  databaseURL: "https://lexarena-af45f-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "lexarena-af45f",
-  storageBucket: "lexarena-af45f.firebasestorage.app",
-  messagingSenderId: "351577232041",
-  appId: "1:351577232041:web:cd3c719c80dc22ca77cfb8"
+  apiKey: "AIzaSyCwBJRIttZ7QYC9qA_iR1PvkEtHzYIvfHQ",
+  authDomain: "manazerska-akademia.firebaseapp.com",
+  databaseURL: "https://manazerska-akademia-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "manazerska-akademia",
+  storageBucket: "manazerska-akademia.firebasestorage.app",
+  messagingSenderId: "1099394749191",
+  appId: "1:1099394749191:web:1b6ea936369ac565f86ba2"
 };
-
-const app = initializeApp(firebaseConfig);
-window.db = getDatabase(app);
-
-console.log("🔥 Firebase inicializovaný");
