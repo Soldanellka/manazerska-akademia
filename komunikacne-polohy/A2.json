@@ -1,0 +1,222 @@
+{
+  "id": "A2",
+  "title": "Čo moja poloha vyvolá v druhom",
+  "schemaVersion": "1.1",
+  "tags": [
+    "egogram",
+    "transakcie",
+    "vedenie ľudí"
+  ],
+  "theory": [
+    {
+      "heading": "Poloha je pozvánka",
+      "text": "Nie je to zákon, len tendencia — ale keď ju poznáš, máš na výber, z ktorej polohy prehovoríš. Poloha, z ktorej hovorím, vysiela pozvánku a druhý ju väčšinou prijme."
+    },
+    {
+      "heading": "Tri typické dvojice",
+      "text": "Láskavý Rodič prebúdza hravé, Slobodné Dieťa — keď dávaš teplo a bezpečie, druhý sa uvoľní a rozohrá. Dospelý pozýva druhého do jeho Dospelého — vecný tón ho volá na tú istú pôdu a tam sa hľadá riešenie najlepšie. Prísny Rodič prebúdza poslušné (Prispôsobené) alebo rebelujúce Dieťa — buď sa druhý stiahne, alebo sa vzoprie."
+    },
+    {
+      "heading": "Prečo je to pre manažéra dôležité",
+      "text": "Keď z porady odchádzajú ľudia buď ticho prikyvujúci, alebo naježení, stojí za to pozrieť sa na to, z ktorej polohy sa viedla. Zmena vlastnej polohy je jediná páka, ktorú máš v rukách — druhého meniť nemusíš."
+    },
+    {
+      "heading": "Návrat do Dospelého",
+      "text": "Keď rozhovor skĺzne do dvojice Rodič a Dieťa, cesta späť vedie cez fakt a otázku: čo presne sa stalo a čo s tým vieme urobiť. Bez hodnotenia, bez preberania práce na seba."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Čo najčastejšie vyvolá v druhom človeku poloha Prísny Rodič?",
+      "options": [
+        "Polohu Dospelý — druhý začne vecne argumentovať",
+        "Polohu Dieťa — poslušnosť alebo vzdor",
+        "Polohu Láskavý Rodič — druhý začne chrániť"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — na Rodiča odpovedá Dieťa, buď prispôsobením, alebo vzdorom.",
+      "explanation_incorrect": "Nie — Prísny Rodič prebúdza Dieťa: druhý sa buď stiahne, alebo sa vzoprie."
+    },
+    {
+      "question": "Ktorú polohu prirodzene prebúdza Láskavý Rodič?",
+      "options": [
+        "Slobodné Dieťa — druhý sa uvoľní a rozohrá",
+        "Rebelujúce Dieťa",
+        "Prísneho Rodiča"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — teplo a bezpečie uvoľnia a rozohrajú. Preto sa pri takom človeku dobre tvorí.",
+      "explanation_incorrect": "Nie — Láskavý Rodič prebúdza hravé, Slobodné Dieťa. Vzdor prichádza skôr oproti Prísnemu Rodičovi."
+    },
+    {
+      "question": "Prečo je rozhovor dospelý s dospelým najlepší na hľadanie riešenia?",
+      "options": [
+        "Lebo je najrýchlejší",
+        "Lebo pracuje s faktami a možnosťami, nie s hodnotením a obranou",
+        "Lebo v ňom nikto nemá emócie"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — vecný tón pozýva druhého na tú istú pôdu a tam sa riešenie hľadá najlepšie.",
+      "explanation_incorrect": "Nie — nejde o rýchlosť ani o potlačenie emócií, ale o to, že sa pracuje s faktami a možnosťami namiesto hodnotenia."
+    },
+    {
+      "question": "Na porade všetci ticho prikyvujú a nikto nenamieta. Čo to môže signalizovať?",
+      "options": [
+        "Že je rozhodnutie dobré",
+        "Že sa hovorí z polohy Prísny Rodič a tím reaguje Prispôsobeným Dieťaťom",
+        "Že tím nemá čo povedať"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — tichý súhlas býva reakciou na autoritu, nie súhlasom s obsahom.",
+      "explanation_incorrect": "Nie — tichý súhlas nemusí znamenať súhlas s obsahom. Býva to Prispôsobené Dieťa reagujúce na Prísneho Rodiča."
+    },
+    {
+      "question": "Rozhovor skĺzol do dvojice Rodič a Dieťa. Ako sa vrátiť späť?",
+      "options": [
+        "Zvýšiť dôraz a trvať na svojom",
+        "Pomenovať fakt a položiť otázku, čo s tým vieme urobiť",
+        "Prevziať úlohu na seba"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — fakt a otázka pozývajú druhého do jeho Dospelého.",
+      "explanation_incorrect": "Nie — dôraz posilní Rodiča a prevzatie úlohy je Láskavý Rodič. Cesta späť vedie cez fakt a otázku."
+    },
+    {
+      "question": "Čo je jediná páka, ktorú v tejto hre reálne máš?",
+      "options": [
+        "Zmeniť polohu druhého",
+        "Zmeniť vlastnú polohu",
+        "Vyhnúť sa rozhovoru"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — iných zmeniť neviem a seba nemusím; len si vyberiem, z ktorej polohy prehovorím.",
+      "explanation_incorrect": "Nie — druhého meniť nemôžeš. Voľba vlastnej polohy je to jediné, čo máš v rukách."
+    },
+    {
+      "question": "Je pravidlo o tom, ktorá poloha čo vyvolá, zákon?",
+      "options": [
+        "Áno, funguje vždy rovnako",
+        "Nie, je to tendencia — ale keď ju poznáš, máš na výber",
+        "Nie, je to len teória bez praktického dopadu"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — nie je to zákon, len tendencia. Práve preto z nej vzniká voľba, nie predurčenie.",
+      "explanation_incorrect": "Nie — nie je to zákon ani prázdna teória. Je to tendencia, ktorej znalosť ti dáva na výber."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Poloha ako pozvánka",
+      "definition": "Poloha, z ktorej hovorím, vysiela pozvánku — a druhý ju väčšinou prijme."
+    },
+    {
+      "term": "Láskavý Rodič a Slobodné Dieťa",
+      "definition": "Teplo a bezpečie uvoľnia a rozohrajú. Pri takom človeku sa dobre tvorí."
+    },
+    {
+      "term": "Dospelý a Dospelý",
+      "definition": "Vecný tón pozýva na tú istú pôdu. Tu sa riešenie hľadá najlepšie."
+    },
+    {
+      "term": "Prísny Rodič a Dieťa",
+      "definition": "Prebúdza poslušnosť alebo vzdor — druhý sa stiahne, alebo sa vzoprie."
+    },
+    {
+      "term": "Návrat do Dospelého",
+      "definition": "Fakt plus otázka: čo presne sa stalo a čo s tým vieme urobiť."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 2 — Tím, ktorý na poradách mlčí",
+      "difficulty": "ťažšia",
+      "steps": [
+        {
+          "question": "Zadanie: Vedieš tím, ktorý na poradách nikdy nenamieta. Všetci prikyvujú, ale úlohy sa potom robia pomaly a s chybami. Chceš vedieť prečo.",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Čo tichý súhlas najskôr znamená?",
+          "options": [
+            "Že sú rozhodnutia dobré",
+            "Že tím reaguje Prispôsobeným Dieťaťom na Prísneho Rodiča",
+            "Že tím nemá odborný názor"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — tichý súhlas býva reakciou na autoritu, nie súhlasom s obsahom.",
+          "explanation_incorrect": "Nie — mlčanie nie je dôkaz súhlasu ani neschopnosti. Býva to reakcia Prispôsobeného Dieťaťa na Prísneho Rodiča."
+        },
+        {
+          "question": "Krok 2: Čo si všimnúť na vlastnom prejave?",
+          "options": [
+            "Ako často hodnotím a poučujem namiesto pýtania sa",
+            "Či hovorím dosť nahlas",
+            "Či mám pripravenú prezentáciu"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — hodnotenie a poučovanie je Prísny Rodič. Práve to prebúdza poslušnosť alebo vzdor.",
+          "explanation_incorrect": "Nie — nejde o hlasitosť ani formu. Kľúčové je, či hodnotím a poučujem, alebo sa pýtam."
+        },
+        {
+          "question": "Krok 3: Ako otvoriť ďalšiu poradu?",
+          "options": [
+            "„Dnes chcem počuť, čo na tom nesedí vám — začnime tým.“",
+            "„Verím, že tentoraz to zvládneme lepšie.“",
+            "„Ak niekto niečo má, nech sa ozve.“"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — priama pozvánka do Dospelého: konkrétna otázka, ktorá počíta s námietkou ako s hodnotou.",
+          "explanation_incorrect": "Nie — všeobecná výzva ani nádej nič nezmenia. Pozvi ich konkrétnou otázkou, ktorá námietku očakáva."
+        },
+        {
+          "question": "Krok 4: Prvý človek sa ozve s námietkou. Čo je najdôležitejšie urobiť?",
+          "options": [
+            "Vysvetliť, prečo námietka neplatí",
+            "Poďakovať a zapracovať s ňou vecne",
+            "Poznamenať, že konečne niekto hovorí"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — prvá reakcia rozhodne, či sa ozve aj druhý. Vecné spracovanie potvrdí, že Dospelý je vítaný.",
+          "explanation_incorrect": "Nie — obrana ani irónia by prvý pokus umlčali. Poďakuj a pracuj s námietkou vecne."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Čo moja poloha vyvolá v druhom",
+    "branches": [
+      {
+        "label": "Typické dvojice",
+        "leaves": [
+          "Láskavý Rodič a Slobodné Dieťa — uvoľnenie a hravosť.",
+          "Dospelý a Dospelý — pôda pre riešenie.",
+          "Prísny Rodič a Dieťa — poslušnosť alebo vzdor."
+        ]
+      },
+      {
+        "label": "Signály v tíme",
+        "leaves": [
+          "Tichý súhlas býva Prispôsobené Dieťa, nie súhlas s obsahom.",
+          "Naježenosť býva Rebelujúce Dieťa, teda strážená hranica.",
+          "Pomalé a chybné plnenie úloh je dôsledok, nie príčina."
+        ]
+      },
+      {
+        "label": "Návrat do Dospelého",
+        "leaves": [
+          "Fakt plus otázka namiesto hodnotenia.",
+          "Konkrétna pozvánka: čo na tom nesedí vám?",
+          "Prvá reakcia na námietku rozhoduje, či sa ozve aj ďalší."
+        ]
+      }
+    ]
+  },
+  "summary": "Poloha, z ktorej hovorím, vysiela pozvánku a druhý ju väčšinou prijme. Nie je to zákon, len tendencia — ale práve preto z nej vzniká voľba: keď ju poznám, viem si vybrať, z ktorej polohy prehovorím. Tri dvojice sa opakujú najčastejšie. Láskavý Rodič prebúdza hravé, Slobodné Dieťa: keď dávam teplo a bezpečie, druhý sa uvoľní a rozohrá, a preto sa pri takom človeku dobre tvorí. Dospelý pozýva druhého do jeho Dospelého: vecný tón ho volá na tú istú pôdu a tam sa riešenie hľadá najlepšie, lebo sa pracuje s faktami a možnosťami namiesto hodnotenia a obrany. A Prísny Rodič prebúdza poslušné, teda Prispôsobené Dieťa, alebo Rebelujúce Dieťa — druhý sa buď stiahne, alebo sa vzoprie. Pre vedenie ľudí z toho plynie praktické čítanie signálov. Keď na poradách všetci ticho prikyvujú, nemusí to byť súhlas s obsahom, ale reakcia Prispôsobeného Dieťaťa na autoritu — a dôsledkom býva pomalé a chybné plnenie úloh. Keď sa niekto naježí, býva to Rebelujúce Dieťa, teda energia strážiaca hranicu, nie útok. Cesta späť vedie vždy cez Dospelého: pomenovať fakt a položiť otázku, čo s tým vieme urobiť — bez hodnotenia a bez preberania práce na seba. Pomáha aj konkrétna pozvánka typu „dnes chcem počuť, čo na tom nesedí vám“, ktorá počíta s námietkou ako s hodnotou. Prvá reakcia na prvú námietku pritom rozhoduje, či sa ozve aj druhý človek. A hlavné: zmena vlastnej polohy je jediná páka, ktorú máš v rukách. Iných zmeniť neviem a seba nemusím."
+}

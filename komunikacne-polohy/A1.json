@@ -1,0 +1,233 @@
+{
+  "id": "A1",
+  "title": "Šesť komunikačných polôh",
+  "schemaVersion": "1.1",
+  "tags": [
+    "egogram",
+    "transakčná analýza",
+    "sebapoznanie"
+  ],
+  "theory": [
+    {
+      "heading": "Nie je to skúška",
+      "text": "Toto nie je test, v ktorom môžeš prepadnúť — všetky odpovede sú správne. Ukazuje to, ako vedieš komunikáciu ty: ktoré polohy v tebe žijú a čo nimi prirodzene vyvolávaš v druhých. Nie sú to škatuľky — poloha sa mení podľa človeka aj chvíle. A každá je dar."
+    },
+    {
+      "heading": "Dve rodičovské polohy",
+      "text": "Prísny Rodič je strážca latky: vidíš, čo nesedí, a vieš to pomenovať. Dávaš jasno, poriadok a chrániš, čo je dôležité. Láskavý Rodič je opora: keď niekto potrebuje pomoc, prirodzene sa oňho postaráš. Dávaš teplo, bezpečie a pocit, že v tom človek nie je sám — len pozor, aby si sa nestaral aj tam, kde to druhý nechce."
+    },
+    {
+      "heading": "Dospelý",
+      "text": "Pokojný rozvažovač. Skôr než zareaguješ, zvážiš fakty a možnosti — vecne, tu a teraz. Je to pevná pôda, na ktorú sa oplatí vrátiť, keď emócie stúpnu, lebo rozhovor dospelý s dospelým je ten, kde sa najlepšie hľadá riešenie."
+    },
+    {
+      "heading": "Tri detské polohy",
+      "text": "Slobodné Dieťa je iskra a hravosť: spontánnosť, radosť, tvorivosť — nakazí druhých ľahkosťou a rozohreje aj chladnú atmosféru. Prispôsobené Dieťa je citlivé na súlad: vnímaš, čo druhí čakajú, a vieš sa naladiť. Prispôsobenie je dar, keď je vedomé, a informácia, keď ustúpiš aj tam, kde si nechcel. Rebelujúce Dieťa je zdravý vzdor: energia, ktorá stráži tvoje hranice. Keď ju vieš podať pokojne, stáva sa z nej pevnosť, nie hádka."
+    },
+    {
+      "heading": "Mix, nie škatuľka",
+      "text": "Výsledok nie je typ osobnosti, ale mapa zvyku: ktoré polohy používaš automaticky a ktoré máš zatiaľ nevyužité. Nie je tu nič málo ani priveľa — každá poloha je dar a každá sa hodí na inú chvíľu. Iných zmeniť neviem a seba nemusím — len v komunikácii využijem svoj potenciál, aby som dosiahol harmóniu."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "„Takto sa to predsa nerobí. Keby si ma bol počúval, nemuseli sme to teraz riešiť.“ Z ktorej polohy tento výrok znie?",
+      "options": [
+        "Dospelý",
+        "Prísny Rodič",
+        "Láskavý Rodič"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — Prísny Rodič hodnotí a poučuje. Poznávacím znamením sú slová ako predsa, mal by si, vždy a nikdy.",
+      "explanation_incorrect": "Nie — je to Prísny Rodič. Hodnotí a poučuje z pozície, že vie lepšie."
+    },
+    {
+      "question": "Kolegyňa príde s problémom a manažér odpovie: „Poď, sadni si, ja to za teba vybavím, ty sa tým už netráp.“ Ktorá poloha hovorí?",
+      "options": [
+        "Láskavý Rodič",
+        "Dospelý",
+        "Prispôsobené Dieťa"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — Láskavý Rodič chráni a preberá starosť na seba. V dobrej miere dáva istotu.",
+      "explanation_incorrect": "Nie — je to Láskavý Rodič. Chráni a preberá starosť; v nadmiere oberá druhého o príležitosť zvládnuť to sám."
+    },
+    {
+      "question": "Ktorý z výrokov prichádza z polohy Dospelý?",
+      "options": [
+        "„To je katastrofa, to nikdy nestihneme!“",
+        "„Ako myslíš, mne je to jedno.“",
+        "„Termín je v piatok a chýbajú dva podklady. Čo z toho vieš dodať do stredy?“"
+      ],
+      "correct": 2,
+      "explanation_correct": "Správne — Dospelý pracuje s faktami, otázkami a možnosťami, bez hodnotenia a bez emočného náboja.",
+      "explanation_incorrect": "Nie — Dospelý pracuje s faktami a možnosťami tu a teraz. Prvá možnosť je emočná, druhá je ústupok."
+    },
+    {
+      "question": "Čím je Slobodné Dieťa v pracovnom tíme predovšetkým?",
+      "options": [
+        "Slabosťou, ktorú treba na poradách potlačiť",
+        "Zdrojom nápadov, hravosti a chuti skúšať nové veci",
+        "Známkou nezrelosti"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — bez tejto polohy by tím nemal odkiaľ brať nové nápady. Každá poloha má svoj dar.",
+      "explanation_incorrect": "Nie — Slobodné Dieťa prináša spontánnosť, radosť a tvorivosť. Je to zdroj nápadov, nie slabosť."
+    },
+    {
+      "question": "V čom sa líši Prispôsobené a Rebelujúce Dieťa?",
+      "options": [
+        "Prispôsobené sa podriadi očakávaniu, Rebelujúce sa mu postaví na odpor",
+        "Prispôsobené je zdravé a Rebelujúce nezdravé",
+        "Prispôsobené hovorí faktami, Rebelujúce emóciami"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — obe reagujú na autoritu, jedna ústupom a druhá vzdorom.",
+      "explanation_incorrect": "Nie — rozdiel je v smere reakcie na autoritu: ústup verzus odpor. Ani jedna z nich nie je nezdravá."
+    },
+    {
+      "question": "Výsledok egogramu ukazuje podiel jednotlivých polôh. Čo z toho o človeku vyplýva?",
+      "options": [
+        "Ktorá poloha je správna a ktoré má potlačiť",
+        "Aký je jeho typ osobnosti, ktorý sa už nedá zmeniť",
+        "Z ktorých polôh komunikuje najčastejšie — a kde má nevyužitý potenciál"
+      ],
+      "correct": 2,
+      "explanation_correct": "Správne — egogram je mapa zvyku, nie diagnóza. Všetky polohy v sebe máme.",
+      "explanation_incorrect": "Nie — nie je to hodnotenie ani nemenný typ. Je to mapa toho, ktoré polohy používaš automaticky."
+    },
+    {
+      "question": "Kolega sa v napätej diskusii ozve: „Nie, takto nie, toto mi nepríde fér.“ Pokojne, ale jasne. Ktorá poloha to je a ako ju čítať?",
+      "options": [
+        "Rebelujúce Dieťa — energia, ktorá stráži hranice",
+        "Agresívny útok, ktorý treba utnúť",
+        "Prispôsobené Dieťa, ktoré sa bojí"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — vzdor nie je zlozvyk. Je to energia, ktorá stráži hranice; keď je podaná pokojne, je z nej pevnosť, nie hádka.",
+      "explanation_incorrect": "Nie — je to Rebelujúce Dieťa, teda zdravý vzdor. Pokojne podaný sa mení na pevnosť, nie na hádku."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Prísny Rodič",
+      "definition": "Strážca latky. Vidí, čo nesedí, a vie to pomenovať. Dáva jasno a poriadok."
+    },
+    {
+      "term": "Láskavý Rodič",
+      "definition": "Opora. Postará sa, dáva teplo a bezpečie. Pozor na starostlivosť tam, kde ju druhý nechce."
+    },
+    {
+      "term": "Dospelý",
+      "definition": "Pokojný rozvažovač. Fakty, možnosti, tu a teraz. Pevná pôda, keď emócie stúpnu."
+    },
+    {
+      "term": "Slobodné Dieťa",
+      "definition": "Iskra a hravosť. Spontánnosť, radosť, tvorivosť — zdroj nápadov v tíme."
+    },
+    {
+      "term": "Prispôsobené a Rebelujúce Dieťa",
+      "definition": "Dve reakcie na autoritu: naladenie sa a ústup verzus zdravý vzdor, ktorý stráži hranice."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 1 — Porada, ktorá sa zasekla",
+      "difficulty": "stredná",
+      "steps": [
+        {
+          "question": "Zadanie: Na porade vedúci povie: „Takto sa to predsa nerobí, mali ste to vedieť.“ Jeden kolega stíchne a prikývne, druhý sa ohradí. Diskusia sa zasekne. Čo sa stalo?",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Z ktorej polohy hovoril vedúci?",
+          "options": [
+            "Dospelý",
+            "Prísny Rodič",
+            "Láskavý Rodič"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — hodnotenie a poučovanie so slovom predsa je typický Prísny Rodič.",
+          "explanation_incorrect": "Nie — bolo to z polohy Prísny Rodič: hodnotenie a poučenie, nie fakty a možnosti."
+        },
+        {
+          "question": "Krok 2: Prečo dvaja ľudia zareagovali tak odlišne?",
+          "options": [
+            "Prísny Rodič prebúdza Dieťa — jeden sa prispôsobil, druhý sa vzoprel",
+            "Jeden je slabší a druhý silnejší charakter",
+            "Náhoda, s polohou to nesúvisí"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — na Rodiča odpovedá Dieťa, buď prispôsobením, alebo vzdorom. Obe reakcie sú tá istá pozvánka, len prijatá inak.",
+          "explanation_incorrect": "Nie — nejde o silu charakteru. Prísny Rodič prebúdza Dieťa, ktoré sa buď stiahne, alebo vzoprie."
+        },
+        {
+          "question": "Krok 3: Z ktorej polohy by mal vedúci prehovoriť, aby sa diskusia pohla?",
+          "options": [
+            "Láskavý Rodič — upokojiť a prevziať to na seba",
+            "Dospelý — fakty, možnosti, otázka",
+            "Slobodné Dieťa — odľahčiť to vtipom"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — rozhovor dospelý s dospelým je ten, kde sa najlepšie hľadá riešenie.",
+          "explanation_incorrect": "Nie — upokojenie ani vtip problém neriešia. Pevná pôda je poloha Dospelý: fakty, možnosti a otázka."
+        },
+        {
+          "question": "Krok 4: Ako by tá veta mohla znieť?",
+          "options": [
+            "„Chýbali dva podklady a termín je v piatok. Čo vieme dodať do stredy?“",
+            "„Nabudúce si dajte pozor.“",
+            "„Ja to za vás dorobím, nechajte to tak.“"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — fakt, možnosť a otázka. Pozýva druhého do jeho Dospelého.",
+          "explanation_incorrect": "Nie — výzva na pozornosť je opäť Rodič a prevzatie práce je Láskavý Rodič. Dospelý pomenuje fakt a položí otázku."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Šesť komunikačných polôh",
+    "branches": [
+      {
+        "label": "Rodič",
+        "leaves": [
+          "Prísny Rodič — strážca latky, dáva jasno a poriadok.",
+          "Láskavý Rodič — opora, dáva teplo a bezpečie."
+        ]
+      },
+      {
+        "label": "Dospelý",
+        "leaves": [
+          "Fakty, možnosti, tu a teraz.",
+          "Pevná pôda, keď emócie stúpnu.",
+          "Rozhovor dospelý s dospelým hľadá riešenie najlepšie."
+        ]
+      },
+      {
+        "label": "Dieťa",
+        "leaves": [
+          "Slobodné — iskra, hravosť, tvorivosť.",
+          "Prispôsobené — naladenie sa a ústup pre pokoj.",
+          "Rebelujúce — zdravý vzdor, ktorý stráži hranice."
+        ]
+      },
+      {
+        "label": "Ako to čítať",
+        "leaves": [
+          "Mapa zvyku, nie diagnóza ani škatuľka.",
+          "Každá poloha je dar a hodí sa na inú chvíľu.",
+          "Poloha sa mení podľa človeka aj chvíle."
+        ]
+      }
+    ]
+  },
+  "summary": "Egogram opisuje šesť komunikačných polôh, z ktorých hovoríme. Prísny Rodič je strážca latky: vidí, čo nesedí, a vie to pomenovať, dáva jasno a poriadok. Láskavý Rodič je opora: postará sa, dáva teplo a bezpečie — len pozor na starostlivosť tam, kde ju druhý nechce, lebo ho oberá o príležitosť zvládnuť to sám. Dospelý je pokojný rozvažovač: pracuje s faktami, otázkami a možnosťami, vecne a tu a teraz. Je to pevná pôda, na ktorú sa oplatí vrátiť, keď emócie stúpnu. Slobodné Dieťa je iskra a hravosť — spontánnosť, radosť a tvorivosť, teda zdroj nápadov, bez ktorého by tím nemal odkiaľ brať nové veci. Prispôsobené Dieťa je citlivé na súlad: vníma, čo druhí čakajú, a vie sa naladiť. Prispôsobenie je dar, keď je vedomé, a informácia vtedy, keď ustúpim aj tam, kde som nechcel. Rebelujúce Dieťa je zdravý vzdor: energia, ktorá stráži hranice. Keď je podaná pokojne a nie výbuchom, stáva sa z nej pevnosť, nie hádka. Výsledok egogramu nie je typ osobnosti ani diagnóza, ale mapa zvyku: ktoré polohy používam automaticky a kde mám nevyužitý potenciál. Nie je tu nič málo ani priveľa — každá poloha je dar a každá sa hodí na inú chvíľu. Poloha sa navyše mení podľa človeka aj podľa situácie. Iných zmeniť neviem a seba nemusím — len v komunikácii využijem svoj potenciál, aby som dosiahol harmóniu."
+}
