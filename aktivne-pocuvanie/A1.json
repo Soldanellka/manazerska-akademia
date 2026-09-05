@@ -1,0 +1,223 @@
+{
+  "id": "A1",
+  "title": "Techniky aktívneho počúvania",
+  "schemaVersion": "1.1",
+  "tags": [
+    "počúvanie",
+    "komunikácia",
+    "techniky"
+  ],
+  "theory": [
+    {
+      "heading": "Čo to je",
+      "text": "Aktívne počúvanie znamená sústrediť sa na to, čo druhý hovorí, a dať mu najavo, že mu rozumiem. Je viditeľné — druhý má z mojich reakcií poznať, že bol počutý. Nie je to súhlas, je to porozumenie."
+    },
+    {
+      "heading": "Parafráza",
+      "text": "Vrátim obsah vlastnými slovami a overím porozumenie: „Ak tomu rozumiem správne, prekáža ti hlavne to, že si sa o zmene dozvedel na poslednú chvíľu?“ Zároveň tým dávam druhému šancu spresniť sa."
+    },
+    {
+      "heading": "Otvorené otázky",
+      "text": "Otvorená otázka otvára odpoveď a pozýva druhého povedať viac: Ako? Čo presne? Čo by ti pomohlo? Uzavreté otázky, na ktoré sa odpovedá áno alebo nie, sa hodia až na záver, keď potvrdzujem dohodu."
+    },
+    {
+      "heading": "Pomenovanie emócie a zhrnutie",
+      "text": "Veta „vidím, že ťa to mrzí“ ukazuje, že vnímam nielen slová, ale aj to, čo je pod nimi — býva to najsilnejší krok k tomu, aby napätie kleslo. A zhrnutie na konci úseku utriedi dohodnuté a overí, že to vidíme rovnako. Bez neho si každý odnesie vlastnú verziu."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Čo je jadrom aktívneho počúvania?",
+      "options": [
+        "Mlčať, kým druhý dohovorí",
+        "Sústrediť sa na to, čo druhý hovorí, a dať mu najavo, že mu rozumiem",
+        "Súhlasiť so všetkým, čo hovorí"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — aktívne počúvanie je viditeľné. Nie je to súhlas, je to porozumenie.",
+      "explanation_incorrect": "Nie — mlčanie samo o sebe nestačí a súhlas to nie je. Ide o to dať najavo, že rozumiem."
+    },
+    {
+      "question": "Ktorá reakcia je parafráza?",
+      "options": [
+        "„To je nezmysel.“",
+        "„Ak tomu rozumiem správne, prekáža ti hlavne to, že si sa o zmene dozvedel na poslednú chvíľu?“",
+        "„Mne sa to raz stalo tiež a bolo to ešte horšie.“"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — parafráza vracia obsah vlastnými slovami a overuje porozumenie.",
+      "explanation_incorrect": "Nie — parafráza vracia obsah vlastnými slovami a končí overením. Vlastná historka ani odsudok ňou nie sú."
+    },
+    {
+      "question": "Kolegyňa hovorí o probléme a vy jej hneď ponúknete riešenie. Prečo to často nezaberie?",
+      "options": [
+        "Riešenie býva zlé",
+        "Nemá rada rady",
+        "Kým človek nemá pocit, že bol vypočutý, riešenie nepočuje"
+      ],
+      "correct": 2,
+      "explanation_correct": "Správne — rýchla rada preskočí krok porozumenia a znie ako odmietnutie témy.",
+      "explanation_incorrect": "Nie — nejde o kvalitu rady. Kým sa človek necíti vypočutý, riešenie k nemu nedoletí."
+    },
+    {
+      "question": "Čím sa vyznačuje otvorená otázka?",
+      "options": [
+        "Dá sa na ňu odpovedať áno alebo nie",
+        "Otvára odpoveď a pozýva druhého povedať viac",
+        "Obsahuje odpoveď, ktorú chcem počuť"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — Ako? Čo presne? Čo by ti pomohlo? Uzavreté otázky sa hodia až na záver.",
+      "explanation_incorrect": "Nie — otvorená otázka práve nedovolí odpoveď áno alebo nie a neobsahuje očakávanú odpoveď."
+    },
+    {
+      "question": "„Vidím, že ťa to mrzí.“ O akú techniku ide?",
+      "options": [
+        "Parafráza obsahu",
+        "Pomenovanie emócie",
+        "Zhrnutie"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — ukazuje, že vnímam nielen slová, ale aj to, čo je pod nimi. Býva to najsilnejší krok k poklesu napätia.",
+      "explanation_incorrect": "Nie — ide o pomenovanie emócie. Parafráza vracia obsah, zhrnutie uzatvára úsek."
+    },
+    {
+      "question": "Kedy je namieste zhrnutie?",
+      "options": [
+        "Na úvod rozhovoru",
+        "Vždy, keď druhý urobí pauzu",
+        "Na konci úseku alebo rozhovoru — utriedi dohodnuté a overí, že to vidíme rovnako"
+      ],
+      "correct": 2,
+      "explanation_correct": "Správne — zhrnutie uzatvára: čo sme si povedali, na čom sme sa dohodli a čo bude ďalej.",
+      "explanation_incorrect": "Nie — zhrnutie patrí na koniec úseku alebo rozhovoru. Bez neho si každý odnesie vlastnú verziu."
+    },
+    {
+      "question": "Podriadený príde s problémom, ktorý vieš vyriešiť za tridsať sekúnd. Čo je lepšie urobiť najskôr?",
+      "options": [
+        "Dať riešenie hneď, ušetrí to čas",
+        "Nechať ho dopovedať a parafrázovať, čo počuješ",
+        "Odkázať ho na kolegu"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — tridsať sekúnd ušetríš, ale minieš informáciu aj dôveru. Riešenie počuje až ten, kto bol vypočutý.",
+      "explanation_incorrect": "Nie — rýchla rada preskočí porozumenie. Nechaj dopovedať a over parafrázou, čo počuješ."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Aktívne počúvanie",
+      "definition": "Sústrediť sa na druhého a dať mu najavo, že mu rozumiem. Nie je to súhlas, je to porozumenie."
+    },
+    {
+      "term": "Parafráza",
+      "definition": "Vrátenie obsahu vlastnými slovami s overením: „Ak tomu rozumiem správne…?“"
+    },
+    {
+      "term": "Otvorená otázka",
+      "definition": "Otázka, ktorá otvára odpoveď: Ako? Čo presne? Čo by ti pomohlo?"
+    },
+    {
+      "term": "Pomenovanie emócie",
+      "definition": "„Vidím, že ťa to mrzí.“ Ukazuje, že vnímam aj to, čo je pod slovami."
+    },
+    {
+      "term": "Zhrnutie",
+      "definition": "Uzavretie úseku: čo sme si povedali, na čom sme sa dohodli, čo bude ďalej."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 1 — Sťažnosť, ktorú vieš vyriešiť hneď",
+      "difficulty": "ľahšia",
+      "steps": [
+        {
+          "question": "Zadanie: Podriadená príde s tým, že jej nefunguje prístup do systému a už tretí deň to nikto nerieši. Ty vieš, komu treba napísať, a vybavíš to za minútu. Chceš to však urobiť tak, aby z toho mala viac než len prístup.",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Čo urobiť ako prvé?",
+          "options": [
+            "Povedať, komu má napísať",
+            "Nechať ju dopovedať celú vec",
+            "Napísať to za ňu hneď počas rozhovoru"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — kým človek nemá pocit, že bol vypočutý, riešenie nepočuje.",
+          "explanation_incorrect": "Nie — rýchla rada preskočí krok porozumenia a znie ako odmietnutie témy. Nechaj ju dopovedať."
+        },
+        {
+          "question": "Krok 2: Ako overiť, že si rozumel?",
+          "options": [
+            "„Takže ti to nefunguje, jasné.“",
+            "„Ak tomu rozumiem správne, najviac ťa mrzí, že si to hlásila trikrát a nikto sa neozval?“",
+            "„To je typické, takto to tu chodí vždy.“"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — parafráza vracia obsah vlastnými slovami a dáva jej šancu spresniť sa.",
+          "explanation_incorrect": "Nie — odbytie ani zovšeobecnenie neoveria porozumenie. Parafrázuj a nechaj priestor na spresnenie."
+        },
+        {
+          "question": "Krok 3: Všimneš si, že je nahnevaná. Čo s tým?",
+          "options": [
+            "Prejsť to mlčaním, nech sa upokojí",
+            "Pomenovať emóciu: „Vidím, že ťa to štve.“",
+            "Povedať jej, nech to neberie osobne"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — pomenovanie emócie býva najsilnejším krokom k tomu, aby napätie kleslo.",
+          "explanation_incorrect": "Nie — mlčanie ani výzva, nech to nerieši, napätie neznížia. Pomenuj, čo vidíš."
+        },
+        {
+          "question": "Krok 4: Čím rozhovor uzavrieť?",
+          "options": [
+            "Zhrnutím: čo urobím ja, dokedy, a čo ona",
+            "Vetou, že sa to určite vyrieši",
+            "Riešením bez ďalších slov"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — zhrnutie utriedi dohodnuté a overí, že to obaja vidíte rovnako. Bez neho si každý odnesie vlastnú verziu.",
+          "explanation_incorrect": "Nie — vágny prísľub ani tiché vybavenie nezaručia, že si to obaja pamätáte rovnako. Zhrň dohodu."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Aktívne počúvanie — techniky",
+    "branches": [
+      {
+        "label": "Základ",
+        "leaves": [
+          "Je viditeľné — druhý má z reakcií poznať, že bol počutý.",
+          "Nie je to súhlas, je to porozumenie.",
+          "Najprv pochopenie, potom riešenie."
+        ]
+      },
+      {
+        "label": "Techniky",
+        "leaves": [
+          "Parafráza — obsah vlastnými slovami s overením.",
+          "Otvorená otázka — Ako? Čo presne? Čo by ti pomohlo?",
+          "Pomenovanie emócie — „Vidím, že ťa to mrzí.“",
+          "Zhrnutie — čo sme si povedali a čo bude ďalej."
+        ]
+      },
+      {
+        "label": "Kedy čo",
+        "leaves": [
+          "Otvorené otázky v priebehu, uzavreté až na potvrdenie dohody.",
+          "Pomenovanie emócie vtedy, keď napätie stúpa.",
+          "Zhrnutie na konci úseku, nie na začiatku."
+        ]
+      }
+    ]
+  },
+  "summary": "Aktívne počúvanie znamená sústrediť sa na to, čo druhý hovorí, a dať mu najavo, že mu rozumiem. Je viditeľné: druhý má z mojich reakcií poznať, že bol počutý. Nie je to súhlas, je to porozumenie. Prvou technikou je parafráza — vrátim obsah vlastnými slovami a overím porozumenie vetou typu „ak tomu rozumiem správne, prekáža ti hlavne to, že…?“ Zároveň tým dávam druhému šancu spresniť sa. Druhou sú otvorené otázky, ktoré otvárajú odpoveď a pozývajú povedať viac: Ako? Čo presne? Čo by ti pomohlo? Uzavreté otázky, na ktoré sa odpovedá áno alebo nie, sa hodia až na záver, keď potvrdzujem dohodu. Treťou je pomenovanie emócie. Veta „vidím, že ťa to mrzí“ ukazuje, že vnímam nielen slová, ale aj to, čo je pod nimi, a býva to najsilnejší krok k tomu, aby napätie kleslo. Štvrtou je zhrnutie na konci úseku alebo rozhovoru: čo sme si povedali, na čom sme sa dohodli a čo bude ďalej. Bez neho si každý odnesie vlastnú verziu. Najčastejšou chybou je ponúknuť riešenie skôr, než sa človek cíti vypočutý. Rýchla rada preskočí krok porozumenia a znie ako odmietnutie témy. Najprv pochopenie, potom riešenie — a najlepšie až na požiadanie."
+}

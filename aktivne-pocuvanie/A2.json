@@ -1,0 +1,223 @@
+{
+  "id": "A2",
+  "title": "Čo počúvaniu škodí",
+  "schemaVersion": "1.1",
+  "tags": [
+    "počúvanie",
+    "bariéry",
+    "komunikácia"
+  ],
+  "theory": [
+    {
+      "heading": "Dokončovanie viet",
+      "text": "Keď za druhého dokončím vetu, dávam najavo, že už viem, čo chce povedať — a tým počúvanie končí. Aj keď to myslím ako pomoc a aj keď mám pravdu. Človek, ktorému sa dokončujú vety, prestane hovoriť to podstatné."
+    },
+    {
+      "heading": "Príprava odpovede",
+      "text": "Ak si počas reči druhého skladám odpoveď, nepočúvam ho — čakám na medzeru. Býva to najčastejšia forma nepočúvania na poradách, lebo navonok vyzerá ako sústredenie."
+    },
+    {
+      "heading": "Prekrytie vlastnou historkou",
+      "text": "Veta „mne sa to raz stalo tiež a bolo to horšie“ vyzerá ako empatia, ale otáča pozornosť k sebe. Druhý sa v rozhovore stratí a nabudúce začne inde alebo vôbec."
+    },
+    {
+      "heading": "Rada namiesto porozumenia",
+      "text": "Kým človek nemá pocit, že bol vypočutý, riešenie nepočuje. Rýchla rada preskočí krok porozumenia a znie ako odmietnutie témy. Najprv pochopenie, potom riešenie — a najlepšie až na požiadanie."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Čo z uvedeného aktívnemu počúvaniu najviac škodí?",
+      "options": [
+        "Očný kontakt",
+        "Otázka na spresnenie",
+        "Dokončovanie viet za druhého"
+      ],
+      "correct": 2,
+      "explanation_correct": "Správne — dávaš tým najavo, že už vieš, čo chce povedať, a tým počúvanie končí. Aj keď to myslíš ako pomoc.",
+      "explanation_incorrect": "Nie — očný kontakt aj otázka na spresnenie počúvaniu pomáhajú. Škodí dokončovanie viet."
+    },
+    {
+      "question": "Prečo je príprava odpovede počas reči druhého taká zradná?",
+      "options": [
+        "Navonok vyzerá ako sústredené počúvanie, hoci ním nie je",
+        "Zdržuje rozhovor",
+        "Vedie k zlým odpovediam"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — je to najčastejšia forma nepočúvania na poradách práve preto, že sa nedá spozorovať zvonku.",
+      "explanation_incorrect": "Nie — problém nie je v čase ani v kvalite odpovede. Je v tom, že to vyzerá ako počúvanie, ale nie je ním."
+    },
+    {
+      "question": "„Mne sa to raz stalo tiež a bolo to ešte horšie.“ Čo je na tejto reakcii problém?",
+      "options": [
+        "Nie je pravdivá",
+        "Otáča pozornosť k sebe, hoci vyzerá ako empatia",
+        "Je príliš dlhá"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — druhý sa v rozhovore stratí a nabudúce začne inde alebo vôbec.",
+      "explanation_incorrect": "Nie — nejde o pravdivosť ani dĺžku. Vlastná historka otáča pozornosť od druhého k sebe."
+    },
+    {
+      "question": "Kedy je rada na mieste?",
+      "options": [
+        "Hneď, ako pochopím problém",
+        "Až keď sa človek cíti vypočutý — a najlepšie na požiadanie",
+        "Nikdy, rady sa nedávajú"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — rýchla rada preskočí porozumenie a znie ako odmietnutie témy.",
+      "explanation_incorrect": "Nie — rady zmysel majú, ale až po porozumení. Predtým doletia ako odmietnutie témy."
+    },
+    {
+      "question": "Ktoré správanie počúvaniu pomáha?",
+      "options": [
+        "Krátke prikývnutie a otázka na spresnenie",
+        "Rýchle zhrnutie hneď v prvej vete",
+        "Doplnenie toho, čo druhý zabudol povedať"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — drobné signály a otázky ukazujú, že som pri druhom, a nechávajú mu vedenie rozhovoru.",
+      "explanation_incorrect": "Nie — predčasné zhrnutie aj dopĺňanie preberajú rozhovor. Pomáhajú drobné signály a otázky na spresnenie."
+    },
+    {
+      "question": "Vedúci počas rozhovoru s podriadeným pozerá do mobilu a hovorí „pokračuj, počúvam“. Čo sa reálne deje?",
+      "options": [
+        "Počúva, len robí dve veci naraz",
+        "Aktívne počúvanie sa nedeje — chýba viditeľný signál, že je pri druhom",
+        "Je to v poriadku, ak si to potom pamätá"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — aktívne počúvanie je viditeľné. Bez signálu ho druhý nemá ako rozpoznať.",
+      "explanation_incorrect": "Nie — aj keby si obsah zapamätal, druhý to nevie. Bez viditeľného signálu aktívne počúvanie nefunguje."
+    },
+    {
+      "question": "Čo je najlepší spôsob, ako si overiť, že som naozaj počúval?",
+      "options": [
+        "Zopakovať posledné slová druhého",
+        "Parafrázovať obsah vlastnými slovami a nechať ho potvrdiť",
+        "Spýtať sa, či mi rozumel"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — parafráza je jediná z týchto možností, ktorá overuje moje porozumenie, nie jeho.",
+      "explanation_incorrect": "Nie — opakovanie slov je mechanické a otázka na jeho porozumenie obracia zodpovednosť. Parafrázuj a nechaj potvrdiť."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Dokončovanie viet",
+      "definition": "Signál, že už viem, čo chceš povedať. Počúvanie tým končí — aj keď to myslím ako pomoc."
+    },
+    {
+      "term": "Príprava odpovede",
+      "definition": "Najzradnejšia forma nepočúvania: navonok vyzerá ako sústredenie, no je to čakanie na medzeru."
+    },
+    {
+      "term": "Prekrytie historkou",
+      "definition": "„Mne sa to stalo tiež…“ Vyzerá ako empatia, ale otáča pozornosť k sebe."
+    },
+    {
+      "term": "Predčasná rada",
+      "definition": "Preskočí porozumenie a znie ako odmietnutie témy. Najprv pochopenie, potom riešenie."
+    },
+    {
+      "term": "Viditeľnosť počúvania",
+      "definition": "Druhý má z reakcií poznať, že je počúvaný. Bez signálu to nevie, aj keby si všetko pamätal."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 2 — Rozhovor, po ktorom sa človek prestal ozývať",
+      "difficulty": "stredná",
+      "steps": [
+        {
+          "question": "Zadanie: Kolega ti pred mesiacom prišiel povedať niečo, čo ho trápilo. Odvtedy s ničím neprišiel. Keď si ten rozhovor prehráš v hlave, spomenieš si, že si mu dvakrát dokončil vetu, raz povedal, že tebe sa stalo niečo horšie, a nakoniec dal radu. Čo s tým teraz?",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Čo bolo v tom rozhovore najškodlivejšie?",
+          "options": [
+            "Rada na konci",
+            "Dokončovanie viet — signál, že už vieš, čo chce povedať",
+            "Že rozhovor bol krátky"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — dokončovanie viet ukončí počúvanie najrýchlejšie zo všetkého. Človek prestane hovoriť to podstatné.",
+          "explanation_incorrect": "Nie — rada aj dĺžka boli druhoradé. Najviac uškodilo dokončovanie viet."
+        },
+        {
+          "question": "Krok 2: Prečo bola veta o tvojej horšej skúsenosti problém?",
+          "options": [
+            "Nebola pravdivá",
+            "Otočila pozornosť k tebe, hoci vyzerala ako empatia",
+            "Bola príliš osobná"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — druhý sa v rozhovore stratil. Nabudúce začne inde alebo vôbec — čo sa aj stalo.",
+          "explanation_incorrect": "Nie — nešlo o pravdivosť ani o mieru osobnosti. Vlastná historka otočila pozornosť od neho k tebe."
+        },
+        {
+          "question": "Krok 3: Ako to otvoriť teraz?",
+          "options": [
+            "Nechať to tak, mesiac je dávno",
+            "Priznať to a otvoriť tému znova",
+            "Počkať, kým príde sám"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — negatívna asercia funguje aj tu: „Rozmýšľal som nad naším rozhovorom a myslím, že som ťa vtedy poriadne nenechal dohovoriť.“",
+          "explanation_incorrect": "Nie — čakanie problém neodstráni. Priznaj to pokojne a otvor tému znova."
+        },
+        {
+          "question": "Krok 4: Čo urobiť v tom novom rozhovore inak?",
+          "options": [
+            "Nechať dohovoriť, parafrázovať a riešenie ponúknuť až na požiadanie",
+            "Pripraviť si vopred dobrú radu",
+            "Hovoriť menej a mlčať"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — najprv porozumenie, potom riešenie. A parafráza je to, čo mu ukáže, že tentoraz naozaj počúvaš.",
+          "explanation_incorrect": "Nie — pripravená rada je opäť predčasná a samotné mlčanie nestačí. Nechaj dohovoriť a parafrázuj."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Čo počúvaniu škodí",
+    "branches": [
+      {
+        "label": "Štyri hlavné bariéry",
+        "leaves": [
+          "Dokončovanie viet — počúvanie tým končí.",
+          "Príprava odpovede — čakanie na medzeru.",
+          "Prekrytie vlastnou historkou — pozornosť sa otočí k sebe.",
+          "Predčasná rada — znie ako odmietnutie témy."
+        ]
+      },
+      {
+        "label": "Prečo sú zradné",
+        "leaves": [
+          "Všetky sa dajú myslieť dobre.",
+          "Príprava odpovede navonok vyzerá ako sústredenie.",
+          "Vlastná historka vyzerá ako empatia."
+        ]
+      },
+      {
+        "label": "Čo pomáha",
+        "leaves": [
+          "Krátke prikývnutie a otázka na spresnenie.",
+          "Parafráza — overenie môjho porozumenia, nie jeho.",
+          "Viditeľný signál, že som pri druhom."
+        ]
+      }
+    ]
+  },
+  "summary": "Aktívnemu počúvaniu škodia štyri veci a všetky sa dajú myslieť dobre. Prvou je dokončovanie viet za druhého. Dávam tým najavo, že už viem, čo chce povedať, a tým počúvanie končí — aj keď to myslím ako pomoc a aj keď mám pravdu. Človek, ktorému sa dokončujú vety, prestane hovoriť to podstatné. Druhou je príprava vlastnej odpovede počas reči druhého. Je to najzradnejšia forma nepočúvania, pretože navonok vyzerá ako sústredenie, hoci v skutočnosti len čakám na medzeru. Treťou je prekrytie vlastnou historkou. Veta „mne sa to raz stalo tiež a bolo to horšie“ vyzerá ako empatia, ale otáča pozornosť k sebe. Druhý sa v rozhovore stratí a nabudúce začne inde alebo vôbec. Štvrtou je rada namiesto porozumenia. Kým človek nemá pocit, že bol vypočutý, riešenie nepočuje; rýchla rada preskočí krok porozumenia a znie ako odmietnutie témy. Najprv pochopenie, potom riešenie — a najlepšie až na požiadanie. Pomáha naopak to, čo je viditeľné a nechá vedenie rozhovoru druhému: krátke prikývnutie, otázka na spresnenie a najmä parafráza, ktorá jediná overuje moje porozumenie, nie jeho. Otázka „rozumel si mi?“ obracia zodpovednosť na druhého; parafráza ju necháva na mne. A platí, že aktívne počúvanie je viditeľné: aj keby som si obsah dokonale zapamätal, bez signálu to druhý nemá ako vedieť."
+}
