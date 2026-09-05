@@ -1,0 +1,222 @@
+{
+  "id": "A2",
+  "title": "Ja-výroky v praxi",
+  "schemaVersion": "1.1",
+  "tags": [
+    "ja-výrok",
+    "vedenie ľudí",
+    "praktické situácie"
+  ],
+  "theory": [
+    {
+      "heading": "Hovor za seba",
+      "text": "Ja-výroku uberá na sile najviac to, keď hovorím za iných. „Všetci si mysleli, že…“ je skrytý ty-výrok — druhý sa musí brániť pred neviditeľnou skupinou, s ktorou sa nedá rozprávať. Hovor za seba, to je celá sila tejto techniky."
+    },
+    {
+      "heading": "Ja-výrok a pochvala",
+      "text": "Aj ocenenie je spätná väzba a platia preň tie isté pravidlá: konkrétne, o správaní, za seba. Veta „mne veľmi pomohlo, keď si na porade zhrnul, na čom sme sa dohodli“ je konkrétnejšia a úprimnejšia než „si šikovný“. Vtedy sa jej dá veriť."
+    },
+    {
+      "heading": "Keď Ja-výrok nezaberie",
+      "text": "Ja-výrok nie je kúzlo, ktoré funguje na prvý raz. Keď si ho vypočujú a nič sa nezmení, nastupuje pokazená platňa: pokojné zopakovanie tej istej vety bez nových argumentov. Prechod na obvinenie by celý doterajší pokrok zmazal."
+    },
+    {
+      "heading": "Ja-výrok v pozícii vedúceho",
+      "text": "Ako vedúci máš navyše moc, ktorú druhý cíti. O to viac záleží na tom, aby veta pomenovala správanie a dopad, nie povahu. Nálepka od nadriadeného sa lepí oveľa silnejšie a človek jej časom začne veriť."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "„Vždy všetko rozhoduješ za mňa.“ Ako to povedať Ja-výrokom?",
+      "options": [
+        "„Cítim, že si dominantný a nerešpektuješ ma.“",
+        "„Bolo mi nepríjemné, že sa o piatkovej zmene rozhodlo bezo mňa — chcem sa na takých veciach podieľať.“",
+        "„Rob si, ako myslíš, mne je to jedno.“"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — konkrétna situácia, môj pocit a čo potrebujem.",
+      "explanation_incorrect": "Nie — prvá možnosť je ty-výrok v prezlečení, tretia ustúpenie. Ja-výrok pomenúva konkrétnu situáciu, pocit a potrebu."
+    },
+    {
+      "question": "Podriadený opakovane odovzdáva prácu na poslednú chvíľu. Čo je Ja-výrok?",
+      "options": [
+        "„Si nespoľahlivý.“",
+        "„Keď podklady prídu deň pred termínom, nestíham ich skontrolovať — potrebujem ich mať tri dni vopred.“",
+        "„Všetci sa na teba sťažujú.“"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — pomenúva konkrétny dopad, nie povahu človeka, a hovorí za seba.",
+      "explanation_incorrect": "Nie — prvá možnosť je nálepka, tretia hovorí za iných. Ja-výrok pomenúva dopad a potrebu za seba."
+    },
+    {
+      "question": "Čo Ja-výroku uberá na sile najviac?",
+      "options": [
+        "Krátkosť",
+        "Keď hovorím za iných: „všetci si mysleli…“",
+        "Pokojný tón"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — je to skrytý ty-výrok. Druhý sa musí brániť pred neviditeľnou skupinou.",
+      "explanation_incorrect": "Nie — silu mu berie hovorenie za iných. Hovor za seba, to je celá sila tejto techniky."
+    },
+    {
+      "question": "Kolega ti pred celým tímom odľahčene zhodil návrh. Ako to povedať Ja-výrokom?",
+      "options": [
+        "„Ty nemáš žiadny takt.“",
+        "„Bolo mi nepríjemné, keď si môj návrh zhodil pred celým tímom — potrebujem, aby sme si takéto veci povedali medzi štyrmi očami.“",
+        "„Veď si robil len srandu, nechaj tak.“"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — pomenuje situáciu, dopad aj to, čo by pomohlo, bez súdu o človeku.",
+      "explanation_incorrect": "Nie — prvá možnosť je nálepka, tretia ustúpenie, po ktorom sa nezmení nič."
+    },
+    {
+      "question": "Ja-výrok si vypočuli, ale nič sa nezmenilo. Čo ďalej?",
+      "options": [
+        "Pokojne ho zopakovať — pokazená platňa",
+        "Prejsť na ty-výrok, nech je to jasné",
+        "Nechať to tak"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — Ja-výrok a pokazená platňa sa dopĺňajú: pokojné zopakovanie hranice bez nových argumentov.",
+      "explanation_incorrect": "Nie — prechod na obvinenie by celý pokrok zmazal. Zopakuj tú istú vetu pokojne."
+    },
+    {
+      "question": "Prečo Ja-výrok patrí aj do pochvaly?",
+      "options": [
+        "Nepatrí, je len na konflikty",
+        "„Mne veľmi pomohlo, keď si…“ je konkrétnejšie a úprimnejšie než „si šikovný“",
+        "Aby pochvala znela vážnejšie"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — aj ocenenie je spätná väzba: konkrétne, o správaní, za seba. Vtedy sa mu dá veriť.",
+      "explanation_incorrect": "Nie — Ja-výrok patrí aj do ocenenia. Konkrétna pochvala za seba je uveriteľnejšia než všeobecná nálepka."
+    },
+    {
+      "question": "Je Ja-výrok technikou asertivity, alebo spätnej väzby?",
+      "options": [
+        "Iba asertivity",
+        "Iba spätnej väzby",
+        "Oboch — je to tá istá technika použitá v dvoch situáciách"
+      ],
+      "correct": 2,
+      "explanation_correct": "Správne — v asertivite drží hranicu, v spätnej väzbe otvára rozhovor. Rovnaká stavba, iný účel.",
+      "explanation_incorrect": "Nie — je to tá istá technika v dvoch situáciách: v asertivite drží hranicu, v spätnej väzbe otvára rozhovor."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Hovoriť za seba",
+      "definition": "„Mne prišlo…“ namiesto „všetci si mysleli…“. Hovorenie za iných je skrytý ty-výrok."
+    },
+    {
+      "term": "Ja-výrok v ocenení",
+      "definition": "„Mne veľmi pomohlo, keď si…“ Konkrétnejšie a uveriteľnejšie než „si šikovný“."
+    },
+    {
+      "term": "Ja-výrok plus pokazená platňa",
+      "definition": "Keď Ja-výrok nezaberie, zopakuj ho pokojne bez nových argumentov. Nie prejsť na obvinenie."
+    },
+    {
+      "term": "Dopad namiesto povahy",
+      "definition": "„Nestíham to skontrolovať“ namiesto „si nespoľahlivý“. Dopad sa dá riešiť, povaha nie."
+    },
+    {
+      "term": "Moc vedúceho",
+      "definition": "Nálepka od nadriadeného sa lepí silnejšie a človek jej časom uverí. O to viac záleží na formulácii."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 2 — Opakované meškanie podkladov",
+      "difficulty": "stredná",
+      "steps": [
+        {
+          "question": "Zadanie: Člen tvojho tímu už tretí mesiac odovzdáva podklady deň pred termínom. Nestíhaš ich skontrolovať a chyby idú ďalej. Predtým si mu povedal, že „sa na neho nedá spoľahnúť“, a odvtedy je uzavretý. Ako to napraviť?",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Prečo predchádzajúca veta nezabrala?",
+          "options": [
+            "Bola príliš mierna",
+            "Bola nálepka na človeka, nie pomenovanie správania",
+            "Nebola povedaná nahlas"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — nálepka od nadriadeného sa lepí silno a človek sa jej buď bráni, alebo jej uverí. Riešiť sa nedá.",
+          "explanation_incorrect": "Nie — problém bol v tom, že to bola nálepka na človeka. Správanie sa dá zmeniť, nálepka ostane."
+        },
+        {
+          "question": "Krok 2: Ako to povedať znova?",
+          "options": [
+            "„Keď podklady prídu deň pred termínom, nestíham ich skontrolovať a chyby idú ďalej — potrebujem ich mať tri dni vopred.“",
+            "„Všetci v tíme na teba čakajú.“",
+            "„Cítim, že ti na kvalite nezáleží.“"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — fakt, dopad a konkrétna potreba. Bez súdu o človeku a bez hovorenia za iných.",
+          "explanation_incorrect": "Nie — druhá možnosť hovorí za iných, tretia je ty-výrok v prezlečení. Pomenuj fakt, dopad a potrebu."
+        },
+        {
+          "question": "Krok 3: Povie, že to inak nestíha. Čo teraz?",
+          "options": [
+            "Trvať na termíne bez ďalšej reči",
+            "Opýtať sa, čo mu v tom bráni, a hľadať riešenie spolu",
+            "Ustúpiť a kontrolovať to sám"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — Ja-výrok otvára rozhovor, nie ho uzatvára. Potreba je jasná, cesta k nej sa hľadá spolu.",
+          "explanation_incorrect": "Nie — Ja-výrok má rozhovor otvoriť. Potreba ostáva, ale cestu k nej hľadajte spolu."
+        },
+        {
+          "question": "Krok 4: O mesiac podklady prídu načas. Čo urobiť?",
+          "options": [
+            "Nič, je to jeho práca",
+            "Pomenovať to konkrétne Ja-výrokom",
+            "Pochváliť ho pred tímom slovami, že je šikovný"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — „Mne veľmi pomohlo, že podklady prišli v stredu, stihol som ich prejsť.“ Konkrétne, za seba. Rastie to, čo zalievaš.",
+          "explanation_incorrect": "Nie — mlčanie ani všeobecná pochvala nepovedia, čo má opakovať. Pomenuj konkrétne, čo ti pomohlo."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Ja-výroky v praxi",
+    "branches": [
+      {
+        "label": "Vo vedení ľudí",
+        "leaves": [
+          "Dopad namiesto povahy — „nestíham to skontrolovať“, nie „si nespoľahlivý“.",
+          "Nálepka od nadriadeného sa lepí silnejšie.",
+          "Ja-výrok otvára rozhovor, cesta k riešeniu sa hľadá spolu."
+        ]
+      },
+      {
+        "label": "V ocenení",
+        "leaves": [
+          "„Mne veľmi pomohlo, keď si…“",
+          "Konkrétne, o správaní, za seba.",
+          "Rastie to, čo zalievaš."
+        ]
+      },
+      {
+        "label": "Keď nezaberie",
+        "leaves": [
+          "Pokazená platňa — zopakovať pokojne, bez nových argumentov.",
+          "Nie prejsť na obvinenie — zmazalo by to pokrok.",
+          "Potreba ostáva, forma sa nemení."
+        ]
+      }
+    ]
+  },
+  "summary": "Ja-výrok v praxi stojí a padá na jednej veci: hovoriť za seba. Veta „všetci si mysleli“ je skrytý ty-výrok, pretože druhý sa musí brániť pred neviditeľnou skupinou, s ktorou sa nedá rozprávať. Vo vedení ľudí platí navyše, že nálepka od nadriadeného sa lepí silnejšie a človek jej časom začne veriť. Preto „keď podklady prídu deň pred termínom, nestíham ich skontrolovať a chyby idú ďalej — potrebujem ich mať tri dni vopred“ funguje, kým „si nespoľahlivý“ nefunguje: prvá veta pomenúva dopad, ktorý sa dá riešiť, druhá povahu, ktorá sa riešiť nedá. Ja-výrok má rozhovor otvoriť, nie uzavrieť. Keď druhý povie, že to inak nestíha, potreba ostáva, ale cesta k nej sa hľadá spolu. Keď Ja-výrok nezaberie na prvý raz, nastupuje pokazená platňa — pokojné zopakovanie tej istej vety bez nových argumentov. Prechod na obvinenie by zmazal celý doterajší pokrok. Ja-výrok patrí aj do ocenenia. Aj pochvala je spätná väzba a platia pre ňu tie isté pravidlá: konkrétne, o správaní, za seba. Veta „mne veľmi pomohlo, že podklady prišli v stredu, stihol som ich prejsť“ je konkrétnejšia a uveriteľnejšia než „si šikovný“ — a hovorí druhému presne to, čo má opakovať. Rastie to, čo zalievaš. Ja-výrok teda nie je technikou jedného modulu: v asertivite drží hranicu, v spätnej väzbe otvára rozhovor a v ocenení robí pochvalu uveriteľnou. Rovnaká stavba, iný účel."
+}

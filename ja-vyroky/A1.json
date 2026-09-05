@@ -1,0 +1,227 @@
+{
+  "id": "A1",
+  "title": "Ty-výrok verzus Ja-výrok",
+  "schemaVersion": "1.1",
+  "tags": [
+    "ja-výrok",
+    "komunikácia",
+    "konflikt"
+  ],
+  "theory": [
+    {
+      "heading": "Prečo ty-výrok nefunguje",
+      "text": "Ty-výrok obviňuje a druhý sa začne brániť skôr, než dorazí obsah. Ja-výrok hovorí, čo sa stalo, čo to so mnou robí a čo potrebujem — a s tým sa už dá pracovať."
+    },
+    {
+      "heading": "Stavba Ja-výroku",
+      "text": "Fakt plus pocit plus potreba. Fakt je to, čo sa stalo — konkrétna, overiteľná situácia. Pocit je môj, o ňom sa nediskutuje. Potreba hovorí, čo by pomohlo. Na takú vetu sa ťažko odpovedá obranou."
+    },
+    {
+      "heading": "Ty-výrok v prezlečení",
+      "text": "Najzradnejšia pasca. Veta „cítim, že si bezohľadný“ začína slovom cítim, ale pokračuje hodnotením človeka. Slovo cítim z vety Ja-výrok nespraví. Rozhoduje, či za ním nasleduje môj pocit, alebo súd o druhom."
+    },
+    {
+      "heading": "Ustúpenie nie je Ja-výrok",
+      "text": "Veta „to nič, počkám, ja mám času dosť“ znie zmierlivo, ale moja potreba v nej nezaznie. Druhý sa nedozvie nič a problém sa len odloží na neskôr. Ja-výrok potrebu vždy vysloví."
+    },
+    {
+      "heading": "Vždy a nikdy",
+      "text": "„Vždy meškáš“ sa dá vyvrátiť jediným príkladom — a rozhovor sa zvrhne na dokazovanie. Tieto slová navyše robia z jednej udalosti nemennú vlastnosť človeka. Konkrétnu situáciu poprieť nemožno."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Prečo ty-výrok nefunguje?",
+      "options": [
+        "Je príliš krátky",
+        "Obviňuje — a druhý sa začne brániť skôr, než dorazí obsah",
+        "Je nezdvorilý"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — obvinenie spustí obranu rýchlejšie, než stihne veta dopovedať.",
+      "explanation_incorrect": "Nie — problém nie je v dĺžke ani v zdvorilosti, ale v tom, že obvinenie spustí obranu."
+    },
+    {
+      "question": "„Cítim, že si bezohľadný, keď ma nepočúvaš.“ Čo je na tejto vete zle?",
+      "options": [
+        "Nič, je to správny Ja-výrok",
+        "Je to ty-výrok v prezlečení — začína slovom cítim, ale pokračuje hodnotením človeka",
+        "Je príliš mäkká"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — slovo cítim z vety Ja-výrok nespraví. Rozhoduje, čo za ním nasleduje.",
+      "explanation_incorrect": "Nie — je to ty-výrok v prezlečení. Za slovom cítim nasleduje súd o človeku, nie môj pocit."
+    },
+    {
+      "question": "Z akých troch častí sa skladá Ja-výrok?",
+      "options": [
+        "Fakt plus pocit plus potreba",
+        "Kritika plus návrh plus termín",
+        "Pochvala plus kritika plus pochvala"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — fakt je to, čo sa stalo, pocit je môj a potreba hovorí, čo by pomohlo.",
+      "explanation_incorrect": "Nie — Ja-výrok stojí na trojici fakt, pocit a potreba."
+    },
+    {
+      "question": "„Nikdy ma nepočúvaš.“ Ktorá verzia je Ja-výrok?",
+      "options": [
+        "„Cítim sa nevypočutá, keď si pri rozhovore pozeráš do telefónu — potrebujem chvíľu, keď sme naozaj obaja tu.“",
+        "„Cítim, že si bezohľadný.“",
+        "„Nevadí, veď to nie je dôležité.“"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — obsahuje fakt, pocit aj potrebu.",
+      "explanation_incorrect": "Nie — druhá možnosť je ty-výrok v prezlečení, tretia je ustúpenie, v ktorom potreba vôbec nezaznie."
+    },
+    {
+      "question": "„To nič, počkám, ja mám času dosť.“ Čo je to za reakciu?",
+      "options": [
+        "Ja-výrok",
+        "Ustúpenie — moja potreba v ňom nezaznie",
+        "Pomenovanie hranice"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — znie zmierlivo, ale druhý sa nedozvie nič a problém sa len odloží.",
+      "explanation_incorrect": "Nie — je to ustúpenie. Ja-výrok potrebu vždy vysloví."
+    },
+    {
+      "question": "Prečo sú slová „vždy“ a „nikdy“ v Ja-výroku problém?",
+      "options": [
+        "Sú príliš dlhé",
+        "Robia z jednej udalosti nemennú vlastnosť človeka",
+        "Znejú neformálne"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — a navyše sa dajú vyvrátiť jediným príkladom, takže sa rozhovor zvrhne na dokazovanie.",
+      "explanation_incorrect": "Nie — problém je, že z jednej udalosti robia nemennú vlastnosť a dajú sa vyvrátiť jediným príkladom."
+    },
+    {
+      "question": "„Zase meškáš.“ Ktorá verzia je Ja-výrok?",
+      "options": [
+        "„Ty proste nevieš prísť načas.“",
+        "„Mrzí ma, keď čakám bez správy — potrebujem vedieť, na čom som.“",
+        "„To nič, počkám.“"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — fakt, že čakám bez správy, môj pocit a moja potreba. Žiadne hodnotenie človeka.",
+      "explanation_incorrect": "Nie — prvá možnosť je ty-výrok, tretia ustúpenie. Ja-výrok obsahuje fakt, pocit aj potrebu."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Ja-výrok",
+      "definition": "Fakt plus pocit plus potreba. Hovorí, čo sa stalo, čo to so mnou robí a čo by pomohlo."
+    },
+    {
+      "term": "Ty-výrok",
+      "definition": "Veta, ktorá obviňuje alebo hodnotí človeka. Spustí obranu skôr, než dorazí obsah."
+    },
+    {
+      "term": "Ty-výrok v prezlečení",
+      "definition": "„Cítim, že si bezohľadný.“ Začína slovom cítim, ale pokračuje hodnotením človeka."
+    },
+    {
+      "term": "Ustúpenie",
+      "definition": "„To nič, počkám.“ Znie zmierlivo, ale potreba v ňom nezaznie a problém sa len odloží."
+    },
+    {
+      "term": "Vždy a nikdy",
+      "definition": "Slová, ktoré robia z jednej udalosti nemennú vlastnosť. Dajú sa vyvrátiť jediným príkladom."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 1 — Prerábka ty-výroku na Ja-výrok",
+      "difficulty": "ľahšia",
+      "steps": [
+        {
+          "question": "Zadanie: Chceš kolegovi povedať, že ťa štve, keď si na spoločných hovoroch vybavuje maily. Prvá veta, ktorá ti napadne, je „ty ma nikdy nepočúvaš“. Prerob ju.",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Čo je na pôvodnej vete najproblematickejšie?",
+          "options": [
+            "Je príliš krátka",
+            "Slovo nikdy plus obvinenie človeka",
+            "Je povedaná nahlas"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — nikdy sa dá vyvrátiť jediným príkladom a obvinenie spustí obranu.",
+          "explanation_incorrect": "Nie — problém je v slove nikdy a v tom, že veta obviňuje človeka namiesto pomenovania situácie."
+        },
+        {
+          "question": "Krok 2: Aký je fakt?",
+          "options": [
+            "Že kolega je bezohľadný",
+            "Že si počas spoločného hovoru vybavuje maily",
+            "Že ma nerešpektuje"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — fakt je konkrétne, overiteľné správanie. Nie hodnotenie osoby.",
+          "explanation_incorrect": "Nie — bezohľadnosť ani nerešpektovanie nie sú fakty, ale súdy. Fakt je konkrétne správanie."
+        },
+        {
+          "question": "Krok 3: Ktorá veta je hotový Ja-výrok?",
+          "options": [
+            "„Cítim, že ti na spoločnej práci nezáleží.“",
+            "„Keď si počas nášho hovoru vybavuješ maily, strácam niť — potrebujem, aby sme si na to vyhradili desať minút naplno.“",
+            "„Vieš čo, nechaj tak, zvládnem to sám.“"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — fakt, pocit aj potreba, bez súdu o človeku.",
+          "explanation_incorrect": "Nie — prvá možnosť je ty-výrok v prezlečení, tretia ustúpenie. Správna veta obsahuje fakt, pocit aj potrebu."
+        },
+        {
+          "question": "Krok 4: Kolega odpovie „veď ťa počúvam“ a nič sa nezmení. Čo ďalej?",
+          "options": [
+            "Pokojne zopakovať tú istú vetu — pokazená platňa",
+            "Prejsť na ty-výrok, nech je to jasné",
+            "Nechať to tak"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — Ja-výrok a pokazená platňa sa dopĺňajú. Pokojné zopakovanie hranice bez nových argumentov.",
+          "explanation_incorrect": "Nie — prechod na obvinenie by celý pokrok zmazal. Zopakuj tú istú vetu pokojne."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Ja-výroky",
+    "branches": [
+      {
+        "label": "Stavba",
+        "leaves": [
+          "Fakt — konkrétna, overiteľná situácia.",
+          "Pocit — môj, o ňom sa nediskutuje.",
+          "Potreba — čo by pomohlo."
+        ]
+      },
+      {
+        "label": "Pasce",
+        "leaves": [
+          "Ty-výrok v prezlečení — „cítim, že si…“",
+          "Ustúpenie — potreba v ňom nezaznie.",
+          "Vždy a nikdy — dajú sa vyvrátiť jediným príkladom.",
+          "Hovorenie za „všetkých“ — skrytý ty-výrok."
+        ]
+      },
+      {
+        "label": "Kde sa používa",
+        "leaves": [
+          "V asertivite drží hranicu.",
+          "V spätnej väzbe otvára rozhovor.",
+          "V ocenení robí pochvalu uveriteľnou."
+        ]
+      }
+    ]
+  },
+  "summary": "Ty-výrok obviňuje a druhý sa začne brániť skôr, než dorazí obsah. Ja-výrok hovorí, čo sa stalo, čo to so mnou robí a čo potrebujem — a s tým sa už dá pracovať. Skladá sa z troch častí: fakt, pocit a potreba. Fakt je konkrétna, overiteľná situácia. Pocit je môj a o tom sa nediskutuje. Potreba hovorí, čo by pomohlo. Najzradnejšou pascou je ty-výrok v prezlečení: veta „cítim, že si bezohľadný“ začína slovom cítim, ale pokračuje hodnotením človeka. Slovo cítim z vety Ja-výrok nespraví — rozhoduje, či za ním nasleduje môj pocit, alebo súd o druhom. Druhou pascou je ustúpenie: veta „to nič, počkám, ja mám času dosť“ znie zmierlivo, ale moja potreba v nej nezaznie, takže sa druhý nedozvie nič a problém sa len odloží. Treťou pascou sú slová vždy a nikdy. Robia z jednej udalosti nemennú vlastnosť človeka a dajú sa vyvrátiť jediným príkladom, po ktorom sa rozhovor zvrhne na dokazovanie. Konkrétnu situáciu poprieť nemožno. A štvrtou je hovorenie za iných: „všetci si mysleli“ je skrytý ty-výrok, pretože druhý sa musí brániť pred neviditeľnou skupinou. Ja-výrok nie je len technikou na konflikty. V asertivite drží hranicu, v spätnej väzbe otvára rozhovor a v ocenení robí pochvalu uveriteľnou: veta „mne veľmi pomohlo, keď si…“ je konkrétnejšia a úprimnejšia než „si šikovný“."
+}
