@@ -14,8 +14,6 @@ export const duelAreas = [
   "Asertivita",
   "Spätná väzba",
   "Ja-výroky",
-   "Asertívne techniky",
-   "Tímové role a vedenie",
   "Komunikačné polohy",
   "Poznávanie druhých",
   "Aktívne počúvanie"
