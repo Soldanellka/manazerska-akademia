@@ -1,0 +1,237 @@
+{
+  "id": "A2",
+  "title": "Zameranosť a archetypy",
+  "schemaVersion": "1.1",
+  "tags": [
+    "introverzia",
+    "extroverzia",
+    "archetypy",
+    "Riemann-Thomann"
+  ],
+  "theory": [
+    {
+      "heading": "Lovec a šaman",
+      "text": "Extrovert si energiu dopĺňa v kontakte s ľuďmi, introvert v tichu a sústredení. Nie je to o schopnostiach, ale o zdroji energie. Extrovert často triedi myšlienky až tým, že ich vysloví — nahlas povedaný nápad je ešte hľadanie, nie záver. Introvert prinesie hotovú vetu. Obe cesty vedú k tomu istému, len inou trasou."
+    },
+    {
+      "heading": "Štyri archetypy",
+      "text": "Rytier a Kráľovná držia vzťahy, harmóniu a spoľahlivé zázemie — sú lepidlom tímu. Trubadúr a Múza prinášajú nadšenie a inšpiráciu. Alchymista a Hvezdárka si držia odstup, počkajú si na fakty a nedajú sa strhnúť emóciou. Templár a Amazonka ťahajú tím dopredu, rozhodujú rýchlo a neboja sa konfliktu."
+    },
+    {
+      "heading": "Každá sila má svoj tieň",
+      "text": "Rytier a Kráľovná odkladajú vlastné potreby tak dlho, až džbán pretečie. Trubadúr a Múza sú citliví na kritiku — na forme záleží viac, než sa zdá. Alchymistov odstup si druhá strana môže vysvetliť ako nezáujem. A Templárovo tempo môže prevalcovať tých, ktorí potrebujú viac času."
+    },
+    {
+      "heading": "Načo to je a načo nie",
+      "text": "Typológia je kľúč k pochopeniu, nie nálepka. Slúži na to, aby som pochopil, prečo druhí reagujú inak než ja, a vedel, komu čo v komunikácii uľahčím. Vo chvíli, keď ňou niekoho odsúdim alebo si ňou vysvetlím svoje výhrady, prestala fungovať."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kolega po náročnom rokovaní potrebuje hodinu ticha, aby si veci utriedil. Čo to o ňom najskôr hovorí?",
+      "options": [
+        "Je nespoločenský a treba ho viac zapájať",
+        "Energiu si dobíja vo vnútri — prevažuje uňho introvertná zameranosť",
+        "Nesúhlasí s výsledkom rokovania"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — introvert si energiu dopĺňa v tichu a sústredení. Nie je to o schopnostiach, ale o zdroji energie.",
+      "explanation_incorrect": "Nie — potreba ticha nie je nesúhlas ani nespoločenskosť. Je to spôsob, akým si introvert dopĺňa energiu."
+    },
+    {
+      "question": "Extrovertný kolega myslí nahlas a na porade vysype päť nápadov za minútu. Ako je to najužitočnejšie čítať?",
+      "options": [
+        "Nemá veci premyslené a je nespoľahlivý",
+        "Premýšľa rozprávaním — nahlas povedaný nápad je ešte hľadanie, nie záver",
+        "Chce na seba strhnúť pozornosť"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — extrovert často triedi myšlienky až tým, že ich vysloví.",
+      "explanation_incorrect": "Nie — nie je to nespoľahlivosť ani hra o pozornosť. Extrovert premýšľa rozprávaním."
+    },
+    {
+      "question": "Tichší člen tímu na porade dlho mlčí a ozve sa až na konci. Čo mu pomôže najviac?",
+      "options": [
+        "Nechať to tak — kto chce, ozve sa sám",
+        "Vyzvať ho hneď na úvod, nech sa naučí reagovať rýchlo",
+        "Poslať podklady vopred a nechať priestor aj po porade"
+      ],
+      "correct": 2,
+      "explanation_correct": "Správne — introvert potrebuje čas na spracovanie, nie tlak na rýchlosť.",
+      "explanation_incorrect": "Nie — tlak na rýchlosť ani ponechanie na náhodu nepomôžu. Podklady vopred vyrovnajú štartovaciu čiaru."
+    },
+    {
+      "question": "V čom je archetyp Rytier a Kráľovná pre tím najsilnejší?",
+      "options": [
+        "V rýchlom rozhodovaní a preberaní velenia",
+        "V držaní vzťahov, harmónie a spoľahlivého zázemia",
+        "V množstve nových nápadov"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — táto energia je lepidlom tímu. Jej tieňom býva, že vlastné potreby odkladá, až džbán pretečie.",
+      "explanation_incorrect": "Nie — rýchle rozhodovanie patrí Templárovi a nápady Trubadúrovi. Rytier drží vzťahy a zázemie."
+    },
+    {
+      "question": "Trubadúr a Múza prinášajú do tímu nadšenie a inšpiráciu. Na čo si dať pozor pri komunikácii s nimi?",
+      "options": [
+        "Sú citliví na kritiku — na forme záleží viac, než sa zdá",
+        "Nezaujímajú ich ľudia, len úlohy",
+        "Potrebujú veľmi podrobné pravidlá"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — sila tejto energie stojí na entuziazme a vzťahoch, preto ostrá kritika zasiahne hlbšie.",
+      "explanation_incorrect": "Nie — táto energia stojí práve na vzťahoch a nadšení. Preto je citlivá na formu kritiky."
+    },
+    {
+      "question": "Prečo sa archetyp Alchymista a Hvezdárka často ukáže ako najlepší vyjednávač?",
+      "options": [
+        "Lebo hovorí najhlasnejšie",
+        "Lebo si drží odstup, počká si na fakty a nedá sa strhnúť emóciou",
+        "Lebo mu na výsledku najmenej záleží"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — chladnejšia hlava a dôraz na presnosť dávajú priestor pokojne argumentovať aj pod tlakom.",
+      "explanation_incorrect": "Nie — nejde o hlasitosť ani ľahostajnosť. Sila je v odstupe a v čakaní na fakty."
+    },
+    {
+      "question": "Na čo typológia NESLÚŽI?",
+      "options": [
+        "Aby som pochopil, prečo druhí reagujú inak než ja",
+        "Aby som druhých zaškatuľkoval a vysvetlil si nimi svoje výhrady",
+        "Aby som spoznal svoje silné stránky aj tiene"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — typológia je kľúč k pochopeniu, nie nálepka. Vo chvíli, keď ňou niekoho odsúdim, prestala fungovať.",
+      "explanation_incorrect": "Nie — pochopenie druhých aj poznanie vlastných tieňov sú práve tie správne použitia. Nálepkovanie nie."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Lovec (extrovert)",
+      "definition": "Energiu si dopĺňa v kontakte s ľuďmi. Premýšľa rozprávaním — nahlas povedaný nápad je ešte hľadanie."
+    },
+    {
+      "term": "Šaman (introvert)",
+      "definition": "Energiu si dopĺňa v tichu a sústredení. Prinesie hotovú vetu, ale potrebuje čas."
+    },
+    {
+      "term": "Rytier a Kráľovná",
+      "definition": "Harmónia, vzťahy, spoľahlivé zázemie. Tieň: vlastné potreby odkladá, až džbán pretečie."
+    },
+    {
+      "term": "Trubadúr a Múza",
+      "definition": "Nadšenie a inšpirácia. Tieň: citlivosť na kritiku — na forme záleží."
+    },
+    {
+      "term": "Alchymista a Hvezdárka",
+      "definition": "Odstup, fakty, pokoj pod tlakom — najlepší vyjednávači. Tieň: odstup vyzerá ako nezáujem."
+    },
+    {
+      "term": "Templár a Amazonka",
+      "definition": "Vedenie, rýchle rozhodnutia, odvaha do konfliktu. Tieň: tempo a ego prevalcujú tichších."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 2 — Porada, na ktorej sa neozve polovica tímu",
+      "difficulty": "stredná",
+      "steps": [
+        {
+          "question": "Zadanie: Na tvojich poradách hovoria stále tí istí traja ľudia. Ostatní mlčia a ozvú sa až v kuchynke alebo mailom na druhý deň — a často s tým najlepším nápadom. Chceš to zmeniť.",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Čo je najpravdepodobnejšia príčina?",
+          "options": [
+            "Tichší ľudia nemajú čo povedať",
+            "Formát porady zvýhodňuje tých, čo premýšľajú rozprávaním",
+            "Tím nie je dosť motivovaný"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — kto premýšľa rozprávaním, je v priamej diskusii vo výhode. Kto potrebuje čas, nestihne nastúpiť.",
+          "explanation_incorrect": "Nie — nejde o schopnosti ani motiváciu. Formát porady jednoducho zvýhodňuje jeden spôsob spracovania."
+        },
+        {
+          "question": "Krok 2: Čo urobiť pred poradou?",
+          "options": [
+            "Poslať podklady a otázky vopred",
+            "Skrátiť poradu na polovicu",
+            "Vyzvať tichších, nech sa pripravia na rýchlu reakciu"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — podklady vopred vyrovnajú štartovaciu čiaru bez toho, aby niekoho menili.",
+          "explanation_incorrect": "Nie — skrátenie ani tlak na rýchlosť nepomôžu. Čas na prípravu áno."
+        },
+        {
+          "question": "Krok 3: Čo urobiť počas porady?",
+          "options": [
+            "Dať kolovať slovo po jednom, aj tým, čo sa nehlásia",
+            "Nechať priebeh voľný, nech sa ozve, kto chce",
+            "Vyvolávať tichších ako prvých"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — pravidelné kolo dá priestor bez toho, aby niekoho zaskočilo. Vyvolanie ako prvého by bolo pre introverta tlak.",
+          "explanation_incorrect": "Nie — voľný priebeh problém udrží a vyvolanie ako prvého je tlak. Kolo po jednom je najlepší kompromis."
+        },
+        {
+          "question": "Krok 4: Čo urobiť po porade?",
+          "options": [
+            "Uzavrieť tému, porada bola",
+            "Nechať otvorené okno na doplnenie do druhého dňa",
+            "Rozhodnúť sám a oznámiť to"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — priestor po porade je presne to miesto, kde tichší ľudia doteraz prichádzali s najlepšími nápadmi. Len sa oň teraz vie.",
+          "explanation_incorrect": "Nie — uzavretie ani samostatné rozhodnutie ten najlepší nápad nezachytia. Nechaj otvorené okno na doplnenie."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Zameranosť a archetypy",
+    "branches": [
+      {
+        "label": "Zameranosť",
+        "leaves": [
+          "Lovec (extrovert) — energia z kontaktu, premýšľa rozprávaním.",
+          "Šaman (introvert) — energia z ticha, prinesie hotovú vetu.",
+          "Nie je to o schopnostiach, ale o zdroji energie."
+        ]
+      },
+      {
+        "label": "Štyri archetypy",
+        "leaves": [
+          "Rytier a Kráľovná — harmónia a zázemie.",
+          "Trubadúr a Múza — nadšenie a inšpirácia.",
+          "Alchymista a Hvezdárka — odstup, fakty, vyjednávanie.",
+          "Templár a Amazonka — vedenie, tempo, odvaha."
+        ]
+      },
+      {
+        "label": "Tiene",
+        "leaves": [
+          "Džbán pretečie — odkladané vlastné potreby.",
+          "Citlivosť na kritiku — na forme záleží.",
+          "Odstup čítaný ako nezáujem.",
+          "Tempo, ktoré prevalcuje tichších."
+        ]
+      },
+      {
+        "label": "Načo to nie je",
+        "leaves": [
+          "Nie je to nálepka ani škatuľka.",
+          "Nie je to argument v spore.",
+          "Vo chvíli, keď ňou niekoho odsúdim, prestala fungovať."
+        ]
+      }
+    ]
+  },
+  "summary": "Zameranosť hovorí o tom, odkiaľ človek čerpá energiu. Extrovert, obrazne lovec, si ju dopĺňa v kontakte s ľuďmi; introvert, obrazne šaman, v tichu a sústredení. Nie je to o schopnostiach. Extrovert často triedi myšlienky až tým, že ich vysloví, takže nahlas povedaný nápad je ešte hľadanie, nie záver. Introvert prinesie hotovú vetu, ale potrebuje na ňu čas. Obe cesty vedú k tomu istému, len inou trasou — a v praxi to znamená posielať podklady vopred a nechať priestor aj po porade. Štyri archetypy opisujú, čím človek do tímu prispieva. Rytier a Kráľovná držia vzťahy, harmóniu a spoľahlivé zázemie; sú lepidlom tímu, ale ich tieňom je odkladanie vlastných potrieb tak dlho, až džbán pretečie. Trubadúr a Múza prinášajú nadšenie a inšpiráciu; sú citliví na kritiku, takže na forme záleží viac, než sa zdá. Alchymista a Hvezdárka si držia odstup, počkajú si na fakty a nedajú sa strhnúť emóciou, čo z nich robí najlepších vyjednávačov — ich odstup si však druhá strana môže vysvetliť ako nezáujem. Templár a Amazonka ťahajú tím dopredu, rozhodujú rýchlo a neboja sa konfliktu; ich tempo a presvedčenie však môžu prehlušiť tichšie hlasy. Každá energia má teda svoju silu aj svoj tieň, a tieň je vždy len druhá strana tej istej sily. Typológia je kľúč k pochopeniu, nie nálepka. Slúži na to, aby som pochopil, prečo druhí reagujú inak než ja, a vedel, komu čo v komunikácii uľahčím. Vo chvíli, keď ňou niekoho zaškatuľkujem alebo si ňou vysvetlím svoje výhrady, prestala fungovať."
+}

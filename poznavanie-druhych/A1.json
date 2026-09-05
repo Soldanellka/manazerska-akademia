@@ -1,0 +1,222 @@
+{
+  "id": "A1",
+  "title": "Dva batohy",
+  "schemaVersion": "1.1",
+  "tags": [
+    "poznávanie druhých",
+    "empatia",
+    "nedorozumenie"
+  ],
+  "theory": [
+    {
+      "heading": "Čo je batoh",
+      "text": "Každý z nás nesie batoh zážitkov, hodnôt a skúseností. Cez tento batoh informáciu prijímame aj vysielame — a tým sa tá istá veta cestou premení. Nie raz, ale dvakrát: keď ju hovorím a keď ju druhý počuje."
+    },
+    {
+      "heading": "Zvonku a znútra",
+      "text": "Partner zruší večer krátkou správou bez vysvetlenia. Zvonku to vyzerá ako nezáujem. Znútra sa ten deň dozvedel, že prepúšťajú, a nevládal ani hovoriť. Kolega odpovie sucho, bez pozdravu. Zvonku namyslenosť. Znútra ho učili, že v práci sa nekamaráti. Zakaždým to zvonku vyzeralo inak, než to bolo znútra."
+    },
+    {
+      "heading": "Funguje to aj naopak",
+      "text": "Keď niečo povieš ty, druhý si to prečíta cez svoj batoh — a môže z toho vyjsť čosi celkom iné, než si myslel. Nie preto, že by ťa nechcel pochopiť. Len počúva cez to svoje."
+    },
+    {
+      "heading": "Pointa",
+      "text": "Keď to vieš o sebe aj o druhých, prestaneš súdiť a začneš rozumieť. Nikto nevidí svet presne tak ako ty — a ty ako ktokoľvek iný. Nie je to samota, je to jedinečnosť. Každý nesie svet, ktorý ty nevidíš. A keď sa dvaja takí stretnú, nevzniká spor: otvárajú si navzájom nové svety."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Čo hovorí metafora dvoch batohov?",
+      "options": [
+        "Každý si nesie svoje zážitky a hodnoty, cez ktoré informáciu prijíma aj vysiela",
+        "V komunikácii treba niesť rovnako ťažké bremeno",
+        "Batoh treba pred vážnym rozhovorom odložiť"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — informácia sa pretransformuje dvakrát: keď ju hovorím a keď ju druhý počuje.",
+      "explanation_incorrect": "Nie — batoh sa odložiť nedá a nejde o rovnosť bremien. Ide o to, že cezeň informáciu prijímame aj vysielame."
+    },
+    {
+      "question": "Vetu „potrebujem to čo najskôr“ si každý vyloží inak. Prečo?",
+      "options": [
+        "Lebo nedáva zmysel",
+        "Lebo prechádza batohom druhého — jeho skúsenosťou s termínmi a prioritami",
+        "Lebo druhý nepočúva pozorne"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — hodnotiace slová si každý naplní vlastným obsahom. Konkrétny termín je jediná spoľahlivá poistka.",
+      "explanation_incorrect": "Nie — nejde o nepozornosť. Slová ako skoro či rýchlo si každý naplní podľa vlastnej skúsenosti."
+    },
+    {
+      "question": "Aký je najzdravší dôsledok zistenia, že nikto nevidí svet presne ako ja?",
+      "options": [
+        "Že som v tom sám",
+        "Že som jedinečný — a stretnutie s druhým je vzájomné obohatenie",
+        "Že dohoda vlastne nie je možná"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — rozdiel medzi batohmi je dôvod, prečo má zmysel sa rozprávať. Z dvoch rovnakých pohľadov by nevzniklo nič nové.",
+      "explanation_incorrect": "Nie — nie je to samota ani prekážka dohody. Je to jedinečnosť, a práve preto je stretnutie obohatením."
+    },
+    {
+      "question": "Kolega reagoval na vecnú poznámku nečakane podráždene. Čo je najpravdepodobnejšie vysvetlenie?",
+      "options": [
+        "Je konfliktný typ",
+        "Poznámka sa dotkla niečoho v jeho batohu, o čom neviem",
+        "Nemá rád mňa"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — silná reakcia na slabý podnet zvyčajne nepatrí tomu podnetu.",
+      "explanation_incorrect": "Nie — namiesto súdu o povahe je užitočnejšie predpokladať, že sa poznámka dotkla niečoho, o čom neviem."
+    },
+    {
+      "question": "Čo najviac zníži riziko nedorozumenia pri zadávaní úlohy?",
+      "options": [
+        "Zopakovať zadanie hlasnejšie",
+        "Poslať to radšej mailom",
+        "Nechať druhého povedať vlastnými slovami, ako zadaniu rozumie"
+      ],
+      "correct": 2,
+      "explanation_correct": "Správne — až spätné zrkadlo ukáže, čo prešlo cez batoh druhého. Kontrola trvá minútu a ušetrí dni.",
+      "explanation_incorrect": "Nie — hlasitosť ani písomná forma nezaručia porozumenie. Nechaj druhého zopakovať zadanie vlastnými slovami."
+    },
+    {
+      "question": "Čo znamená, že tá istá informácia sa cestou mení dvakrát?",
+      "options": [
+        "Mení sa pri vyslaní cez môj batoh aj pri prijatí cez batoh druhého",
+        "Mení sa vždy, keď ju niekto zopakuje ďalej",
+        "Mení sa v ústnej a písomnej podobe"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — už samotná formulácia je výber. Druhý potom vyberá význam podľa svojej skúsenosti.",
+      "explanation_incorrect": "Nie — nejde o preposielanie ani o formu. Mení sa raz pri vyslaní a raz pri prijatí."
+    },
+    {
+      "question": "„Ten istý čas, len ho každý vníma inak.“ Čo z toho vyplýva pre vedenie tímu?",
+      "options": [
+        "Že termíny nemá zmysel dávať",
+        "Že ten istý termín môže byť pre jedného pohoda a pre druhého tlak — oplatí sa opýtať",
+        "Že pomalší ľudia patria na jednoduchšie úlohy"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — vnímanie času je súčasťou výbavy, nie meradlom výkonnosti.",
+      "explanation_incorrect": "Nie — termíny zmysel majú a rýchlosť nie je meradlo kvality. Oplatí sa opýtať, či je termín reálny."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Batoh",
+      "definition": "Zážitky, hodnoty a skúsenosti, cez ktoré informáciu prijímam aj vysielam."
+    },
+    {
+      "term": "Dvojitá premena",
+      "definition": "Informácia sa mení raz pri vyslaní cez môj batoh a raz pri prijatí cez batoh druhého."
+    },
+    {
+      "term": "Zvonku verzus znútra",
+      "definition": "Správanie, ktoré zvonku vyzerá ako nezáujem, má znútra často celkom iný príbeh."
+    },
+    {
+      "term": "Kontrola porozumenia",
+      "definition": "Nechať druhého povedať vlastnými slovami, ako zadaniu rozumie. Trvá minútu, ušetrí dni."
+    },
+    {
+      "term": "Jedinečnosť",
+      "definition": "Nikto nevidí svet presne ako ty. Nie je to samota — je to dôvod, prečo má stretnutie zmysel."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 1 — Suchá odpoveď od kolegu",
+      "difficulty": "ľahšia",
+      "steps": [
+        {
+          "question": "Zadanie: Napísal si kolegovi milú správu s poďakovaním za pomoc. Odpovedal jednou vetou, sucho, bez pozdravu. Cítiš sa odbytý a zvažuješ, že s ním už nebudeš nič riešiť.",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Čo je prvá, najľudskejšia interpretácia?",
+          "options": [
+            "Že je namyslený a nezáleží mu na tom",
+            "Že má toho asi veľa",
+            "Že som spravil niečo zle"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — je úplne ľudské pomyslieť si to prvé. Dôležité je len pri tom nezostať.",
+          "explanation_incorrect": "Nie — prvá interpretácia býva práve tá odsudzujúca. To je normálne; ide o to, čo urobíš potom."
+        },
+        {
+          "question": "Krok 2: Čo môže byť v jeho batohu?",
+          "options": [
+            "Nič, ľudia sa správajú, ako chcú",
+            "Naučili ho, že v práci sa nekamaráti a treba byť stručný",
+            "Určite osobná antipatia"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — suchá odpoveď preňho nemusí byť neúcta, ale spôsob, akým ho naučili byť profesionálny.",
+          "explanation_incorrect": "Nie — správanie má takmer vždy svoj príbeh. Stručnosť môže byť naučená norma, nie neúcta."
+        },
+        {
+          "question": "Krok 3: Čo urobiť namiesto stiahnutia sa?",
+          "options": [
+            "Prestať mu písať",
+            "Opýtať sa priamo, či mu tento spôsob komunikácie vyhovuje",
+            "Napísať mu, že bol neslušný"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — otázka otvára viac než domýšľanie aj než výčitka.",
+          "explanation_incorrect": "Nie — stiahnutie ani výčitka nič nezistia. Priama otázka áno."
+        },
+        {
+          "question": "Krok 4: Čo si z toho odniesť do ďalších rozhovorov?",
+          "options": [
+            "Že ľuďom netreba veriť",
+            "Že to, čo vidím zvonku, nemusí sedieť s tým, čo je znútra",
+            "Že písomná komunikácia je zlá"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — keď to vieš o sebe aj o druhých, prestaneš súdiť a začneš rozumieť.",
+          "explanation_incorrect": "Nie — nejde o nedôveru ani o formu komunikácie. Ide o rozdiel medzi tým, čo vidím zvonku, a tým, čo je znútra."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Dva batohy",
+    "branches": [
+      {
+        "label": "Ako to funguje",
+        "leaves": [
+          "Batoh — zážitky, hodnoty, skúsenosti.",
+          "Informácia sa mení pri vyslaní aj pri prijatí.",
+          "Hodnotiace slová si každý naplní vlastným obsahom."
+        ]
+      },
+      {
+        "label": "Zvonku verzus znútra",
+        "leaves": [
+          "Zrušený večer — nezáujem verzus zlomený deň.",
+          "Suchá odpoveď — namyslenosť verzus naučená norma.",
+          "Silná reakcia na slabý podnet patrí niečomu inému."
+        ]
+      },
+      {
+        "label": "Čo s tým v praxi",
+        "leaves": [
+          "Konkrétny termín namiesto slova čoskoro.",
+          "Kontrola porozumenia vlastnými slovami druhého.",
+          "Otázka „čo sa stalo?“ namiesto obhajoby vlastnej vety."
+        ]
+      }
+    ]
+  },
+  "summary": "Každý z nás nesie batoh zážitkov, hodnôt a skúseností. Cez tento batoh informáciu prijímame aj vysielame, a tým sa tá istá veta cestou premení dvakrát: raz, keď ju hovorím, a raz, keď ju druhý počuje. Preto si vetu „potrebujem to čo najskôr“ vyloží každý inak — hodnotiace slová ako skoro, rýchlo či kvalitne si každý naplní vlastným obsahom, a jedinou spoľahlivou poistkou je konkrétny termín. Rozdiel medzi tým, čo vidíme zvonku, a tým, čo je znútra, je jadrom celého modelu. Zrušený večer bez vysvetlenia vyzerá ako nezáujem, hoci znútra je to človek, ktorý sa v ten deň dozvedel zlú správu a nevládal hovoriť. Suchá odpoveď bez pozdravu vyzerá ako namyslenosť, hoci znútra je to naučená predstava o tom, čo znamená byť profesionálny. Praktickým dôsledkom je, že silná reakcia na slabý podnet zvyčajne nepatrí tomu podnetu — otázka „čo sa stalo?“ otvorí viac než obhajoba vlastnej vety. A pri zadávaní úloh je najúčinnejšou poistkou kontrola porozumenia: nechať druhého povedať vlastnými slovami, ako zadaniu rozumie. Trvá to minútu a ušetrí dni. Pointa modelu je zmierlivá. Keď to vieš o sebe aj o druhých, prestaneš súdiť a začneš rozumieť. Nikto nevidí svet presne tak ako ty a ty ako ktokoľvek iný. Nie je to samota, je to jedinečnosť — každý nesie svet, ktorý ty nevidíš. A keď sa dvaja takí stretnú, nevzniká spor: otvárajú si navzájom nové svety."
+}
