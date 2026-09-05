@@ -11,12 +11,14 @@
 */
 
 export const duelAreas = [
-  "Pracovné právo",
-  "Trestné právo",
-  "Rímske právo",
-  "Občianske právo",
-  "Dejiny práva",
-  "Európske právo"
+  "Asertivita",
+  "Spätná väzba",
+  "Ja-výroky",
+   "Asertívne techniky",
+   "Tímové role a vedenie",
+  "Komunikačné polohy",
+  "Poznávanie druhých",
+  "Aktívne počúvanie"
 ];
 
 /* =====================================================
