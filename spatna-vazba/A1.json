@@ -1,0 +1,224 @@
+{
+  "id": "A1",
+  "title": "Prečo spätná väzba a ako ju prijímať",
+  "schemaVersion": "1.1",
+  "tags": [
+    "spätná väzba",
+    "Johariho okno",
+    "prijímanie"
+  ],
+  "theory": [
+    {
+      "heading": "Načo je spätná väzba",
+      "text": "Je to jedna z mála vecí, ktorá ti ukáže to, čo o sebe sám nevidíš — a jedna z mála, ktorú vieš druhému dať ako dar. Nejde o hodnotenie človeka. Ide o to, aby sme si rozumeli."
+    },
+    {
+      "heading": "Johariho okno",
+      "text": "Predstav si seba ako okno so štyrmi tabuľkami. V otvorenej (aréne) je to, čo o sebe vieš ty aj ľudia okolo. V slepom mieste to, čo vidia oni, ale ty nie — tvoj tón hlasu pri únave, spôsob, akým skáčeš do reči, alebo to, ako veľmi vieš upokojiť miestnosť. V skrytej (fasáde) je to, čo o sebe vieš, ale nechávaš si to pre seba. A v neznámej to, čo zatiaľ nevie nikto."
+    },
+    {
+      "heading": "Ako sa aréna zväčšuje",
+      "text": "Spätná väzba zmenšuje slepé miesto a úprimné zdieľanie zmenšuje fasádu. Obe zväčšujú otvorenú oblasť — a práve v nej sa dejú blízke vzťahy aj funkčná spolupráca. Čím väčšia aréna, tým menej domýšľania na oboch stranách."
+    },
+    {
+      "heading": "Keď spätnú väzbu prijímam",
+      "text": "Počúvaj a nebráň sa — prvý impulz býva vysvetľovať, skús ho vydržať a nechať vetu dopovedať. Pýtaj sa na spresnenie: otázka „Môžeš mi dať príklad?“ spraví z hmly niečo, s čím sa dá pracovať. Poďakuj, lebo povedať niekomu pravdu stojí odvahu. A vyber si, čo si vezmeš — spätná väzba je pohľad, nie rozsudok."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Johariho okno má štyri oblasti. Ktorú z nich zmenšuje spätná väzba od druhých?",
+      "options": [
+        "Fasádu (skrytú)",
+        "Slepé miesto",
+        "Neznámu"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — spätná väzba ukazuje to, čo vidia druhí a ja nie.",
+      "explanation_incorrect": "Nie — spätná väzba zmenšuje slepé miesto. Fasádu zmenšuje moje vlastné otvorenie sa."
+    },
+    {
+      "question": "Čo patrí do skrytej oblasti, teda do fasády?",
+      "options": [
+        "To, čo o sebe viem, ale nechávam si to pre seba",
+        "To, čo vidia druhí a ja nie",
+        "To, čo zatiaľ nevie nikto"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — fasáda je moje vedomé zamlčanie. Zmenší ju to, čo sa rozhodnem povedať.",
+      "explanation_incorrect": "Nie — to, čo vidia druhí a ja nie, je slepé miesto. Fasáda je to, čo o sebe viem, ale nechávam si to pre seba."
+    },
+    {
+      "question": "Prečo sa oplatí mať veľkú otvorenú oblasť?",
+      "options": [
+        "Aby ma mali ľudia radi",
+        "Čím väčšia aréna, tým menej domýšľania na oboch stranách",
+        "Aby som nemusel dávať spätnú väzbu"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — v otvorenej oblasti sa dejú blízke vzťahy aj funkčná spolupráca.",
+      "explanation_incorrect": "Nie — ide o to, že čo ostane nevypovedané, to si každý domyslí po svojom."
+    },
+    {
+      "question": "Dostal si kritiku a prvý impulz je vysvetľovať. Čo je lepšie?",
+      "options": [
+        "Vydržať ten impulz a nechať vetu dopovedať",
+        "Hneď uviesť veci na pravú mieru",
+        "Poďakovať a tému rýchlo uzavrieť"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — obrana zastaví informáciu skôr, než dorazí celá. Vysvetliť sa dá aj potom.",
+      "explanation_incorrect": "Nie — obrana ani rýchle uzavretie témy ťa nenechajú počuť, čo bolo povedané. Vysvetľovať môžeš neskôr."
+    },
+    {
+      "question": "Spätná väzba je hmlistá: „Nesedelo mi to.“ Čo urobiť?",
+      "options": [
+        "Prijať to tak, ako to zaznelo",
+        "Spýtať sa: „Môžeš mi dať príklad?“",
+        "Nevšímať si to"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — otázka na príklad spraví z hmly niečo, s čím sa dá pracovať.",
+      "explanation_incorrect": "Nie — bez konkrétnosti sa nedá zmeniť nič. Vypýtaj si príklad."
+    },
+    {
+      "question": "Musím prijať všetko, čo mi v spätnej väzbe povedia?",
+      "options": [
+        "Áno, inak je celá zbytočná",
+        "Nie — je to pohľad, nie rozsudok; vyberám si, čo si vezmem",
+        "Áno, ak je od nadriadeného"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — spätná väzba je informácia o tom, ako niečo dopadlo u druhého. Čo s ňou urobíš, ostáva na tebe.",
+      "explanation_incorrect": "Nie — spätná väzba je pohľad, nie rozsudok. Vyberáš si, čo si z nej vezmeš."
+    },
+    {
+      "question": "Prečo sa oplatí poďakovať aj za nepríjemnú spätnú väzbu?",
+      "options": [
+        "Zo zdvorilosti",
+        "Povedať niekomu pravdu stojí odvahu — ten človek riskoval",
+        "Aby prestal"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — poďakovanie neznamená súhlas. Znamená, že u teba sa dá povedať pravda.",
+      "explanation_incorrect": "Nie — nejde o zdvorilosť ani o ukončenie rozhovoru. Ten človek riskoval, keď ti povedal pravdu."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Aréna (otvorená oblasť)",
+      "definition": "To, čo o sebe viem ja aj ľudia okolo. Čím väčšia, tým menej domýšľania na oboch stranách."
+    },
+    {
+      "term": "Slepé miesto",
+      "definition": "To, čo vidia druhí a ja nie. Zmenšuje ho spätná väzba."
+    },
+    {
+      "term": "Fasáda (skrytá oblasť)",
+      "definition": "To, čo o sebe viem, ale nechávam si to pre seba. Zmenšuje ju moje vlastné otvorenie sa."
+    },
+    {
+      "term": "Neznáma oblasť",
+      "definition": "To, čo zatiaľ nevie nikto — odhalí to až čas, nová situácia alebo človek."
+    },
+    {
+      "term": "Otázka na spresnenie",
+      "definition": "„Môžeš mi dať príklad?“ Spraví z hmlistej kritiky niečo, s čím sa dá pracovať."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 1 — Hmlistá kritika od nadriadeného",
+      "difficulty": "stredná",
+      "steps": [
+        {
+          "question": "Zadanie: Na porade ti vedúci povie pred ostatnými: „S tou správou som nebol spokojný.“ Nič bližšie nedodá a ide sa ďalej. Cítiš sa nepríjemne a nevieš, čo s tým.",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Čo je prvý problém tejto spätnej väzby?",
+          "options": [
+            "Že zaznela pred ostatnými",
+            "Že nie je konkrétna, takže sa s ňou nedá pracovať",
+            "Že bola príliš tvrdá"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — bez konkrétnosti sa nedá zmeniť nič. To je jej hlavná chyba.",
+          "explanation_incorrect": "Nie — hlavný problém je nekonkrétnosť. Bez príkladu nevieš, čo máš urobiť inak."
+        },
+        {
+          "question": "Krok 2: Ako reagovať v tej chvíli?",
+          "options": [
+            "Vysvetliť hneď, prečo správa vyzerá tak, ako vyzerá",
+            "Poprosiť o krátky rozhovor po porade",
+            "Nechať to tak, aby nebolo napätie"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — nekonkrétna kritika pred skupinou sa dorieši osamote. Obrana na porade by len pridala napätie.",
+          "explanation_incorrect": "Nie — obrana pred skupinou ani mlčanie nepomôžu. Vypýtaj si krátky rozhovor osamote."
+        },
+        {
+          "question": "Krok 3: Čo sa v rozhovore opýtať?",
+          "options": [
+            "„Prečo si to povedal pred všetkými?“",
+            "„Môžeš mi dať príklad, čo konkrétne v tej správe nesedelo?“",
+            "„Naozaj si myslíš, že bola taká zlá?“"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — otázka na konkrétny príklad mení hmlu na informáciu, s ktorou sa dá pracovať.",
+          "explanation_incorrect": "Nie — začni otázkou na konkrétnosť. Formu, teda že to zaznelo pred ostatnými, môžeš pomenovať Ja-výrokom potom."
+        },
+        {
+          "question": "Krok 4: Povie ti, že chýbalo zhrnutie na začiatku. Čo urobiť s touto informáciou?",
+          "options": [
+            "Prijať ju, poďakovať a doplniť zhrnutie",
+            "Vysvetliť, že zhrnutie nikto nechcel",
+            "Prijať všetko, čo povie, aj to, s čím nesúhlasíš"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — konkrétna informácia sa dá použiť. A poďakovanie neznamená súhlas so všetkým.",
+          "explanation_incorrect": "Nie — konkrétnu a použiteľnú vec prijmi a poďakuj. Zároveň platí, že prijať musíš len to, čo uznáš za svoje."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Spätná väzba — prečo a ako prijímať",
+    "branches": [
+      {
+        "label": "Johariho okno",
+        "leaves": [
+          "Aréna — viem ja aj druhí.",
+          "Slepé miesto — vidia druhí, ja nie; zmenšuje ho spätná väzba.",
+          "Fasáda — viem ja, skrývam; zmenšuje ju moje otvorenie sa.",
+          "Neznáma — zatiaľ nevie nikto."
+        ]
+      },
+      {
+        "label": "Keď prijímam",
+        "leaves": [
+          "Počúvaj a nebráň sa — vydrž prvý impulz vysvetľovať.",
+          "Pýtaj sa na príklad — z hmly urob informáciu.",
+          "Poďakuj — povedať pravdu stojí odvahu.",
+          "Vyber si, čo si vezmeš — je to pohľad, nie rozsudok."
+        ]
+      },
+      {
+        "label": "Osobný uhol pohľadu",
+        "leaves": [
+          "Otázka pred vyslovením: ako by som sa to chcel dozvedieť o sebe ja?",
+          "Čím nepríjemnejšia téma, tým viac záleží na forme.",
+          "Empatia nie je zmäkčovanie pravdy — je to filter, cez ktorý prejde tak, aby ju druhý uniesol."
+        ]
+      }
+    ]
+  },
+  "summary": "Spätná väzba ukazuje to, čo o sebe sám nevidím, a zároveň je to dar, ktorý viem dať druhému. Nejde o hodnotenie človeka, ide o to, aby sme si rozumeli. Model, ktorý to vysvetľuje, je Johariho okno so štyrmi oblasťami: otvorená (aréna) je to, čo o sebe viem ja aj druhí; slepé miesto je to, čo vidia oni a ja nie; skrytá (fasáda) je to, čo o sebe viem, ale nechávam si to pre seba; a neznáma je to, čo zatiaľ nevie nikto. Spätná väzba zmenšuje slepé miesto, úprimné zdieľanie zmenšuje fasádu — obe zväčšujú arénu, a práve v nej sa dejú blízke vzťahy aj funkčná spolupráca. Čím väčšia aréna, tým menej domýšľania na oboch stranách. Pri prijímaní spätnej väzby platia štyri pravidlá. Počúvaj a nebráň sa: prvý impulz býva vysvetľovať, ale obrana zastaví informáciu skôr, než dorazí celá. Pýtaj sa na spresnenie, lebo otázka na konkrétny príklad zmení hmlu na niečo, s čím sa dá pracovať. Poďakuj, pretože povedať niekomu pravdu stojí odvahu a ten človek riskoval — poďakovanie pritom neznamená súhlas. A vyber si, čo si vezmeš: spätná väzba je pohľad, nie rozsudok, a rozhoduješ ty. Pred tým, než niekomu niečo povieš, pomáha otázka: ako by som sa to chcel dozvedieť o sebe ja? Nie či je to pravda — to už väčšinou vieš, ale akými slovami, kedy a pred kým by ti to bolo znesiteľné počuť."
+}

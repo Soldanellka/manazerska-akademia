@@ -1,0 +1,225 @@
+{
+  "id": "A2",
+  "title": "Ako spätnú väzbu podávať",
+  "schemaVersion": "1.1",
+  "tags": [
+    "spätná väzba",
+    "podávanie",
+    "ocenenie"
+  ],
+  "theory": [
+    {
+      "heading": "Šesť pravidiel podávania",
+      "text": "Konkrétne — nie „si super“, ale „páčilo sa mi, ako si to pokojne vysvetlil, keď boli všetci nervózni“. O správaní, nie o osobe — „prišiel si neskôr“ namiesto „si nespoľahlivý“. Včas, kým si to obaja pamätáte. Ja-výrokom, teda za seba. So súhlasom — spýtaj sa, či o ňu druhý stojí. A nielen kritika: keď hovoríš len vtedy, keď je zle, naučíš druhého báť sa tvojho hlasu."
+    },
+    {
+      "heading": "Správanie verzus nálepka",
+      "text": "Správanie sa dá zmeniť, nálepka ostane. Preto sa spätná väzba drží toho, čo sa stalo, nie toho, kto si. „Prišiel si neskôr“ je informácia. „Si nespoľahlivý“ je rozsudok, proti ktorému sa človek buď bráni, alebo mu časom uverí."
+    },
+    {
+      "heading": "Polievam kvety, nie burinu",
+      "text": "Rastie to, čo zalievaš. Pozitívna spätná väzba nie je chvála bez dôvodu — je to hľadanie a pomenovanie toho, čo sa naozaj podarilo. A často to treba chvíľu hľadať, lebo oko ide samo po tom, čo nesedí. Nejde o prehliadanie toho, čo nefunguje. Ide o to, aby to dobré nezostalo nepovedané."
+    },
+    {
+      "heading": "Útecha nie je spätná väzba",
+      "text": "Veta „aspoň to skúsil“ poteší, ale nič nepovie. Druhý sa z nej nedozvie, čo konkrétne mu vyšlo, a teda ani čo má robiť znova. Kvet treba pomenovať menom."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Ktorá spätná väzba je konkrétna?",
+      "options": [
+        "„Si super.“",
+        "„Páčilo sa mi, ako si to pokojne vysvetlil, keď boli všetci nervózni.“",
+        "„Bolo to fajn.“"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — konkrétne pomenovanie hovorí druhému, čo má robiť znova.",
+      "explanation_incorrect": "Nie — všeobecná chvála poteší, ale nenaučí nič. Konkrétna spätná väzba pomenúva, čo presne sa podarilo."
+    },
+    {
+      "question": "„Prišiel si neskôr“ verzus „si nespoľahlivý“ — v čom je rozdiel?",
+      "options": [
+        "V dĺžke vety",
+        "Prvé hovorí o správaní, druhé je nálepka na človeka",
+        "Prvé je tvrdšie"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — správanie sa dá zmeniť, nálepka ostane.",
+      "explanation_incorrect": "Nie — rozdiel je v tom, že prvé pomenúva správanie a druhé lepí nálepku na človeka."
+    },
+    {
+      "question": "Kedy dať spätnú väzbu?",
+      "options": [
+        "Čo najskôr, kým si to obaja pamätáte",
+        "Až na hodnotiacom pohovore",
+        "Keď sa nazbiera viac vecí naraz"
+      ],
+      "correct": 0,
+      "explanation_correct": "Správne — po pol roku to už nie je spätná väzba, ale výčitka.",
+      "explanation_incorrect": "Nie — čím neskôr, tým menej použiteľná. Po čase sa z nej stáva výčitka."
+    },
+    {
+      "question": "Prečo sa pýtať, či o spätnú väzbu druhý vôbec stojí?",
+      "options": [
+        "Zo slušnosti",
+        "Nevyžiadaná spätná väzba býva počutá ako útok",
+        "Aby som si overil, že počúva"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — súhlas otvára dvere. Bez neho aj dobre mienená veta narazí na obranu.",
+      "explanation_incorrect": "Nie — nejde o zdvorilosť. Bez súhlasu býva aj dobre mienená spätná väzba počutá ako útok."
+    },
+    {
+      "question": "Čo znamená „polievam kvety, nie burinu“?",
+      "options": [
+        "Že kritiku netreba hovoriť vôbec",
+        "Rastie to, čo zalievaš — treba konkrétne pomenovať, čo sa naozaj podarilo",
+        "Že chváliť treba každého rovnako"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — nejde o prehliadanie toho, čo nefunguje, ale o to, aby to dobré nezostalo nepovedané.",
+      "explanation_incorrect": "Nie — neznamená to prehliadať problémy. Znamená to hľadať a pomenovať konkrétne to, čo sa podarilo."
+    },
+    {
+      "question": "Kolegyňa viedla poradu prvý raz: čítala z papiera, dvakrát stratila niť a skončila neskôr. Keď však dostala nepríjemnú otázku, priznala, že odpoveď nevie, zapísala si ju a do večera ju poslala celému tímu. Čo je tu ten kvet?",
+      "options": [
+        "Aspoň to skúsila",
+        "Povedala neviem, zapísala si to a odpoveď naozaj dodala",
+        "Bola aspoň milá"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — to je konkrétne pomenovaný kvet. Druhý vie, čo má robiť znova.",
+      "explanation_incorrect": "Nie — „aspoň to skúsila“ je útecha, nie spätná väzba. Kvet treba pomenovať konkrétne."
+    },
+    {
+      "question": "Čo sa stane, keď hovorím len vtedy, keď je niečo zle?",
+      "options": [
+        "Ľudia si zvyknú",
+        "Naučím druhého báť sa môjho hlasu",
+        "Je to najefektívnejšie"
+      ],
+      "correct": 1,
+      "explanation_correct": "Správne — ak je tvoje oslovenie signálom problému, ľudia sa začnú rozhovoru vyhýbať.",
+      "explanation_incorrect": "Nie — jednostranná spätná väzba naučí ľudí báť sa tvojho hlasu a vyhýbať sa rozhovoru."
+    }
+  ],
+  "tiles": [
+    {
+      "term": "Konkrétnosť",
+      "definition": "Nie „si super“, ale pomenovanie toho, čo presne sa podarilo. Len tak druhý vie, čo má robiť znova."
+    },
+    {
+      "term": "Správanie, nie osoba",
+      "definition": "„Prišiel si neskôr“ namiesto „si nespoľahlivý“. Správanie sa dá zmeniť, nálepka ostane."
+    },
+    {
+      "term": "So súhlasom",
+      "definition": "Spýtaj sa, či o spätnú väzbu druhý stojí. Nevyžiadaná býva počutá ako útok."
+    },
+    {
+      "term": "Polievam kvety, nie burinu",
+      "definition": "Rastie to, čo zalievaš. Hľadaj a pomenuj konkrétne to, čo sa podarilo."
+    },
+    {
+      "term": "Útecha",
+      "definition": "„Aspoň to skúsil.“ Poteší, ale nič nepovie — druhý sa nedozvie, čo mu vyšlo."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Prípad 2 — Ocenenie po nepodarenej porade",
+      "difficulty": "stredná",
+      "steps": [
+        {
+          "question": "Zadanie: Kolega viedol prvýkrát poradu. Čítal z papiera, stratil niť a skončil neskôr. Keď však prišla nepríjemná otázka, priznal, že odpoveď nevie, zapísal si ju a do večera ju poslal tímu. Chceš mu dať spätnú väzbu.",
+          "options": [],
+          "correct": 0
+        },
+        {
+          "question": "Krok 1: Čím začať?",
+          "options": [
+            "Zoznamom toho, čo nevyšlo",
+            "Otázkou, či o spätnú väzbu stojí",
+            "Vetou, že to nebolo najhoršie"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — súhlas otvára dvere. Bez neho aj dobre mienená veta narazí na obranu.",
+          "explanation_incorrect": "Nie — najprv sa spýtaj, či o spätnú väzbu stojí. Trvá to tri sekundy a zmení celý rozhovor."
+        },
+        {
+          "question": "Krok 2: Čo pomenovať ako prvé?",
+          "options": [
+            "To, ako zvládol nepríjemnú otázku a dodal odpoveď",
+            "Že čítal z papiera",
+            "Že aspoň to skúsil"
+          ],
+          "correct": 0,
+          "explanation_correct": "Správne — to je kvet a treba ho pomenovať konkrétne, nech vie, čo má robiť znova.",
+          "explanation_incorrect": "Nie — „aspoň to skúsil“ je útecha. Začni tým, čo sa naozaj podarilo, a pomenuj to konkrétne."
+        },
+        {
+          "question": "Krok 3: Ako povedať to, čo nevyšlo?",
+          "options": [
+            "„Si dosť chaotický rečník.“",
+            "„Keď si čítal z papiera, stratil som niť — pomohlo by mi pár odrážok namiesto celého textu.“",
+            "„Nabudúce to sprav lepšie.“"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — konkrétne správanie, môj dopad a návrh. Žiadna nálepka na človeka.",
+          "explanation_incorrect": "Nie — nálepka ani všeobecná výzva nepomôžu. Pomenuj konkrétne správanie a jeho dopad."
+        },
+        {
+          "question": "Krok 4: Prečo nezostať len pri kritike?",
+          "options": [
+            "Aby sa necítil zle",
+            "Lebo kto počuje len kritiku, naučí sa báť môjho hlasu",
+            "Aby porada nabudúce trvala kratšie"
+          ],
+          "correct": 1,
+          "explanation_correct": "Správne — vyvážená spätná väzba drží dvere otvorené. Jednostranná ich zatvára.",
+          "explanation_incorrect": "Nie — nejde o šetrenie citov. Ide o to, že jednostranná spätná väzba naučí ľudí vyhýbať sa rozhovoru."
+        }
+      ]
+    }
+  ],
+  "zdroj": {
+    "type": "vlastny",
+    "citation": "Vlastne skoliace materialy autorky. Verejne modely: transakcna analyza, Johariho okno, asertivne prava, Riemann-Thomann, aktivne pocuvanie - spracovane vlastnymi slovami.",
+    "url": "",
+    "accessed": "2026-09"
+  },
+  "spider": {
+    "center": "Spätná väzba — podávanie",
+    "branches": [
+      {
+        "label": "Šesť pravidiel",
+        "leaves": [
+          "Konkrétne — nie „si super“, ale čo presne sa podarilo.",
+          "O správaní, nie o osobe — správanie sa dá zmeniť.",
+          "Včas — kým si to obaja pamätáte.",
+          "Ja-výrokom — hovor za seba, nie za „všetkých“.",
+          "So súhlasom — spýtaj sa, či o ňu druhý stojí.",
+          "Nielen kritika — inak sa naučí báť tvojho hlasu."
+        ]
+      },
+      {
+        "label": "Polievam kvety",
+        "leaves": [
+          "Rastie to, čo zalievaš.",
+          "Kvet treba chvíľu hľadať — oko ide samo po tom, čo nesedí.",
+          "Útecha „aspoň to skúsil“ nie je spätná väzba."
+        ]
+      },
+      {
+        "label": "Časté chyby",
+        "leaves": [
+          "Nálepka namiesto správania.",
+          "Hovorenie za „všetkých“.",
+          "Odloženie na hodnotiaci pohovor — z väzby sa stane výčitka."
+        ]
+      }
+    ]
+  },
+  "summary": "Pri podávaní spätnej väzby platí šesť pravidiel. Konkrétne: nie „si super“, ale pomenovanie toho, čo presne sa podarilo, lebo len tak druhý vie, čo má robiť znova. O správaní, nie o osobe: „prišiel si neskôr“ namiesto „si nespoľahlivý“, pretože správanie sa dá zmeniť, kým nálepka ostane. Včas, kým si to obaja pamätáte — po pol roku už je to len výčitka. Ja-výrokom, teda za seba, nie za „všetkých“, lebo to je skrytý ty-výrok a druhý sa musí brániť pred neviditeľnou skupinou. So súhlasom: spýtaj sa, či o spätnú väzbu druhý stojí, pretože nevyžiadaná býva počutá ako útok. A nielen kritika: keď hovoríš len vtedy, keď je zle, naučíš druhého báť sa tvojho hlasu. Osobitnou zručnosťou je pozitívna spätná väzba, teda princíp „polievam kvety, nie burinu“. Rastie to, čo zalievaš. Nie je to chvála bez dôvodu, ale hľadanie a pomenovanie toho, čo sa naozaj podarilo — a často to treba chvíľu hľadať, lebo oko ide samo po tom, čo nesedí. Nejde o prehliadanie problémov, ale o to, aby to dobré nezostalo nepovedané. Pozor na útechu: veta „aspoň to skúsil“ poteší, ale druhý sa z nej nedozvie, čo konkrétne mu vyšlo, a teda ani čo má opakovať. Kvet treba pomenovať menom."
+}
