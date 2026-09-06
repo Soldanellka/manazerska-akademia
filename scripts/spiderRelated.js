@@ -26,7 +26,7 @@
    relácii.
 ============================================================ */
 
-const LIVE = 'https://www.lexarena.sk/';
+const LIVE = '';
 const AREA_PATHS = {
   'Pracovné právo': LIVE + 'LuluLaw duel Pracovné právo/data/',
   'Trestné právo hmotné': LIVE + 'Trestné právo hmotné/data/',

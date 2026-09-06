@@ -94,14 +94,11 @@ const RATE_LIMIT_MAX_REQUESTS = 10;
 const rateLimitMap = new Map();
 
 // Povolené pôvody požiadavky (viď komentár "Origin check" v hlavičke vyššie).
-// lex-arena-seven.vercel.app je primárna Vercel doména projektu (appka je
-// odtiaľ reálne dostupná – napr. zdieľané výzvy pojednávaní z lexarena/arena.js
-// linkujú priamo na ňu), nie len cez vlastnú doménu – preto je v zozname,
-// na rozdiel od náhodných *.vercel.app preview URL jednotlivých branchov/PR.
+// Musí presne sedieť s nasadenou doménou, inak AI vracia 403. Keď pribudne
+// vlastná doména, pridá sa sem ako ďalšia položka (náhodné *.vercel.app
+// preview URL jednotlivých branchov/PR sem NEPATRIA).
 const ALLOWED_ORIGINS = new Set([
-  'https://www.lexarena.sk',
-  'https://lexarena.sk',
-  'https://lex-arena-seven.vercel.app'
+  'https://manazerska-akademia.vercel.app'
 ]);
 
 /* Origin sa nedá sfalšovať z JS bežiaceho v prehliadači (forbidden header

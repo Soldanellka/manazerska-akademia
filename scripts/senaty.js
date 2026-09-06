@@ -109,7 +109,7 @@ export async function createSenat(name) {
    POZVÁNKY
 ============================================================ */
 export function getInviteLink(senatId) {
-  return `https://www.lexarena.sk/?senat=${senatId}`;
+  return `${location.origin}/?senat=${senatId}`;
 }
 
 export function buildInviteMessage(predsedaNick, senatName, senatId) {

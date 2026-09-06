@@ -478,6 +478,8 @@
          `afterend`), takže výsledné poradie po načítaní je: Moduly →
          Nočný výcuc → Bifľovačka → Judikatúra. Cena sa dopĺňa cez
          data-econ (fillStaticEconomyValues v init.js), telo renderuje modul. -->
+    <!-- A6: NOČNÝ VÝCUC SKRYTÝ (audio zhrnutia sú právne). Kód ponechaný -
+         scripts/nightRecap.js sa bez #nightRecapCard sám vypne (riadok 477).
     <div class="card section-card highlight-nightrecap" id="nightRecapCard">
       <h3 style="margin:0">🌙 Nočný výcuc</h3>
       <div class="small">Audio zhrnutia okruhov na počúvanie pred spaním – zopakuj si, čo si sa dnes učil.
@@ -485,6 +487,7 @@
       <div id="nightRecapBody" style="margin-top:10px"></div>
       <audio id="nightRecapPlayer" playsinline preload="none"></audio>
     </div>
+    <!-- /A6 -->
 
     <div class="card section-card" id="biflovackaCard">
       <h3 style="margin:0">🧠 Bifľovačka</h3>

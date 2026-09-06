@@ -54,7 +54,7 @@ const TPP_FILES = Array.from({ length: 30 }, (_, i) => `A${i + 1}.json`);
    Preto používame ABSOLÚTNE URL.
 */
 
-const LIVE = "https://www.lexarena.sk";
+const LIVE = "";
 
 const TPH_BASE = `${LIVE}/Trestné právo hmotné/data/`;
 const TPP_BASE = `${LIVE}/Trestné právo procesné/data/`;

@@ -10,7 +10,7 @@ console.log("DATAJS NAČÍTANÝ");
    AUTO-DETEKCIA PROSTREDIA
 ===================================================== */
 
-const LIVE = "https://www.lexarena.sk/";
+const LIVE = "";
 
 /* =====================================================
    GLOBÁLNE OBJEKTY PRE DUELOVÝ ENGINE

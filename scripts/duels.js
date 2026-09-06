@@ -370,7 +370,7 @@ export async function shareDuelInvite(duel) {
     showRewardToast('⚠️ Výzvu sa nepodarilo pripraviť – skús ju poslať z registra pojednávaní.');
     return;
   }
-  const link = `https://www.lexarena.sk/?duel=${duel.id}`;
+  const link = `${location.origin}/?duel=${duel.id}`;
   const message = `⚔️ ${duel.from} ťa vyzýva na pojednávanie z oblasti ${duel.areaTitle} v LexAréne! Prijmi výzvu: ${link}`;
   try {
     await navigator.clipboard.writeText(message);

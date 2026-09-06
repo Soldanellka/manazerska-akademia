@@ -49,7 +49,7 @@ import { renderSource } from './sourceUtil.js';
 import { ensureVoicesLoaded, pickVoice, getAvailableSkGenders } from '../biflovackaVideo.js';
 import { recordOkruhResult, PROGRESS_ACTIVITIES } from './progressTracking.js';
 
-const LIVE = 'https://www.lexarena.sk/';
+const LIVE = '';
 const PRACOVNE_DATA_PATH = LIVE + 'LuluLaw duel Pracovné právo/data/';
 const PRACOVNE_OKRUH_COUNT = 50; // rovnaký limit ako data.js (A1-A50, A51-53 sa nepoužívajú)
 const PROTOTYPE_AREA_NAME = 'Pracovné právo';

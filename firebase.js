@@ -1,3 +1,8 @@
+// firebase.js — konfigurácia pre projekt Manažérska akadémia
+
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+import { getDatabase } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+
 const firebaseConfig = {
   apiKey: "AIzaSyCwBJRIttZ7QYC9qA_iR1PvkEtHzYIvfHQ",
   authDomain: "manazerska-akademia.firebaseapp.com",
@@ -7,3 +12,8 @@ const firebaseConfig = {
   messagingSenderId: "1099394749191",
   appId: "1:1099394749191:web:1b6ea936369ac565f86ba2"
 };
+
+const app = initializeApp(firebaseConfig);
+window.db = getDatabase(app);
+
+console.log("🔥 Firebase Manažérska akadémia inicializovaná");
