@@ -17,88 +17,102 @@ const LIVE = "";
 ===================================================== */
 
 window.areas = {
-  "Pracovné právo": [],
-  "Trestné právo hmotné": [],
-  "Trestné právo procesné": [],
-  "Občianske právo hmotné": [],
-  "Občianske právo procesné": [],
-  "Európske právo": []
+  "Asertivita": [],
+  "Spätná väzba": [],
+  "Ja-výroky": [],
+  "Komunikačné polohy": [],
+  "Poznávanie druhých": [],
+  "Aktívne počúvanie": []
 };
 
 /* =====================================================
    ŠTUDIJNÉ MODULY – VRÁTENÉ VŠETKY
 ===================================================== */
 
-window.catalog = {
-  "Pracovné právo": {
-    id: "pracovne",
-    openExternal: LIVE + "pracovne-pravo-app/",
-    externalPath: LIVE + "LuluLaw duel Pracovné právo/data/",
-    desc: "Individuálne a kolektívne pracovné právo, kvízy, kartičky a prípady."
-  },
+/* B5: DLAŽDICE ŠTUDIJNÝCH MODULOV ODPOJENÉ.
+   Pôvodné položky odkazovali na právne appky (pracovne-pravo-app,
+   ob-pravo-app, eu-pravo-app, legacy kvízy). Zakomentované riadok po
+   riadku (nie blokovo - obsahujú vnorené komentáre), nech ostanú ako
+   vzor pre budúce "Uč sa".
 
-  "Trestné právo": {
-    id: "trestne",
-    openExternal: LIVE + "trestne-pravo-app/",
-    externalPath: LIVE + "Trestné právo hmotné/data/",
-    desc: "Kompletná appka trestného práva: hmotné + procesné, kvízy, kartičky a prípady."
-  },
+   POZOR, NEMAZAŤ CELKOM: init.js waitForAllData() čaká na
+   Object.keys(window.catalog).length > 0 AJ na window.catalog.openExternal.
+   Prázdny objekt + priradenie openExternal nižšie tú podmienku splní;
+   úplné zmazanie by appku zaseklo na hláške "Nepodarilo sa načítať
+   areas alebo catalog." renderModules() v app.js si prázdny zoznam
+   poradí sám (filter na item.openExternal nič nenájde). */
+window.catalog = {};
 
-  /* Kľúč je zároveň POPIS dlaždice (renderModules používa názov ako text),
-     inak sa nikde nevyhľadáva – identita modulu je id: "obcianske"
-     (progressTracking, ob-pravo-app). Skrátené z "Občianske právo –
-     hmotné a procesné"; appka naďalej ťahá hmotné aj procesné, výber
-     dvojice okruhov (dual) sa nemenil. */
-  "Občianske právo": {
-    id: "obcianske",
-    openExternal: LIVE + "ob-pravo-app/",
-    externalPath: LIVE + "ob-pravo-app/data/",
-    desc: "Kompletná appka občianskeho práva: 40 okruhov hmotného + 45 procesného, kvízy, kartičky a prípady."
-  },
-
-  "Európske právo": {
-    id: "eu",
-    openExternal: LIVE + "eu-pravo-app/",
-    externalPath: LIVE + "eu-pravo-app/data/",
-    desc: "38 okruhov európskeho práva, kvízy, kartičky a prípady."
-  },
-
-  /* legacy: true = staršie samostatné appky (vlastné HTML, bez Firebase,
-     bez nicku, bez zápisu progresu a bez §). V Študijných moduloch sa
-     nezobrazujú priamo, ale až po rozbalení dlaždice "Ďalší obsah" –
-     hlavný zoznam tak drží len plnohodnotné oblasti. */
-  "Občan - teória a veľký kvíz": {
-    id: "obcan",
-    legacy: true,
-    openExternal: LIVE + "Občan - teória a veľký kvíz/",
-    externalPath: LIVE + "Občan - teória a veľký kvíz/data/",
-    desc: "Veľký občiansky kvíz."
-  },
-
-  "TREST Veľký KVÍZ": {
-    id: "trestvelky",
-    legacy: true,
-    openExternal: LIVE + "TREST Veľký KVÍZ/",
-    externalPath: LIVE + "TREST Veľký KVÍZ/data/",
-    desc: "Kompletný trestný kvíz."
-  },
-
-  "Trestné právo - spájačka": {
-    id: "spajacka",
-    legacy: true,
-    openExternal: LIVE + "Trestné právo - spájačka/",
-    externalPath: LIVE + "Trestné právo - spájačka/data/",
-    desc: "Interaktívna spájačka."
-  },
-
-  "Trestné právo - teória a prípady": {
-    id: "tppripady",
-    legacy: true,
-    openExternal: LIVE + "Trestné právo - teória a prípady/",
-    externalPath: LIVE + "Trestné právo - teória a prípady/data/",
-    desc: "Teória + prípady."
-  }
-};
+// window.catalog = {
+//   "Pracovné právo": {
+//     id: "pracovne",
+//     openExternal: LIVE + "pracovne-pravo-app/",
+//     externalPath: LIVE + "LuluLaw duel Pracovné právo/data/",
+//     desc: "Individuálne a kolektívne pracovné právo, kvízy, kartičky a prípady."
+//   },
+// 
+//   "Trestné právo": {
+//     id: "trestne",
+//     openExternal: LIVE + "trestne-pravo-app/",
+//     externalPath: LIVE + "Trestné právo hmotné/data/",
+//     desc: "Kompletná appka trestného práva: hmotné + procesné, kvízy, kartičky a prípady."
+//   },
+// 
+//   /* Kľúč je zároveň POPIS dlaždice (renderModules používa názov ako text),
+//      inak sa nikde nevyhľadáva – identita modulu je id: "obcianske"
+//      (progressTracking, ob-pravo-app). Skrátené z "Občianske právo –
+//      hmotné a procesné"; appka naďalej ťahá hmotné aj procesné, výber
+//      dvojice okruhov (dual) sa nemenil. */
+//   "Občianske právo": {
+//     id: "obcianske",
+//     openExternal: LIVE + "ob-pravo-app/",
+//     externalPath: LIVE + "ob-pravo-app/data/",
+//     desc: "Kompletná appka občianskeho práva: 40 okruhov hmotného + 45 procesného, kvízy, kartičky a prípady."
+//   },
+// 
+//   "Európske právo": {
+//     id: "eu",
+//     openExternal: LIVE + "eu-pravo-app/",
+//     externalPath: LIVE + "eu-pravo-app/data/",
+//     desc: "38 okruhov európskeho práva, kvízy, kartičky a prípady."
+//   },
+// 
+//   /* legacy: true = staršie samostatné appky (vlastné HTML, bez Firebase,
+//      bez nicku, bez zápisu progresu a bez §). V Študijných moduloch sa
+//      nezobrazujú priamo, ale až po rozbalení dlaždice "Ďalší obsah" –
+//      hlavný zoznam tak drží len plnohodnotné oblasti. */
+//   "Občan - teória a veľký kvíz": {
+//     id: "obcan",
+//     legacy: true,
+//     openExternal: LIVE + "Občan - teória a veľký kvíz/",
+//     externalPath: LIVE + "Občan - teória a veľký kvíz/data/",
+//     desc: "Veľký občiansky kvíz."
+//   },
+// 
+//   "TREST Veľký KVÍZ": {
+//     id: "trestvelky",
+//     legacy: true,
+//     openExternal: LIVE + "TREST Veľký KVÍZ/",
+//     externalPath: LIVE + "TREST Veľký KVÍZ/data/",
+//     desc: "Kompletný trestný kvíz."
+//   },
+// 
+//   "Trestné právo - spájačka": {
+//     id: "spajacka",
+//     legacy: true,
+//     openExternal: LIVE + "Trestné právo - spájačka/",
+//     externalPath: LIVE + "Trestné právo - spájačka/data/",
+//     desc: "Interaktívna spájačka."
+//   },
+// 
+//   "Trestné právo - teória a prípady": {
+//     id: "tppripady",
+//     legacy: true,
+//     openExternal: LIVE + "Trestné právo - teória a prípady/",
+//     externalPath: LIVE + "Trestné právo - teória a prípady/data/",
+//     desc: "Teória + prípady."
+//   }
+// };
 
 /* =====================================================
    AUTO-LOADER JSON OTÁZOK
@@ -281,47 +295,14 @@ async function loadJsonQuestions(areaTitle, folderUrl, maxFiles) {
    NAČÍTANIE OBLASTÍ PRE DUEL
 ===================================================== */
 
-// Pracovné právo → 50 JSON (A1-A50)
-loadJsonQuestions(
-  "Pracovné právo",
-  LIVE + "LuluLaw duel Pracovné právo/data/",
-  50
-);
-
-// Trestné právo hmotné → 30 JSON
-loadJsonQuestions(
-  "Trestné právo hmotné",
-  LIVE + "Trestné právo hmotné/data/",
-  30
-);
-
-// Trestné právo procesné → 30 JSON
-loadJsonQuestions(
-  "Trestné právo procesné",
-  LIVE + "Trestné právo procesné/data/",
-  30
-);
-
-// Občianske právo hmotné → 40 JSON
-loadJsonQuestions(
-  "Občianske právo hmotné",
-  LIVE + "ob-pravo-app/data/hmotne/",
-  40
-);
-
-// Občianske právo procesné → 45 JSON
-loadJsonQuestions(
-  "Občianske právo procesné",
-  LIVE + "ob-pravo-app/data/procesne/",
-  45
-);
-
-// Európske právo → 38 JSON (jednoúrovňové, nie hmotné/procesné)
-loadJsonQuestions(
-  "Európske právo",
-  LIVE + "eu-pravo-app/data/",
-  38
-);
+/* Posledný parameter je počet súborov A1..An v priečinku.
+   Keď pribudne A3, zmeniť tu na 3. */
+loadJsonQuestions("Asertivita",          "obsah/asertivita/",          2);
+loadJsonQuestions("Spätná väzba",        "obsah/spatna-vazba/",        2);
+loadJsonQuestions("Ja-výroky",           "obsah/ja-vyroky/",           2);
+loadJsonQuestions("Komunikačné polohy",  "obsah/komunikacne-polohy/",  2);
+loadJsonQuestions("Poznávanie druhých",  "obsah/poznavanie-druhych/",  2);
+loadJsonQuestions("Aktívne počúvanie",   "obsah/aktivne-pocuvanie/",   2);
 
 /* =====================================================
    OTVORENIE EXTERNEJ APPKY

@@ -35,12 +35,12 @@ const crypto = require('crypto');
 /* Musí zostať zosynchronizované s AREA_SLUGS v scripts/contentOverrides.js
    a MEMORY_AREAS v memoryDefinitions.js – app slug -> priečinok s A*.json. */
 const AREA_PATHS = {
-  pracovne: 'LuluLaw duel Pracovné právo/data/',
-  tph: 'Trestné právo hmotné/data/',
-  tpp: 'Trestné právo procesné/data/',
-  ob_hmotne: 'ob-pravo-app/data/hmotne/',
-  ob_procesne: 'ob-pravo-app/data/procesne/',
-  eu: 'eu-pravo-app/data/'
+  asertivita: 'obsah/asertivita/',
+  spatna_vazba: 'obsah/spatna-vazba/',
+  ja_vyroky: 'obsah/ja-vyroky/',
+  komunikacne_polohy: 'obsah/komunikacne-polohy/',
+  poznavanie_druhych: 'obsah/poznavanie-druhych/',
+  aktivne_pocuvanie: 'obsah/aktivne-pocuvanie/'
 };
 
 function timingSafeEqualStr(a, b) {

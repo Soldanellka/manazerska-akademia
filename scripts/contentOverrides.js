@@ -30,12 +30,12 @@
 ============================================================ */
 
 export const AREA_SLUGS = {
-  'Pracovné právo': 'pracovne',
-  'Trestné právo hmotné': 'tph',
-  'Trestné právo procesné': 'tpp',
-  'Občianske právo hmotné': 'ob_hmotne',
-  'Občianske právo procesné': 'ob_procesne',
-  'Európske právo': 'eu'
+  'Asertivita': 'asertivita',
+  'Spätná väzba': 'spatna_vazba',
+  'Ja-výroky': 'ja_vyroky',
+  'Komunikačné polohy': 'komunikacne_polohy',
+  'Poznávanie druhých': 'poznavanie_druhych',
+  'Aktívne počúvanie': 'aktivne_pocuvanie'
 };
 
 let fbApiPromise = null;
