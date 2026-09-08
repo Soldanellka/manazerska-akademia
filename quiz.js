@@ -168,7 +168,7 @@ export function renderQuestion(first = false){
 
       const sourceLine = document.createElement('div');
       sourceLine.id = 'questionSourceLine';
-      sourceLine.innerHTML = renderSource(q.zdroj);
+      sourceLine.innerHTML = q.zdroj ? renderSource(q.zdroj) : '';
       parent.appendChild(sourceLine);
 
       /* ✏️ Stopa poslednej úpravy (override) – samostatný riadok, NIE badge

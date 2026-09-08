@@ -11,43 +11,22 @@
 
 import { normalizeOkruh } from './scripts/contentNormalize.js';
 
+/* Balíčky sa generujú z quiz[] okruhových JSONov (správna odpoveď +
+   definícia dohľadaná v tiles[] + summary). Ručné biflovacka/{slug}.json
+   sú voliteľné a majú prednosť – pre manažérske oblasti neexistujú, takže
+   sa bifľovačka stavia automaticky.
+
+   `slug` je zámerne totožný s názvom priečinka v obsah/ (nie s hodnotou
+   v AREA_SLUGS z scripts/contentOverrides.js). Bifľovačka na AREA_SLUGS
+   nikde nesiaha – slug používa len pre ?area=, biflovackaOverrides/{slug}
+   a biflovackaVideos/{slug}. */
 export const MEMORY_AREAS = [
-  {
-    name: "Pracovné právo",
-    slug: "pracovne",
-    path: "LuluLaw duel Pracovné právo/data/",
-    count: 50
-  },
-  {
-    name: "Trestné právo hmotné",
-    slug: "tph",
-    path: "Trestné právo hmotné/data/",
-    count: 30
-  },
-  {
-    name: "Trestné právo procesné",
-    slug: "tpp",
-    path: "Trestné právo procesné/data/",
-    count: 30
-  },
-  {
-    name: "Občianske právo hmotné",
-    slug: "ob_hmotne",
-    path: "ob-pravo-app/data/hmotne/",
-    count: 40
-  },
-  {
-    name: "Občianske právo procesné",
-    slug: "ob_procesne",
-    path: "ob-pravo-app/data/procesne/",
-    count: 45
-  },
-  {
-    name: "Európske právo",
-    slug: "eu",
-    path: "eu-pravo-app/data/",
-    count: 38
-  }
+  { name: "Asertivita",          slug: "asertivita",          path: "obsah/asertivita/",          count: 2 },
+  { name: "Spätná väzba",        slug: "spatna-vazba",        path: "obsah/spatna-vazba/",        count: 2 },
+  { name: "Ja-výroky",           slug: "ja-vyroky",           path: "obsah/ja-vyroky/",           count: 2 },
+  { name: "Komunikačné polohy",  slug: "komunikacne-polohy",  path: "obsah/komunikacne-polohy/",  count: 2 },
+  { name: "Poznávanie druhých",  slug: "poznavanie-druhych",  path: "obsah/poznavanie-druhych/",  count: 2 },
+  { name: "Aktívne počúvanie",   slug: "aktivne-pocuvanie",   path: "obsah/aktivne-pocuvanie/",   count: 2 }
 ];
 
 export function getAreaBySlug(slug) {
