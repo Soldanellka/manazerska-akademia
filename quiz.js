@@ -237,7 +237,7 @@ export function renderQuestion(first = false){
       const reportBtn = document.createElement('button');
       reportBtn.id = 'reportQuestionBtn';
       reportBtn.className = 'report-q-btn';
-      reportBtn.textContent = '⚖️ Nahlásiť právnu nezrovnalosť';
+      reportBtn.textContent = '⚖️ Nahlásiť chybu';
 
       reportBtn.addEventListener('click', () => {
         const currentQ = quiz.questions[quiz.index];

@@ -335,7 +335,7 @@ export async function openVideoPlayer({
   answerEl.innerHTML = sentences.map((s, i) =>
     `<span class="bf-sentence" data-idx="${i}"></span>`
   ).join(' ');
-  document.getElementById('bfVideoSource').innerHTML = renderSource(zdroj);
+  document.getElementById('bfVideoSource').innerHTML = zdroj ? renderSource(zdroj) : '';
 
   const progressFill = document.getElementById('bfVideoProgressFill');
   const endBox = document.getElementById('bfVideoEnd');

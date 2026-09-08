@@ -158,7 +158,7 @@ export function renderAdminPanel(){
   /* --- Reports --- */
   const hReports = document.createElement('h3');
   hReports.style.marginTop = '12px';
-  hReports.textContent = 'Hlásenia právnych nezrovnalostí';
+  hReports.textContent = 'Hlásenia chýb';
   panel.appendChild(hReports);
 
   if(reports.length === 0){

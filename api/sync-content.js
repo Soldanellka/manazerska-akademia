@@ -357,7 +357,7 @@ module.exports = async (req, res) => {
     const newTree = await ghPost(`/repos/${owner}/${repo}/git/trees`, ghToken, { base_tree: baseTreeSha, tree: treeEntries });
     const dateStr = new Date().toISOString().slice(0, 10);
     const commit = await ghPost(`/repos/${owner}/${repo}/git/commits`, ghToken, {
-      message: `LexArena obsah sync ${dateStr}`,
+      message: `Manažérska akadémia obsah sync ${dateStr}`,
       tree: newTree.sha,
       parents: [baseCommitSha]
     });

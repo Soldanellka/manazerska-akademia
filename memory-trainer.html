@@ -2,7 +2,7 @@
 <html lang="sk">
 <head>
 <meta charset="utf-8" />
-<title>🧠 Bifľovačka – LexArena</title>
+<title>🧠 Bifľovačka – Manažérska akadémia</title>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
@@ -220,7 +220,7 @@
 <div class="mt-wrap">
 
   <div class="mt-header">
-    <a href="index.html" class="mt-back">← Späť na LexArenu</a>
+    <a href="index.html" class="mt-back">← Späť na Manažérsku akadémiu</a>
     <div class="pill" id="mtAreaBadge"></div>
   </div>
 
@@ -264,7 +264,7 @@
         <button class="btn btn-primary" id="mtReadyBtn" type="button" style="width:100%">Zapamätal/a som si ✅</button>
       </div>
       <div style="text-align:center;margin-top:6px">
-        <button class="report-q-btn" id="mtReportBtn" type="button">⚖️ Nahlásiť právnu nezrovnalosť</button>
+        <button class="report-q-btn" id="mtReportBtn" type="button">⚖️ Nahlásiť chybu</button>
       </div>
     </div>
 
@@ -652,7 +652,7 @@ function showReviewItem(areaSlug) {
   $('mtReviewActions').style.display = 'flex';
   $('mtReviewQuestion').textContent = currentItem.question || '';
   $('mtReviewAnswerBox').textContent = currentItem.definition || currentItem.summary || currentItem.legalSentence || '';
-  $('mtReviewSourceLine').innerHTML = renderSource(currentItem.zdroj);
+  $('mtReviewSourceLine').innerHTML = currentItem.zdroj ? renderSource(currentItem.zdroj) : '';
   updateSealBadge($('mtReviewSealBadge'), currentItem);
   updateYoutubeButton('mtReviewYoutubeBtn', currentItem);
   resetVideoPlays();
@@ -859,7 +859,7 @@ function showNextItem(areaSlug) {
   $('mtRevealText').textContent = revealText;
   $('mtAnswerInput').value = '';
   updateReadTimeHint(revealText);
-  $('mtSourceLine').innerHTML = renderSource(item.zdroj);
+  $('mtSourceLine').innerHTML = item.zdroj ? renderSource(item.zdroj) : '';
   updateSealBadge($('mtSealBadge'), item);
   updateYoutubeButton('mtYoutubeBtn', item);
   resetJokers();
@@ -937,7 +937,7 @@ function retryItem(areaSlug) {
   const revealText = currentItem.definition || currentItem.summary || currentItem.legalSentence;
   $('mtRevealText').textContent = revealText;
   updateReadTimeHint(revealText);
-  $('mtSourceLine').innerHTML = renderSource(currentItem.zdroj);
+  $('mtSourceLine').innerHTML = currentItem.zdroj ? renderSource(currentItem.zdroj) : '';
   updateSealBadge($('mtSealBadge'), currentItem);
   updateYoutubeButton('mtYoutubeBtn', currentItem);
   resetJokers();
@@ -964,7 +964,7 @@ function escapeHtml(s) {
 }
 
 /* ============================================================
-   Nahlásenie právnej nezrovnalosti – táto stránka nemá vlastný
+   Nahlásenie chyby – táto stránka nemá vlastný
    reportModal (ten žije v index.html), preto otvárame hlavnú
    stránku v novej karte s parametrami na predvyplnenie formulára.
 ============================================================ */

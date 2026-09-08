@@ -371,7 +371,7 @@ export async function shareDuelInvite(duel) {
     return;
   }
   const link = `${location.origin}/?duel=${duel.id}`;
-  const message = `⚔️ ${duel.from} ťa vyzýva na pojednávanie z oblasti ${duel.areaTitle} v LexAréne! Prijmi výzvu: ${link}`;
+  const message = `⚔️ ${duel.from} ťa vyzýva na pojednávanie z oblasti ${duel.areaTitle} v Manažérskej akadémii! Prijmi výzvu: ${link}`;
   try {
     await navigator.clipboard.writeText(message);
     showRewardToast('Výzva skopírovaná – stačí vložiť ✅');
@@ -380,7 +380,7 @@ export async function shareDuelInvite(duel) {
   }
   if (navigator.share) {
     navigator.share({
-      title: 'Výzva na pojednávanie – LexArena',
+      title: 'Výzva na pojednávanie – Manažérska akadémia',
       text: message,
       url: link
     }).catch(() => {});

@@ -60,7 +60,7 @@ export function openReportModal(prefill = {}) {
     <div class="avatar-panel report-panel">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
         <div>
-          <h3 style="margin:0">⚖️ Nahlásiť právnu nezrovnalosť</h3>
+          <h3 style="margin:0">⚖️ Nahlásiť chybu</h3>
           <div class="small muted">Argumentuj ako právnik – uveď zákon, judikát alebo paragraf</div>
         </div>
         <button class="btn" id="closeReportModal">✕</button>
@@ -98,7 +98,7 @@ export function openReportModal(prefill = {}) {
         </div>
 
         <div class="form-row">
-          <label class="form-label">Typ nezrovnalosti *</label>
+          <label class="form-label">Typ chyby *</label>
           <div class="report-type-btns">
             <button class="report-type-btn active" data-type="wrong_answer">❌ Nesprávna odpoveď</button>
             <button class="report-type-btn" data-type="outdated">📅 Zastaraná informácia</button>

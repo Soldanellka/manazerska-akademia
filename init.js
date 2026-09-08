@@ -641,7 +641,7 @@ async function openEarnModal() {
           <div style="font-weight:700;margin-bottom:4px">🎟️ Zadaj kód</div>
           <div class="small muted" style="margin-bottom:10px">Promo kód od influencera alebo z akcie</div>
           <div style="display:flex;gap:8px">
-            <input id="earnCodeInput" class="form-input" type="text" placeholder="napr. LEXARENA25" maxlength="30" style="text-transform:uppercase">
+            <input id="earnCodeInput" class="form-input" type="text" placeholder="napr. AKADEMIA25" maxlength="30" style="text-transform:uppercase">
             <button class="btn btn-primary" id="earnCodeSubmitBtn">Uplatniť</button>
           </div>
           <div class="small" id="earnCodeResult" style="margin-top:8px"></div>
@@ -916,17 +916,17 @@ function initWelcomeSystem() {
 // Formát: YouTube embed URL alebo priamy MP4 link
 const VIDEO_CONFIG = {
   v1: {
-    title: 'Ako funguje LexArena?',
+    title: 'Ako funguje Manažérska akadémia?',
     url: 'https://www.youtube.com/embed/PHkX6DmuLic?autoplay=1&rel=0',
     duration: 30
   },
   v2: {
-    title: 'Ako hrať pojednávanie v LexArene?',
+    title: 'Ako hrať pojednávanie v Manažérskej akadémii?',
     url: 'https://www.youtube.com/embed/OjzYMtixyJ8?autoplay=1&rel=0',
     duration: 30
   },
   v3: {
-    title: 'Ako nahlásiť právnu nezrovnalosť v LexArene',
+    title: 'Ako nahlásiť chybu v Manažérskej akadémii',
     url: 'https://www.youtube.com/embed/AiutHAdqF4E?autoplay=1&rel=0',
     duration: 30
   }
@@ -1352,7 +1352,7 @@ function renderAdminPanel(role, db, ref, get, update, onValue, remove) {
         <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--card-border)">
           <div style="font-weight:600;margin-bottom:8px">🎟️ Promo kódy</div>
           <input id="promoCodeInput" class="form-input" type="text"
-            placeholder="KÓD (napr. LEXARENA25)" style="margin-bottom:6px;text-transform:uppercase" maxlength="30"/>
+            placeholder="KÓD (napr. AKADEMIA25)" style="margin-bottom:6px;text-transform:uppercase" maxlength="30"/>
           <div style="display:flex;gap:6px;margin-bottom:6px">
             <input id="promoAmountInput" class="form-input" type="number" min="10" max="50" value="25" placeholder="§ (10–50)"/>
             <input id="promoMaxUsesInput" class="form-input" type="number" min="1" placeholder="Max použití (prázdne = ∞)"/>
@@ -2491,7 +2491,7 @@ function openSenatDetailModal(senatId, nick) {
         window.prompt('Skopíruj správu manuálne:', message);
       }
       if (navigator.share) {
-        navigator.share({ title: 'Pozvánka do senátu – LexArena', text: message, url: inviteLink }).catch(() => {});
+        navigator.share({ title: 'Pozvánka do senátu – Manažérska akadémia', text: message, url: inviteLink }).catch(() => {});
       }
     };
   }

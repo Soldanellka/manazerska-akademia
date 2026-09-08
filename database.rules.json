@@ -1,7 +1,7 @@
 {
   "rules": {
     // ============================================================
-    // LexArena – Firebase Realtime Database Security Rules (v2)
+    // Manažérska akadémia – Firebase Realtime Database Security Rules (v2)
     //
     // Appka nemá Firebase Authentication (identita = prezývka v
     // localStorage), preto Rules NEVEDIA rozlíšiť, KTO zapisuje –

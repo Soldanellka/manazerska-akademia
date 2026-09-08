@@ -1435,7 +1435,7 @@ export async function openStatniceHall(areaName) {
     <div class="statnice-topic-card">
       <div class="statnice-topic-num">${t.label || `Otázka ${i + 1}`}</div>
       <div class="statnice-topic-text">${t.title}</div>
-      ${renderSource(t.zdroj)}
+      ${t.zdroj ? renderSource(t.zdroj) : ''}
     </div>
   `).join('');
 

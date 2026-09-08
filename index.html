@@ -2,7 +2,7 @@
 <html lang="sk">
 <head>
   <meta charset="utf-8" />
-  <title>LexArena – Právna akadémia</title>
+  <title>Manažérska akadémia</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
@@ -16,7 +16,7 @@
 <header class="header">
   <div class="brand">
     <span class="logo-dot" aria-hidden="true"></span>
-    <span class="logo-text">LexArena</span>
+    <span class="logo-text">Manažérska akadémia</span>
 
     <div id="avatarWrap" class="avatar-wrap" title="Klikni pre výber avatara" role="button" tabindex="0">
       <div class="avatar-stack">
@@ -81,7 +81,7 @@
     <!-- Pomoc – jeden vstup namiesto dvoch ikon (👋 uvítanie + ℹ️ návod).
          Otvára návod, v ktorom je hore aj odkaz na uvítacie okno.
          #infoBtn si ponecháva ID (initGuideSystem naň visí). -->
-    <button class="btn icon-btn header-info-btn" id="infoBtn" title="Pomoc / O LexArene">
+    <button class="btn icon-btn header-info-btn" id="infoBtn" title="Pomoc / O Manažérskej akadémii">
       ❓
       <span class="games-hint-dot" id="infoHintDot"></span>
     </button>
@@ -180,7 +180,7 @@
     </div>
 
     <div class="card section-card highlight-report" id="reportCard">
-      <h3 style="margin:0">⚖️ Právna nezrovnalosť</h3>
+      <h3 style="margin:0">⚖️ Našiel si chybu?</h3>
       <div class="small" style="margin-bottom:12px">Našiel/Našla si chybu? Argumentuj ako právnik a pomôž zlepšiť otázky.</div>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
         <button class="btn btn-primary" id="reportIssueBtn"
@@ -206,7 +206,7 @@
 
     <div class="card section-card highlight-feedback" id="feedbackCard">
       <h3 style="margin:0">💬 Tvoj názor</h3>
-      <div class="small" style="margin-bottom:12px">Pomôž nám zlepšiť LexArenu</div>
+      <div class="small" style="margin-bottom:12px">Pomôž nám zlepšiť Manažérsku akadémiu</div>
 
       <div id="feedbackForm">
         <div class="feedback-options">
@@ -246,7 +246,7 @@
         <div class="video-item" data-video-id="v1">
           <div class="video-thumb" onclick="openVideo('v1')">
             <div class="video-play-btn">▶</div>
-            <div class="video-label">Ako funguje LexArena?</div>
+            <div class="video-label">Ako funguje Manažérska akadémia?</div>
           </div>
           <div class="video-meta">
             <span class="small muted">Úvod do platformy • 3 min</span>
@@ -273,7 +273,7 @@
         <div class="video-item" data-video-id="v3">
           <div class="video-thumb" onclick="openVideo('v3')">
             <div class="video-play-btn">▶</div>
-            <div class="video-label">Ako nahlasovať nezrovnalosti?</div>
+            <div class="video-label">Ako nahlásiť chybu?</div>
           </div>
           <div class="video-meta">
             <span class="small muted">Súdna sieň • 2 min</span>
@@ -365,11 +365,13 @@
               <span class="game-tile-name">Pojednávanie</span>
               <span class="game-tile-desc">Kvíz z vybranej oblasti</span>
             </button>
+            <!-- SKRYTÉ v C: modul sa nedá spustiť (viď komentár pri návode nižšie).
             <button class="game-tile" id="openStatniceBtn">
               <span class="game-tile-icon">🏛️</span>
               <span class="game-tile-name">Štátnicová sieň</span>
               <span class="game-tile-desc">Ústna skúška pred komisiou · ⚡ <span data-econ="ENERGY.GREMIUM"></span></span>
             </button>
+            -->
             <!-- Výzvy nezávisia od výberu oblasti – register je dostupný vždy,
                  preto sa táto dlaždica nikdy nedisabluje. -->
             <button class="game-tile" id="openDuelBankTile">
@@ -398,8 +400,10 @@
             Kartičky sú krátka pamäťová hra; prípady sú interaktívne scenáre s okamžitou spätnou väzbou.
             <!-- Zoznam oblastí MUSÍ sedieť s AREA_CONFIG v scripts/statnice.js
                  (toast pri nedostupnej oblasti ho vypisuje priamo odtiaľ). -->
+            <!-- SKRYTÉ v C spolu s modulom Štátnicovej siene.
             Štátnicová sieň (⚡ <span data-econ="ENERGY.GREMIUM"></span> energie, dostupná pre Pracovné, Trestné, Občianske a Európske právo) je nácvik ústnej
             skúšky pred komisiou – hlavná príprava na reálne štátnice.
+            -->
             Môj progres a Štruktúra otázok fungujú aj bez vybranej oblasti.
           </div>
 
@@ -576,7 +580,7 @@
     </div>
     <div id="dashboardAreaTabs" style="display:flex;gap:6px;flex-wrap:wrap;margin-top:12px"></div>
     <div id="dashboardBody" style="margin-top:12px">Načítavam…</div>
-    <div id="dashboardStatniceSection" style="margin-top:18px;padding-top:14px;border-top:1px solid var(--card-border, rgba(0,0,0,0.08))">
+    <div id="dashboardStatniceSection" style="display:none;margin-top:18px;padding-top:14px;border-top:1px solid var(--card-border, rgba(0,0,0,0.08))">
       <h4 class="dashboard-collapsible-header" style="margin:0 0 8px 0">⚖️ Skúšky (štátnicová sieň)</h4>
       <div class="dashboard-collapsible-body">
         <div id="dashboardStatniceList" style="margin-top:8px">Načítavam…</div>
@@ -588,7 +592,7 @@
 <div id="welcomeModal" class="avatar-modal" aria-hidden="true" style="display:none;">
   <div class="avatar-panel welcome-panel">
     <div class="game-panel-header">
-      <h3>👋 Vitaj v LexArene</h3>
+      <h3>👋 Vitaj v Manažérskej akadémii</h3>
     </div>
 
     <!-- Uvítacie okno je prvá vec, ktorú nový návštevník vidí. Predtým to bolo
@@ -597,12 +601,14 @@
          Testovacia fáza, súkromie a disclaimer ostávajú – len zbalené nižšie,
          nech neprekryjú prvý dojem. -->
     <div class="welcome-body">
-      <p style="font-size:16px"><strong>Priprav sa na štátnice hravo.</strong> Skúšaj si ich nanečisto
-      pred komisiou, súťaž so spolužiakmi a zbieraj paragrafy (§).</p>
+      <p style="font-size:16px"><strong>Precvič si manažérske situácie hravo.</strong> Skúšaj si ich
+      nanečisto, súťaž s kolegami a zbieraj paragrafy (§).</p>
 
       <div class="welcome-highlights">
+        <!-- SKRYTÉ v C spolu s modulom (viď dlaždicu vyššie).
         <div><span class="welcome-hl-icon">🏛️</span><strong>Štátnicová sieň</strong><br>
           <span class="small muted">Ústna skúška nanečisto so známkou a spätnou väzbou.</span></div>
+        -->
         <div><span class="welcome-hl-icon">⚔️</span><strong>Pojednávanie</strong><br>
           <span class="small muted">10 otázok proti spolužiakovi — výzvu pošleš linkom.</span></div>
         <div><span class="welcome-hl-icon">🧠</span><strong>Bifľovačka</strong><br>
@@ -616,7 +622,7 @@
           zbieraš paragrafy (§) — ak ti dôjdu a avatar zaspí, napíš nám cez nástenku
           a radi ti nejaké pridáme.</p>
 
-          <p>🙏 Ďakujeme za každý príspevok — či už nahlásiš právnu nezrovnalosť, alebo
+          <p>🙏 Ďakujeme za každý príspevok — či už nahlásiš chybu, alebo
           napíšeš pripomienku. Pomáhaš tým zlepšovať obsah pre všetkých.</p>
 
           <p>🔒 Súkromie: Na používanie stačí prezývka — nezbierame e-mail, meno ani iné
@@ -624,7 +630,7 @@
           zostaneš anonymný/á. (Ak sa pripojíš ku skupine vyučujúceho a napíšeš zadaný
           test, tvoj výsledok uvidí daný vyučujúci — tvoj bežný tréning ostáva súkromný.)</p>
 
-          <p class="small muted">LexArena je študijná pomôcka, nie právne poradenstvo —
+          <p class="small muted">Manažérska akadémia je študijná pomôcka, nie právne poradenstvo —
           kľúčové informácie si vždy over v aktuálnom znení predpisov na slov-lex.sk.</p>
         </div>
       </details>
@@ -641,29 +647,29 @@
 <div id="guideModal" class="avatar-modal" aria-hidden="true" style="display:none;">
   <div class="avatar-panel game-panel guide-panel">
     <div class="game-panel-header">
-      <h3>📖 Ako funguje LexArena</h3>
+      <h3>📖 Ako funguje Manažérska akadémia</h3>
       <button class="btn" id="closeGuide">Zavrieť</button>
     </div>
 
     <!-- Uvítacie okno stratilo vlastnú ikonu v lište (👋 a ℹ️ sú zlúčené),
          odtiaľ sa dá znovu otvoriť. -->
     <div style="margin-bottom:12px">
-      <button class="chip" type="button" id="openWelcomeFromGuide">👋 Vitaj v LexArene</button>
+      <button class="chip" type="button" id="openWelcomeFromGuide">👋 Vitaj v Manažérskej akadémii</button>
     </div>
 
     <div class="guide-accordion">
 
       <details class="guide-section" open>
-        <summary>🎯 Čo je LexArena</summary>
+        <summary>🎯 Čo je Manažérska akadémia</summary>
         <div class="guide-content">
-          <p>LexArena je študijná aréna pre študentov práva. Precvičuješ štátnicové okruhy
+          <p>Manažérska akadémia je študijná aréna pre študentov práva. Precvičuješ štátnicové okruhy
           z pracovného, trestného, občianskeho a európskeho práva formou pojednávaní, kartičiek, prípadov
           z praxe a bifľovačky – a za aktivitu zbieraš paragrafy (§), našu hernú menu.</p>
           <p><strong>Dôležité – obsah tvoríme spoločne:</strong> Otázky a definície pripravujeme s odbornou
           starostlivosťou, no kvalita obsahu je v rukách celej komunity. Každý hráč sa
-          spolupodieľa na tvorbe a kontrole obsahu nahlasovaním právnych nezrovnalostí –
+          spolupodieľa na tvorbe a kontrole obsahu nahlasovaním chýb –
           tie posudzujú garanti a admin v Súdnej sieni. Otázky, ktoré prešli auditom,
-          spoznáš podľa pečate. LexArena je študijná pomôcka, nie právne poradenstvo:
+          spoznáš podľa pečate. Manažérska akadémia je študijná pomôcka, nie právne poradenstvo:
           kľúčové informácie si pred skúškou vždy over v aktuálnom znení predpisov
           na slov-lex.sk.</p>
         </div>
@@ -729,6 +735,10 @@
         </div>
       </details>
 
+      <!-- SKRYTÉ v C: AREA_CONFIG v statnice.js pozná len právne oblasti
+           a extractKeyPoints() čerpá zo sekcie "Kľúčové slová (štátnicové)",
+           ktorú náš obsah nemá – modul sa nedá spustiť. Odkryje sa vo fáze E
+           ako Tréning spätnej väzby.
       <details class="guide-section">
         <summary>🏛️ Štátnicová sieň</summary>
         <div class="guide-content">
@@ -751,6 +761,7 @@
           </table>
         </div>
       </details>
+      -->
 
       <details class="guide-section">
         <summary>📚 Bifľovačka</summary>
@@ -876,7 +887,7 @@
       <details class="guide-section">
         <summary>🔥 Denný streak</summary>
         <div class="guide-content">
-          <p>Za každý deň, keď si v LexAréne, rastie tvoja séria:</p>
+          <p>Za každý deň, keď si v Manažérskej akadémii, rastie tvoja séria:</p>
           <table class="guide-table">
             <tr><th>Streak</th><th>Odmena</th></tr>
             <tr><td>Deň 1 – 7</td><td>+<span data-econ="STREAK.BASE.0"></span>§ až +<span data-econ="STREAK.BASE.6"></span>§ (rastie každý deň)</td></tr>
@@ -897,7 +908,7 @@
             <tr><td>Týždenný (nedeľa polnoc)</td><td>+<span data-econ="LEADERBOARD.WEEKLY.0"></span>§</td><td>+<span data-econ="LEADERBOARD.WEEKLY.1"></span>§</td><td>+<span data-econ="LEADERBOARD.WEEKLY.2"></span>§</td></tr>
             <tr><td>Mesačný (koniec mesiaca)</td><td>+<span data-econ="LEADERBOARD.MONTHLY.0"></span>§</td><td>+<span data-econ="LEADERBOARD.MONTHLY.1"></span>§</td><td>+<span data-econ="LEADERBOARD.MONTHLY.2"></span>§</td></tr>
           </table>
-          <p>Ak sa umiestniš, LexArena ti to oznámi pri najbližšej návšteve.</p>
+          <p>Ak sa umiestniš, Manažérska akadémia ti to oznámi pri najbližšej návšteve.</p>
           <!-- Zoznam výnimiek MUSÍ sedieť s LIMITS v scripts/economyConfig.js
                a so skipCap volaniami v scripts/economy.js. Od ekonomiky v1 sú
                videá aj reklama V STROPE – netvrď o nich opak. -->
@@ -911,7 +922,7 @@
       <details class="guide-section">
         <summary>⚖️ Súdna sieň a pečate</summary>
         <div class="guide-content">
-          <p>Našiel/Našla si právnu nezrovnalosť? Tlačidlo na nahlásenie nájdeš pri
+          <p>Našiel/Našla si chybu? Tlačidlo na nahlásenie nájdeš pri
           každej otázke v kvíze, pod zhrnutím okruhu aj pri krokoch prípadov z praxe –
           navrhneš správne znenie a právnicky ho zdôvodníš. Nahlásenie
           putuje do Súdnej siene, kde môžu ostatní hlasovať a komentovať. Verdikt vydá
@@ -927,7 +938,7 @@
             <tr><td>🎓 Akademická</td><td>garant (automaticky)</td></tr>
           </table>
           <p>Pečať sa zobrazuje aj pri auditovanej otázke – vieš, že prešla kontrolou
-          a kým. Takto spoločne držíme obsah LexArény presný a aktuálny.</p>
+          a kým. Takto spoločne držíme obsah Manažérskej akadémie presný a aktuálny.</p>
           <p>Za každé schválené nahlásenie získaš aj +<span data-econ="REWARDS.REPORT_APPROVED"></span>§.</p>
         </div>
       </details>
@@ -949,10 +960,10 @@
         <summary>👥 Roly v komunite</summary>
         <div class="guide-content">
           <ul class="guide-list">
-            <li><strong>Študent</strong> – hráč; hrá, učí sa, nahlasuje nezrovnalosti, zbiera pečate.</li>
+            <li><strong>Študent</strong> – hráč; hrá, učí sa, nahlasuje chyby, zbiera pečate.</li>
             <li><strong>Garant</strong> – odborný audítor; posudzuje nahlásenia, vydáva verdikty, nesie
             akademickú pečať 🎓.</li>
-            <li><strong>Admin</strong> – správca LexArény; udeľuje role, taláre a odmeny, spravuje obsah.</li>
+            <li><strong>Admin</strong> – správca Manažérskej akadémie; udeľuje role, taláre a odmeny, spravuje obsah.</li>
           </ul>
         </div>
       </details>
@@ -1037,7 +1048,7 @@ window.openReportModal = function(prefill = {}) {
       <div class="avatar-panel report-panel" style="background:var(--surface,#fff);border-radius:20px;padding:28px;max-width:620px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.25);">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
           <div>
-            <h3 style="margin:0">⚖️ Nahlásiť právnu nezrovnalosť</h3>
+            <h3 style="margin:0">⚖️ Nahlásiť chybu</h3>
             <div class="small muted">Argumentuj ako právnik – uveď zákon, judikát alebo paragraf</div>
           </div>
           <button class="btn" id="rCloseBtn">✕</button>
@@ -1067,7 +1078,7 @@ window.openReportModal = function(prefill = {}) {
             <textarea id="rQtext" class="feedback-textarea" rows="2" placeholder="Skopíruj text otázky..." maxlength="500"></textarea>
           </div>
           <div style="margin-bottom:12px">
-            <label class="form-label">Typ nezrovnalosti *</label>
+            <label class="form-label">Typ chyby *</label>
             <div style="display:flex;gap:6px;flex-wrap:wrap" id="rTypes">
               <button class="report-type-btn active" data-t="wrong_answer">❌ Nesprávna odpoveď</button>
               <button class="report-type-btn" data-t="outdated">📅 Zastaraná info</button>

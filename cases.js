@@ -543,7 +543,7 @@ function renderJsonCase(container, areaTitle) {
         : escapeHtml((exp && exp.wrong) || '') || ('❌ Nesprávne. Správna odpoveď: ' + escapeHtml(s.options[s.correct]));
       html += `<div class="case-step-feedback ${ok ? 'ok' : 'no'}">${text}</div>`;
       html += `<div style="margin:4px 0 2px;display:flex;gap:10px">
-        <button class="report-q-btn case-report-btn" data-si="${i}" type="button">⚖️ Nahlásiť právnu nezrovnalosť</button>
+        <button class="report-q-btn case-report-btn" data-si="${i}" type="button">⚖️ Nahlásiť chybu</button>
         <button class="report-q-btn case-edit-btn" data-si="${i}" type="button" style="display:none">✏️ Upraviť</button>
       </div>`;
       if (s._seal) html += `<div class="small muted">${escapeHtml(formatEditStamp(s._seal))}</div>`;
@@ -554,7 +554,7 @@ function renderJsonCase(container, areaTitle) {
   });
 
   html += `</div>`;
-  html += renderSource(c.zdroj);
+  html += c.zdroj ? renderSource(c.zdroj) : '';
 
   // Výsledok prípadu
   if (allAnswered && questionSteps.length) {

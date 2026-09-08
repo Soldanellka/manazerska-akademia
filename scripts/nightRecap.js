@@ -186,7 +186,7 @@ function updateMediaSession(n) {
     const titles = titlesByArea[playSlug || area.slug] || {};
     navigator.mediaSession.metadata = new MediaMetadata({
       title: titles[n] || `Okruh ${n}`,
-      artist: 'Nočný výcuc – LexArena',
+      artist: 'Nočný výcuc – Manažérska akadémia',
       album: (AREAS.find((a) => a.slug === (playSlug || area.slug)) || area).label
     });
     navigator.mediaSession.setActionHandler('play', () => { player()?.play().catch(() => {}); });

@@ -114,7 +114,7 @@ export function getInviteLink(senatId) {
 
 export function buildInviteMessage(predsedaNick, senatName, senatId) {
   const link = getInviteLink(senatId);
-  return `⚖️ ${predsedaNick} ťa pozýva do senátu ${senatName} v LexAréne! Pridaj sa: ${link}`;
+  return `⚖️ ${predsedaNick} ťa pozýva do senátu ${senatName} v Manažérskej akadémii! Pridaj sa: ${link}`;
 }
 
 /* ============================================================
