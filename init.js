@@ -204,7 +204,7 @@ async function openAvatarSelectModal() {
       <button id="openAvatarPickerFromSelect" class="btn" style="width:100%">🎭 Taláre a doplnky</button>
     </div>
     <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border,#eee)">
-      <div style="font-weight:600;font-size:13px;margin-bottom:6px">🏛️ Tvoja fakulta</div>
+      <div style="font-weight:600;font-size:13px;margin-bottom:6px">🏛️ Tvoja firma</div>
       <div style="display:flex;gap:8px">
         <select id="facultySelect" class="form-input" style="flex:1"></select>
         <button id="saveFacultyBtn" class="btn">Uložiť</button>
@@ -2250,7 +2250,7 @@ async function renderSenatyCard(nick) {
       const hoursLeft = Math.max(0, Math.round((myPending.deadline - Date.now()) / (60 * 60 * 1000)));
       pendingHtml = `
         <div class="small" style="margin-top:6px;padding:8px 10px;background:rgba(240,138,166,0.1);border-radius:8px">
-          ⚖️ Máš odohrať spor proti <strong>${escapeHtml(otherSenat ? otherSenat.name : 'neznámy senát')}</strong>!
+          ⚖️ Máš odohrať spor proti <strong>${escapeHtml(otherSenat ? otherSenat.name : 'neznámy tím')}</strong>!
           Zostáva ${hoursLeft} h.
           <button class="btn btn-primary senat-play-spor-btn" data-spor-id="${myPending.id}" data-senat-id="${s.id}" style="margin-top:6px;width:100%;font-size:12px;padding:4px 10px">▶️ Odohrať</button>
         </div>
@@ -2311,10 +2311,10 @@ function openFoundSenatModal(nick) {
   modal.innerHTML = `
     <div class="avatar-panel">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
-        <h3 style="margin:0">⚖️ Založiť senát</h3>
+        <h3 style="margin:0">⚖️ Založiť tím</h3>
         <button class="btn" id="closeFoundSenatModal">✕</button>
       </div>
-      <input type="text" id="foundSenatNameInput" class="form-input" placeholder="Názov senátu (napr. Senát Snežienky z UK)" maxlength="30" style="margin-bottom:8px"/>
+      <input type="text" id="foundSenatNameInput" class="form-input" placeholder="Názov tímu (napr. Tím Kompas)" maxlength="30" style="margin-bottom:8px"/>
       <div id="foundSenatMsg" class="small" style="min-height:16px;margin-bottom:8px;color:var(--muted)"></div>
       <button class="btn btn-primary" id="foundSenatSubmitBtn" style="width:100%">Založiť</button>
     </div>
@@ -2335,14 +2335,14 @@ function openFoundSenatModal(nick) {
       return;
     }
     modal.remove();
-    showRewardToast(`⚖️ Senát ${result.name} založený!`);
+    showRewardToast(`⚖️ Tím ${result.name} založený!`);
     await renderSenatyCard(nick);
     openSenatDetailModal(result.senatId, nick);
   };
 }
 
 function openHaveInviteModal(nick) {
-  const raw = window.prompt('Vlož pozývací link alebo ID senátu:');
+  const raw = window.prompt('Vlož pozývací link alebo ID tímu:');
   if (!raw) return;
   let senatId = raw.trim();
   try {
@@ -2358,10 +2358,10 @@ function openHaveInviteModal(nick) {
 async function handleSenatJoin(senatId, nick) {
   const result = await joinSenat(senatId, nick);
   if (!result.ok) {
-    alert(result.message || 'Nepodarilo sa pridať do senátu.');
+    alert(result.message || 'Nepodarilo sa pridať do tímu.');
     return;
   }
-  showRewardToast(`⚖️ Pridal/a si sa do senátu ${result.senatName}!`);
+  showRewardToast(`⚖️ Pridal/a si sa do tímu ${result.senatName}!`);
   await renderSenatyCard(nick);
 }
 
@@ -2381,7 +2381,7 @@ async function checkSenatInviteLink() {
   if (!senat) {
     modal.innerHTML = `
       <div class="avatar-panel">
-        <h3>⚖️ Senát neexistuje</h3>
+        <h3>⚖️ Tím neexistuje</h3>
         <p class="small muted">Pozývací link už nie je platný.</p>
         <button class="btn btn-primary" id="closeSenatInviteModal" style="width:100%">Zavrieť</button>
       </div>`;
@@ -2389,8 +2389,8 @@ async function checkSenatInviteLink() {
     const count = Object.keys(senat.members || {}).length;
     modal.innerHTML = `
       <div class="avatar-panel">
-        <h3>⚖️ Senát ${escapeHtml(senat.name)} ťa pozýva!</h3>
-        <p class="small muted">${count}/5 členov · ${senat.status === 'active' ? 'súťažný senát' : 'zostavuje sa'}</p>
+        <h3>⚖️ Tím ${escapeHtml(senat.name)} ťa pozýva!</h3>
+        <p class="small muted">${count}/5 členov · ${senat.status === 'active' ? 'súťažný tím' : 'zostavuje sa'}</p>
         <div id="senatInviteMsg" class="small" style="min-height:16px;margin:8px 0;color:var(--muted)"></div>
         <button class="btn btn-primary" id="senatInviteJoinBtn" style="width:100%;margin-bottom:8px">Pridať sa</button>
         <button class="btn" id="closeSenatInviteModal" style="width:100%">Zavrieť</button>
@@ -2422,7 +2422,7 @@ async function checkSenatInviteLink() {
         return;
       }
       closeSenatInvite();
-      showRewardToast(`⚖️ Pridal/a si sa do senátu ${result.senatName}!`);
+      showRewardToast(`⚖️ Pridal/a si sa do tímu ${result.senatName}!`);
       await renderSenatyCard(nick);
     };
   }
@@ -2457,18 +2457,18 @@ function openSenatDetailModal(senatId, nick) {
         <h3 style="margin:0">⚖️ ${escapeHtml(senat.name)}</h3>
         <button class="btn" id="closeSenatDetailModal">✕</button>
       </div>
-      <div class="small muted" style="margin-bottom:10px">${senat.status === 'active' ? '🟢 Súťažný senát' : '🟡 Zostavuje sa'} · V/R/P ${senat.wins || 0}/${senat.draws || 0}/${senat.losses || 0} · ${senat.points || 0} b.</div>
+      <div class="small muted" style="margin-bottom:10px">${senat.status === 'active' ? '🟢 Súťažný tím' : '🟡 Zostavuje sa'} · V/R/P ${senat.wins || 0}/${senat.draws || 0}/${senat.losses || 0} · ${senat.points || 0} b.</div>
       <div style="margin-bottom:12px">${membersHtml}</div>
       ${iamPredseda ? `
         <button class="btn btn-primary" id="senatInviteShareBtn" style="width:100%;margin-bottom:8px">📤 Pozvať</button>
-        ${senat.status === 'active' ? `<button class="btn" id="senatChallengeBtn" style="width:100%;margin-bottom:8px">⚔️ Vyzvať iný senát</button>` : ''}
+        ${senat.status === 'active' ? `<button class="btn" id="senatChallengeBtn" style="width:100%;margin-bottom:8px">⚔️ Vyzvať iný tím</button>` : ''}
         <div style="display:flex;gap:8px;margin-bottom:8px">
           <input type="text" id="senatRenameInput" class="form-input" placeholder="Nový názov" value="${escapeHtml(senat.name)}"/>
           <button class="btn" id="senatRenameBtn">Premenovať</button>
         </div>
-        <button class="btn" id="senatDisbandBtn" style="width:100%;color:#dc2626">🗑️ Zrušiť senát</button>
+        <button class="btn" id="senatDisbandBtn" style="width:100%;color:#dc2626">🗑️ Zrušiť tím</button>
       ` : `
-        <button class="btn" id="senatLeaveBtn" style="width:100%">Odísť zo senátu</button>
+        <button class="btn" id="senatLeaveBtn" style="width:100%">Odísť z tímu</button>
       `}
       <div id="senatDetailMsg" class="small" style="margin-top:8px;color:var(--muted)"></div>
     </div>
@@ -2491,7 +2491,7 @@ function openSenatDetailModal(senatId, nick) {
         window.prompt('Skopíruj správu manuálne:', message);
       }
       if (navigator.share) {
-        navigator.share({ title: 'Pozvánka do senátu – Manažérska akadémia', text: message, url: inviteLink }).catch(() => {});
+        navigator.share({ title: 'Pozvánka do tímu – Manažérska akadémia', text: message, url: inviteLink }).catch(() => {});
       }
     };
   }
@@ -2516,7 +2516,7 @@ function openSenatDetailModal(senatId, nick) {
   const disbandBtn = document.getElementById('senatDisbandBtn');
   if (disbandBtn) {
     disbandBtn.onclick = async () => {
-      if (!confirm(`Naozaj zrušiť senát ${senat.name}?`)) return;
+      if (!confirm(`Naozaj zrušiť tím ${senat.name}?`)) return;
       const result = await disbandSenat(senatId, nick);
       if (!result.ok) { msgEl().textContent = `❌ ${result.message}`; return; }
       modal.remove();
@@ -2527,7 +2527,7 @@ function openSenatDetailModal(senatId, nick) {
   const leaveBtn = document.getElementById('senatLeaveBtn');
   if (leaveBtn) {
     leaveBtn.onclick = async () => {
-      if (!confirm(`Naozaj odísť zo senátu ${senat.name}?`)) return;
+      if (!confirm(`Naozaj odísť z tímu ${senat.name}?`)) return;
       const result = await leaveSenat(senatId, nick);
       if (!result.ok) { msgEl().textContent = `❌ ${result.message}`; return; }
       modal.remove();
@@ -2538,7 +2538,7 @@ function openSenatDetailModal(senatId, nick) {
   modal.querySelectorAll('.senat-kick-btn').forEach(btn => {
     btn.onclick = async () => {
       const targetNick = btn.dataset.nick;
-      if (!confirm(`Naozaj vyhodiť ${targetNick} zo senátu?`)) return;
+      if (!confirm(`Naozaj vyhodiť ${targetNick} z tímu?`)) return;
       const result = await kickMember(senatId, targetNick, nick);
       if (!result.ok) { msgEl().textContent = `❌ ${result.message}`; return; }
       modal.remove();
@@ -2569,7 +2569,7 @@ async function openChallengeSenatModal(challengerSenatId, nick) {
   modal.innerHTML = `
     <div class="avatar-panel">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
-        <h3 style="margin:0">⚔️ Vyzvať senát</h3>
+        <h3 style="margin:0">⚔️ Vyzvať tím</h3>
         <button class="btn" id="closeChallengeSenatModal">✕</button>
       </div>
       ${candidates.length ? `
@@ -2581,7 +2581,7 @@ async function openChallengeSenatModal(challengerSenatId, nick) {
         </select>
         <div id="challengeSenatMsg" class="small" style="min-height:16px;margin-bottom:8px;color:var(--muted)"></div>
         <button class="btn btn-primary" id="challengeSenatSubmitBtn" style="width:100%">Vyzvať</button>
-      ` : `<p class="small muted">Zatiaľ niet iného súťažného senátu bez spoločného člena.</p>`}
+      ` : `<p class="small muted">Zatiaľ niet iného súťažného tímu bez spoločného člena.</p>`}
     </div>
   `;
 
@@ -2599,7 +2599,7 @@ async function openChallengeSenatModal(challengerSenatId, nick) {
       const result = await challengeSenat(challengerSenatId, opponentSenatId, areaName, nick);
       if (!result.ok) { msg.textContent = `❌ ${result.message}`; return; }
       modal.remove();
-      showRewardToast('⚔️ Senátny spor bol vytvorený!');
+      showRewardToast('⚔️ Tímový spor bol vytvorený!');
       await renderSenatyCard(nick);
     };
   }
@@ -2621,7 +2621,7 @@ async function updateFacultyBadge() {
   const info = await getFacultyBadge(nick);
   if (!info) {
     badge.textContent = '🏛️ Vyber školu';
-    badge.title = 'Klikni a vyber si fakultu/vysokú školu';
+    badge.title = 'Klikni a vyber si firmu';
     badge.style.display = 'inline-flex';
     return;
   }
@@ -2655,7 +2655,7 @@ async function initFaculty() {
         statusLine.textContent = `❌ ${result.message}`;
         return;
       }
-      statusLine.textContent = '✅ Fakulta uložená.';
+      statusLine.textContent = '✅ Firma uložená.';
       renderFacultyMiniLeaderboard();
       updateFacultyBadge();
     };
@@ -2881,7 +2881,7 @@ async function renderFacultyMiniLeaderboard() {
   if (!box) return;
   const list = await getFacultyLeaderboard();
   if (!list.length) {
-    box.innerHTML = '<div class="small muted">Zatiaľ žiadne aktívne fakulty.</div>';
+    box.innerHTML = '<div class="small muted">Zatiaľ žiadne aktívne firmy.</div>';
     return;
   }
   box.innerHTML = list.map((f, i) => `
@@ -2911,8 +2911,8 @@ function setupLeaderboardModeToggle() {
   };
   const titlesByMode = {
     individual: ['Rebríček súbojov', 'Najlepší hráči súbojov'],
-    senaty: ['Rebríček senátov', 'Najlepšie senáty podľa bodov'],
-    fakulty: ['Rebríček fakúlt', 'Priemer bodov na aktívneho hráča']
+    senaty: ['Rebríček tímov', 'Najlepšie tímy podľa bodov'],
+    fakulty: ['Rebríček firiem', 'Priemer bodov na aktívneho hráča']
   };
 
   chips.forEach(chip => {
@@ -2939,7 +2939,7 @@ async function renderFacultyLeaderboardFull() {
   if (!box) return;
   const list = await getFacultyLeaderboard();
   if (!list.length) {
-    box.innerHTML = '<div class="small muted">Zatiaľ žiadne aktívne fakulty.</div>';
+    box.innerHTML = '<div class="small muted">Zatiaľ žiadne aktívne firmy.</div>';
     return;
   }
   box.innerHTML = list.map((f, i) => `
@@ -2957,7 +2957,7 @@ async function renderSenatLeaderboardFull() {
   if (!box) return;
   const list = await getSenatLeaderboard();
   if (!list.length) {
-    box.innerHTML = '<div class="small muted">Zatiaľ žiadne súťažné senáty.</div>';
+    box.innerHTML = '<div class="small muted">Zatiaľ žiadne súťažné tímy.</div>';
     return;
   }
   box.innerHTML = list.map((s, i) => `
@@ -2980,7 +2980,7 @@ async function renderSenatyMiniLeaderboard() {
     const all = snap.exists() ? Object.values(snap.val()) : [];
     const top3 = all.filter(s => s.status === 'active').sort((a, b) => (b.points || 0) - (a.points || 0)).slice(0, 3);
     if (!top3.length) {
-      box.textContent = 'Zatiaľ žiadne súťažné senáty.';
+      box.textContent = 'Zatiaľ žiadne súťažné tímy.';
       return;
     }
     box.innerHTML = top3.map((s, i) => `${i + 1}. ${escapeHtml(s.name)} – ${s.points || 0} b.`).join('<br>');
@@ -3113,7 +3113,7 @@ async function displayPlayerSeals() {
         seals.gold   ? `<span class="seal-badge gold">🥇 Zlatá ×${seals.gold}</span>` : '',
         seals.silver ? `<span class="seal-badge silver">🥈 Strieborná ×${seals.silver}</span>` : '',
         seals.bronze ? `<span class="seal-badge bronze">🥉 Bronzová ×${seals.bronze}</span>` : '',
-        facultyBadge ? `<span class="seal-badge faculty">🏛️ Putovná pečať fakulty</span>` : '',
+        facultyBadge ? `<span class="seal-badge faculty">🏛️ Putovná pečať firmy</span>` : '',
         `<span class="small muted">Uznaných: ${approved}</span>`
       ].join('');
     }

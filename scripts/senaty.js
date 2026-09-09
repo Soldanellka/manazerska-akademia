@@ -70,12 +70,12 @@ export async function createSenat(name) {
 
   const trimmed = (name || '').trim();
   if (trimmed.length < 3 || trimmed.length > 30) {
-    return { ok: false, message: 'Názov senátu musí mať 3–30 znakov.' };
+    return { ok: false, message: 'Názov tímu musí mať 3–30 znakov.' };
   }
 
   const mySenaty = await getMojeSenaty(nick);
   if (mySenaty.length >= MAX_SENATY_PER_PLAYER) {
-    return { ok: false, message: `Môžeš byť členom max ${MAX_SENATY_PER_PLAYER} senátov.` };
+    return { ok: false, message: `Môžeš byť členom max ${MAX_SENATY_PER_PLAYER} tímov.` };
   }
 
   // Kontrola unikátnosti názvu (case-insensitive)
@@ -83,7 +83,7 @@ export async function createSenat(name) {
   const all = allSnap.exists() ? allSnap.val() : {};
   const nameTaken = Object.values(all).some(s => (s.name || '').toLowerCase() === trimmed.toLowerCase());
   if (nameTaken) {
-    return { ok: false, message: 'Senát s týmto názvom už existuje.' };
+    return { ok: false, message: 'Tím s týmto názvom už existuje.' };
   }
 
   const senatRef = push(ref(db, 'senaty'));
@@ -114,7 +114,7 @@ export function getInviteLink(senatId) {
 
 export function buildInviteMessage(predsedaNick, senatName, senatId) {
   const link = getInviteLink(senatId);
-  return `⚖️ ${predsedaNick} ťa pozýva do senátu ${senatName} v Manažérskej akadémii! Pridaj sa: ${link}`;
+  return `⚖️ ${predsedaNick} ťa pozýva do tímu ${senatName} v Manažérskej akadémii! Pridaj sa: ${link}`;
 }
 
 /* ============================================================
@@ -125,16 +125,16 @@ export function buildInviteMessage(predsedaNick, senatName, senatId) {
 ============================================================ */
 export async function joinSenat(senatId, nick) {
   const db = getDb();
-  if (!db || !senatId || !nick) return { ok: false, message: 'Chýba senát alebo nick.' };
+  if (!db || !senatId || !nick) return { ok: false, message: 'Chýba tím alebo nick.' };
 
   const senat = await getSenat(senatId);
-  if (!senat) return { ok: false, message: 'Senát neexistuje.' };
-  if (senat.members && senat.members[nick]) return { ok: false, message: 'V tomto senáte už si.' };
-  if (memberCount(senat) >= MAX_MEMBERS) return { ok: false, message: 'Senát je už plný (5/5).' };
+  if (!senat) return { ok: false, message: 'Tím neexistuje.' };
+  if (senat.members && senat.members[nick]) return { ok: false, message: 'V tomto tíme už si.' };
+  if (memberCount(senat) >= MAX_MEMBERS) return { ok: false, message: 'Tím je už plný (5/5).' };
 
   const mySenaty = await getMojeSenaty(nick);
   if (mySenaty.length >= MAX_SENATY_PER_PLAYER) {
-    return { ok: false, message: `Môžeš byť členom max ${MAX_SENATY_PER_PLAYER} senátov.` };
+    return { ok: false, message: `Môžeš byť členom max ${MAX_SENATY_PER_PLAYER} tímov.` };
   }
 
   // Nový hráč? (skontroluj PRED akýmkoľvek zápisom)
@@ -151,7 +151,7 @@ export async function joinSenat(senatId, nick) {
   });
 
   if (!result || !result.committed) {
-    return { ok: false, message: 'Nepodarilo sa pridať do senátu (plný alebo už si členom).' };
+    return { ok: false, message: 'Nepodarilo sa pridať do tímu (plný alebo už si členom).' };
   }
 
   await set(ref(db, `users/${nick}/senaty/${senatId}`), true);
@@ -160,7 +160,7 @@ export async function joinSenat(senatId, nick) {
      (skipCap odstránený) – obchádzať ho smú už len rebríčky a štátnica.
      Nový nick má strop z definície prázdny, takže sa odmena vždy zmestí. */
   if (isNewPlayer) {
-    await econAward(nick, ECONOMY_CONFIG.SENATY.JOIN_NEW_PLAYER, `nový hráč cez senátny link ${senatId}`, { allOrNothing: true });
+    await econAward(nick, ECONOMY_CONFIG.SENATY.JOIN_NEW_PLAYER, `nový hráč cez tímový link ${senatId}`, { allOrNothing: true });
   }
 
   // Odmena predsedovi za nábor tohto člena (raz na člena, ochrana cez recruitClaimed)
@@ -176,7 +176,7 @@ export async function joinSenat(senatId, nick) {
        navždy. Dvojitú výplatu to neotvára: bez ďalšieho pripojenia toho istého
        člena sa sem kód znova nedostane. */
     if (claimResult && claimResult.committed) {
-      const paid = await econAward(founder, ECONOMY_CONFIG.SENATY.RECRUIT, `nábor člena ${nick} do senátu`, { allOrNothing: true });
+      const paid = await econAward(founder, ECONOMY_CONFIG.SENATY.RECRUIT, `nábor člena ${nick} do tímu`, { allOrNothing: true });
       if (paid === null) await set(claimedRef, null);
     }
   }
@@ -197,10 +197,10 @@ export async function joinSenat(senatId, nick) {
          úzky (senát sa dokončí práve raz), a rušiť kvôli nemu aktiváciu
          senátu by bolo horšie. */
       if (founder) {
-        await econAward(founder, ECONOMY_CONFIG.SENATY.FOUND_COMPLETE, `senát ${senat.name} dokončený (3 členovia)`, { allOrNothing: true });
+        await econAward(founder, ECONOMY_CONFIG.SENATY.FOUND_COMPLETE, `tím ${senat.name} dokončený (3 členovia)`, { allOrNothing: true });
       }
       if (nick === getNick()) {
-        showRewardToast(`⚖️ Senát ${senat.name} je kompletný!`);
+        showRewardToast(`⚖️ Tím ${senat.name} je kompletný!`);
       }
     }
   }
@@ -214,12 +214,12 @@ export async function joinSenat(senatId, nick) {
 export async function renameSenat(senatId, newName, nick) {
   const db = getDb();
   const senat = await getSenat(senatId);
-  if (!senat) return { ok: false, message: 'Senát neexistuje.' };
-  if (!isPredseda(senat, nick)) return { ok: false, message: 'Len predseda môže premenovať senát.' };
+  if (!senat) return { ok: false, message: 'Tím neexistuje.' };
+  if (!isPredseda(senat, nick)) return { ok: false, message: 'Len líder môže premenovať tím.' };
 
   const trimmed = (newName || '').trim();
   if (trimmed.length < 3 || trimmed.length > 30) {
-    return { ok: false, message: 'Názov senátu musí mať 3–30 znakov.' };
+    return { ok: false, message: 'Názov tímu musí mať 3–30 znakov.' };
   }
 
   await update(ref(db, `senaty/${senatId}`), { name: trimmed });
@@ -229,10 +229,10 @@ export async function renameSenat(senatId, newName, nick) {
 export async function kickMember(senatId, targetNick, byNick) {
   const db = getDb();
   const senat = await getSenat(senatId);
-  if (!senat) return { ok: false, message: 'Senát neexistuje.' };
-  if (!isPredseda(senat, byNick)) return { ok: false, message: 'Len predseda môže vyhodiť člena.' };
-  if (targetNick === byNick) return { ok: false, message: 'Nemôžeš vyhodiť sám seba – zruš senát alebo ho premenuj na iného predsedu.' };
-  if (!senat.members || !senat.members[targetNick]) return { ok: false, message: 'Hráč nie je členom tohto senátu.' };
+  if (!senat) return { ok: false, message: 'Tím neexistuje.' };
+  if (!isPredseda(senat, byNick)) return { ok: false, message: 'Len líder môže vyhodiť člena.' };
+  if (targetNick === byNick) return { ok: false, message: 'Nemôžeš vyhodiť sám seba – zruš tím alebo ho premenuj na iného lídra.' };
+  if (!senat.members || !senat.members[targetNick]) return { ok: false, message: 'Hráč nie je členom tohto tímu.' };
 
   await update(ref(db, `senaty/${senatId}/members`), { [targetNick]: null });
   await update(ref(db, `users/${targetNick}/senaty`), { [senatId]: null });
@@ -248,9 +248,9 @@ export async function kickMember(senatId, targetNick, byNick) {
 export async function leaveSenat(senatId, nick) {
   const db = getDb();
   const senat = await getSenat(senatId);
-  if (!senat) return { ok: false, message: 'Senát neexistuje.' };
+  if (!senat) return { ok: false, message: 'Tím neexistuje.' };
   if (isPredseda(senat, nick)) {
-    return { ok: false, message: 'Predseda nemôže odísť – zruš senát alebo najprv premenuj iného člena na predsedu.' };
+    return { ok: false, message: 'Líder nemôže odísť – zruš tím alebo najprv premenuj iného člena na lídra.' };
   }
 
   await update(ref(db, `senaty/${senatId}/members`), { [nick]: null });
@@ -267,8 +267,8 @@ export async function leaveSenat(senatId, nick) {
 export async function disbandSenat(senatId, nick) {
   const db = getDb();
   const senat = await getSenat(senatId);
-  if (!senat) return { ok: false, message: 'Senát neexistuje.' };
-  if (!isPredseda(senat, nick)) return { ok: false, message: 'Len predseda môže zrušiť senát.' };
+  if (!senat) return { ok: false, message: 'Tím neexistuje.' };
+  if (!isPredseda(senat, nick)) return { ok: false, message: 'Len líder môže zrušiť tím.' };
 
   const members = Object.keys(senat.members || {});
   await Promise.all(members.map(m => update(ref(db, `users/${m}/senaty`), { [senatId]: null })));
@@ -319,17 +319,17 @@ export async function getSporyForSenat(senatId) {
 export async function challengeSenat(challengerSenatId, opponentSenatId, areaName, nick) {
   const db = getDb();
   if (!db || !nick) return { ok: false, message: 'Musíš byť prihlásený.' };
-  if (challengerSenatId === opponentSenatId) return { ok: false, message: 'Nemôžeš vyzvať vlastný senát.' };
+  if (challengerSenatId === opponentSenatId) return { ok: false, message: 'Nemôžeš vyzvať vlastný tím.' };
 
   const challenger = await getSenat(challengerSenatId);
   const opponent = await getSenat(opponentSenatId);
-  if (!challenger || !opponent) return { ok: false, message: 'Senát neexistuje.' };
-  if (!isPredseda(challenger, nick)) return { ok: false, message: 'Len predseda môže vyzvať iný senát.' };
+  if (!challenger || !opponent) return { ok: false, message: 'Tím neexistuje.' };
+  if (!isPredseda(challenger, nick)) return { ok: false, message: 'Len líder môže vyzvať iný tím.' };
   if (challenger.status !== 'active' || opponent.status !== 'active') {
-    return { ok: false, message: 'Oba senáty musia byť súťažné (aspoň 3 členovia).' };
+    return { ok: false, message: 'Oba tímy musia byť súťažné (aspoň 3 členovia).' };
   }
   if (sharedMember(challenger, opponent)) {
-    return { ok: false, message: 'Senáty majú spoločného člena – spor medzi nimi nie je povolený.' };
+    return { ok: false, message: 'Tímy majú spoločného člena – spor medzi nimi nie je povolený.' };
   }
 
   await waitForQuestions(areaName);
@@ -376,7 +376,7 @@ export async function recordSenatSporScore(sporId, senatId, nick, score) {
   const db = getDb();
   if (!db) return;
   await update(ref(db, `senatSpory/${sporId}/scores/${senatId}`), { [nick]: score });
-  showRewardToast(`⚖️ Tvoj výsledok (${score}/10) bol zaznamenaný do senátneho sporu.`);
+  showRewardToast(`⚖️ Tvoj výsledok (${score}/10) bol zaznamenaný do tímového sporu.`);
 }
 
 async function applySporResult(senat, senatId, outcome, scores) {
@@ -395,7 +395,7 @@ async function applySporResult(senat, senatId, outcome, scores) {
      allOrNothing: výsledok sporu je udalosť s oznámenou sumou, orezanie na
      zvyšok stropu by bolo mätúce – kto má strop plný, dostane 0 a vie prečo. */
   const members = Object.keys(senat.members || {});
-  await Promise.all(members.map(m => econAward(m, rewardAmount, `senátny spor – ${outcome}`, { allOrNothing: true })));
+  await Promise.all(members.map(m => econAward(m, rewardAmount, `tímový spor – ${outcome}`, { allOrNothing: true })));
 
   // 🏛️ Fakulty – individuálny výsledok každého člena, čo odohral, pripíše body jeho fakulte
   await Promise.all(members.map(m => {
@@ -552,7 +552,7 @@ async function settleSenatLeaderboardPeriod(periodKey, rewardTable) {
     if (!amount) continue;
     const members = Object.keys(top3[i].members || {});
     await Promise.all(members.map(m =>
-      econAward(m, amount, `${i + 1}. miesto senátu v rebríčku`, { skipCap: true })
+      econAward(m, amount, `${i + 1}. miesto tímu v rebríčku`, { skipCap: true })
     ));
     winners.push({ senatId: top3[i].id, name: top3[i].name, place: i + 1, amount });
   }
@@ -575,7 +575,7 @@ async function announceSenatLeaderboardWinIfAny(nick, periodKeys) {
       const seenSnap = await get(seenRef);
       if (seenSnap.exists()) continue;
       await set(seenRef, true);
-      showRewardToast(`⚖️ Váš senát ${senat.name} skončil ${w.place}. v rebríčku! +${w.amount}§`);
+      showRewardToast(`⚖️ Váš tím ${senat.name} skončil ${w.place}. v rebríčku! +${w.amount}§`);
     }
   }
 }

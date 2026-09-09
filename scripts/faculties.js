@@ -27,13 +27,30 @@ function getNick() { return localStorage.getItem('playerNick') || null; }
 
 const FACULTY_CHANGE_COOLDOWN_MS = 30 * 24 * 60 * 60 * 1000;
 
+/* POZOR – id NIE SÚ odvetvia, sú to pôvodné kľúče zdedené z LexAreny.
+   Zostávajú nezmenené zámerne: sú to cesty vo `faculties/$id/` a žijú
+   v uložených dátach hráčov (users/$nick/faculty). Premenovanie by
+   znamenalo zmenu pravidiel + migráciu seedu, teda fázu F, nie C3.
+
+   Mapovanie id -> odvetvie (poradie zo súboru):
+     uk-ba     -> Výroba a priemysel
+     upjs-ke   -> IT a technológie
+     truni-tt  -> Obchod a služby
+     umb-bb    -> Financie a poisťovníctvo
+     pevs      -> Zdravotníctvo a sociálne služby
+     ina       -> Verejná správa a školstvo
+     nezaradeny-> stav "nenastavené"; z rebríčka aj z resetu sa filtruje,
+                  v ponuke sa nezobrazuje.
+
+   Ak by pilot bežal v jednej firme, z odvetví sa stanú oddelenia –
+   je to znova len šesť reťazcov, id sa opäť nemenia. */
 export const FACULTY_LIST = [
-  { id: 'uk-ba', name: 'Právnická fakulta UK Bratislava', abbrev: 'UK' },
-  { id: 'upjs-ke', name: 'Právnická fakulta UPJŠ Košice', abbrev: 'UPJŠ' },
-  { id: 'truni-tt', name: 'Právnická fakulta TRUNI Trnava', abbrev: 'TRUNI' },
-  { id: 'umb-bb', name: 'Právnická fakulta UMB Banská Bystrica', abbrev: 'UMB' },
-  { id: 'pevs', name: 'Fakulta práva PEVŠ', abbrev: 'PEVŠ' },
-  { id: 'ina', name: 'Iná fakulta', abbrev: 'iná' },
+  { id: 'uk-ba', name: 'Výroba a priemysel', abbrev: 'VÝR' },
+  { id: 'upjs-ke', name: 'IT a technológie', abbrev: 'IT' },
+  { id: 'truni-tt', name: 'Obchod a služby', abbrev: 'OBS' },
+  { id: 'umb-bb', name: 'Financie a poisťovníctvo', abbrev: 'FIN' },
+  { id: 'pevs', name: 'Zdravotníctvo a sociálne služby', abbrev: 'ZDR' },
+  { id: 'ina', name: 'Verejná správa a školstvo', abbrev: 'VS' },
   { id: 'nezaradeny', name: 'Nezaradený', abbrev: '' }
 ];
 
@@ -69,7 +86,7 @@ export async function setPlayerFaculty(nick, facultyId) {
   const db = getDb();
   if (!db || !nick) return { ok: false, message: 'Chýba prihlásenie.' };
   if (!FACULTY_LIST.some(f => f.id === facultyId)) {
-    return { ok: false, message: 'Neplatná fakulta.' };
+    return { ok: false, message: 'Neplatná firma.' };
   }
 
   const userRef = ref(db, `users/${nick}`);
@@ -80,7 +97,7 @@ export async function setPlayerFaculty(nick, facultyId) {
     const elapsed = Date.now() - (user.facultyChangedAt || 0);
     if (elapsed < FACULTY_CHANGE_COOLDOWN_MS) {
       const daysLeft = Math.ceil((FACULTY_CHANGE_COOLDOWN_MS - elapsed) / (24 * 60 * 60 * 1000));
-      return { ok: false, message: `Fakultu môžeš zmeniť znova o ${daysLeft} dní.` };
+      return { ok: false, message: `Firmu môžeš zmeniť znova o ${daysLeft} dní.` };
     }
   }
 
@@ -168,7 +185,7 @@ async function settleFacultyMonth() {
     const playersSnap = await get(ref(db, `faculties/${winner.id}/players`));
     const players = playersSnap.exists() ? Object.keys(playersSnap.val()) : [];
     await Promise.all(players.map(nick =>
-      econAward(nick, ECONOMY_CONFIG.FACULTIES.MONTHLY_BONUS, `fakulta ${winner.name} vyhrala mesiac`, { skipCap: true })
+      econAward(nick, ECONOMY_CONFIG.FACULTIES.MONTHLY_BONUS, `firma ${winner.name} vyhrala mesiac`, { skipCap: true })
     ));
     await set(ref(db, `facultyRewards/${monthKey}/winner`), { id: winner.id, name: winner.name, players });
   }
@@ -212,7 +229,7 @@ async function announceFacultyWinIfAny(nick) {
   if ((await get(seenRef)).exists()) return;
 
   await set(seenRef, true);
-  showRewardToast(`🏛️ Tvoja fakulta ${winner.name} vyhrala mesiac! +${ECONOMY_CONFIG.FACULTIES.MONTHLY_BONUS}§`);
+  showRewardToast(`🏛️ Tvoja firma ${winner.name} vyhrala mesiac! +${ECONOMY_CONFIG.FACULTIES.MONTHLY_BONUS}§`);
 }
 
 export async function settleFacultyLeaderboard() {

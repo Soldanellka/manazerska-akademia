@@ -135,8 +135,8 @@
       <div class="small" id="leaderboardSubtitle">Najlepší hráči súbojov</div>
       <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">
         <button class="chip lb-mode-chip active" data-lb-mode="individual">Jednotlivci</button>
-        <button class="chip lb-mode-chip" data-lb-mode="senaty">Senáty</button>
-        <button class="chip lb-mode-chip" data-lb-mode="fakulty">Fakulty</button>
+        <button class="chip lb-mode-chip" data-lb-mode="senaty">Tímy</button>
+        <button class="chip lb-mode-chip" data-lb-mode="fakulty">Firmy</button>
       </div>
       <div id="individualLeaderboardBox">
         <div style="display:flex;gap:8px;margin-top:10px">
@@ -161,12 +161,12 @@
     </div>
 
     <div class="card highlight-senaty" id="senatyCard">
-      <h3 style="margin:0">⚖️ Senáty</h3>
+      <h3 style="margin:0">⚖️ Tímy</h3>
       <div class="small">Skupinová súťaž o body a odmeny</div>
 
       <div id="senatyNoneBox" style="display:none;margin-top:10px">
         <div style="display:flex;gap:8px;flex-wrap:wrap">
-          <button class="btn btn-primary" id="foundSenatBtn">➕ Založiť senát</button>
+          <button class="btn btn-primary" id="foundSenatBtn">➕ Založiť tím</button>
           <button class="btn" id="haveInviteBtn">🔗 Mám pozvánku</button>
         </div>
       </div>
@@ -174,7 +174,7 @@
       <div id="senatyMineBox" style="margin-top:10px"></div>
 
       <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--card-border, rgba(0,0,0,0.08))">
-        <div class="small" style="font-weight:600;margin-bottom:6px">🏆 TOP 3 senáty</div>
+        <div class="small" style="font-weight:600;margin-bottom:6px">🏆 TOP 3 tímy</div>
         <div id="senatyMiniLeaderboard" class="small muted">Načítavam…</div>
       </div>
     </div>
@@ -846,16 +846,16 @@
       -->
 
       <details class="guide-section">
-        <summary>🏛️ Senáty</summary>
+        <summary>🏛️ Tímy</summary>
         <div class="guide-content">
-          <p>Senát je tím 3 – 5 hráčov. Založíš ho a pošleš spolužiakom pozývací link;
-          keď vás budú traja, senát sa stane súťažným a odmeny dostanú všetci.</p>
-          <p>Predseda potom môže vyzvať iný senát na <strong>spor</strong>: všetci členovia
+          <p>Tím je skupina 3 – 5 hráčov. Založíš ho a pošleš spolužiakom pozývací link;
+          keď vás budú traja, tím sa stane súťažným a odmeny dostanú všetci.</p>
+          <p>Líder potom môže vyzvať iný tím na <strong>spor</strong>: všetci členovia
           do 48 hodín odohrajú tie isté otázky a počíta sa priemer za celý tím
-          (kto nehral, má nulu). Body zo sporov sa zbierajú v rebríčku senátov.</p>
+          (kto nehral, má nulu). Body zo sporov sa zbierajú v rebríčku tímov.</p>
           <table class="guide-table">
             <tr><th>Udalosť</th><th>Odmena</th></tr>
-            <tr><td>Senát dosiahol 3 členov (predsedovi)</td><td>+<span data-econ="SENATY.FOUND_COMPLETE"></span>§</td></tr>
+            <tr><td>Tím dosiahol 3 členov (lídrovi)</td><td>+<span data-econ="SENATY.FOUND_COMPLETE"></span>§</td></tr>
             <tr><td>Za každého pozvaného člena</td><td>+<span data-econ="SENATY.RECRUIT"></span>§</td></tr>
             <tr><td>Výhra v spore (každému členovi)</td><td>+<span data-econ="SENATY.SPOR_WIN"></span>§</td></tr>
             <tr><td>Remíza / prehra</td><td>+<span data-econ="SENATY.SPOR_DRAW"></span>§ / +<span data-econ="SENATY.SPOR_LOSS"></span>§</td></tr>
