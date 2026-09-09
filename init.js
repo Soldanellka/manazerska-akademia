@@ -2206,14 +2206,22 @@ async function loadPromoList(panel, db, ref, get, update) {
    ⚖️ SENÁTY – skupinová súťaž
    ===================================================== */
 let senatyMineCache = [];
-
 async function initSenaty() {
+  /* ZDEDENÁ CHYBA Z LEXARENY – NEVRACAJ SPÄŤ POD KONTROLU NICKU.
+     Mini rebríček je len na čítanie (get z `senaty`, žiadny zápis) a nick
+     nepotrebuje. Keď stál až za `if (!nick) return`, anonymnému návštevníkovi
+     sa nikdy nespustil a v karte Tímy ostalo natrvalo "Načítavam…" – teda
+     prvé, čo na tej karte vidno. Preto beží PRED kontrolou nicku. */
+  renderSenatyMiniLeaderboard();
+
   const nick = localStorage.getItem('playerNick');
   if (!nick) return;
   await settlePendingSenatSpory();
   await settleSenatLeaderboards();
   await renderSenatyCard(nick);
   setupSenatyButtons(nick);
+  /* druhý raz zámerne: settleSenatLeaderboards() vyššie mohlo prepísať body,
+     tak nech prihlásený hráč vidí čerstvé poradie */
   renderSenatyMiniLeaderboard();
 }
 
@@ -2973,7 +2981,8 @@ async function renderSenatLeaderboardFull() {
 /* Mini rebríček TOP 3 senátov (plný prepínateľný rebríček je samostatná úloha) */
 async function renderSenatyMiniLeaderboard() {
   const box = document.getElementById('senatyMiniLeaderboard');
-  if (!box || !window.db) return;
+  if (!box) return;
+  if (!window.db) { box.textContent = 'Rebríček sa nepodarilo načítať.'; return; }
   try {
     const { ref, get } = await import("https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js");
     const snap = await get(ref(window.db, 'senaty'));
