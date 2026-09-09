@@ -1373,7 +1373,7 @@ export async function openStatniceHall(areaName) {
   // PRED buildPersonaOverlay aj PRED odpočtom energie.
   const shared = window.__selectedOkruhPair;
   if (!shared || shared.area !== areaName || shared.empty === true) {
-    showRewardToast('⚖️ Najprv si na hlavnej obrazovke vyber oblasť a mód (🎲/📗/📕) pre pojednávanie – štátnica použije tú istú dvojicu okruhov.');
+    showRewardToast('⚖️ Najprv si na hlavnej obrazovke vyber oblasť a mód (🎲/📗/📕) pre súboj – štátnica použije tú istú dvojicu okruhov.');
     return;
   }
 

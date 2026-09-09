@@ -479,7 +479,7 @@ export function finishQuiz(){
   if (isDuel) {
 
     showRewardToast(
-      `Pojednávanie dokončené. Správne: ${quiz.correct}, Nesprávne: ${quiz.wrong}. Tip: sprav aj kartičky a prípady v tejto oblasti, zdvihneš si progres.`
+      `Súboj dokončený. Správne: ${quiz.correct}, Nesprávne: ${quiz.wrong}. Tip: sprav aj kartičky a prípady v tejto oblasti, zdvihneš si progres.`
     );
 
     const nick = localStorage.getItem('playerNick') || 'Unknown';
@@ -581,7 +581,7 @@ export function finishQuiz(){
    Žiadna odmena, žiadne vyhodnotenie – len návrat na výber oblasti.
    ========================= */
 export function cancelQuiz(){
-  if (!confirm('Naozaj ukončiť pojednávanie?')) return;
+  if (!confirm('Naozaj ukončiť súboj?')) return;
 
   $('quizIntro').style.display = 'block';
   $('quizArea').style.display = 'none';

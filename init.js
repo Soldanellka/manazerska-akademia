@@ -921,7 +921,7 @@ const VIDEO_CONFIG = {
     duration: 30
   },
   v2: {
-    title: 'Ako hrať pojednávanie v Manažérskej akadémii?',
+    title: 'Ako hrať súboj v Manažérskej akadémii?',
     url: 'https://www.youtube.com/embed/OjzYMtixyJ8?autoplay=1&rel=0',
     duration: 30
   },
@@ -2910,7 +2910,7 @@ function setupLeaderboardModeToggle() {
     fakulty: facultyBox
   };
   const titlesByMode = {
-    individual: ['Rebríček pojednávaní', 'Najlepší hráči pojednávaní'],
+    individual: ['Rebríček súbojov', 'Najlepší hráči súbojov'],
     senaty: ['Rebríček senátov', 'Najlepšie senáty podľa bodov'],
     fakulty: ['Rebríček fakúlt', 'Priemer bodov na aktívneho hráča']
   };
@@ -3532,7 +3532,7 @@ function showDuelChallengeModal(duel, duelId) {
   if (!duel) {
     modal.innerHTML = `
       <div class="duel-challenge-modal">
-        <div class="duel-challenge-title">⚔️ Výzva na pojednávanie</div>
+        <div class="duel-challenge-title">⚔️ Výzva na súboj</div>
         <p class="small" style="margin:12px 0">Táto výzva už nie je aktívna.</p>
         <button class="btn btn-primary" id="closeDuelChallengeModal" style="width:100%">Zavrieť</button>
       </div>`;
@@ -3546,7 +3546,7 @@ function showDuelChallengeModal(duel, duelId) {
 
   modal.innerHTML = `
     <div class="duel-challenge-modal">
-      <div class="duel-challenge-title">⚔️ ${escapeHtml(duel.from)} ťa vyzýva na pojednávanie z oblasti ${escapeHtml(duel.areaTitle)}!</div>
+      <div class="duel-challenge-title">⚔️ ${escapeHtml(duel.from)} ťa vyzýva na súboj z oblasti ${escapeHtml(duel.areaTitle)}!</div>
       <input type="text" id="duelChallengeNick" class="form-input" placeholder="Zadaj svoj nick..." value="${escapeHtml(existingNick)}" style="margin:14px 0" />
       <div id="duelChallengeMsg" class="small" style="min-height:16px;margin-bottom:8px"></div>
       <button class="btn btn-primary" id="acceptChallengeBtn" style="width:100%">Prijať výzvu</button>
@@ -3840,7 +3840,7 @@ function attachEvents() {
           picker.classList.add('duel-highlight');
           setTimeout(() => picker.classList.remove('duel-highlight'), 2000);
         }
-        showRewardToast('⚖️ Najprv si vyber oblasť – štátnica použije tú istú dvojicu okruhov ako pojednávanie.');
+        showRewardToast('⚖️ Najprv si vyber oblasť – štátnica použije tú istú dvojicu okruhov ako súboj.');
         return;
       }
 

@@ -131,8 +131,8 @@
     <h3 class="world-heading" id="worldCommunity">🏛️ Súťaž a komunita</h3>
 
     <div class="card section-card" id="leaderboardSection">
-      <h3 style="margin:0" id="leaderboardTitle">Rebríček pojednávaní</h3>
-      <div class="small" id="leaderboardSubtitle">Najlepší hráči pojednávaní</div>
+      <h3 style="margin:0" id="leaderboardTitle">Rebríček súbojov</h3>
+      <div class="small" id="leaderboardSubtitle">Najlepší hráči súbojov</div>
       <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">
         <button class="chip lb-mode-chip active" data-lb-mode="individual">Jednotlivci</button>
         <button class="chip lb-mode-chip" data-lb-mode="senaty">Senáty</button>
@@ -262,10 +262,10 @@
         <div class="video-item" data-video-id="v2">
           <div class="video-thumb" onclick="openVideo('v2')">
             <div class="video-play-btn">▶</div>
-            <div class="video-label">Ako hrať pojednávanie?</div>
+            <div class="video-label">Ako hrať súboj?</div>
           </div>
           <div class="video-meta">
-            <span class="small muted">Pojednávania krok za krokom • 2 min</span>
+            <span class="small muted">Súboje krok za krokom • 2 min</span>
             <span class="video-reward-badge" id="reward-v2">+12§</span>
           </div>
         </div>
@@ -327,8 +327,8 @@
     <div class="card highlight-duelquiz" id="quizCard">
       <div id="quizIntro">
         <div class="small">Vyber oblasť a hraj</div>
-        <h2 id="quizTitle">Vyber oblasť pojednávania, hry a prípady</h2>
-        <div class="small">Po odohraní sa tvoja 10‑otázková výzva uloží do registra pojednávaní.</div>
+        <h2 id="quizTitle">Vyber oblasť súboja, hry a prípady</h2>
+        <div class="small">Po odohraní sa tvoja 10‑otázková výzva uloží do registra súbojov.</div>
 
         <!-- Oblasti priamo v kvíze -->
         <div id="areasInQuiz" style="margin-top:14px">
@@ -362,7 +362,7 @@
           <div class="game-tiles">
             <button class="game-tile" id="startQuizBtn" disabled>
               <span class="game-tile-icon">🥊</span>
-              <span class="game-tile-name">Pojednávanie</span>
+              <span class="game-tile-name">Súboj</span>
               <span class="game-tile-desc">Kvíz z vybranej oblasti</span>
             </button>
             <!-- SKRYTÉ v C: modul sa nedá spustiť (viď komentár pri návode nižšie).
@@ -426,7 +426,7 @@
             <div class="small">Otázka</div>
             <div id="qIndex" style="font-weight:700">1 / 10</div>
           </div>
-          <button class="btn icon-btn" id="quizCancelBtn" title="Ukončiť pojednávanie"
+          <button class="btn icon-btn" id="quizCancelBtn" title="Ukončiť súboj"
             onclick="typeof window.cancelQuiz==='function' && window.cancelQuiz()">✕</button>
         </div>
         <div class="question-box">
@@ -454,8 +454,8 @@
          čo si hráč pozrie potom. „Prijmem výzvu → scroll na kvíz“ je teraz
          v rámci jedného stĺpca (quizArea.scrollIntoView v quiz.js). -->
     <div class="card highlight-bank" id="duelBankCard">
-      <h3 style="margin:0">Register pojednávaní</h3>
-      <div class="small">Balíky otázok a uložené výzvy na pojednávanie</div>
+      <h3 style="margin:0">Register súbojov</h3>
+      <div class="small">Balíky otázok a uložené výzvy na súboj</div>
       <div style="display:flex;gap:8px;margin-top:8px">
         <button class="btn" id="toggleDuelBankBtn">Uložené výzvy</button>
       </div>
@@ -601,15 +601,15 @@
          Testovacia fáza, súkromie a disclaimer ostávajú – len zbalené nižšie,
          nech neprekryjú prvý dojem. -->
     <div class="welcome-body">
-      <p style="font-size:16px"><strong>Precvič si manažérske situácie hravo.</strong> Skúšaj si ich
-      nanečisto, súťaž s kolegami a zbieraj paragrafy (§).</p>
+      <p style="font-size:16px"><strong>Precvič si komunikáciu nanečisto — asertivitu, spätnú väzbu
+      aj Ja-výroky.</strong> Vyskúšaj situácie, ktoré ťa v práci naozaj čakajú, a vyzvi kolegov.</p>
 
       <div class="welcome-highlights">
         <!-- SKRYTÉ v C spolu s modulom (viď dlaždicu vyššie).
         <div><span class="welcome-hl-icon">🏛️</span><strong>Štátnicová sieň</strong><br>
           <span class="small muted">Ústna skúška nanečisto so známkou a spätnou väzbou.</span></div>
         -->
-        <div><span class="welcome-hl-icon">⚔️</span><strong>Pojednávanie</strong><br>
+        <div><span class="welcome-hl-icon">⚔️</span><strong>Súboj</strong><br>
           <span class="small muted">10 otázok proti spolužiakovi — výzvu pošleš linkom.</span></div>
         <div><span class="welcome-hl-icon">🧠</span><strong>Bifľovačka</strong><br>
           <span class="small muted">Definície nahlas alebo písomne, aj cestou.</span></div>
@@ -663,7 +663,7 @@
         <summary>🎯 Čo je Manažérska akadémia</summary>
         <div class="guide-content">
           <p>Manažérska akadémia je študijná aréna pre študentov práva. Precvičuješ štátnicové okruhy
-          z pracovného, trestného, občianskeho a európskeho práva formou pojednávaní, kartičiek, prípadov
+          z pracovného, trestného, občianskeho a európskeho práva formou súbojov, kartičiek, prípadov
           z praxe a bifľovačky – a za aktivitu zbieraš paragrafy (§), našu hernú menu.</p>
           <p><strong>Dôležité – obsah tvoríme spoločne:</strong> Otázky a definície pripravujeme s odbornou
           starostlivosťou, no kvalita obsahu je v rukách celej komunity. Každý hráč sa
@@ -683,7 +683,7 @@
         <div class="guide-content">
           <p>Všetko sa začína výberom oblasti v dlaždici <strong>Hraj</strong>. Kliknutím na oblasť
           si appka pripraví <strong>dvojicu okruhov</strong> – a tú istú dvojicu potom používa
-          pojednávanie, kartičky, prípady aj štátnicová sieň. Nemusíš teda vyberať
+          súboj, kartičky, prípady aj štátnicová sieň. Nemusíš teda vyberať
           štyrikrát; vyberieš raz a hráš, čo chceš.</p>
           <p>Pri trestnom a občianskom práve dostaneš jeden okruh z hmotného a jeden
           z procesného práva, pri pracovnom a európskom dvojicu z tej istej banky.</p>
@@ -700,14 +700,14 @@
       </details>
 
       <details class="guide-section">
-        <summary>⚔️ Pojednávanie</summary>
+        <summary>⚔️ Súboj</summary>
         <div class="guide-content">
-          <p>Vyber si oblasť práva a vyzvi súpera. Pojednávanie má 10 otázok – pri kombinovaných
+          <p>Vyber si oblasť práva a vyzvi súpera. Súboj má 10 otázok – pri kombinovaných
           oblastiach (trestné, občianske právo) 5 z hmotného a 5 z procesného práva,
           vždy z náhodného štátnicového okruhu. Pri európskom práve ide o jednu spoločnú
           banku otázok naprieč všetkými okruhmi (bez delenia) – 10 náhodne vybraných otázok.
           Súper odpovedá na tie isté otázky.</p>
-          <p>Svoje odohrané pojednávanie nájdeš v registri pojednávaní – tlačidlom „📤 Poslať" vygeneruješ
+          <p>Svoj odohraný súboj nájdeš v registri súbojov – tlačidlom „📤 Poslať" vygeneruješ
           link na výzvu a pošleš ho komukoľvek. Kto výzvu prijme, hrá proti tebe tie
           isté otázky.</p>
           <table class="guide-table">
@@ -869,7 +869,7 @@
           <p>Tvoj avatar má energiu 0–100 %. Hranie ju spotrebúva:</p>
           <table class="guide-table">
             <tr><th>Aktivita</th><th>Energia</th></tr>
-            <tr><td>Pojednávanie</td><td>−<span data-econ="ENERGY.DUEL"></span> %</td></tr>
+            <tr><td>Súboj</td><td>−<span data-econ="ENERGY.DUEL"></span> %</td></tr>
             <tr><td>Bifľovačka</td><td>−<span data-econ="ENERGY.BIFLOVACKA_CARD"></span> % / kartičku</td></tr>
             <tr><td>Kartičky</td><td>−<span data-econ="ENERGY.MEMORY_SET"></span> % / sadu</td></tr>
             <tr><td>Prípady</td><td>−<span data-econ="ENERGY.CASES_SET"></span> % / sadu</td></tr>
@@ -902,7 +902,7 @@
       <details class="guide-section">
         <summary>🏆 Rebríčky</summary>
         <div class="guide-content">
-          <p>Body z pojednávaní ťa posúvajú v rebríčku. Vyhodnocuje sa automaticky:</p>
+          <p>Body zo súbojov ťa posúvajú v rebríčku. Vyhodnocuje sa automaticky:</p>
           <table class="guide-table">
             <tr><th>Rebríček</th><th>1. miesto</th><th>2. miesto</th><th>3. miesto</th></tr>
             <tr><td>Týždenný (nedeľa polnoc)</td><td>+<span data-econ="LEADERBOARD.WEEKLY.0"></span>§</td><td>+<span data-econ="LEADERBOARD.WEEKLY.1"></span>§</td><td>+<span data-econ="LEADERBOARD.WEEKLY.2"></span>§</td></tr>

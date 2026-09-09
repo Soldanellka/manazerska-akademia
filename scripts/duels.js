@@ -367,11 +367,11 @@ export async function startDuel(areaName, precomputedPair = null) {
 ============================================================ */
 export async function shareDuelInvite(duel) {
   if (!duel || !duel.id) {
-    showRewardToast('⚠️ Výzvu sa nepodarilo pripraviť – skús ju poslať z registra pojednávaní.');
+    showRewardToast('⚠️ Výzvu sa nepodarilo pripraviť – skús ju poslať z registra súbojov.');
     return;
   }
   const link = `${location.origin}/?duel=${duel.id}`;
-  const message = `⚔️ ${duel.from} ťa vyzýva na pojednávanie z oblasti ${duel.areaTitle} v Manažérskej akadémii! Prijmi výzvu: ${link}`;
+  const message = `⚔️ ${duel.from} ťa vyzýva na súboj z oblasti ${duel.areaTitle} v Manažérskej akadémii! Prijmi výzvu: ${link}`;
   try {
     await navigator.clipboard.writeText(message);
     showRewardToast('Výzva skopírovaná – stačí vložiť ✅');
@@ -380,7 +380,7 @@ export async function shareDuelInvite(duel) {
   }
   if (navigator.share) {
     navigator.share({
-      title: 'Výzva na pojednávanie – Manažérska akadémia',
+      title: 'Výzva na súboj – Manažérska akadémia',
       text: message,
       url: link
     }).catch(() => {});
@@ -527,7 +527,7 @@ function showDuelResultModal(result, myNick, onClose) {
   modal.innerHTML = `
     <div class="duel-challenge-modal">
       <div class="duel-challenge-title">${title}</div>
-      <p class="small" style="margin:12px 0 4px">Pojednávanie – ${escapeHtml(areaTitle || '')}</p>
+      <p class="small" style="margin:12px 0 4px">Súboj – ${escapeHtml(areaTitle || '')}</p>
       <div class="list" style="margin:10px 0">
         <div style="display:flex;justify-content:space-between;padding:6px 0">
           <span><strong>${escapeHtml(me.nick)}</strong> (ty)</span>
@@ -767,7 +767,7 @@ export function renderDuelBank() {
     box.innerHTML = "";
 
     if (!stored.length) {
-      box.innerHTML = "<p class='small muted'>Žiadne uložené pojednávania.</p>";
+      box.innerHTML = "<p class='small muted'>Žiadne uložené súboje.</p>";
       return;
     }
 
@@ -780,7 +780,7 @@ export function renderDuelBank() {
 
       div.innerHTML = `
         <div class="duel-banner">
-          ⚔️ <strong>${duel.from}</strong> vyzýva na pojednávanie<br>
+          ⚔️ <strong>${duel.from}</strong> vyzýva na súboj<br>
           <span class="duel-topic">téma: <em>${duel.areaTitle}</em></span>
         </div>
 

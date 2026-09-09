@@ -118,7 +118,7 @@ function renderAreas() {
       const quizTitle = $('quizTitle');
       const areaTitle = $('areaTitle');
 
-      if (quizTitle) quizTitle.textContent = 'Vyber oblasť pojednávania, hry a prípady';
+      if (quizTitle) quizTitle.textContent = 'Vyber oblasť súboja, hry a prípady';
       if (areaTitle) areaTitle.textContent = name;
 
       window.__selectedAreaName = name;
