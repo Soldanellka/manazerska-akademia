@@ -2172,10 +2172,10 @@ body {
   font-family: 'Georgia', serif;
   font-size: 18px;
   font-weight: 700;
-  background: linear-gradient(135deg, var(--accent-2), var(--accent-3));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  /* Bez gradientového textu (background-clip: text + text-fill-color:
+     transparent). Efekt bol stavaný pre znak §; emoji 🪙 v ňom dostane
+     priehľadnú výplň a gradient z mince spraví ružovú škvrnu.
+     Vizuálne doladenie ikony patrí do fázy D. */
   line-height: 1;
 }
 
