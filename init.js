@@ -123,14 +123,14 @@ async function openAvatarSelectModal() {
   ];
 
   const UNLOCK_TILES = [
-    { id: 'cat',       name: 'Právnická mačka', emoji: '🐱', base: 'avatars/macka', desc: `Za 3000§ celkovo (máš ${totalEarned}§)`, locked: totalEarned < 3000 },
+    { id: 'cat',       name: 'Právnická mačka', emoji: '🐱', base: 'avatars/macka', desc: `Za 3000\u00A0🪙 celkovo (máš ${totalEarned}\u00A0🪙)`, locked: totalEarned < 3000 },
     { id: 'owl',       name: 'Sova múdrosti',   emoji: '🦉', base: 'avatars/sova',  desc: `Za 100 nahlásení (máš ${acceptedReports})`, locked: acceptedReports < 100 },
     { id: 'dog',       name: 'Pes vernosti',    emoji: '🐶', base: 'avatars/pes',   desc: `Za 30 dní streaku (máš ${loginStreak})`, locked: loginStreak < 30 },
     /* Prestige rad má v ekonomike v1 štyri cenové tiery (SINKS.PRESTIGE_AVATARS
        = 300/600/1000/2000§). Grafika zatiaľ neexistuje ani pre prvý tier, takže
        dlaždica ostáva jedna a „čoskoro“; rozpätie sa berie z configu, nech sa
        popis nerozíde s cenami. */
-    { id: 'prestige',  name: 'Prestige avatary',  emoji: '✨',   desc: `Čoskoro – ${ECONOMY_CONFIG.SINKS.PRESTIGE_AVATARS[0]}–${ECONOMY_CONFIG.SINKS.PRESTIGE_AVATARS[ECONOMY_CONFIG.SINKS.PRESTIGE_AVATARS.length - 1]}§`, locked: true, comingSoon: true },
+    { id: 'prestige',  name: 'Prestige avatary',  emoji: '✨',   desc: `Čoskoro – ${ECONOMY_CONFIG.SINKS.PRESTIGE_AVATARS[0]}–${ECONOMY_CONFIG.SINKS.PRESTIGE_AVATARS[ECONOMY_CONFIG.SINKS.PRESTIGE_AVATARS.length - 1]}\u00A0🪙`, locked: true, comingSoon: true },
   ];
 
   // Spoločný zoznam pre klik handler (comingSoon check) – renderujú sa v dvoch mriežkach.
@@ -390,7 +390,7 @@ async function renderTalarShop(baseId) {
         ? `<div class="small" style="color:#b8860b;font-weight:600">🎓 automaticky (garant/admin)</div>`
         : e.owned
           ? `<button class="btn talar-equip-btn" data-id="${e.id}" style="width:100%;margin-top:6px">Nasadiť</button>`
-          : `<button class="btn btn-primary talar-buy-btn" data-id="${e.id}" style="width:100%;margin-top:6px">Kúpiť za ${e.price}§</button>`
+          : `<button class="btn btn-primary talar-buy-btn" data-id="${e.id}" style="width:100%;margin-top:6px">Kúpiť za ${e.price}\u00A0🪙</button>`
       }
     </div>
   `).join('');
@@ -427,7 +427,7 @@ async function renderTalarShop(baseId) {
         renderTalarShop(baseId);
         return;
       }
-      showRewardToast(`✅ Talár kúpený za ${result.price}§!`);
+      showRewardToast(`✅ Talár kúpený za ${result.price}\u00A0🪙!`);
       renderTalarShop(baseId);
     };
   });
@@ -451,8 +451,8 @@ export function init() {
     if (parBadge) {
       parBadge.disabled = !initNick;
       parBadge.title = initNick
-        ? 'Tvoje paragrafy – klikni pre získanie ďalších'
-        : 'Tvoje paragrafy (najprv si zadaj nick)';
+        ? 'Tvoje kredity – klikni pre získanie ďalších'
+        : 'Tvoje kredity (najprv si zadaj nick)';
     }
 
     /* 🔹 Analytics návratnosti – beží na pozadí, nič neblokuje */
@@ -626,13 +626,13 @@ async function openEarnModal() {
     modal.innerHTML = `
       <div class="avatar-panel" style="max-width:440px">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
-          <h3 style="margin:0">💰 Získaj §</h3>
+          <h3 style="margin:0">💰 Získaj kredity</h3>
           <button class="btn" id="closeEarnModal">✕</button>
         </div>
 
         <div class="earn-card" id="earnAdCard" style="border:1px solid var(--card-border,#eee);border-radius:14px;padding:16px;margin-bottom:12px">
           <div style="font-weight:700;margin-bottom:4px">📺 Pozri reklamu</div>
-          <div class="small muted" style="margin-bottom:10px">Pozri si krátke video a získaj +${ECONOMY_CONFIG.ADS.REWARD}§</div>
+          <div class="small muted" style="margin-bottom:10px">Pozri si krátke video a získaj +${ECONOMY_CONFIG.ADS.REWARD}\u00A0🪙</div>
           <div class="small" id="earnAdStatus" style="margin-bottom:10px"></div>
           <button class="btn btn-primary" id="earnAdPlayBtn" style="width:100%">▶️ Prehrať</button>
         </div>
@@ -971,7 +971,7 @@ async function showVideoModal(videoId, mode) {
   if (mode === 'ad') {
     const reward = ECONOMY_CONFIG.ADS.REWARD;
     if (rewardInfo) rewardInfo.querySelector('span:last-child').textContent = `+${reward}§`;
-    claimBtn.textContent = `🎉 Prevziať odmenu (+${reward}§)`;
+    claimBtn.textContent = `🎉 Prevziať odmenu (+${reward}\u00A0🪙)`;
     // Odmena sa pripíše až po 20 s prehrávania (econAdComplete overí denný limit transakčne)
     videoRewardTimer = setTimeout(() => {
       claimBtn.style.display = 'block';
@@ -980,7 +980,7 @@ async function showVideoModal(videoId, mode) {
   } else {
     const reward = ECONOMY_CONFIG.REWARDS.VIDEO;
     if (rewardInfo) rewardInfo.querySelector('span:last-child').textContent = `+${reward}§`;
-    claimBtn.textContent = `🎉 Prevziať odmenu (+${reward}§)`;
+    claimBtn.textContent = `🎉 Prevziať odmenu (+${reward}\u00A0🪙)`;
 
     // Odmena je viazaná na nick vo Firebase (users/{nick}/videoRewards/{videoId}),
     // nie na toto zariadenie – funguje aj po zmazaní localStorage/inom prehliadači.
@@ -1354,7 +1354,7 @@ function renderAdminPanel(role, db, ref, get, update, onValue, remove) {
           <input id="promoCodeInput" class="form-input" type="text"
             placeholder="KÓD (napr. AKADEMIA25)" style="margin-bottom:6px;text-transform:uppercase" maxlength="30"/>
           <div style="display:flex;gap:6px;margin-bottom:6px">
-            <input id="promoAmountInput" class="form-input" type="number" min="10" max="50" value="25" placeholder="§ (10–50)"/>
+            <input id="promoAmountInput" class="form-input" type="number" min="10" max="50" value="25" placeholder="🪙 (10–50)"/>
             <input id="promoMaxUsesInput" class="form-input" type="number" min="1" placeholder="Max použití (prázdne = ∞)"/>
           </div>
           <input id="promoExpiresInput" class="form-input" type="date" style="margin-bottom:6px"/>
@@ -1413,16 +1413,16 @@ function renderAdminPanel(role, db, ref, get, update, onValue, remove) {
         </div>
       ` : ''}
       <div style="margin:10px 0;padding-top:10px;border-top:1px solid var(--card-border, rgba(0,0,0,0.08))">
-        <div style="font-weight:600;margin-bottom:6px">💰 Poslať § hráčovi</div>
+        <div style="font-weight:600;margin-bottom:6px">💰 Poslať kredity hráčovi</div>
         <input id="grantNickInput" class="form-input" type="text"
           placeholder="Nick hráča..." style="margin-bottom:6px"/>
         <div style="display:flex;gap:6px">
           <input id="grantAmountInput" class="form-input" type="number" min="1"
-            placeholder="Suma §" style="width:100px"/>
+            placeholder="Suma 🪙" style="width:100px"/>
           <button class="btn btn-primary" id="grantSendBtn">Poslať</button>
         </div>
         <div id="grantMsg" class="small" style="margin-top:6px;color:var(--muted)">
-          ${role === 'garant' ? 'Denný limit garanta: 50§.' : 'Admin – bez limitu.'}
+          ${role === 'garant' ? 'Denný limit garanta: 50\u00A0🪙.' : 'Admin – bez limitu.'}
         </div>
       </div>
       <div class="small muted" style="margin-top:8px">
@@ -1524,7 +1524,7 @@ function renderAdminPanel(role, db, ref, get, update, onValue, remove) {
       const ok = await window.econGrant(me, toNick, amount);
       grantBtn.disabled = false;
       if (ok) {
-        msg.textContent = `✅ Poslané ${amount}§ hráčovi ${toNick}.`;
+        msg.textContent = `✅ Poslané ${amount}\u00A0🪙 hráčovi ${toNick}.`;
         msg.style.color = 'var(--accent-3, #15803d)';
         panel.querySelector('#grantAmountInput').value = '';
       } else {
@@ -1636,7 +1636,7 @@ function renderAdminPanel(role, db, ref, get, update, onValue, remove) {
         createdAt: Date.now(), redeemed: {}
       });
 
-      msg.textContent = `✅ Kód ${code} vytvorený (${amount}§).`;
+      msg.textContent = `✅ Kód ${code} vytvorený (${amount}\u00A0🪙).`;
       msg.style.color = 'var(--accent-3)';
       codeInput.value = ''; amountInput.value = 25; maxUsesInput.value = ''; expiresInput.value = '';
 
@@ -2184,7 +2184,7 @@ async function loadPromoList(panel, db, ref, get, update) {
       padding:6px 8px;border-bottom:1px solid var(--card-border);font-size:13px">
       <div>
         <strong>${code}</strong>
-        <span class="small muted" style="margin-left:6px">${c.amount}§ · ${c.usedCount || 0}/${c.maxUses ?? '∞'} · ${c.active ? '🟢' : '🔴'}</span>
+        <span class="small muted" style="margin-left:6px">${c.amount}\u00A0🪙 · ${c.usedCount || 0}/${c.maxUses ?? '∞'} · ${c.active ? '🟢' : '🔴'}</span>
       </div>
       <button class="btn promo-toggle-btn" data-code="${code}" data-active="${c.active ? '1' : '0'}" style="font-size:11px;padding:3px 8px">
         ${c.active ? 'Deaktivovať' : 'Aktivovať'}
@@ -2878,7 +2878,7 @@ async function openTakeAssignmentModal(assignmentId, nick) {
       modal.remove();
       renderMyAssignmentsList(nick);
     };
-    if (result.reward > 0) showRewardToast(`+${result.reward}§ za test!`);
+    if (result.reward > 0) showRewardToast(`+${result.reward}\u00A0🪙 za test!`);
   }
 
   renderIntro();

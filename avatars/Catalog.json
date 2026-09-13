@@ -61,7 +61,7 @@
       "base": "avatars/student-blond-advokat",
       "price": 500,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -71,7 +71,7 @@
       "base": "avatars/student-blond-prokurator",
       "price": 700,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -81,7 +81,7 @@
       "base": "avatars/student-medeny-prokurator",
       "price": 700,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -91,7 +91,7 @@
       "base": "avatars/student-medeny-advokat",
       "price": 500,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -101,7 +101,7 @@
       "base": "avatars/student-tmavy-advokat",
       "price": 500,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -111,7 +111,7 @@
       "base": "avatars/student-tmavy-prokurator",
       "price": 700,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -121,7 +121,7 @@
       "base": "avatars/student-medeny-talar-cierny",
       "price": 200,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -131,7 +131,7 @@
       "base": "avatars/student-blond-talar-cierny",
       "price": 200,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -141,7 +141,7 @@
       "base": "avatars/student-tmavy-talar-cierny",
       "price": 200,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -151,7 +151,7 @@
       "base": "avatars/studentka-blond-advokat",
       "price": 500,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -221,7 +221,7 @@
       "base": "avatars/studentka-blond-prokurator",
       "price": 700,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -231,7 +231,7 @@
       "base": "avatars/studentka-blond-sudca",
       "price": 1000,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -241,7 +241,7 @@
       "base": "avatars/student-blond-sudca",
       "price": 1000,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -251,7 +251,7 @@
       "base": "avatars/student-tmavy-sudca",
       "price": 1000,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -261,7 +261,7 @@
       "base": "avatars/student-medeny-sudca",
       "price": 1000,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -271,7 +271,7 @@
       "base": "avatars/studentka-blond-talar-cierny",
       "price": 200,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -281,7 +281,7 @@
       "base": "avatars/studentka-medena-talar-cierny",
       "price": 200,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -291,7 +291,7 @@
       "base": "avatars/studentka-medena-prokurator",
       "price": 700,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -301,7 +301,7 @@
       "base": "avatars/studentka-medena-sudca",
       "price": 1000,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -311,7 +311,7 @@
       "base": "avatars/studentka-medena-advokat",
       "price": 500,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -321,7 +321,7 @@
       "base": "avatars/studentka-tmava-talar-cierny",
       "price": 200,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -331,7 +331,7 @@
       "base": "avatars/studentka-tmava-advokat",
       "price": 500,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -341,7 +341,7 @@
       "base": "avatars/studentka-tmava-prokurator",
       "price": 700,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     },
     {
@@ -351,7 +351,7 @@
       "base": "avatars/studentka-tmava-sudca",
       "price": 1000,
       "grantedBy": "shop",
-      "grantNote": "obchod za §",
+      "grantNote": "obchod za kredity",
       "active": true
     }
   ]

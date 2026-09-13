@@ -248,8 +248,8 @@ function spiderResultNote(outcome) {
   switch (outcome) {
     case 'full':
     case 'near':         return '💰 Odmena za sedenie pripísaná.';
-    case 'okruh_played': return 'Tento okruh dnes už bol odmenený – § sa nepripísali.';
-    case 'daily_max':    return 'Dnešný limit odmenených hier je vyčerpaný – § sa nepripísali.';
+    case 'okruh_played': return 'Tento okruh dnes už bol odmenený – kredity sa nepripísali.';
+    case 'daily_max':    return 'Dnešný limit odmenených hier je vyčerpaný – kredity sa nepripísali.';
     case 'zero_score':   return 'Bez odmeny – nabudúce skús vyššie skóre.';
     default:             return '';   // 'no_user' / neznáme / pád → nič nezobrazíme
   }

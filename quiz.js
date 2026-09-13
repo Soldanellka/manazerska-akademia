@@ -561,7 +561,7 @@ export function finishQuiz(){
   const nick = localStorage.getItem('playerNick');
   if (nick) econAward(nick, ECONOMY_CONFIG.REWARDS.QUIZ_PLAYED, 'dohraný kvíz');
 
-  showRewardToast(`Kvíz dokončený! Správne: ${quiz.correct}, Nesprávne: ${quiz.wrong}. +1§ za odohranie!`);
+  showRewardToast(`Kvíz dokončený! Správne: ${quiz.correct}, Nesprávne: ${quiz.wrong}. +1\u00A0🪙 za odohranie!`);
 
   try {
     const pkg = {

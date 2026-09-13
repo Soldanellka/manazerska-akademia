@@ -51,7 +51,7 @@ const AVATAR_CONFIG = {
       base: 'avatars/macka',
       unlock: 'paragraphs_100',
       unlockValue: 3000,
-      desc: 'Odomkni za 3000§'
+      desc: 'Odomkni za 3000\u00A0🪙'
     },
     'owl': {
       name: 'Sova múdrosti',
@@ -280,7 +280,7 @@ export async function awardParagrafy(amount, reason = '') {
   if (el) el.textContent = newTotal;
 
   if (reason) {
-    showRewardToast(`+${amount}§ ${reason}`);
+    showRewardToast(`+${amount}\u00A0🪙 ${reason}`);
   }
 
   console.log(`💰 ${amount}§ pridelených (${reason}). Celkom: ${newTotal}`);
@@ -298,7 +298,7 @@ export async function spendParagrafy(amount, reason = '') {
   const current = data.paragrafy || 0;
 
   if (current < amount) {
-    showRewardToast(`Nemáš dostatok §. Potrebuješ ${amount}§, máš ${current}§.`);
+    showRewardToast(`Nemáš dostatok kreditov. Potrebuješ ${amount}\u00A0🪙, máš ${current}\u00A0🪙.`);
     return false;
   }
 
@@ -487,7 +487,7 @@ export async function canPlayDuel() {
   if (!state) return true;
 
   if ((state.energy ?? AVATAR_CONFIG.DAILY_FULL) <= AVATAR_CONFIG.SLEEP_THRESHOLD) {
-    showRewardToast(`😴 Avatar zaspal – dnešná energia je preč. Nakŕm ho za ${AVATAR_CONFIG.FEED_COST}§, alebo sa vráť zajtra.`);
+    showRewardToast(`😴 Avatar zaspal – dnešná energia je preč. Nakŕm ho za ${AVATAR_CONFIG.FEED_COST}\u00A0🪙, alebo sa vráť zajtra.`);
     return false;
   }
   return true;
@@ -547,11 +547,11 @@ export async function checkDailyLogin() {
 
   // Zobraz streak info
   if (streakBroken) {
-    showRewardToast(`💔 Streak prerušený. Začínaš odznova. +${reward}§`);
+    showRewardToast(`💔 Streak prerušený. Začínaš odznova. +${reward}\u00A0🪙`);
   } else if (milestone > 0) {
-    showRewardToast(`🔥 Streak ${newStreak} dní! +${base}§ +${milestone}§ bonus!`);
+    showRewardToast(`🔥 Streak ${newStreak} dní! +${base}\u00A0🪙 +${milestone}\u00A0🪙 bonus!`);
   } else if (newStreak > 1) {
-    showRewardToast(`🔥 Streak ${newStreak} dní! +${reward}§`);
+    showRewardToast(`🔥 Streak ${newStreak} dní! +${reward}\u00A0🪙`);
   }
 
   // Aktualizuj UI streak
@@ -617,7 +617,7 @@ export async function selectAvatar(avatarType) {
       const totalEarned = data.totalParagraphsEarned || data.paragrafy || 0;
       if (totalEarned < avatarDef.unlockValue) {
         const chyba = avatarDef.unlockValue - totalEarned;
-        showRewardToast(`🔒 Mačka je zamknutá. Chýba ti ešte ${chyba}§ (celkovo nazbieraných).`);
+        showRewardToast(`🔒 Mačka je zamknutá. Chýba ti ešte ${chyba}\u00A0🪙 (celkovo nazbieraných).`);
         return;
       }
     }
@@ -640,7 +640,7 @@ export async function selectAvatar(avatarType) {
     if (avatarDef.unlock === 'talar_purchase') {
       const owned = data.ownedTalars && data.ownedTalars[avatarType] === true;
       if (!owned) {
-        showRewardToast(`🔒 Tento talár si ešte nekúpil/a (${avatarDef.talarPrice}§ v obchode).`);
+        showRewardToast(`🔒 Tento talár si ešte nekúpil/a (${avatarDef.talarPrice}\u00A0🪙 v obchode).`);
         return;
       }
     }
@@ -687,7 +687,7 @@ export async function buyTalar(avatarId) {
   }
 
   const paid = await spendParagrafy(avatarDef.talarPrice, `talár – ${avatarDef.name}`);
-  if (!paid) return { ok: false, message: `Nemáš dosť § (${avatarDef.talarPrice}§).` };
+  if (!paid) return { ok: false, message: `Nemáš dosť kreditov (${avatarDef.talarPrice}\u00A0🪙).` };
 
   await update(ref(db, `users/${nick}/ownedTalars`), { [avatarId]: true });
 
@@ -897,8 +897,8 @@ export function updateAvatarUI(energy, avatarType) {
     const cost = AVATAR_CONFIG.FEED_COST;
     const canFeed = !isAnon() && energy < AVATAR_CONFIG.FEED_ENERGY;
     feedBtn.style.display = canFeed ? 'inline-flex' : 'none';
-    feedBtn.textContent = `🍖 Nakŕmiť (${cost}§)`;
-    feedBtn.title = `Nakŕm avatara za ${cost}§`;
+    feedBtn.textContent = `🍖 Nakŕmiť (${cost}\u00A0🪙)`;
+    feedBtn.title = `Nakŕm avatara za ${cost}\u00A0🪙`;
   }
 
   /* Duel button blokovanie. Dlaždicu Výzvy (#openDuelBankTile) sem ZÁMERNE

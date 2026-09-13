@@ -112,7 +112,7 @@ export function openReportModal(prefill = {}) {
             <span class="small muted">(min. 50 znakov)</span>
           </label>
           <textarea id="reportArgument" class="feedback-textarea" rows="5"
-            placeholder="Napr.: Podľa § 42 ods. 1 Zákonníka práce (zákon č. 311/2001 Z. z.) správna odpoveď je... Rozsudok NS SR sp. zn. 3Cdo/123/2020 potvrdzuje..."
+            placeholder="Napr.: Podľa mňa je správna odpoveď B — veta „Cítim, že si nezodpovedný.“ je ty-výrok v prezlečení, nie Ja-výrok."
             maxlength="2000"></textarea>
           <div style="text-align:right;margin-top:4px">
             <span id="reportArgCharCount" class="small muted">0 / 2000</span>
@@ -122,7 +122,7 @@ export function openReportModal(prefill = {}) {
         <div class="form-row">
           <label class="form-label">Právny zdroj</label>
           <input id="reportSource" class="form-input" type="text"
-            placeholder="napr. § 42 Zákonníka práce, NS SR 3Cdo/123/2020" maxlength="200"/>
+            placeholder="napr. okruh Ja-výroky (A1), školiaci materiál alebo interná smernica" maxlength="200"/>
         </div>
 
         <div id="reportError" class="report-error" style="display:none"></div>

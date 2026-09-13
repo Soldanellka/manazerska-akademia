@@ -64,8 +64,8 @@
          okno Získaj § (reklama + promo kód). #parCount ostáva (plní ho
          scripts/avatar.js). Interaktívny je len s nickom, rovnako ako
          predtým tlačidlo. -->
-    <button type="button" class="par-badge" id="parBadge" title="Tvoje paragrafy – klikni pre získanie ďalších">
-      <span class="par-icon">§</span>
+    <button type="button" class="par-badge" id="parBadge" title="Tvoje kredity – klikni pre získanie ďalších">
+      <span class="par-icon">🪙</span>
       <span id="parCount" class="par-count">0</span>
       <span class="par-plus" aria-hidden="true">＋</span>
     </button>
@@ -233,7 +233,7 @@
 
     <div class="card section-card highlight-video" id="videoCard">
       <h3 style="margin:0">📺 Návody & odmeny</h3>
-      <div class="small" style="margin-bottom:12px">Pozri video a získaj <strong>+12§</strong></div>
+      <div class="small" style="margin-bottom:12px">Pozri video a získaj <strong>+12&nbsp;🪙</strong></div>
 
       <!-- Tri videá robili z karty najvyšší prvok pravého stĺpca (~500 px).
            PRVÉ ostáva viditeľné, aby nováčik vôbec vedel, že sa tu dá zarobiť
@@ -250,7 +250,7 @@
           </div>
           <div class="video-meta">
             <span class="small muted">Úvod do platformy • 3 min</span>
-            <span class="video-reward-badge" id="reward-v1">+12§</span>
+            <span class="video-reward-badge" id="reward-v1">+12&nbsp;🪙</span>
           </div>
         </div>
       </div>
@@ -266,7 +266,7 @@
           </div>
           <div class="video-meta">
             <span class="small muted">Súboje krok za krokom • 2 min</span>
-            <span class="video-reward-badge" id="reward-v2">+12§</span>
+            <span class="video-reward-badge" id="reward-v2">+12&nbsp;🪙</span>
           </div>
         </div>
 
@@ -277,7 +277,7 @@
           </div>
           <div class="video-meta">
             <span class="small muted">Súdna sieň • 2 min</span>
-            <span class="video-reward-badge" id="reward-v3">+12§</span>
+            <span class="video-reward-badge" id="reward-v3">+12&nbsp;🪙</span>
           </div>
         </div>
 
@@ -303,7 +303,7 @@
       <!-- .card-soon = stlmený stav "čoskoro" (styles.css) -->
 
       <div style="display:flex;gap:8px;margin-top:8px">
-        <button class="btn btn-primary" id="buy20" disabled>Kúpiť +20 paragrafov</button>
+        <button class="btn btn-primary" id="buy20" disabled>Kúpiť +20 kreditov</button>
         <button class="btn" id="buyPremium" disabled>Kúpiť PREMIUM</button>
         <button class="btn" id="openShop" title="Obchod sa pripravuje" type="button" disabled>
           <img src="assets/icons/shop.svg" width="18" height="18" alt="">
@@ -535,10 +535,10 @@
     </div>
     <div id="videoRewardInfo" style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:rgba(240,138,166,0.08);border-radius:12px;border:1px solid rgba(240,138,166,0.2)">
       <span class="small">Dohraj video a získaj odmenu</span>
-      <span style="font-weight:700;color:var(--accent-3)">+12§</span>
+      <span style="font-weight:700;color:var(--accent-3)">+12&nbsp;🪙</span>
     </div>
     <button id="claimVideoRewardBtn" class="btn btn-primary" style="width:100%;margin-top:12px;display:none">
-      🎉 Prevziať odmenu (+12§)
+      🎉 Prevziať odmenu (+12&nbsp;🪙)
     </button>
     <div id="videoAlreadyClaimed" style="display:none;text-align:center;padding:8px;color:var(--muted)" class="small">
       ✓ Odmena za toto video už bola prevzatá
@@ -619,7 +619,7 @@
         <summary>🧪 Testovacia fáza, súkromie a upozornenie</summary>
         <div class="guide-content">
           <p>Sme v testovacej fáze, všetky funkcie sú zatiaľ bezplatné. Za aktivitu
-          zbieraš paragrafy (§) — ak ti dôjdu a avatar zaspí, napíš nám cez nástenku
+          zbieraš kredity (🪙) — ak ti dôjdu a avatar zaspí, napíš nám cez nástenku
           a radi ti nejaké pridáme.</p>
 
           <p>🙏 Ďakujeme za každý príspevok — či už nahlásiš chybu, alebo
@@ -664,7 +664,7 @@
         <div class="guide-content">
           <p>Manažérska akadémia je študijná aréna pre študentov práva. Precvičuješ štátnicové okruhy
           z pracovného, trestného, občianskeho a európskeho práva formou súbojov, kartičiek, prípadov
-          z praxe a bifľovačky – a za aktivitu zbieraš paragrafy (§), našu hernú menu.</p>
+          z praxe a bifľovačky – a za aktivitu zbieraš kredity (🪙), našu hernú menu.</p>
           <p><strong>Dôležité – obsah tvoríme spoločne:</strong> Otázky a definície pripravujeme s odbornou
           starostlivosťou, no kvalita obsahu je v rukách celej komunity. Každý hráč sa
           spolupodieľa na tvorbe a kontrole obsahu nahlasovaním chýb –
@@ -712,11 +712,11 @@
           isté otázky.</p>
           <table class="guide-table">
             <tr><th>Výsledok</th><th>Odmena</th></tr>
-            <tr><td>Výhra</td><td>+<span data-econ="REWARDS.DUEL_WIN"></span>§</td></tr>
-            <tr><td>Remíza</td><td>+<span data-econ="REWARDS.DUEL_DRAW"></span>§</td></tr>
-            <tr><td>Prehra</td><td><span data-econ="REWARDS.DUEL_LOSS"></span>§</td></tr>
-            <tr><td>Prijatie výzvy linkom – nový hráč</td><td>+<span data-econ="REWARDS.CHALLENGE_NEW"></span>§</td></tr>
-            <tr><td>Prijatie výzvy linkom – registrovaný</td><td>+<span data-econ="REWARDS.CHALLENGE_EXISTING"></span>§</td></tr>
+            <tr><td>Výhra</td><td>+<span data-econ="REWARDS.DUEL_WIN"></span>&nbsp;🪙</td></tr>
+            <tr><td>Remíza</td><td>+<span data-econ="REWARDS.DUEL_DRAW"></span>&nbsp;🪙</td></tr>
+            <tr><td>Prehra</td><td><span data-econ="REWARDS.DUEL_LOSS"></span>&nbsp;🪙</td></tr>
+            <tr><td>Prijatie výzvy linkom – nový hráč</td><td>+<span data-econ="REWARDS.CHALLENGE_NEW"></span>&nbsp;🪙</td></tr>
+            <tr><td>Prijatie výzvy linkom – registrovaný</td><td>+<span data-econ="REWARDS.CHALLENGE_EXISTING"></span>&nbsp;🪙</td></tr>
           </table>
         </div>
       </details>
@@ -728,9 +728,9 @@
           a viackrokové prípady z praxe – reálne situácie, ktoré riešiš otázku po otázke.</p>
           <table class="guide-table">
             <tr><th>Aktivita</th><th>Odmena</th></tr>
-            <tr><td>Kartičky – sada bez jedinej chyby</td><td>+<span data-econ="REWARDS.MEMORY_PERFECT"></span>§</td></tr>
-            <tr><td>Prípady – dokončená sada</td><td>+<span data-econ="REWARDS.CASES_SET"></span>§</td></tr>
-            <tr><td>Prípady – sada na 100 %</td><td>+<span data-econ="REWARDS.CASES_PERFECT"></span>§</td></tr>
+            <tr><td>Kartičky – sada bez jedinej chyby</td><td>+<span data-econ="REWARDS.MEMORY_PERFECT"></span>&nbsp;🪙</td></tr>
+            <tr><td>Prípady – dokončená sada</td><td>+<span data-econ="REWARDS.CASES_SET"></span>&nbsp;🪙</td></tr>
+            <tr><td>Prípady – sada na 100 %</td><td>+<span data-econ="REWARDS.CASES_PERFECT"></span>&nbsp;🪙</td></tr>
           </table>
         </div>
       </details>
@@ -771,8 +771,8 @@
           Definície ti vie prečítať aj počítač – ideálne na učenie počas cesty.</p>
           <table class="guide-table">
             <tr><th>Aktivita</th><th>Odmena</th></tr>
-            <tr><td>Dokončený okruh (úspešnosť ≥ 80 %)</td><td>+<span data-econ="REWARDS.BIFLOVACKA_OKRUH"></span>§</td></tr>
-            <tr><td>100 % celej oblasti</td><td>+<span data-econ="REWARDS.BIFLOVACKA_AREA"></span>§</td></tr>
+            <tr><td>Dokončený okruh (úspešnosť ≥ 80 %)</td><td>+<span data-econ="REWARDS.BIFLOVACKA_OKRUH"></span>&nbsp;🪙</td></tr>
+            <tr><td>100 % celej oblasti</td><td>+<span data-econ="REWARDS.BIFLOVACKA_AREA"></span>&nbsp;🪙</td></tr>
           </table>
         </div>
       </details>
@@ -782,15 +782,15 @@
       <details class="guide-section">
         <summary>🕸️ Pavúkové hry na mape</summary>
         <div class="guide-content">
-          <p>V mape štruktúry otázok nájdeš päť hier na precvičenie. Tri z nich – Kukučka, Rozpárovanie a Kde som? – ti za dobré skóre pripíšu §. Recall a Blesk sú čisto tréningové, bez odmeny.</p>
+          <p>V mape štruktúry otázok nájdeš päť hier na precvičenie. Tri z nich – Kukučka, Rozpárovanie a Kde som? – ti za dobré skóre pripíšu kredity. Recall a Blesk sú čisto tréningové, bez odmeny.</p>
           <table class="guide-table">
             <tr><th>Hra – výsledok sedenia</th><th>Odmena</th></tr>
-            <tr><td>🐦 Kukučka – 5/5</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.kukucka.0.sg"></span>§</td></tr>
-            <tr><td>🐦 Kukučka – 4/5</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.kukucka.1.sg"></span>§</td></tr>
-            <tr><td>🧩 Rozpárovanie – 5/5</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.rozparovanie.0.sg"></span>§</td></tr>
-            <tr><td>🧩 Rozpárovanie – 4/5</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.rozparovanie.1.sg"></span>§</td></tr>
-            <tr><td>🧭 Kde som? – 10/10</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.kdesom.0.sg"></span>§</td></tr>
-            <tr><td>🧭 Kde som? – 8–9/10</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.kdesom.1.sg"></span>§</td></tr>
+            <tr><td>🐦 Kukučka – 5/5</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.kukucka.0.sg"></span>&nbsp;🪙</td></tr>
+            <tr><td>🐦 Kukučka – 4/5</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.kukucka.1.sg"></span>&nbsp;🪙</td></tr>
+            <tr><td>🧩 Rozpárovanie – 5/5</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.rozparovanie.0.sg"></span>&nbsp;🪙</td></tr>
+            <tr><td>🧩 Rozpárovanie – 4/5</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.rozparovanie.1.sg"></span>&nbsp;🪙</td></tr>
+            <tr><td>🧭 Kde som? – 10/10</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.kdesom.0.sg"></span>&nbsp;🪙</td></tr>
+            <tr><td>🧭 Kde som? – 8–9/10</td><td>+<span data-econ="SPIDER_GAMES.REWARDS.kdesom.1.sg"></span>&nbsp;🪙</td></tr>
           </table>
           <p class="small muted">Max <span data-econ="SPIDER_GAMES.DAILY_MAX_SESSIONS"></span> odmenené sedenia denne (spoločne za všetky tri hry), ten istý okruh raz denne.</p>
         </div>
@@ -807,10 +807,10 @@
           <p>Za priebežný postup dostávaš jednorazové odmeny:</p>
           <table class="guide-table">
             <tr><th>Míľnik</th><th>Odmena</th></tr>
-            <tr><td>Téma na 30 %</td><td>+<span data-econ="DASHBOARD.TEMA_30"></span>§</td></tr>
-            <tr><td>Téma na 50 %</td><td>+<span data-econ="DASHBOARD.TEMA_50"></span>§</td></tr>
-            <tr><td>Téma na 80 %</td><td>+<span data-econ="DASHBOARD.TEMA_80"></span>§</td></tr>
-            <tr><td>Celá oblasť na 100 %</td><td>+<span data-econ="DASHBOARD.OBLAST_100"></span>§</td></tr>
+            <tr><td>Téma na 30 %</td><td>+<span data-econ="DASHBOARD.TEMA_30"></span>&nbsp;🪙</td></tr>
+            <tr><td>Téma na 50 %</td><td>+<span data-econ="DASHBOARD.TEMA_50"></span>&nbsp;🪙</td></tr>
+            <tr><td>Téma na 80 %</td><td>+<span data-econ="DASHBOARD.TEMA_80"></span>&nbsp;🪙</td></tr>
+            <tr><td>Celá oblasť na 100 %</td><td>+<span data-econ="DASHBOARD.OBLAST_100"></span>&nbsp;🪙</td></tr>
           </table>
           <p class="small muted">Počíta sa od 17. 7. 2026 – staršia aktivita sa nezapočítava,
           takže aj téma, ktorú dávno vieš, môže ukazovať 0 %, kým si ju znovu neprejdeš.</p>
@@ -827,7 +827,7 @@
           <p>Okruh sa označí za zvládnutý pri kvíze na <strong>60 %</strong> a výsledok sa
           započíta do Môjho progresu. Pod dlaždicou <strong>„Ďalší obsah“</strong> sú staršie
           samostatné appky (veľké kvízy, spájačka) – tie fungujú mimo tvojho účtu,
-          takže sa z nich progres ani § nezapisujú.</p>
+          takže sa z nich progres ani kredity nezapisujú.</p>
         </div>
       </details>
 
@@ -855,10 +855,10 @@
           (kto nehral, má nulu). Body zo sporov sa zbierajú v rebríčku tímov.</p>
           <table class="guide-table">
             <tr><th>Udalosť</th><th>Odmena</th></tr>
-            <tr><td>Tím dosiahol 3 členov (lídrovi)</td><td>+<span data-econ="SENATY.FOUND_COMPLETE"></span>§</td></tr>
-            <tr><td>Za každého pozvaného člena</td><td>+<span data-econ="SENATY.RECRUIT"></span>§</td></tr>
-            <tr><td>Výhra v spore (každému členovi)</td><td>+<span data-econ="SENATY.SPOR_WIN"></span>§</td></tr>
-            <tr><td>Remíza / prehra</td><td>+<span data-econ="SENATY.SPOR_DRAW"></span>§ / +<span data-econ="SENATY.SPOR_LOSS"></span>§</td></tr>
+            <tr><td>Tím dosiahol 3 členov (lídrovi)</td><td>+<span data-econ="SENATY.FOUND_COMPLETE"></span>&nbsp;🪙</td></tr>
+            <tr><td>Za každého pozvaného člena</td><td>+<span data-econ="SENATY.RECRUIT"></span>&nbsp;🪙</td></tr>
+            <tr><td>Výhra v spore (každému členovi)</td><td>+<span data-econ="SENATY.SPOR_WIN"></span>&nbsp;🪙</td></tr>
+            <tr><td>Remíza / prehra</td><td>+<span data-econ="SENATY.SPOR_DRAW"></span>&nbsp;🪙 / +<span data-econ="SENATY.SPOR_LOSS"></span>&nbsp;🪙</td></tr>
           </table>
         </div>
       </details>
@@ -878,7 +878,7 @@
             <tr><td>Nočný výcuc</td><td>−<span data-econ="ENERGY.NIGHT_RECAP"></span> % / oblasť na 24 h</td></tr>
           </table>
           <p>Energia je <strong>denná porcia</strong>: každý deň sa obnoví na <span data-econ="ENERGY.DAILY_FULL"></span> %.
-          Pri 0 % avatar zaspí. Ak nechceš čakať do zajtra, nakŕm ho za <strong><span data-econ="ENERGY.FEED_COST"></span>§</strong> –
+          Pri 0 % avatar zaspí. Ak nechceš čakať do zajtra, nakŕm ho za <strong><span data-econ="ENERGY.FEED_COST"></span>&nbsp;🪙</strong> –
           energia sa doplní na <span data-econ="ENERGY.FEED_TO"></span> %. Kŕmiť sa dá kedykoľvek, keď energia nie je plná.
           Avatar mení výzor podľa energie – plný elánu, unavený, spiaci.</p>
         </div>
@@ -890,10 +890,10 @@
           <p>Za každý deň, keď si v Manažérskej akadémii, rastie tvoja séria:</p>
           <table class="guide-table">
             <tr><th>Streak</th><th>Odmena</th></tr>
-            <tr><td>Deň 1 – 7</td><td>+<span data-econ="STREAK.BASE.0"></span>§ až +<span data-econ="STREAK.BASE.6"></span>§ (rastie každý deň)</td></tr>
-            <tr><td>Deň 8 a ďalej</td><td>+<span data-econ="STREAK.AFTER"></span>§ / deň</td></tr>
-            <tr><td>Míľnik – deň 7</td><td>+<span data-econ="STREAK.MILESTONES.7"></span>§ bonus</td></tr>
-            <tr><td>Míľnik – deň 30</td><td>+<span data-econ="STREAK.MILESTONES.30"></span>§ bonus</td></tr>
+            <tr><td>Deň 1 – 7</td><td>+<span data-econ="STREAK.BASE.0"></span>&nbsp;🪙 až +<span data-econ="STREAK.BASE.6"></span>&nbsp;🪙 (rastie každý deň)</td></tr>
+            <tr><td>Deň 8 a ďalej</td><td>+<span data-econ="STREAK.AFTER"></span>&nbsp;🪙 / deň</td></tr>
+            <tr><td>Míľnik – deň 7</td><td>+<span data-econ="STREAK.MILESTONES.7"></span>&nbsp;🪙 bonus</td></tr>
+            <tr><td>Míľnik – deň 30</td><td>+<span data-econ="STREAK.MILESTONES.30"></span>&nbsp;🪙 bonus</td></tr>
           </table>
           <p>Vynechaný deň sériu preruší a začínaš odznova.</p>
         </div>
@@ -905,14 +905,14 @@
           <p>Body zo súbojov ťa posúvajú v rebríčku. Vyhodnocuje sa automaticky:</p>
           <table class="guide-table">
             <tr><th>Rebríček</th><th>1. miesto</th><th>2. miesto</th><th>3. miesto</th></tr>
-            <tr><td>Týždenný (nedeľa polnoc)</td><td>+<span data-econ="LEADERBOARD.WEEKLY.0"></span>§</td><td>+<span data-econ="LEADERBOARD.WEEKLY.1"></span>§</td><td>+<span data-econ="LEADERBOARD.WEEKLY.2"></span>§</td></tr>
-            <tr><td>Mesačný (koniec mesiaca)</td><td>+<span data-econ="LEADERBOARD.MONTHLY.0"></span>§</td><td>+<span data-econ="LEADERBOARD.MONTHLY.1"></span>§</td><td>+<span data-econ="LEADERBOARD.MONTHLY.2"></span>§</td></tr>
+            <tr><td>Týždenný (nedeľa polnoc)</td><td>+<span data-econ="LEADERBOARD.WEEKLY.0"></span>&nbsp;🪙</td><td>+<span data-econ="LEADERBOARD.WEEKLY.1"></span>&nbsp;🪙</td><td>+<span data-econ="LEADERBOARD.WEEKLY.2"></span>&nbsp;🪙</td></tr>
+            <tr><td>Mesačný (koniec mesiaca)</td><td>+<span data-econ="LEADERBOARD.MONTHLY.0"></span>&nbsp;🪙</td><td>+<span data-econ="LEADERBOARD.MONTHLY.1"></span>&nbsp;🪙</td><td>+<span data-econ="LEADERBOARD.MONTHLY.2"></span>&nbsp;🪙</td></tr>
           </table>
           <p>Ak sa umiestniš, Manažérska akadémia ti to oznámi pri najbližšej návšteve.</p>
           <!-- Zoznam výnimiek MUSÍ sedieť s LIMITS v scripts/economyConfig.js
                a so skipCap volaniami v scripts/economy.js. Od ekonomiky v1 sú
                videá aj reklama V STROPE – netvrď o nich opak. -->
-          <p class="small muted">Denný strop zárobku z herných aktivít je <span data-econ="LIMITS.DAILY_EARN_CAP"></span>§. Nepočítajú
+          <p class="small muted">Denný strop zárobku z herných aktivít je <span data-econ="LIMITS.DAILY_EARN_CAP"></span>&nbsp;🪙. Nepočítajú
           sa doň len streak za prihlásenie, rebríčkové odmeny a Štátnicová sieň – všetko ostatné vrátane
           videí a reklám doň patrí. Ak strop vyčerpáš, jednorazové odmeny (video, míľnik) o nič neprídeš,
           vyzdvihneš si ich na druhý deň.</p>
@@ -939,17 +939,17 @@
           </table>
           <p>Pečať sa zobrazuje aj pri auditovanej otázke – vieš, že prešla kontrolou
           a kým. Takto spoločne držíme obsah Manažérskej akadémie presný a aktuálny.</p>
-          <p>Za každé schválené nahlásenie získaš aj +<span data-econ="REWARDS.REPORT_APPROVED"></span>§.</p>
+          <p>Za každé schválené nahlásenie získaš aj +<span data-econ="REWARDS.REPORT_APPROVED"></span>&nbsp;🪙.</p>
         </div>
       </details>
 
       <details class="guide-section">
-        <summary>💰 Ako získať ďalšie §</summary>
+        <summary>💰 Ako získať ďalšie kredity</summary>
         <div class="guide-content">
           <ul class="guide-list">
-            <li>📺 <strong>Náukové videá</strong> – za každé z troch videí v sekcii Návody & odmeny +<span data-econ="REWARDS.VIDEO"></span>§
+            <li>📺 <strong>Náukové videá</strong> – za každé z troch videí v sekcii Návody & odmeny +<span data-econ="REWARDS.VIDEO"></span>&nbsp;🪙
             (jednorazovo).</li>
-            <li>💰 <strong>Získaj §</strong> v hornej lište – pozri krátke video (+<span data-econ="ADS.REWARD"></span>§, max <span data-econ="ADS.DAILY_MAX"></span>× denne)
+            <li>💰 <strong>Získaj&nbsp;🪙</strong> v hornej lište – pozri krátke video (+<span data-econ="ADS.REWARD"></span>&nbsp;🪙, max <span data-econ="ADS.DAILY_MAX"></span>× denne)
             alebo zadaj promo kód od našich partnerov.</li>
             <li>🎁 Sleduj naše sociálne siete – promo kódy rozdávame pri kampaniach.</li>
           </ul>
@@ -1089,13 +1089,13 @@ window.openReportModal = function(prefill = {}) {
           <div style="margin-bottom:12px">
             <label class="form-label">Právna argumentácia * <span class="small muted">(min. 50 znakov)</span></label>
             <textarea id="rArg" class="feedback-textarea" rows="5"
-              placeholder="Napr.: Podľa § 42 ods. 1 Zákonníka práce (zákon č. 311/2001 Z. z.) správna odpoveď je... NS SR sp. zn. 3Cdo/123/2020 potvrdzuje..."
+              placeholder="Napr.: Podľa mňa je správna odpoveď B — veta „Cítim, že si nezodpovedný.“ je ty-výrok v prezlečení, nie Ja-výrok."
               maxlength="2000"></textarea>
             <div style="text-align:right"><span id="rArgCount" class="small muted">0 / 2000</span></div>
           </div>
           <div style="margin-bottom:12px">
-            <label class="form-label">Zdroj (paragraf zákona alebo odkaz) *</label>
-            <input id="rSrc" class="form-input" type="text" placeholder="napr. § 42 Zákonníka práce, NS SR 3Cdo/123/2020" maxlength="200"/>
+            <label class="form-label">Zdroj (okruh, materiál alebo smernica) *</label>
+            <input id="rSrc" class="form-input" type="text" placeholder="napr. okruh Ja-výroky (A1), školiaci materiál alebo interná smernica" maxlength="200"/>
           </div>
           <div style="margin-bottom:12px">
             <label class="form-label">URL zdroja <span class="small muted">(voliteľné)</span></label>
@@ -1150,7 +1150,7 @@ window.openReportModal = function(prefill = {}) {
       if (!area) { errEl.textContent='Vyber oblasť.'; errEl.style.display='block'; return; }
       if (!qid)  { errEl.textContent='Zadaj číslo otázky.'; errEl.style.display='block'; return; }
       if (arg.length < 50) { errEl.textContent='Argumentácia musí mať aspoň 50 znakov.'; errEl.style.display='block'; return; }
-      if (!srcCitation) { errEl.textContent='Zadaj zdroj (paragraf zákona alebo odkaz).'; errEl.style.display='block'; return; }
+      if (!srcCitation) { errEl.textContent='Zadaj zdroj (okruh, materiál alebo smernica).'; errEl.style.display='block'; return; }
       if (srcUrl && !srcAccessed) { errEl.textContent='Pri URL zdroji zadaj aj mesiac prístupu.'; errEl.style.display='block'; return; }
       errEl.style.display = 'none';
 

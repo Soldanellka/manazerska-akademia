@@ -229,7 +229,7 @@ async function announceFacultyWinIfAny(nick) {
   if ((await get(seenRef)).exists()) return;
 
   await set(seenRef, true);
-  showRewardToast(`🏛️ Tvoja firma ${winner.name} vyhrala mesiac! +${ECONOMY_CONFIG.FACULTIES.MONTHLY_BONUS}§`);
+  showRewardToast(`🏛️ Tvoja firma ${winner.name} vyhrala mesiac! +${ECONOMY_CONFIG.FACULTIES.MONTHLY_BONUS}\u00A0🪙`);
 }
 
 export async function settleFacultyLeaderboard() {

@@ -76,7 +76,7 @@ async function applyDailyCap(db, nick, amount, allOrNothing = false) {
 
   if (remaining <= 0 || (allOrNothing && remaining < amount)) {
     if (nick === getNick()) {
-      showRewardToast(`Dosiahol/a si dnešný limit ${cap}§ z aktivít. Streak, rebríčky a štátnica idú ďalej!`);
+      showRewardToast(`Dosiahol/a si dnešný limit ${cap}\u00A0🪙 z aktivít. Streak, rebríčky a štátnica idú ďalej!`);
     }
     return null;
   }
@@ -218,7 +218,7 @@ export function econEnergyMissingMsg(cost, left) {
   const base = `😴 Nemáš dosť energie (treba ${Math.abs(cost)}, máš ${left}).`;
   return isAnon()
     ? `${base} Energia sa obnoví zajtra – alebo si sprav nick a doplň ju kŕmením.`
-    : `${base} Nakŕm avatara za ${ECONOMY_CONFIG.ENERGY.FEED_COST}§, alebo sa vráť zajtra – energia sa obnoví.`;
+    : `${base} Nakŕm avatara za ${ECONOMY_CONFIG.ENERGY.FEED_COST}\u00A0🪙, alebo sa vráť zajtra – energia sa obnoví.`;
 }
 
 export async function econSpendEnergy(nick, cost, reason = '') {
@@ -408,8 +408,8 @@ export async function econRedeemCode(rawCode) {
 
   const amount = result.snapshot.val().amount || 0;
   await econAward(nick, amount, `promo kód ${code}`, { skipCap: true });
-  showRewardToast(`🎟️ +${amount}§ za kód ${code}!`);
-  return { ok: true, message: `✅ Kód ${code}: +${amount}§!`, amount };
+  showRewardToast(`🎟️ +${amount}\u00A0🪙 za kód ${code}!`);
+  return { ok: true, message: `✅ Kód ${code}: +${amount}\u00A0🪙!`, amount };
 }
 
 /* ============================================================
@@ -421,7 +421,7 @@ export async function econGrant(fromGarant, toNick, amount) {
 
   const role = await getRole(fromGarant);
   if (role !== 'garant' && role !== 'admin') {
-    showRewardToast('Len garant alebo admin môže rozdávať §.');
+    showRewardToast('Len garant alebo admin môže rozdávať kredity.');
     return false;
   }
 
@@ -431,7 +431,7 @@ export async function econGrant(fromGarant, toNick, amount) {
     const snap = await get(grantRef);
     const already = snap.exists() ? snap.val() : 0;
     if (already + amount > cap) {
-      showRewardToast(`Denný limit garanta vyčerpaný (${cap}§).`);
+      showRewardToast(`Denný limit garanta vyčerpaný (${cap}\u00A0🪙).`);
       return false;
     }
     await set(grantRef, already + amount);
@@ -559,7 +559,7 @@ async function announceLeaderboardWinIfAny(db, periods) {
     if (seenSnap.exists()) continue;
 
     await set(seenRef, true);
-    showRewardToast(`🏆 Skončil/a si ${mine.place}. v ${period.label} rebríčku! +${mine.amount}§`);
+    showRewardToast(`🏆 Skončil/a si ${mine.place}. v ${period.label} rebríčku! +${mine.amount}\u00A0🪙`);
   }
 }
 

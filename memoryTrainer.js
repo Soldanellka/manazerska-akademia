@@ -449,7 +449,7 @@ export async function saveDefinitionOverride(slug, pkg, { question, answer, zdro
     return { ok: false, message: 'Chýba prihlásenie alebo definícia.' };
   }
   if (!zdroj || !zdroj.citation) {
-    return { ok: false, message: 'Zdroj (paragraf zákona alebo odkaz) je povinný.' };
+    return { ok: false, message: 'Zdroj (okruh, materiál alebo smernica) je povinný.' };
   }
 
   const role = await getRole(nick);

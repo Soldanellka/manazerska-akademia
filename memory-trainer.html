@@ -319,8 +319,8 @@
         <textarea id="mtReviewEditQuestion" class="mt-review-textarea"></textarea>
         <div class="small" style="margin-bottom:4px;font-weight:600">Odpoveď:</div>
         <textarea id="mtReviewEditAnswer" class="mt-review-textarea"></textarea>
-        <div class="small" style="margin-bottom:4px;font-weight:600">Zdroj (paragraf zákona alebo odkaz) *</div>
-        <input id="mtReviewEditSrc" class="form-input" type="text" placeholder="napr. § 42 Zákonníka práce" style="width:100%;box-sizing:border-box"/>
+        <div class="small" style="margin-bottom:4px;font-weight:600">Zdroj (okruh, materiál alebo smernica) *</div>
+        <input id="mtReviewEditSrc" class="form-input" type="text" placeholder="napr. okruh Ja-výroky (A1), školiaci materiál alebo interná smernica" style="width:100%;box-sizing:border-box"/>
         <div class="small" style="margin:8px 0 4px;font-weight:600">URL zdroja <span class="small muted">(voliteľné)</span></div>
         <input id="mtReviewEditSrcUrl" class="form-input" type="text" placeholder="https://www.slov-lex.sk/..." style="width:100%;box-sizing:border-box"/>
         <div class="small" style="margin:8px 0 4px;font-weight:600">Mesiac prístupu <span class="small muted">(ak je URL)</span></div>
@@ -690,7 +690,7 @@ function setupReviewMode() {
     const srcCitation = $('mtReviewEditSrc').value.trim();
     const srcUrl = $('mtReviewEditSrcUrl').value.trim();
     const srcAccessed = $('mtReviewEditSrcAccessed').value.trim();
-    if (!srcCitation) { alert('Zdroj (paragraf zákona alebo odkaz) je povinný.'); return; }
+    if (!srcCitation) { alert('Zdroj (okruh, materiál alebo smernica) je povinný.'); return; }
     if (srcUrl && !srcAccessed) { alert('Pri URL zdroji zadaj aj mesiac prístupu.'); return; }
 
     const zdroj = { type: srcUrl ? 'web' : 'zakon', citation: srcCitation };

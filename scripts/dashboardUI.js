@@ -87,7 +87,7 @@ function renderBody() {
   const remainingTo100 = allOkruhy.filter(o => o.percent < 100).length;
   let html = remainingTo100 === 0
     ? `<div class="small" style="margin-bottom:10px;color:var(--muted)">🎉 Všetky témy tejto oblasti sú na 100 %!</div>`
-    : `<div class="small" style="margin-bottom:10px;color:var(--muted)">Ešte ${remainingTo100} ${temaWord(remainingTo100)} do 100 % v tejto oblasti (odmena +${ECONOMY_CONFIG.DASHBOARD.OBLAST_100}§ za celú oblasť).</div>`;
+    : `<div class="small" style="margin-bottom:10px;color:var(--muted)">Ešte ${remainingTo100} ${temaWord(remainingTo100)} do 100 % v tejto oblasti (odmena +${ECONOMY_CONFIG.DASHBOARD.OBLAST_100}\u00A0🪙 za celú oblasť).</div>`;
 
   html += '<div class="small" style="font-weight:600;margin-bottom:6px">Témy</div>';
   html += '<div class="dashboard-tema-list">';

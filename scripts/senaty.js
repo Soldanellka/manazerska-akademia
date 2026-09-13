@@ -575,7 +575,7 @@ async function announceSenatLeaderboardWinIfAny(nick, periodKeys) {
       const seenSnap = await get(seenRef);
       if (seenSnap.exists()) continue;
       await set(seenRef, true);
-      showRewardToast(`⚖️ Váš tím ${senat.name} skončil ${w.place}. v rebríčku! +${w.amount}§`);
+      showRewardToast(`⚖️ Váš tím ${senat.name} skončil ${w.place}. v rebríčku! +${w.amount}\u00A0🪙`);
     }
   }
 }

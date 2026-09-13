@@ -1889,7 +1889,7 @@ export async function openStatniceHall(areaName) {
       ${feedback.terminologyGaps.length ? `<div class="statnice-fb-section"><strong>Právna terminológia – chýbajúce pojmy</strong><ul>${feedback.terminologyGaps.map(s => `<li>${s}</li>`).join('')}</ul></div>` : ''}
       <div class="statnice-fb-section"><strong>Odporúčania</strong><ul>${feedback.odporucania.map(s => `<li>${s}</li>`).join('')}</ul></div>
       <div class="statnice-fb-zaver">${feedback.zaver}</div>
-      ${rewardAmount > 0 ? `<div class="statnice-fb-reward">+${rewardAmount}§ za skúšku</div>` : ''}
+      ${rewardAmount > 0 ? `<div class="statnice-fb-reward">+${rewardAmount}\u00A0🪙 za skúšku</div>` : ''}
     `;
 
     // --- Commit 5a: per-okruh coverage zo štátnice (BEST, izolované od examResults) ---
