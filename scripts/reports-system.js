@@ -61,7 +61,7 @@ export function openReportModal(prefill = {}) {
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
         <div>
           <h3 style="margin:0">⚖️ Nahlásiť chybu</h3>
-          <div class="small muted">Argumentuj ako právnik – uveď zákon, judikát alebo paragraf</div>
+          <div class="small muted">Našiel si chybu? Napíš, čo podľa teba nesedí — a hlavne prečo. Konkrétne odôvodnenie je pre garanta cennejšie než samotná námietka.</div>
         </div>
         <button class="btn" id="closeReportModal">✕</button>
       </div>
@@ -69,15 +69,15 @@ export function openReportModal(prefill = {}) {
       <div class="report-form">
 
         <div class="form-row">
-          <label class="form-label">Oblasť práva *</label>
+          <label class="form-label">Oblasť *</label>
           <select id="reportArea" class="form-input">
             <option value="">– Vyber oblasť –</option>
-            <option value="Pracovné právo">Pracovné právo</option>
-            <option value="Trestné právo hmotné">Trestné právo hmotné</option>
-            <option value="Trestné právo procesné">Trestné právo procesné</option>
-            <option value="Občianske právo">Občianske právo</option>
-            <option value="Rímske právo">Rímske právo</option>
-            <option value="Dejiny práva">Dejiny práva</option>
+            <option value="Asertivita">Asertivita</option>
+            <option value="Spätná väzba">Spätná väzba</option>
+            <option value="Ja-výroky">Ja-výroky</option>
+            <option value="Komunikačné polohy">Komunikačné polohy</option>
+            <option value="Poznávanie druhých">Poznávanie druhých</option>
+            <option value="Aktívne počúvanie">Aktívne počúvanie</option>
           </select>
         </div>
 
@@ -129,7 +129,7 @@ export function openReportModal(prefill = {}) {
 
         <div style="display:flex;gap:8px;margin-top:16px">
           <button class="btn btn-primary" id="submitReportBtn" style="flex:1">
-            ⚖️ Odoslať do Súdnej siene
+            ⚖️ Odoslať do Tréningovej siene
           </button>
           <button class="btn" id="cancelReportBtn">Zrušiť</button>
         </div>
@@ -138,7 +138,7 @@ export function openReportModal(prefill = {}) {
       <div id="reportSuccess" style="display:none;text-align:center;padding:20px">
         <div style="font-size:48px;margin-bottom:12px">⚖️</div>
         <h3 style="margin:0 0 8px 0">Nahlásené!</h3>
-        <p class="small muted">Tvoje nahlásenie bolo presunuté do Súdnej siene.<br>
+        <p class="small muted">Tvoje nahlásenie bolo presunuté do Tréningovej siene.<br>
         Ostatní hráči sa môžu vyjadriť, potom to posúdi admin.</p>
         <button class="btn" id="closeReportSuccess" style="margin-top:16px">Zavrieť</button>
       </div>
@@ -191,7 +191,7 @@ export function openReportModal(prefill = {}) {
     const errorEl = modal.querySelector('#reportError');
 
     // Validácia
-    if (!area) return showError(errorEl, 'Vyber oblasť práva.');
+    if (!area) return showError(errorEl, 'Vyber oblasť.');
     if (!questionId) return showError(errorEl, 'Zadaj číslo alebo identifikátor otázky.');
     if (argument.length < 50) return showError(errorEl, 'Argumentácia musí mať aspoň 50 znakov.');
 
@@ -233,7 +233,7 @@ export function openReportModal(prefill = {}) {
       console.error(e);
     } finally {
       submitBtn.disabled = false;
-      submitBtn.textContent = '⚖️ Odoslať do Súdnej siene';
+      submitBtn.textContent = '⚖️ Odoslať do Tréningovej siene';
     }
   };
 }
@@ -263,7 +263,7 @@ export function openCourtroomModal() {
     <div class="avatar-panel courtroom-panel">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
         <div>
-          <h3 style="margin:0">🏛️ Súdna sieň</h3>
+          <h3 style="margin:0">🏛️ Tréningová sieň</h3>
           <div class="small muted">Nahlásené otázky čakajúce na posúdenie</div>
         </div>
         <button class="btn" id="closeCourtroomModal">✕</button>

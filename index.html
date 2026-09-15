@@ -181,14 +181,14 @@
 
     <div class="card section-card highlight-report" id="reportCard">
       <h3 style="margin:0">⚖️ Našiel si chybu?</h3>
-      <div class="small" style="margin-bottom:12px">Našiel/Našla si chybu? Argumentuj ako právnik a pomôž zlepšiť otázky.</div>
+      <div class="small" style="margin-bottom:12px">Našiel si chybu? Povedz nám, čo nesedí a prečo.</div>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
         <button class="btn btn-primary" id="reportIssueBtn"
           onclick="typeof window.openReportModal==='function' ? window.openReportModal() : alert('Načítavam...')">
           📝 Nahlásiť otázku</button>
         <button class="btn" id="openCourtroomBtn"
           onclick="typeof window.openCourtroomModal==='function' ? window.openCourtroomModal() : alert('Načítavam...')">
-          🏛️ Súdna sieň</button>
+          🏛️ Tréningová sieň</button>
       </div>
       <div id="sealDisplay" style="margin-top:12px;display:none">
         <div class="small muted">Tvoje pečate:</div>
@@ -276,7 +276,7 @@
             <div class="video-label">Ako nahlásiť chybu?</div>
           </div>
           <div class="video-meta">
-            <span class="small muted">Súdna sieň • 2 min</span>
+            <span class="small muted">Tréningová sieň • 2 min</span>
             <span class="video-reward-badge" id="reward-v3">+12&nbsp;🪙</span>
           </div>
         </div>
@@ -610,7 +610,7 @@
           <span class="small muted">Ústna skúška nanečisto so známkou a spätnou väzbou.</span></div>
         -->
         <div><span class="welcome-hl-icon">⚔️</span><strong>Súboj</strong><br>
-          <span class="small muted">10 otázok proti spolužiakovi — výzvu pošleš linkom.</span></div>
+          <span class="small muted">10 otázok proti kolegovi — výzvu pošleš linkom.</span></div>
         <div><span class="welcome-hl-icon">🧠</span><strong>Bifľovačka</strong><br>
           <span class="small muted">Definície nahlas alebo písomne, aj cestou.</span></div>
       </div>
@@ -630,8 +630,7 @@
           zostaneš anonymný/á. (Ak sa pripojíš ku skupine vyučujúceho a napíšeš zadaný
           test, tvoj výsledok uvidí daný vyučujúci — tvoj bežný tréning ostáva súkromný.)</p>
 
-          <p class="small muted">Manažérska akadémia je študijná pomôcka, nie právne poradenstvo —
-          kľúčové informácie si vždy over v aktuálnom znení predpisov na slov-lex.sk.</p>
+          <p class="small muted">Nástroj ťa pripraví — živú lektorku nenahradí.</p>
         </div>
       </details>
     </div>
@@ -662,16 +661,17 @@
       <details class="guide-section" open>
         <summary>🎯 Čo je Manažérska akadémia</summary>
         <div class="guide-content">
-          <p>Manažérska akadémia je študijná aréna pre študentov práva. Precvičuješ štátnicové okruhy
-          z pracovného, trestného, občianskeho a európskeho práva formou súbojov, kartičiek, prípadov
-          z praxe a bifľovačky – a za aktivitu zbieraš kredity (🪙), našu hernú menu.</p>
+          <p>Manažérska akadémia je tréningová aréna pre manažérov a tímy. Precvičuješ si komunikáciu,
+          asertivitu, spätnú väzbu aj poznávanie druhých — v súbojoch, na kartičkách aj na prípadoch
+          z praxe. Učíš sa tým, že si veci skúšaš, nie tým, že o nich čítaš.</p>
           <p><strong>Dôležité – obsah tvoríme spoločne:</strong> Otázky a definície pripravujeme s odbornou
           starostlivosťou, no kvalita obsahu je v rukách celej komunity. Každý hráč sa
           spolupodieľa na tvorbe a kontrole obsahu nahlasovaním chýb –
-          tie posudzujú garanti a admin v Súdnej sieni. Otázky, ktoré prešli auditom,
-          spoznáš podľa pečate. Manažérska akadémia je študijná pomôcka, nie právne poradenstvo:
-          kľúčové informácie si pred skúškou vždy over v aktuálnom znení predpisov
-          na slov-lex.sk.</p>
+          tie posudzujú garanti a admin v Tréningovej sieni. Otázky, ktoré prešli auditom,
+          spoznáš podľa pečate.</p>
+          <p>Manažérska akadémia je tréningový nástroj, nie náhrada živého tréningu. Pripraví ťa —
+          pomenuje, ukáže a dá ti to vyskúšať nanečisto. Skutočný konflikt, skupinovú dynamiku
+          a prácu s napätím naživo vedie lektorka.</p>
         </div>
       </details>
 
@@ -683,10 +683,8 @@
         <div class="guide-content">
           <p>Všetko sa začína výberom oblasti v dlaždici <strong>Hraj</strong>. Kliknutím na oblasť
           si appka pripraví <strong>dvojicu okruhov</strong> – a tú istú dvojicu potom používa
-          súboj, kartičky, prípady aj štátnicová sieň. Nemusíš teda vyberať
-          štyrikrát; vyberieš raz a hráš, čo chceš.</p>
-          <p>Pri trestnom a občianskom práve dostaneš jeden okruh z hmotného a jeden
-          z procesného práva, pri pracovnom a európskom dvojicu z tej istej banky.</p>
+          súboj, kartičky aj prípady. Nemusíš teda vyberať
+          trikrát; vyberieš raz a hráš, čo chceš.</p>
           <p>Pod oblasťami sú tri režimy, ktorými ovplyvníš, ktoré okruhy sa vyberú:</p>
           <table class="guide-table">
             <tr><th>Režim</th><th>Čo vyberie</th></tr>
@@ -702,11 +700,7 @@
       <details class="guide-section">
         <summary>⚔️ Súboj</summary>
         <div class="guide-content">
-          <p>Vyber si oblasť práva a vyzvi súpera. Súboj má 10 otázok – pri kombinovaných
-          oblastiach (trestné, občianske právo) 5 z hmotného a 5 z procesného práva,
-          vždy z náhodného štátnicového okruhu. Pri európskom práve ide o jednu spoločnú
-          banku otázok naprieč všetkými okruhmi (bez delenia) – 10 náhodne vybraných otázok.
-          Súper odpovedá na tie isté otázky.</p>
+          <p>Vyber si oblasť a vyzvi súpera. Súboj má 10 otázok. Súper odpovedá na tie isté otázky.</p>
           <p>Svoj odohraný súboj nájdeš v registri súbojov – tlačidlom „📤 Poslať" vygeneruješ
           link na výzvu a pošleš ho komukoľvek. Kto výzvu prijme, hrá proti tebe tie
           isté otázky.</p>
@@ -766,7 +760,7 @@
       <details class="guide-section">
         <summary>📚 Bifľovačka</summary>
         <div class="guide-content">
-          <p>Tréning definícií na štátnice: zobrazí sa ti definícia, zapamätáš si ju, a potom
+          <p>Tréning definícií: zobrazí sa ti definícia, zapamätáš si ju, a potom
           ju povieš alebo napíšeš vlastnými slovami. Pri zhode aspoň 50 % postupuješ ďalej.
           Definície ti vie prečítať aj počítač – ideálne na učenie počas cesty.</p>
           <table class="guide-table">
@@ -801,9 +795,8 @@
         <div class="guide-content">
           <p>Súkromný prehľad – vidíš ho len ty. Pri každej téme ukazuje percento
           zvládnutia spočítané zo všetkého, čo si v nej odohral (kvíz, kartičky,
-          prípady, bifľovačka, štátnica). Zbaliteľná časť <strong>„Čo dobrať“</strong> ti
-          rovno povie, ktoré témy sú pod 80 % a čo v nich chýba, a v sekcii Skúšky
-          nájdeš históriu štátnicových známok.</p>
+          prípady, bifľovačka). Zbaliteľná časť <strong>„Čo dobrať“</strong> ti
+          rovno povie, ktoré témy sú pod 80 % a čo v nich chýba.</p>
           <p>Za priebežný postup dostávaš jednorazové odmeny:</p>
           <table class="guide-table">
             <tr><th>Míľnik</th><th>Odmena</th></tr>
@@ -848,7 +841,7 @@
       <details class="guide-section">
         <summary>🏛️ Tímy</summary>
         <div class="guide-content">
-          <p>Tím je skupina 3 – 5 hráčov. Založíš ho a pošleš spolužiakom pozývací link;
+          <p>Tím je skupina 3 – 5 hráčov. Založíš ho a pošleš kolegom pozývací link;
           keď vás budú traja, tím sa stane súťažným a odmeny dostanú všetci.</p>
           <p>Líder potom môže vyzvať iný tím na <strong>spor</strong>: všetci členovia
           do 48 hodín odohrajú tie isté otázky a počíta sa priemer za celý tím
@@ -874,8 +867,10 @@
             <tr><td>Kartičky</td><td>−<span data-econ="ENERGY.MEMORY_SET"></span> % / sadu</td></tr>
             <tr><td>Prípady</td><td>−<span data-econ="ENERGY.CASES_SET"></span> % / sadu</td></tr>
             <tr><td>Pavúkové hry</td><td>−<span data-econ="ENERGY.SPIDER_GAME"></span> % / sedenie</td></tr>
+            <!-- SKRYTÉ v C5 spolu s modulmi – odkryť vo fáze E (Štátnicová sieň) resp. s Nočným výcucom.
             <tr><td>Štátnicová sieň</td><td>−<span data-econ="ENERGY.GREMIUM"></span> % / skúšku</td></tr>
             <tr><td>Nočný výcuc</td><td>−<span data-econ="ENERGY.NIGHT_RECAP"></span> % / oblasť na 24 h</td></tr>
+            -->
           </table>
           <p>Energia je <strong>denná porcia</strong>: každý deň sa obnoví na <span data-econ="ENERGY.DAILY_FULL"></span> %.
           Pri 0 % avatar zaspí. Ak nechceš čakať do zajtra, nakŕm ho za <strong><span data-econ="ENERGY.FEED_COST"></span>&nbsp;🪙</strong> –
@@ -913,19 +908,19 @@
                a so skipCap volaniami v scripts/economy.js. Od ekonomiky v1 sú
                videá aj reklama V STROPE – netvrď o nich opak. -->
           <p class="small muted">Denný strop zárobku z herných aktivít je <span data-econ="LIMITS.DAILY_EARN_CAP"></span>&nbsp;🪙. Nepočítajú
-          sa doň len streak za prihlásenie, rebríčkové odmeny a Štátnicová sieň – všetko ostatné vrátane
+          sa doň len streak za prihlásenie a rebríčkové odmeny – všetko ostatné vrátane
           videí a reklám doň patrí. Ak strop vyčerpáš, jednorazové odmeny (video, míľnik) o nič neprídeš,
           vyzdvihneš si ich na druhý deň.</p>
         </div>
       </details>
 
       <details class="guide-section">
-        <summary>⚖️ Súdna sieň a pečate</summary>
+        <summary>⚖️ Tréningová sieň a pečate</summary>
         <div class="guide-content">
           <p>Našiel/Našla si chybu? Tlačidlo na nahlásenie nájdeš pri
           každej otázke v kvíze, pod zhrnutím okruhu aj pri krokoch prípadov z praxe –
-          navrhneš správne znenie a právnicky ho zdôvodníš. Nahlásenie
-          putuje do Súdnej siene, kde môžu ostatní hlasovať a komentovať. Verdikt vydá
+          navrhneš správne znenie a zdôvodníš ho. Nahlásenie
+          putuje do Tréningovej siene, kde môžu ostatní hlasovať a komentovať. Verdikt vydá
           garant (podpísaný, s odôvodnením) alebo admin (bez podpisu, len výsledok).</p>
           <p>Za schválené nahlásenia zbieraš pečate:</p>
           <table class="guide-table">
@@ -1049,24 +1044,21 @@ window.openReportModal = function(prefill = {}) {
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
           <div>
             <h3 style="margin:0">⚖️ Nahlásiť chybu</h3>
-            <div class="small muted">Argumentuj ako právnik – uveď zákon, judikát alebo paragraf</div>
+            <div class="small muted">Našiel si chybu? Napíš, čo podľa teba nesedí — a hlavne prečo. Konkrétne odôvodnenie je pre garanta cennejšie než samotná námietka.</div>
           </div>
           <button class="btn" id="rCloseBtn">✕</button>
         </div>
         <div id="rForm">
           <div style="margin-bottom:12px">
-            <label class="form-label">Oblasť práva *</label>
+            <label class="form-label">Oblasť *</label>
             <select id="rArea" class="form-input">
               <option value="">– Vyber –</option>
-              <option>Pracovné právo</option>
-              <option>Trestné právo hmotné</option>
-              <option>Trestné právo procesné</option>
-              <option>Občianske právo</option>
-              <option>Občianske právo hmotné</option>
-              <option>Občianske právo procesné</option>
-              <option>Rímske právo</option>
-              <option>Dejiny práva</option>
-              <option>Európske právo</option>
+              <option>Asertivita</option>
+              <option>Spätná väzba</option>
+              <option>Ja-výroky</option>
+              <option>Komunikačné polohy</option>
+              <option>Poznávanie druhých</option>
+              <option>Aktívne počúvanie</option>
             </select>
           </div>
           <div style="margin-bottom:12px">
@@ -1107,14 +1099,14 @@ window.openReportModal = function(prefill = {}) {
           </div>
           <div id="rError" style="display:none;color:#dc2626;font-size:13px;margin-bottom:8px"></div>
           <div style="display:flex;gap:8px">
-            <button class="btn btn-primary" id="rSubmit" style="flex:1">⚖️ Odoslať do Súdnej siene</button>
+            <button class="btn btn-primary" id="rSubmit" style="flex:1">⚖️ Odoslať do Tréningovej siene</button>
             <button class="btn" id="rCancel">Zrušiť</button>
           </div>
         </div>
         <div id="rSuccess" style="display:none;text-align:center;padding:24px">
           <div style="font-size:48px">⚖️</div>
           <h3>Nahlásené!</h3>
-          <p class="small muted">Presunuté do Súdnej siene. Ostatní hráči sa môžu vyjadriť.</p>
+          <p class="small muted">Presunuté do Tréningovej siene. Ostatní hráči sa môžu vyjadriť.</p>
           <button class="btn" id="rDone" style="margin-top:12px">Zavrieť</button>
         </div>
       </div>`;
@@ -1191,7 +1183,7 @@ window.openReportModal = function(prefill = {}) {
         errEl.textContent = 'Chyba: ' + e.message;
         errEl.style.display = 'block';
       } finally {
-        btn.disabled = false; btn.textContent = '⚖️ Odoslať do Súdnej siene';
+        btn.disabled = false; btn.textContent = '⚖️ Odoslať do Tréningovej siene';
       }
     };
   }
@@ -1222,7 +1214,7 @@ window.openCourtroomModal = async function() {
       <div class="avatar-panel courtroom-panel" style="background:var(--surface,#fff);border-radius:20px;padding:28px;max-width:720px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.25);">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
           <div>
-            <h3 style="margin:0">🏛️ Súdna sieň</h3>
+            <h3 style="margin:0">🏛️ Tréningová sieň</h3>
             <div class="small muted">Nahlásené otázky čakajúce na posúdenie</div>
           </div>
           <button class="btn" id="cClose">✕</button>

@@ -76,7 +76,7 @@ async function applyDailyCap(db, nick, amount, allOrNothing = false) {
 
   if (remaining <= 0 || (allOrNothing && remaining < amount)) {
     if (nick === getNick()) {
-      showRewardToast(`Dosiahol/a si dnešný limit ${cap}\u00A0🪙 z aktivít. Streak, rebríčky a štátnica idú ďalej!`);
+      showRewardToast(`Dosiahol/a si dnešný limit ${cap}\u00A0🪙 z aktivít. Streak a rebríčky idú ďalej!`);
     }
     return null;
   }
