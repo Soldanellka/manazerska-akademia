@@ -145,7 +145,7 @@ const OKRUH_DETAIL_ROWS = [
   { key: 'quiz', label: 'Kvíz' },
   { key: 'flashcards', label: 'Kartičky' },
   { key: 'cases', label: 'Prípady' },
-  { key: 'statnica', label: 'Štátnica' }
+  // { key: 'statnica', label: 'Štátnica' }  – SKRYTÉ v C5 spolu so Štátnicovou sieňou; odkryť vo fáze E
 ];
 
 function showOkruhDetail(o) {

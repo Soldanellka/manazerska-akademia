@@ -970,7 +970,7 @@ async function showVideoModal(videoId, mode) {
 
   if (mode === 'ad') {
     const reward = ECONOMY_CONFIG.ADS.REWARD;
-    if (rewardInfo) rewardInfo.querySelector('span:last-child').textContent = `+${reward}§`;
+    if (rewardInfo) rewardInfo.querySelector('span:last-child').textContent = `+${reward}\u00A0🪙`;
     claimBtn.textContent = `🎉 Prevziať odmenu (+${reward}\u00A0🪙)`;
     // Odmena sa pripíše až po 20 s prehrávania (econAdComplete overí denný limit transakčne)
     videoRewardTimer = setTimeout(() => {
@@ -979,7 +979,7 @@ async function showVideoModal(videoId, mode) {
     }, 20000);
   } else {
     const reward = ECONOMY_CONFIG.REWARDS.VIDEO;
-    if (rewardInfo) rewardInfo.querySelector('span:last-child').textContent = `+${reward}§`;
+    if (rewardInfo) rewardInfo.querySelector('span:last-child').textContent = `+${reward}\u00A0🪙`;
     claimBtn.textContent = `🎉 Prevziať odmenu (+${reward}\u00A0🪙)`;
 
     // Odmena je viazaná na nick vo Firebase (users/{nick}/videoRewards/{videoId}),
@@ -2870,7 +2870,7 @@ async function openTakeAssignmentModal(assignmentId, nick) {
       <div class="avatar-panel">
         <h3 style="margin-top:0">✅ Test odovzdaný</h3>
         <p>Skóre: <strong>${result.score}/${result.total}</strong> (${result.pct}%)</p>
-        ${result.reward > 0 ? `<p class="small" style="color:var(--accent-3,#15803d)">+${result.reward}§</p>` : ''}
+        ${result.reward > 0 ? `<p class="small" style="color:var(--accent-3,#15803d)">+${result.reward}\u00A0🪙</p>` : ''}
         <button class="btn btn-primary" id="taCloseBtn" style="width:100%;margin-top:8px">Zavrieť</button>
       </div>
     `;
