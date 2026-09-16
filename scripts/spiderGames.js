@@ -42,12 +42,12 @@
 
 const LIVE = '';
 const AREA_PATHS = {
-  'Pracovné právo': LIVE + 'LuluLaw duel Pracovné právo/data/',
-  'Trestné právo hmotné': LIVE + 'Trestné právo hmotné/data/',
-  'Trestné právo procesné': LIVE + 'Trestné právo procesné/data/',
-  'Občianske právo hmotné': LIVE + 'ob-pravo-app/data/hmotne/',
-  'Občianske právo procesné': LIVE + 'ob-pravo-app/data/procesne/',
-  'Európske právo': LIVE + 'eu-pravo-app/data/'
+  'Asertivita':         LIVE + 'obsah/asertivita/',
+  'Spätná väzba':       LIVE + 'obsah/spatna-vazba/',
+  'Ja-výroky':          LIVE + 'obsah/ja-vyroky/',
+  'Komunikačné polohy': LIVE + 'obsah/komunikacne-polohy/',
+  'Poznávanie druhých': LIVE + 'obsah/poznavanie-druhych/',
+  'Aktívne počúvanie':  LIVE + 'obsah/aktivne-pocuvanie/'
 };
 
 const ROUNDS = 5;

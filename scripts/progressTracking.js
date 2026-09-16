@@ -44,12 +44,14 @@ function sanitizeKey(s) {
    (napr. legacy moduly) – volajúci to má ignorovať. */
 export function resolveProgressLocation(areaTitle) {
   switch (areaTitle) {
-    case 'Pracovné právo': return { appId: 'pracovne', subArea: 'main' };
-    case 'Európske právo': return { appId: 'eu', subArea: 'main' };
-    case 'Trestné právo hmotné': return { appId: 'trestne', subArea: 'hmotne' };
-    case 'Trestné právo procesné': return { appId: 'trestne', subArea: 'procesne' };
-    case 'Občianske právo hmotné': return { appId: 'obcianske', subArea: 'hmotne' };
-    case 'Občianske právo procesné': return { appId: 'obcianske', subArea: 'procesne' };
+    /* Manažérska akadémia – appId = slug z AREA_SLUGS (contentOverrides.js), jedna
+       podoblasť "main". Musí sedieť s DASHBOARD_AREAS v scripts/dashboardStats.js. */
+    case 'Asertivita':          return { appId: 'asertivita', subArea: 'main' };
+    case 'Spätná väzba':        return { appId: 'spatna_vazba', subArea: 'main' };
+    case 'Ja-výroky':           return { appId: 'ja_vyroky', subArea: 'main' };
+    case 'Komunikačné polohy':  return { appId: 'komunikacne_polohy', subArea: 'main' };
+    case 'Poznávanie druhých':  return { appId: 'poznavanie_druhych', subArea: 'main' };
+    case 'Aktívne počúvanie':   return { appId: 'aktivne_pocuvanie', subArea: 'main' };
     default: return { appId: null, subArea: null };
   }
 }

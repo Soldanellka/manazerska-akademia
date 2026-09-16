@@ -20,37 +20,55 @@
 import { ref, get } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
 import { generateMemoryPackages } from '../memoryDefinitions.js';
 
+/* Manažérska akadémia – šesť oblastí, každá s jedinou podoblasťou "main".
+   maxOkruh (2) MUSÍ sedieť s počtom v data.js (loadJsonQuestions) aj v
+   memoryDefinitions.js (MEMORY_AREAS.count) – keď pribudne A3, zmeniť na všetkých
+   troch miestach. appId je zároveň cesta users/{nick}/progress/{appId} aj
+   users/{nick}/dashboardRewards/{appId} a musí sedieť s resolveProgressLocation()
+   v scripts/progressTracking.js.
+   biflovackaSlug: null – automaticky generované balíčky nemajú okruhId, takže sa
+   bifľovačka do % okruhu nezapočítava (rovnako ako predtým Pracovné/Európske právo). */
 export const DASHBOARD_AREAS = [
   {
-    title: 'Pracovné právo',
-    appId: 'pracovne',
+    title: 'Asertivita',
+    appId: 'asertivita',
     subAreas: [
-      { subArea: 'main', areaTitle: 'Pracovné právo', maxOkruh: 50, biflovackaSlug: null }
+      { subArea: 'main', areaTitle: 'Asertivita', maxOkruh: 2, biflovackaSlug: null }
     ]
   },
   {
-    title: 'Trestné právo',
-    appId: 'trestne',
+    title: 'Spätná väzba',
+    appId: 'spatna_vazba',
     subAreas: [
-      { subArea: 'hmotne', areaTitle: 'Trestné právo hmotné', maxOkruh: 30, biflovackaSlug: 'tph' },
-      { subArea: 'procesne', areaTitle: 'Trestné právo procesné', maxOkruh: 30, biflovackaSlug: 'tpp' }
+      { subArea: 'main', areaTitle: 'Spätná väzba', maxOkruh: 2, biflovackaSlug: null }
     ]
   },
   {
-    title: 'Občianske právo',
-    appId: 'obcianske',
+    title: 'Ja-výroky',
+    appId: 'ja_vyroky',
     subAreas: [
-      { subArea: 'hmotne', areaTitle: 'Občianske právo hmotné', maxOkruh: 40, biflovackaSlug: 'ob_hmotne' },
-      { subArea: 'procesne', areaTitle: 'Občianske právo procesné', maxOkruh: 45, biflovackaSlug: 'ob_procesne' }
+      { subArea: 'main', areaTitle: 'Ja-výroky', maxOkruh: 2, biflovackaSlug: null }
     ]
   },
   {
-    title: 'Európske právo',
-    appId: 'eu',
+    title: 'Komunikačné polohy',
+    appId: 'komunikacne_polohy',
     subAreas: [
-      // biflovackaSlug: null – žiadny biflovacka/eu.json, auto-generované balíčky
-      // nemajú per-okruh id (pozri memoryDefinitions.js generateMemoryPackages fallback)
-      { subArea: 'main', areaTitle: 'Európske právo', maxOkruh: 38, biflovackaSlug: null }
+      { subArea: 'main', areaTitle: 'Komunikačné polohy', maxOkruh: 2, biflovackaSlug: null }
+    ]
+  },
+  {
+    title: 'Poznávanie druhých',
+    appId: 'poznavanie_druhych',
+    subAreas: [
+      { subArea: 'main', areaTitle: 'Poznávanie druhých', maxOkruh: 2, biflovackaSlug: null }
+    ]
+  },
+  {
+    title: 'Aktívne počúvanie',
+    appId: 'aktivne_pocuvanie',
+    subAreas: [
+      { subArea: 'main', areaTitle: 'Aktívne počúvanie', maxOkruh: 2, biflovackaSlug: null }
     ]
   }
 ];
