@@ -136,7 +136,7 @@ function ensureSpiderCss() {
     .spider-tree { display: flex; flex-direction: column; align-items: center; padding: 8px 4px 4px; }
     .spider-center {
       font-weight: 700; font-size: 14px; text-align: center; line-height: 1.3;
-      background: var(--surface, #fff); border: 2px solid var(--accent-3, #ff6f91);
+      background: var(--surface, #fff); border: 2px solid var(--accent-3, #B45438);
       border-radius: 14px; padding: 10px 16px; max-width: 280px;
     }
     .spider-center::after { content: ''; display: block; width: 2px; height: 14px; background: var(--card-border, rgba(0,0,0,0.15)); margin: 4px auto 0; }
@@ -173,7 +173,7 @@ function ensureSpiderCss() {
     @media (max-width: 480px) {
       .spider-branch-col { width: 130px; }
     }
-    .spider-detail { margin-top: 14px; padding: 10px 12px; border-radius: 12px; background: var(--bg, #fffafc); border: 1px solid var(--card-border, rgba(0,0,0,0.06)); }
+    .spider-detail { margin-top: 14px; padding: 10px 12px; border-radius: 12px; background: var(--bg, #FAF6F1); border: 1px solid var(--card-border, rgba(0,0,0,0.06)); }
   `;
   document.head.appendChild(style);
 }

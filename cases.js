@@ -286,7 +286,7 @@ function renderCasesFromQuestions(container) {
 
   // Otázka
   const qEl = document.createElement('div');
-  qEl.style.cssText = 'font-weight:600;font-size:14px;line-height:1.5;margin-bottom:14px;padding:12px;background:rgba(240,138,166,0.06);border-radius:10px;border-left:3px solid var(--accent-3)';
+  qEl.style.cssText = 'font-weight:600;font-size:14px;line-height:1.5;margin-bottom:14px;padding:12px;background:rgba(194,90,60,0.06);border-radius:10px;border-left:3px solid var(--accent-3)';
   qEl.textContent = c.title;
   container.appendChild(qEl);
 

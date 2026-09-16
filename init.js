@@ -249,7 +249,7 @@ async function openAvatarSelectModal() {
   // Výber avatara
   panel.querySelectorAll('.avatar-select-card').forEach(card => {
     card.onmouseenter = () => {
-      card.style.borderColor = 'var(--accent-3,#f08ab0)';
+      card.style.borderColor = 'var(--accent-3,#B45438)';
       card.style.transform = 'scale(1.04)';
     };
     card.onmouseleave = () => {
@@ -330,7 +330,7 @@ function openAvatarPickerModal(mandatory = false) {
     grid.querySelectorAll('.avatar-picker-card').forEach(card => {
       card.onclick = () => {
         grid.querySelectorAll('.avatar-picker-card').forEach(c => c.style.borderColor = 'var(--card-border, #eee)');
-        card.style.borderColor = '#f08aa6';
+        card.style.borderColor = '#B45438';
         selected = card.dataset.id;
         confirmBtn.disabled = false;
         renderTalarShop(selected);
@@ -1156,7 +1156,7 @@ async function loadAdminFeedback(listEl) {
       </div>
       <div style="margin-bottom:8px">${f.text}</div>
       ${f.adminReply ? `
-        <div style="background:rgba(240,138,166,0.08);border-left:3px solid var(--accent-3);
+        <div style="background:rgba(194,90,60,0.08);border-left:3px solid var(--accent-3);
           padding:6px 10px;border-radius:0 8px 8px 0;margin-bottom:8px;font-size:12px">
           💬 <strong>Admin:</strong> ${f.adminReply.text}
           <span class="small muted" style="margin-left:6px">${fmtDate(f.adminReply.createdAt)}</span>
@@ -1254,7 +1254,7 @@ async function renderPublishedFeedback() {
       </div>
       <div style="font-size:13px;margin-bottom:${f.adminReply?'6px':'0'}">${f.text}</div>
       ${f.adminReply ? `
-        <div style="background:rgba(240,138,166,0.08);border-left:3px solid var(--accent-3);
+        <div style="background:rgba(194,90,60,0.08);border-left:3px solid var(--accent-3);
           padding:5px 8px;border-radius:0 6px 6px 0;font-size:12px">
           💬 <em>${f.adminReply.text}</em>
         </div>` : ''}
@@ -1846,7 +1846,7 @@ function formatAssignmentDate(ts) {
 function assignmentStatusBadge(assignment) {
   const status = assignmentStatus(assignment);
   if (status === 'upcoming') return `<span class="small" style="color:var(--muted)">🕓 Otvorí sa ${formatAssignmentDate(assignment.opensAt)}</span>`;
-  if (status === 'open') return `<span class="small" style="color:var(--accent-3, #15803d)">🟢 Aktívny do ${formatAssignmentDate(assignment.closesAt)}</span>`;
+  if (status === 'open') return `<span class="small" style="color: var(--accent-text, #15803d)">🟢 Aktívny do ${formatAssignmentDate(assignment.closesAt)}</span>`;
   return `<span class="small muted">⚪ Uzavretý ${formatAssignmentDate(assignment.closesAt)}</span>`;
 }
 
@@ -2107,7 +2107,7 @@ function renderAnalyticsBox(box, overview) {
   ctx.clearRect(0, 0, w, h);
   last14.forEach((d, i) => {
     const barH = Math.round((d.visits / maxVisits) * (h - 16));
-    ctx.fillStyle = '#f08aa6';
+    ctx.fillStyle = '#B45438';
     ctx.fillRect(i * barW + 2, h - barH - 14, barW - 4, barH);
     ctx.fillStyle = '#7b6f78';
     ctx.font = '8px sans-serif';
@@ -2267,7 +2267,7 @@ async function renderSenatyCard(nick) {
       const otherSenat = await getSenat(otherSenatId);
       const hoursLeft = Math.max(0, Math.round((myPending.deadline - Date.now()) / (60 * 60 * 1000)));
       pendingHtml = `
-        <div class="small" style="margin-top:6px;padding:8px 10px;background:rgba(240,138,166,0.1);border-radius:8px">
+        <div class="small" style="margin-top:6px;padding:8px 10px;background:rgba(194,90,60,0.1);border-radius:8px">
           ⚖️ Máš odohrať spor proti <strong>${escapeHtml(otherSenat ? otherSenat.name : 'neznámy tím')}</strong>!
           Zostáva ${hoursLeft} h.
           <button class="btn btn-primary senat-play-spor-btn" data-spor-id="${myPending.id}" data-senat-id="${s.id}" style="margin-top:6px;width:100%;font-size:12px;padding:4px 10px">▶️ Odohrať</button>
@@ -2638,7 +2638,7 @@ async function updateFacultyBadge() {
 
   const info = await getFacultyBadge(nick);
   if (!info) {
-    badge.textContent = '🏛️ Vyber školu';
+    badge.textContent = '🏛️ Vyber firmu';
     badge.title = 'Klikni a vyber si firmu';
     badge.style.display = 'inline-flex';
     return;
@@ -2763,7 +2763,7 @@ async function renderMyAssignmentsList(nick) {
     let right;
     if (myResult) {
       const pct = myResult.total ? Math.round((myResult.score / myResult.total) * 100) : 0;
-      right = `<span style="color:var(--accent-3,#15803d)">✅ ${myResult.score}/${myResult.total} (${pct}%)</span>`;
+      right = `<span style="color: var(--accent-text,#15803d)">✅ ${myResult.score}/${myResult.total} (${pct}%)</span>`;
     } else if (status === 'upcoming') {
       right = `<span class="small muted">🕓 Otvorí sa ${formatAssignmentDate(a.opensAt)}</span>`;
     } else if (status === 'closed') {
@@ -2880,7 +2880,7 @@ async function openTakeAssignmentModal(assignmentId, nick) {
       <div class="avatar-panel">
         <h3 style="margin-top:0">✅ Test odovzdaný</h3>
         <p>Skóre: <strong>${result.score}/${result.total}</strong> (${result.pct}%)</p>
-        ${result.reward > 0 ? `<p class="small" style="color:var(--accent-3,#15803d)">+${result.reward}\u00A0🪙</p>` : ''}
+        ${result.reward > 0 ? `<p class="small" style="color: var(--accent-text,#15803d)">+${result.reward}\u00A0🪙</p>` : ''}
         <button class="btn btn-primary" id="taCloseBtn" style="width:100%;margin-top:8px">Zavrieť</button>
       </div>
     `;

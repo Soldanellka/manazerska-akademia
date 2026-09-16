@@ -44,10 +44,10 @@ export function showRewardToast(text){
   const t = document.createElement('div');
   t.textContent = text;
   t.style.padding = '12px 16px';
-  t.style.background = 'linear-gradient(90deg,#f7c6d6,#ff6f91)';
+  t.style.background = 'linear-gradient(90deg,#F3DDD3,#B45438)';
   t.style.color = '#fff';
   t.style.borderRadius = '10px';
-  t.style.boxShadow = '0 10px 30px rgba(240,138,166,0.12)';
+  t.style.boxShadow = '0 10px 30px rgba(194,90,60,0.12)';
   t.style.opacity = '0';
   t.style.transform = 'translateY(8px)';
   host.appendChild(t);

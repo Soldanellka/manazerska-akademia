@@ -39,54 +39,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
 :root {
-  --bg: #fffafc;
-  --surface: #ffffff;
-  --muted: #7b6f78;
-  --accent-1: #f7c6d6;
-  --accent-2: #f08aa6;
-  --accent-3: #ff6f91;
+  --bg: #FAF6F1;
+  --surface: #FFFFFF;
+  --muted: #6F6875;
+  --accent-1: #F3DDD3;
+  --accent-2: #B45438;
+  --accent-3: #9E4A31;
   --success: #16a34a;
   --danger: #ef4444;
   --card-border: rgba(16,16,16,0.04);
   --shadow: 0 6px 18px rgba(16,16,16,0.06);
   --radius: 12px;
-  --text: #2b2b2b;
-  --glass: rgba(240,198,214,0.35);
+  --text: #2B2A33;
+  --glass: rgba(243,221,211,0.35);
   /* prstenec zvýraznenej akcie (Štátnicová sieň) – odvodený z --accent-3 */
-  --statnice-ring: rgba(255,111,145,0.45);
+  --statnice-ring: rgba(180,84,56,0.45);
   /* Hlavné dlaždice (.game-tile) – trojfarebný prechod v tóne appky.
      Rozpätie je zámerne širšie než pri .btn-primary: dvojica #ff6f91→#d93b66
      pôsobila na veľkej ploche plocho, preto svetlejší začiatok aj tmavší
      koniec a stredný odtieň medzi nimi. */
-  --cta-from: #ff9db4;
-  --cta-mid: #ff5c85;
-  --cta-to: #c22a58;
-  --cta-shadow: rgba(194,42,88,0.42);
+  --cta-from: #B45438;
+  --cta-mid: #9E4A31;
+  --cta-to: #7F3B27;
+  --cta-shadow: rgba(127,59,39,0.42);
+  /* fáza D – nové tokeny (paleta Manažérskej akadémie) */
+  --accent-text: #9E4A31;
+  --terakota: #C25A3C;
+  --sage: #6E8B74;
+  --sage-strong: #5E7763;
+  --honey: #D9A441;
+  --honey-text: #86611B;
+  --honey-tint: #FBF1DC;
 }
 
 /* 🌙 DARK THEME */
 :root[data-theme="dark"] {
-  --bg: #0b1220;
-  --surface: #0f1724;
-  --muted: #9aa6b2;
-  --accent-1: #2b6ea3;
-  --accent-2: #1f4f7a;
-  --accent-3: #0f3a5a;
+  --bg: #1E1D24;
+  --surface: #2B2A33;
+  --muted: #9B96A1;
+  --accent-1: #5A3326;
+  --accent-2: #B45438;
+  --accent-3: #9E4A31;
   --success: #16a34a;
   --danger: #ef4444;
   --card-border: rgba(255,255,255,0.04);
-  --shadow: 0 8px 28px rgba(2,6,23,0.6);
-  --text: #e6eef6;
-  --glass: rgba(20,40,60,0.28);
+  --shadow: 0 8px 28px rgba(10,8,12,0.6);
+  --text: #F3EDE6;
+  --glass: rgba(70,45,38,0.28);
   /* v tmavej téme je paleta modrá – prstenec odvodený z --accent-1 */
-  --statnice-ring: rgba(43,110,163,0.6);
+  --statnice-ring: rgba(207,124,100,0.6);
   /* Tmavá téma: .btn-primary tu ide accent-2→accent-3, čo sú tmavé modré a
      na tmavom pozadí splývajú. Dlaždice preto berú svetlejší koniec palety
      a rovnako ako v svetlej téme majú tri zastávky, nech prechod vidno. */
-  --cta-from: #5cb0ee;
-  --cta-mid: #2f7cbb;
-  --cta-to: #17456b;
-  --cta-shadow: rgba(47,124,187,0.45);
+  --cta-from: #B45438;
+  --cta-mid: #9E4A31;
+  --cta-to: #7F3B27;
+  --cta-shadow: rgba(127,59,39,0.45);
+  /* fáza D – nové tokeny (paleta Manažérskej akadémie) */
+  --accent-text: #D48873;
+  --terakota: #D48873;
+  --sage: #7D9883;
+  --sage-strong: #7D9883;
+  --honey: #D9A441;
+  --honey-text: #D9A441;
+  --honey-tint: rgba(217,164,65,0.12);
 }
 
 /* ----------------------------------------------------------
@@ -134,7 +150,7 @@ body {
 }
 
 :root[data-theme="dark"] .header {
-  background: rgba(12,18,30,0.55);
+  background: rgba(30,29,36,0.55);
   border-bottom-color: rgba(255,255,255,0.04);
   box-shadow: 0 2px 8px rgba(0,0,0,0.55);
 }
@@ -145,7 +161,7 @@ body {
   gap: 8px;
   font-weight: 700;
   font-size: 17px;
-  color: var(--accent-3);
+  color: var(--accent-text);
 }
 
 .brand .logo-dot {
@@ -153,7 +169,7 @@ body {
   height: 8px;
   border-radius: 50%;
   background: linear-gradient(180deg, var(--accent-2), var(--accent-3));
-  box-shadow: 0 2px 6px rgba(240,138,166,0.18);
+  box-shadow: 0 2px 6px rgba(194,90,60,0.18);
 }
 
 .header-right {
@@ -261,11 +277,11 @@ body {
 .btn-primary {
   background: linear-gradient(90deg, var(--accent-2), var(--accent-3));
   color: white;
-  box-shadow: 0 8px 20px rgba(240,138,166,0.12);
+  box-shadow: 0 8px 20px rgba(194,90,60,0.12);
 }
 :root[data-theme="dark"] .btn-primary {
   background: linear-gradient(90deg, var(--accent-2), var(--accent-3));
-  box-shadow: 0 8px 20px rgba(10,30,50,0.18);
+  box-shadow: 0 8px 20px rgba(20,12,10,0.18);
 }
 
 /* ============================================================
@@ -602,12 +618,12 @@ body {
 .chip {
   padding: 10px 16px;
   border-radius: 999px;
-  background: linear-gradient(to left, #ffe3ec, #ffffff);
+  background: linear-gradient(to left, #F7E6DE, #ffffff);
   border: none;
   cursor: pointer;
-  color: var(--accent-3);
+  color: var(--accent-text);
   font-weight: 600;
-  box-shadow: 0 4px 14px rgba(240,138,166,0.12);
+  box-shadow: 0 4px 14px rgba(194,90,60,0.12);
   transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
 }
 
@@ -615,7 +631,7 @@ body {
   transform: translateY(-4px) scale(1.03);
   background: linear-gradient(to left, var(--accent-2), var(--accent-3));
   color: #fff;
-  box-shadow: 0 12px 28px rgba(240,138,166,0.35);
+  box-shadow: 0 12px 28px rgba(194,90,60,0.35);
 }
 
 /* 🌙 DARK MODE */
@@ -636,11 +652,11 @@ body {
 ---------------------------------------------------------- */
 
 .challenge-card {
-  background: linear-gradient(180deg, #fff5f8 0%, #f7c6d6 100%);
+  background: linear-gradient(180deg, #FBF3EE 0%, #F3DDD3 100%);
   border-radius: var(--radius);
   padding: 16px;
   border: 1px solid var(--card-border);
-  box-shadow: 0 6px 18px rgba(240,138,166,0.12);
+  box-shadow: 0 6px 18px rgba(194,90,60,0.12);
   cursor: pointer;
   transition: transform .15s ease, box-shadow .15s ease, background .15s ease, color .15s ease;
 }
@@ -649,7 +665,7 @@ body {
   transform: translateY(-4px);
   background: linear-gradient(180deg, var(--accent-2), var(--accent-3));
   color: #fff;
-  box-shadow: 0 12px 28px rgba(240,138,166,0.35);
+  box-shadow: 0 12px 28px rgba(194,90,60,0.35);
 }
 
 /* 🌙 DARK MODE */
@@ -690,7 +706,7 @@ body {
   padding: 6px 10px;
   border-radius: 8px;
   background: var(--accent-1);
-  color: var(--accent-3);
+  color: var(--accent-text);
   font-weight: 600;
   border: none;
   cursor: pointer;
@@ -721,7 +737,7 @@ body {
 
 .case-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 24px rgba(240,138,166,0.18);
+  box-shadow: 0 10px 24px rgba(194,90,60,0.18);
 }
 
 #courtroom-detail.hidden {
@@ -750,11 +766,11 @@ body {
 ---------------------------------------------------------- */
 
 .duel-card {
-  background: linear-gradient(180deg, #ffffff 0%, #fff5f8 40%, #f7c6d6 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #FBF3EE 40%, #F3DDD3 100%);
   border-radius: var(--radius);
   padding: 14px 16px;
   border: none;
-  box-shadow: 0 8px 24px rgba(240,138,166,0.15);
+  box-shadow: 0 8px 24px rgba(194,90,60,0.15);
   transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
 }
 
@@ -762,7 +778,7 @@ body {
   transform: translateY(-3px);
   background: linear-gradient(180deg, var(--accent-2), var(--accent-3));
   color: #fff;
-  box-shadow: 0 12px 28px rgba(240,138,166,0.35);
+  box-shadow: 0 12px 28px rgba(194,90,60,0.35);
 }
 /* ----------------------------------------------------------
    DUEL – tlačidlo Poslať výzvu (FINÁLNY FIX)
@@ -774,9 +790,9 @@ body {
   background: linear-gradient(180deg, #fff, var(--accent-1));
   border: none;
   cursor: pointer;
-  color: var(--accent-3);
+  color: var(--accent-text);
   font-weight: 600;
-  box-shadow: 0 6px 18px rgba(240,138,166,0.08);
+  box-shadow: 0 6px 18px rgba(194,90,60,0.08);
   transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
   display: inline-block;
   margin-top: 10px;
@@ -786,7 +802,7 @@ body {
   transform: translateY(-3px);
   background: linear-gradient(180deg, var(--accent-2), var(--accent-3));
   color: #fff;
-  box-shadow: 0 10px 24px rgba(240,138,166,0.18);
+  box-shadow: 0 10px 24px rgba(194,90,60,0.18);
 }
 /* Fix pre header – nech sa nerozbije */
 .header {
@@ -829,8 +845,8 @@ body {
 :root[data-theme="dark"] .chip,
 :root[data-theme="dark"] .btn,
 :root[data-theme="dark"] .list button {
-  background: linear-gradient(90deg, #2a2b2e 0%, #1b1c1f 100%) !important; /* zľava svetlejšia, doprava tmavšia */
-  color: #e6e9ef !important;
+  background: linear-gradient(90deg, #3A3843 0%, #2B2A33 100%) !important; /* zľava svetlejšia, doprava tmavšia */
+  color: #F3EDE6 !important;
   border: 1px solid rgba(255,255,255,0.06);
   border-radius: 999px; /* oblé kapsule */
   box-shadow:
@@ -844,7 +860,7 @@ body {
 :root[data-theme="dark"] .chip:hover,
 :root[data-theme="dark"] .btn:hover,
 :root[data-theme="dark"] .list button:hover {
-  background: linear-gradient(90deg, #3a3b3e 0%, #242526 100%) !important;
+  background: linear-gradient(90deg, #46434F 0%, #33313B 100%) !important;
   box-shadow:
     inset 1px 1px 2px rgba(255,255,255,0.12),
     inset -1px -1px 3px rgba(0,0,0,0.55),
@@ -859,7 +875,7 @@ body {
 :root[data-theme="dark"] .brand,
 :root[data-theme="dark"] header .brand,
 :root[data-theme="dark"] .header .brand {
-  color: #e6e9ef !important; /* svetlá šedobiela */
+  color: #F3EDE6 !important; /* svetlá šedobiela */
   text-shadow: 0 1px 2px rgba(0,0,0,0.6); /* jemné oddelenie od pozadia */
 }
 /* ============================
@@ -934,24 +950,24 @@ body {
 ============================================================ */
 
 .duel-item {
-  background: linear-gradient(180deg, #ffffff 0%, #fff5f8 60%, #ffe3ec 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #FBF3EE 60%, #F7E6DE 100%);
   border-radius: var(--radius);
   padding: 14px 16px;
   border: 1px solid var(--card-border);
-  box-shadow: 0 6px 18px rgba(240,138,166,0.12);
+  box-shadow: 0 6px 18px rgba(194,90,60,0.12);
   margin-bottom: 12px;
   transition: transform .15s ease, box-shadow .15s ease;
 }
 
 .duel-item:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(240,138,166,0.22);
+  box-shadow: 0 10px 24px rgba(194,90,60,0.22);
 }
 
 .duel-banner {
   font-weight: 600;
   font-size: 14px;
-  color: var(--accent-3);
+  color: var(--accent-text);
   margin-bottom: 6px;
 }
 
@@ -983,8 +999,8 @@ body {
 }
 
 @keyframes duelGlow {
-  0% { box-shadow: 0 0 0 3px rgba(240,138,166,0.7); }
-  100% { box-shadow: 0 0 0 0 rgba(240,138,166,0); }
+  0% { box-shadow: 0 0 0 3px rgba(194,90,60,0.7); }
+  100% { box-shadow: 0 0 0 0 rgba(194,90,60,0); }
 }
 
 .duel-actions {
@@ -1008,18 +1024,18 @@ body {
 .duel-accept {
   background: linear-gradient(90deg, var(--accent-2), var(--accent-3));
   color: #fff;
-  box-shadow: 0 6px 16px rgba(240,138,166,0.25);
+  box-shadow: 0 6px 16px rgba(194,90,60,0.25);
 }
 
 .duel-accept:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 22px rgba(240,138,166,0.4);
+  box-shadow: 0 10px 22px rgba(194,90,60,0.4);
 }
 
 .duel-reject {
-  background: linear-gradient(to left, #ffe3ec, #ffffff);
-  color: var(--accent-3);
-  box-shadow: 0 4px 12px rgba(240,138,166,0.1);
+  background: linear-gradient(to left, #F7E6DE, #ffffff);
+  color: var(--accent-text);
+  box-shadow: 0 4px 12px rgba(194,90,60,0.1);
 }
 
 .duel-reject:hover {
@@ -1031,18 +1047,18 @@ body {
 
 /* 🌙 DARK MODE – banka duelov */
 :root[data-theme="dark"] .duel-item {
-  background: linear-gradient(180deg, #141c2b 0%, #0f1724 100%);
+  background: linear-gradient(180deg, #34323D 0%, #2B2A33 100%);
   border-color: rgba(255,255,255,0.06);
   box-shadow: 0 6px 18px rgba(0,0,0,0.45);
 }
 
 :root[data-theme="dark"] .duel-banner {
-  color: #bcd4ea;
+  color: #E6CFC4;
 }
 
 :root[data-theme="dark"] .duel-reject {
-  background: linear-gradient(90deg, #2a2b2e 0%, #1b1c1f 100%);
-  color: #e6e9ef;
+  background: linear-gradient(90deg, #3A3843 0%, #2B2A33 100%);
+  color: #F3EDE6;
   border: 1px solid rgba(255,255,255,0.06);
 }
 
@@ -1242,7 +1258,7 @@ body {
   }
 
   .bottom-nav button.active {
-    color: #f08aa6;
+    color: var(--accent-text);
   }
 }
 
@@ -1380,14 +1396,14 @@ body {
   gap: 12px;
   padding: 10px 12px;
   border-radius: 14px;
-  background: rgba(247,198,214,0.10);
+  background: rgba(243,221,211,0.10);
   border: 1px solid var(--card-border);
   transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
 }
 
 .lb-row:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(240,138,166,0.15);
+  box-shadow: 0 8px 20px rgba(194,90,60,0.15);
 }
 
 .lb-rank {
@@ -1521,7 +1537,7 @@ body {
 .lb-points {
   font-weight: 700;
   font-size: 14px;
-  color: var(--accent-3);
+  color: var(--accent-text);
   white-space: nowrap;
 }
 
@@ -1555,7 +1571,7 @@ body {
 
 /* TOP 1 – zlatá */
 .lb-row.lb-rank-1 {
-  background: linear-gradient(90deg, rgba(255,215,120,0.22), rgba(255,198,214,0.10));
+  background: linear-gradient(90deg, rgba(255,215,120,0.22), rgba(243,221,211,0.10));
   border-color: rgba(230,180,70,0.35);
   box-shadow: 0 6px 18px rgba(230,180,70,0.18);
 }
@@ -1566,7 +1582,7 @@ body {
 
 /* TOP 2 – strieborná */
 .lb-row.lb-rank-2 {
-  background: linear-gradient(90deg, rgba(196,206,214,0.28), rgba(255,198,214,0.08));
+  background: linear-gradient(90deg, rgba(196,206,214,0.28), rgba(243,221,211,0.08));
   border-color: rgba(160,170,180,0.35);
 }
 .lb-row.lb-rank-2 .lb-bar-fill {
@@ -1575,7 +1591,7 @@ body {
 
 /* TOP 3 – bronzová */
 .lb-row.lb-rank-3 {
-  background: linear-gradient(90deg, rgba(210,150,110,0.22), rgba(255,198,214,0.08));
+  background: linear-gradient(90deg, rgba(210,150,110,0.22), rgba(243,221,211,0.08));
   border-color: rgba(190,120,80,0.3);
 }
 .lb-row.lb-rank-3 .lb-bar-fill {
@@ -1586,7 +1602,7 @@ body {
 .chip.active {
   background: linear-gradient(to left, var(--accent-2), var(--accent-3)) !important;
   color: #fff !important;
-  box-shadow: 0 8px 20px rgba(240,138,166,0.3) !important;
+  box-shadow: 0 8px 20px rgba(194,90,60,0.3) !important;
 }
 
 /* 🌙 DARK MODE – rebríček */
@@ -1601,7 +1617,7 @@ body {
 
 :root[data-theme="dark"] .lb-rank-num {
   background: rgba(255,255,255,0.08);
-  color: #aebac6;
+  color: #B8B0BD;
 }
 
 :root[data-theme="dark"] .lb-row.lb-rank-1 {
@@ -1714,7 +1730,7 @@ body {
 }
 .type-wrong_answer { background: rgba(239,68,68,0.1); color: #dc2626; }
 .type-outdated     { background: rgba(245,158,11,0.1); color: #d97706; }
-.type-unclear      { background: rgba(99,102,241,0.1); color: #6366f1; }
+.type-unclear      { background: rgba(94,119,99,0.1); color: #5E7763; }
 .type-other        { background: rgba(100,116,139,0.1); color: #64748b; }
 
 /* Audit otázok: tlačidlo nahlásenia + pečať pri otázke */
@@ -1735,7 +1751,7 @@ body {
 }
 
 .report-q-btn:hover {
-  color: #f08aa6;
+  color: var(--accent-text);
 }
 
 /* Súdna sieň panel */
@@ -1867,8 +1883,8 @@ body {
 .seal-badge.gold     { background: rgba(234,179,8,0.1);  border-color: rgba(234,179,8,0.4);  color: #b45309; }
 .seal-badge.silver   { background: rgba(148,163,184,0.1); border-color: rgba(148,163,184,0.4); color: #64748b; }
 .seal-badge.bronze   { background: rgba(180,83,9,0.1);  border-color: rgba(180,83,9,0.3);   color: #92400e; }
-.seal-badge.academic { background: rgba(99,102,241,0.1); border-color: rgba(99,102,241,0.4); color: #4f46e5; }
-.seal-badge.faculty  { background: rgba(240,138,166,0.12); border-color: rgba(240,138,166,0.45); color: #b23b63; }
+.seal-badge.academic { background: rgba(94,119,99,0.1); border-color: rgba(94,119,99,0.4); color: #5E7763; }
+.seal-badge.faculty  { background: rgba(194,90,60,0.12); border-color: rgba(194,90,60,0.45); color: var(--accent-text); }
 
 /* Krátky odznak fakulty pri nicku v hlavičke (namiesto celého názvu) */
 .faculty-badge-mini {
@@ -1880,9 +1896,9 @@ body {
   border-radius: 999px;
   padding: 2px 8px;
   margin-left: 6px;
-  background: rgba(240,138,166,0.12);
-  border: 1px solid rgba(240,138,166,0.4);
-  color: #b23b63;
+  background: rgba(194,90,60,0.12);
+  border: 1px solid rgba(194,90,60,0.4);
+  color: var(--accent-text);
   white-space: nowrap;
   cursor: pointer;
   vertical-align: middle;
@@ -1928,7 +1944,7 @@ body {
 ============================================================ */
 
 .highlight-feedback {
-  border-left: 3px solid #a78bfa;
+  border-left: 3px solid #5E7763;
 }
 
 .feedback-options {
@@ -1951,15 +1967,15 @@ body {
 }
 
 .feedback-type-btn:hover {
-  border-color: #a78bfa;
-  color: #7c3aed;
+  border-color: #5E7763;
+  color: #5E7763;
 }
 
 .feedback-type-btn.active {
-  background: linear-gradient(90deg, #a78bfa, #7c3aed);
+  background: linear-gradient(90deg, #5E7763, #5E7763);
   color: white;
   border-color: transparent;
-  box-shadow: 0 3px 10px rgba(124,58,237,0.25);
+  box-shadow: 0 3px 10px rgba(94,119,99,0.25);
 }
 
 .feedback-textarea {
@@ -1979,8 +1995,8 @@ body {
 
 .feedback-textarea:focus {
   outline: none;
-  border-color: #a78bfa;
-  box-shadow: 0 0 0 3px rgba(167,139,250,0.15);
+  border-color: #5E7763;
+  box-shadow: 0 0 0 3px rgba(94,119,99,0.15);
 }
 
 .feedback-textarea::placeholder {
@@ -2014,7 +2030,7 @@ body {
 }
 
 .video-item:hover {
-  box-shadow: 0 4px 14px rgba(240,138,166,0.18);
+  box-shadow: 0 4px 14px rgba(194,90,60,0.18);
 }
 
 .video-thumb {
@@ -2044,7 +2060,7 @@ body {
   font-size: 14px;
   color: white;
   flex-shrink: 0;
-  box-shadow: 0 4px 12px rgba(240,138,166,0.4);
+  box-shadow: 0 4px 12px rgba(194,90,60,0.4);
   transition: transform .2s;
 }
 
@@ -2071,9 +2087,9 @@ body {
 .video-reward-badge {
   font-size: 12px;
   font-weight: 700;
-  color: var(--accent-3);
-  background: rgba(240,138,166,0.1);
-  border: 1px solid rgba(240,138,166,0.25);
+  color: var(--honey-text);
+  background: rgba(194,90,60,0.1);
+  border: 1px solid rgba(194,90,60,0.25);
   border-radius: 999px;
   padding: 2px 10px;
 }
@@ -2114,11 +2130,11 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
-  background: linear-gradient(135deg, #fff8f0 0%, #fff0f5 100%);
-  border: 1.5px solid rgba(240,138,166,0.3);
+  background: linear-gradient(135deg, #fff8f0 0%, #FBF1DC 100%);
+  border: 1.5px solid rgba(194,90,60,0.3);
   border-radius: 999px;
   padding: 5px 14px 5px 10px;
-  box-shadow: 0 2px 8px rgba(240,138,166,0.15);
+  box-shadow: 0 2px 8px rgba(194,90,60,0.15);
   transition: box-shadow .2s;
   /* Po konsolidácii lišty je badge TLAČIDLO (otvára „Získaj §“), preto
      pointer a reset vlastných štýlov <button>. Vzhľad ostáva pôvodný. */
@@ -2128,7 +2144,7 @@ body {
 }
 
 .par-badge:hover {
-  box-shadow: 0 4px 14px rgba(240,138,166,0.28);
+  box-shadow: 0 4px 14px rgba(194,90,60,0.28);
 }
 
 /* Tri „čo appka vie“ v uvítacom okne. Bez novej palety – rovnaké
@@ -2156,7 +2172,7 @@ body {
 .par-plus {
   font-size: 12px;
   font-weight: 700;
-  color: var(--accent-3);
+  color: var(--accent-text);
   opacity: 0.75;
 }
 
@@ -2192,9 +2208,9 @@ body {
   font-size: 11px;
   font-weight: 700;
   white-space: nowrap;
-  color: var(--accent-3);
-  background: rgba(240,138,166,0.08);
-  border: 1px solid rgba(240,138,166,0.2);
+  color: var(--accent-text);
+  background: rgba(194,90,60,0.08);
+  border: 1px solid rgba(194,90,60,0.2);
   border-radius: 999px;
   padding: 4px 10px;
   display: none; /* zobrazí sa až keď má streak */
@@ -2245,14 +2261,14 @@ body {
   font-size: 12px !important;
   padding: 6px 14px !important;
   border-radius: 999px !important;
-  background: rgba(240,138,166,0.12) !important;
-  border: 1.5px solid rgba(240,138,166,0.4) !important;
-  color: #d6567e !important;
+  background: rgba(194,90,60,0.12) !important;
+  border: 1.5px solid rgba(194,90,60,0.4) !important;
+  color: var(--accent-text) !important;
   font-weight: 700 !important;
 }
 
 .header-earn-btn:hover {
-  background: rgba(240,138,166,0.22) !important;
+  background: rgba(194,90,60,0.22) !important;
 }
 
 .header-earn-btn .earn-btn-short { display: none; }
@@ -2273,7 +2289,7 @@ body {
 
 /* Dark mode */
 :root[data-theme="dark"] .par-badge {
-  background: linear-gradient(135deg, rgba(255,248,240,0.05), rgba(255,240,245,0.05));
+  background: linear-gradient(135deg, rgba(255,248,240,0.05), rgba(251,241,220,0.05));
 }
 
 /* Mobile */
@@ -2346,7 +2362,7 @@ body {
 #toggleDuelBankBtn.has-pending-duels {
   background: linear-gradient(90deg, var(--accent-2), var(--accent-3));
   color: #fff;
-  box-shadow: 0 6px 16px rgba(240,138,166,0.3);
+  box-shadow: 0 6px 16px rgba(194,90,60,0.3);
   animation: duelBtnPulse 1.8s ease-in-out infinite;
 }
 
@@ -2359,7 +2375,7 @@ body {
   height: 18px;
   padding: 0 4px;
   border-radius: 999px;
-  background: #ff3b5c;
+  background: #B45438;
   color: #fff;
   font-size: 11px;
   font-weight: 800;
@@ -2370,9 +2386,9 @@ body {
 }
 
 @keyframes duelBtnPulse {
-  0%   { box-shadow: 0 0 0 0 rgba(240,138,166,0.55), 0 6px 16px rgba(240,138,166,0.3); }
-  70%  { box-shadow: 0 0 0 10px rgba(240,138,166,0), 0 6px 16px rgba(240,138,166,0.3); }
-  100% { box-shadow: 0 0 0 0 rgba(240,138,166,0), 0 6px 16px rgba(240,138,166,0.3); }
+  0%   { box-shadow: 0 0 0 0 rgba(194,90,60,0.55), 0 6px 16px rgba(194,90,60,0.3); }
+  70%  { box-shadow: 0 0 0 10px rgba(194,90,60,0), 0 6px 16px rgba(194,90,60,0.3); }
+  100% { box-shadow: 0 0 0 0 rgba(194,90,60,0), 0 6px 16px rgba(194,90,60,0.3); }
 }
 
 @keyframes duelBadgePop {
@@ -2383,12 +2399,12 @@ body {
 
 /* Celá karta "Banka duelov" jemne zvýraznená, kým existujú výzvy */
 .card:has(#toggleDuelBankBtn.has-pending-duels) {
-  border-color: rgba(240,138,166,0.45);
-  box-shadow: 0 8px 26px rgba(240,138,166,0.22);
+  border-color: rgba(194,90,60,0.45);
+  box-shadow: 0 8px 26px rgba(194,90,60,0.22);
 }
 
 :root[data-theme="dark"] .card:has(#toggleDuelBankBtn.has-pending-duels) {
-  border-color: rgba(240,138,166,0.3);
+  border-color: rgba(194,90,60,0.3);
   box-shadow: 0 8px 26px rgba(0,0,0,0.5);
 }
 
@@ -2447,8 +2463,8 @@ body {
 }
 
 @keyframes feedPulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(240,138,166,0.5); }
-  50% { box-shadow: 0 0 0 8px rgba(240,138,166,0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(194,90,60,0.5); }
+  50% { box-shadow: 0 0 0 8px rgba(194,90,60,0); }
 }
 
 /* Spánkový filter na avatar obrázok */
@@ -2502,7 +2518,7 @@ body {
   background: linear-gradient(90deg, var(--accent-2), var(--accent-3)) !important;
   color: white !important;
   border-color: transparent !important;
-  box-shadow: 0 4px 12px rgba(240,138,166,0.35);
+  box-shadow: 0 4px 12px rgba(194,90,60,0.35);
   transform: scale(1.04);
   font-weight: 600;
 }
@@ -2510,7 +2526,7 @@ body {
 .area-chip:hover:not(.chip-active),
 .mode-chip:hover:not(.chip-active) {
   border-color: var(--accent-3);
-  color: var(--accent-3);
+  color: var(--accent-text);
 }
 
 /* ============================================================
@@ -2537,7 +2553,7 @@ body {
 ============================================================ */
 
 .highlight-noticeboard {
-  border-left: 3px solid #a78bfa;
+  border-left: 3px solid #5E7763;
 }
 
 .admin-feedback-item:last-child {
@@ -2591,15 +2607,15 @@ body {
   right: 16px;
   height: 3px;
   border-radius: 0 0 4px 4px;
-  background: linear-gradient(90deg, #f08aa6, #ff6f91);
+  background: linear-gradient(90deg, #B45438, #B45438);
   opacity: 0;
   transition: opacity .18s ease;
 }
 
 .memory-card:hover:not(.matched) {
   transform: translateY(-3px);
-  border-color: rgba(240,138,166,0.55);
-  box-shadow: 0 10px 24px rgba(240,138,166,0.18);
+  border-color: rgba(194,90,60,0.55);
+  box-shadow: 0 10px 24px rgba(194,90,60,0.18);
 }
 .memory-card:hover:not(.matched)::before { opacity: 1; }
 
@@ -2618,10 +2634,10 @@ body {
 
 /* Vybraná kartička */
 .memory-card.selected {
-  border-color: #ff6f91;
-  background: linear-gradient(180deg, rgba(255,111,145,0.07), rgba(240,138,166,0.04));
-  color: #d94f74;
-  box-shadow: 0 6px 20px rgba(255,111,145,0.25);
+  border-color: #B45438;
+  background: linear-gradient(180deg, rgba(194,90,60,0.07), rgba(194,90,60,0.04));
+  color: var(--accent-text);
+  box-shadow: 0 6px 20px rgba(194,90,60,0.25);
 }
 .memory-card.selected::before { opacity: 1; }
 
@@ -2675,11 +2691,11 @@ body {
 
 /* Spojovacia čiara medzi pármi */
 .memory-line {
-  background: linear-gradient(90deg, #f08aa6, #ff6f91);
+  background: linear-gradient(90deg, #B45438, #B45438);
   border-radius: 999px;
   opacity: 0;
   transition: opacity .25s ease;
-  box-shadow: 0 0 8px rgba(255,111,145,0.5);
+  box-shadow: 0 0 8px rgba(194,90,60,0.5);
   pointer-events: none;
 }
 .memory-line.fade { opacity: 0.85; }
@@ -2703,8 +2719,8 @@ body {
   padding: 6px 14px;
   font-size: 12px;
   font-weight: 600;
-  border: 1.5px solid rgba(240,138,166,0.4);
-  color: #d94f74;
+  border: 1.5px solid rgba(194,90,60,0.4);
+  color: var(--accent-text);
   background: transparent;
   cursor: pointer;
 }
@@ -2714,9 +2730,9 @@ body {
   font-weight: 600;
   color: var(--muted, #7b6f78);
   padding: 4px 12px;
-  background: rgba(240,138,166,0.08);
+  background: rgba(194,90,60,0.08);
   border-radius: 999px;
-  border: 1px solid rgba(240,138,166,0.18);
+  border: 1px solid rgba(194,90,60,0.18);
 }
 
 /* Mobil */
@@ -2751,7 +2767,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .07em;
-  color: #d94f74;
+  color: var(--accent-text);
   margin-bottom: 4px;
 }
 
@@ -2783,8 +2799,8 @@ body {
   font-size: 13.5px;
   line-height: 1.65;
   color: var(--muted, #6b5f68);
-  background: linear-gradient(180deg, rgba(240,138,166,0.07), rgba(240,138,166,0.03));
-  border-left: 3px solid #f08aa6;
+  background: linear-gradient(180deg, rgba(194,90,60,0.07), rgba(194,90,60,0.03));
+  border-left: 3px solid #B45438;
   border-radius: 0 12px 12px 0;
   padding: 12px 16px;
   margin-bottom: 12px;
@@ -2832,8 +2848,8 @@ body {
   transition: all .16s ease;
 }
 .case-step-opt:hover:not([disabled]) {
-  border-color: rgba(240,138,166,0.55);
-  background: rgba(240,138,166,0.06);
+  border-color: rgba(194,90,60,0.55);
+  background: rgba(194,90,60,0.06);
   transform: translateX(3px);
 }
 .case-step-opt[disabled] { cursor: default; }
@@ -2876,9 +2892,9 @@ body {
   border: 1.5px solid rgba(34,197,94,0.25);
 }
 .case-result.no {
-  background: linear-gradient(180deg, rgba(240,138,166,0.1), rgba(240,138,166,0.04));
-  color: #d94f74;
-  border: 1.5px solid rgba(240,138,166,0.3);
+  background: linear-gradient(180deg, rgba(194,90,60,0.1), rgba(194,90,60,0.04));
+  color: var(--accent-text);
+  border: 1.5px solid rgba(194,90,60,0.3);
 }
 
 /* Navigácia medzi prípadmi */
@@ -2913,7 +2929,7 @@ body {
   gap: 12px;
   padding-bottom: 12px;
   margin-bottom: 4px;
-  border-bottom: 2px solid rgba(240,138,166,0.2);
+  border-bottom: 2px solid rgba(194,90,60,0.2);
 }
 
 .game-panel-header h3 {
@@ -2967,7 +2983,7 @@ body {
 .guide-link {
   font-size: 12.5px;
   font-weight: 600;
-  color: #f08aa6;
+  color: var(--accent-text);
   text-decoration: none;
   cursor: pointer;
 }
@@ -2996,8 +3012,8 @@ body {
 }
 
 .guide-accordion details[open] summary {
-  border-left-color: #f08aa6;
-  background: rgba(240,138,166,0.06);
+  border-left-color: #B45438;
+  background: rgba(194,90,60,0.06);
 }
 
 .guide-content {
@@ -3077,7 +3093,7 @@ body {
 }
 
 .memory-tile:hover {
-  box-shadow: 0 8px 22px rgba(240,138,166,0.16);
+  box-shadow: 0 8px 22px rgba(194,90,60,0.16);
   transform: translateY(-2px);
 }
 
@@ -3114,8 +3130,8 @@ body {
   font-size: 11.5px;
   color: var(--muted, #7b6f78);
   padding: 7px 12px;
-  background: rgba(240,138,166,0.06);
-  border: 1px dashed rgba(240,138,166,0.35);
+  background: rgba(194,90,60,0.06);
+  border: 1px dashed rgba(194,90,60,0.35);
   border-radius: 10px;
   transition: all .25s ease;
 }
@@ -3131,7 +3147,7 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #f08aa6;
+  background: #B45438;
   flex-shrink: 0;
   animation: hintPulse 1.6s ease infinite;
 }
@@ -3167,29 +3183,29 @@ body {
   padding: 26px 22px;
   max-width: 380px;
   width: 100%;
-  box-shadow: 0 20px 60px rgba(240,138,166,0.3);
+  box-shadow: 0 20px 60px rgba(194,90,60,0.3);
   border-top: 6px solid transparent;
-  border-image: linear-gradient(90deg, #f08aa6, #ff6f91) 1;
+  border-image: linear-gradient(90deg, #B45438, #B45438) 1;
 }
 
 .duel-challenge-title {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.4;
-  background: linear-gradient(90deg, #f08aa6, #ff6f91);
+  background: linear-gradient(90deg, #B45438, #B45438);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 .duel-challenge-modal .btn-primary {
-  background: linear-gradient(90deg, #f08aa6, #ff6f91);
+  background: linear-gradient(90deg, #B45438, #B45438);
   border: none;
   border-radius: 999px;
   padding: 11px 16px;
   font-weight: 600;
   color: #fff;
-  box-shadow: 0 6px 16px rgba(240,138,166,0.35);
+  box-shadow: 0 6px 16px rgba(194,90,60,0.35);
 }
 
 /* ============================================================
@@ -3310,7 +3326,7 @@ body {
 
 .statnice-followup {
   margin: 10px 0 14px; padding: 12px 14px; border-radius: 10px;
-  background: rgba(240,138,166,0.15); border: 1px solid rgba(240,138,166,0.35);
+  background: rgba(194,90,60,0.15); border: 1px solid rgba(194,90,60,0.35);
   font-size: 14px; line-height: 1.5;
 }
 
@@ -3356,7 +3372,7 @@ body {
 }
 .statnice-persona-btn:hover { background: rgba(255,255,255,0.14); }
 .statnice-persona-btn.active {
-  border-color: var(--accent-3, #f08ab0); background: rgba(240,138,166,0.18);
+  border-color: var(--accent-3, #B45438); background: rgba(194,90,60,0.18);
 }
 .statnice-persona-emoji { font-size: 26px; }
 .statnice-persona-label { font-weight: 700; }
@@ -3366,7 +3382,7 @@ body {
   background: rgba(255,255,255,0.08); border: 2px solid rgba(255,255,255,0.15); color: #fff;
 }
 .statnice-voice-btn.active {
-  border-color: var(--accent-3, #f08ab0); background: rgba(240,138,166,0.18);
+  border-color: var(--accent-3, #B45438); background: rgba(194,90,60,0.18);
 }
 
 @media (max-width: 640px) {
@@ -3528,4 +3544,12 @@ body {
 
 .nr-now {
   font-variant-numeric: tabular-nums;
+}
+
+
+/* fáza D – tmavá téma: logo svetlejším terakotovým gradientom */
+:root[data-theme="dark"] .logo-text {
+  background: linear-gradient(90deg, #D48873, #E6A994);
+  -webkit-background-clip: text;
+  background-clip: text;
 }

@@ -166,7 +166,7 @@ function ensureRelatedCss() {
     .spider-related-title-line strong { font-size: 13px; font-weight: 700; color: var(--text, #2b2b2b); }
     .spider-related-cluster-badge {
       font-size: 10px; font-weight: 600; padding: 2px 6px; border-radius: 8px;
-      background: var(--bg, #fffafc); color: var(--muted, #6b7280); white-space: nowrap; flex-shrink: 0;
+      background: var(--bg, #FAF6F1); color: var(--muted, #6b7280); white-space: nowrap; flex-shrink: 0;
     }
     .spider-related-note { font-size: 12px; color: var(--muted, #6b7280); }
     :root[data-theme="dark"] .spider-related-header { color: var(--text, #e6eef6); }

@@ -297,7 +297,7 @@ function ensureGameCss() {
       border-radius: 10px; padding: 10px 12px; font: inherit; font-size: 12px; line-height: 1.35;
       color: var(--text, #2b2b2b); cursor: pointer; min-height: 44px; max-height: 7em; overflow: auto;
     }
-    .spider-game-card:hover:not(:disabled) { border-color: var(--accent-3, #ff6f91); }
+    .spider-game-card:hover:not(:disabled) { border-color: var(--accent-3, #B45438); }
     .spider-game-card:disabled { cursor: default; }
     .spider-game-card-correct { background: #d7f4dd; border-color: #38a169; }
     .spider-game-card-cuckoo { background: #d7f4dd; border-color: #38a169; box-shadow: 0 0 0 2px rgba(56,161,105,0.4); }
@@ -308,7 +308,7 @@ function ensureGameCss() {
     .spider-game-feedback-bad { color: #c53030; font-weight: 600; }
     .spider-game-nextwrap { margin-top: 10px; }
     .spider-game-endbtn { margin-top: 8px; }
-    .spider-game-score { font-size: 22px; font-weight: 800; color: var(--accent-3, #ff6f91); margin: 6px 0 12px; }
+    .spider-game-score { font-size: 22px; font-weight: 800; color: var(--accent-text, #B45438); margin: 6px 0 12px; }
     .spider-game-loading { font-size: 12px; color: var(--muted, #6b7280); padding: 10px 0; }
     .spider-game-error { font-size: 12px; color: #c53030; padding: 8px 0; }
     /* --- Rozpárovanie --- */
@@ -319,12 +319,12 @@ function ensureGameCss() {
       padding: 8px 10px; border-radius: 10px; cursor: pointer; overflow-wrap: break-word;
       background: var(--surface, #fff); border: 1px solid var(--card-border, rgba(0,0,0,0.12)); color: var(--text, #2b2b2b);
     }
-    .spider-game-col:hover { border-color: var(--accent-3, #ff6f91); }
+    .spider-game-col:hover { border-color: var(--accent-3, #B45438); }
     .spider-game-slot {
       display: flex; flex-direction: column; gap: 6px; min-height: 44px; padding: 6px;
       border: 1px dashed var(--card-border, rgba(0,0,0,0.18)); border-radius: 10px;
     }
-    .spider-game-card-selected { border-color: var(--accent-3, #ff6f91); box-shadow: 0 0 0 2px rgba(255,111,145,0.45); }
+    .spider-game-card-selected { border-color: var(--accent-3, #B45438); box-shadow: 0 0 0 2px rgba(194,90,60,0.45); }
     .spider-game-card-assigned {
       background: #d7f4dd; border-color: #38a169; font-size: 11px; padding: 6px 8px;
       min-height: 0; max-height: none; opacity: 1; cursor: default;
@@ -357,7 +357,7 @@ function ensureGameCss() {
     /* --- Recall --- */
     .spider-game-card-hidden {
       display: flex; align-items: center; justify-content: center; width: 100%; box-sizing: border-box;
-      background: var(--bg, #fffafc); border: 1px dashed var(--card-border, rgba(0,0,0,0.18));
+      background: var(--bg, #FAF6F1); border: 1px dashed var(--card-border, rgba(0,0,0,0.18));
       border-radius: 10px; padding: 12px; min-height: 44px; font-size: 16px; font-weight: 700;
       color: var(--muted, #6b7280);
     }
@@ -367,7 +367,7 @@ function ensureGameCss() {
     .spider-game-revealed-label { font-size: 13px; font-weight: 700; color: var(--text, #2b2b2b); margin-bottom: 6px; }
     .spider-game-linkbtn {
       background: none; border: none; padding: 4px 0; font: inherit; font-size: 12px;
-      color: var(--accent-3, #ff6f91); cursor: pointer; text-align: left;
+      color: var(--accent-text, #B45438); cursor: pointer; text-align: left;
     }
     .spider-game-leaf-static {
       display: block; width: 100%; box-sizing: border-box; text-align: left; margin-top: 6px;
@@ -381,18 +381,18 @@ function ensureGameCss() {
     :root[data-theme="dark"] .spider-game-revealed-label { color: var(--text, #e6eef6); }
     :root[data-theme="dark"] .spider-game-leaf-static { background: var(--surface, #1c2430); border-color: rgba(255,255,255,0.12); color: var(--text, #e6eef6); }
     /* --- Blesk --- */
-    .spider-game-countdown { font-size: 28px; font-weight: 800; text-align: center; color: var(--accent-3, #ff6f91); margin: 8px 0 12px; }
+    .spider-game-countdown { font-size: 28px; font-weight: 800; text-align: center; color: var(--accent-text, #B45438); margin: 8px 0 12px; }
     .spider-game-studyitem {
       display: block; width: 100%; box-sizing: border-box; text-align: left;
       background: var(--surface, #fff); border: 1px solid var(--card-border, rgba(0,0,0,0.12));
       border-radius: 10px; padding: 8px 10px; font-size: 12px; font-weight: 700; line-height: 1.35;
       color: var(--text, #2b2b2b);
     }
-    :root[data-theme="dark"] .spider-game-countdown { color: var(--accent-3, #ff9db5); }
+    :root[data-theme="dark"] .spider-game-countdown { color: var(--accent-text, #ff9db5); }
     :root[data-theme="dark"] .spider-game-studyitem { background: var(--surface, #1c2430); border-color: rgba(255,255,255,0.12); color: var(--text, #e6eef6); }
     /* --- Hlasový Recall --- */
     .spider-game-mic { margin-top: 10px; }
-    .spider-game-mic-on { outline: 2px solid var(--accent-3, #ff6f91); }
+    .spider-game-mic-on { outline: 2px solid var(--accent-3, #B45438); }
     .spider-game-card-hidden-voice { justify-content: space-between; gap: 8px; }
     .spider-game-saidbtn {
       flex-shrink: 0; background: none; border: 1px solid var(--card-border, rgba(0,0,0,0.18));
@@ -408,7 +408,7 @@ function ensureGameCss() {
       background: var(--surface, #fff); border: 1px solid var(--card-border, rgba(0,0,0,0.12));
       border-radius: 8px; color: var(--muted, #6b7280); cursor: pointer;
     }
-    .spider-game-hinttoggle .spider-game-hinttoggle-active { border-color: var(--accent-3, #ff6f91); color: var(--text, #2b2b2b); font-weight: 700; }
+    .spider-game-hinttoggle .spider-game-hinttoggle-active { border-color: var(--accent-3, #B45438); color: var(--text, #2b2b2b); font-weight: 700; }
     :root[data-theme="dark"] .spider-game-saidbtn { border-color: rgba(255,255,255,0.18); color: var(--muted, #9aa7b4); }
     :root[data-theme="dark"] .spider-game-hintline { color: var(--text, #e6eef6); }
     :root[data-theme="dark"] .spider-game-hinttoggle button { background: var(--surface, #1c2430); border-color: rgba(255,255,255,0.12); color: var(--muted, #9aa7b4); }

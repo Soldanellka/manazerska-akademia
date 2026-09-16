@@ -69,7 +69,7 @@ body {
   background: linear-gradient(90deg, var(--accent-2), var(--accent-3));
   color: white;
   font-weight: 600;
-  box-shadow: 0 6px 18px rgba(240,138,166,0.18);
+  box-shadow: 0 6px 18px rgba(194,90,60,0.18);
   transition: transform .12s ease;
 }
 

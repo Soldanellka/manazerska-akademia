@@ -102,7 +102,7 @@ function ensureSpiderMapCss() {
   style.textContent = `
     .spider-map-host {
       position: relative; width: 100%; height: 60vh; max-height: 520px; border-radius: 12px;
-      overflow: hidden; background: var(--bg, #fffafc); border: 1px solid var(--card-border, rgba(0,0,0,0.08));
+      overflow: hidden; background: var(--bg, #FAF6F1); border: 1px solid var(--card-border, rgba(0,0,0,0.08));
       touch-action: none; cursor: grab;
     }
     .spider-map-host.dragging { cursor: grabbing; }
@@ -113,7 +113,7 @@ function ensureSpiderMapCss() {
       color: var(--text, #2b2b2b); border: 1px solid rgba(0,0,0,0.12); cursor: pointer;
       overflow-wrap: break-word; max-height: 7em; overflow: hidden;
     }
-    .spider-map-node:focus { outline: 2px solid var(--accent-3, #ff6f91); outline-offset: 2px; }
+    .spider-map-node:focus { outline: 2px solid var(--accent-3, #B45438); outline-offset: 2px; }
     .spider-map-node-sub { font-weight: 400; font-size: 0.82em; }
     .spider-map-node-has-badge { padding-bottom: 22px; }
     .spider-map-related-badge {
@@ -128,7 +128,7 @@ function ensureSpiderMapCss() {
       color: var(--text, #2b2b2b); border: 1px solid rgba(0,0,0,0.12); border-radius: 14px;
       cursor: pointer; flex: 1 1 150px; max-width: 220px;
     }
-    .spider-map-area-tile:focus { outline: 2px solid var(--accent-3, #ff6f91); outline-offset: 2px; }
+    .spider-map-area-tile:focus { outline: 2px solid var(--accent-3, #B45438); outline-offset: 2px; }
     :root[data-theme="dark"] .spider-map-area-tile { border-color: rgba(255,255,255,0.14); color: var(--text, #e6eef6); }
     .spider-map-toolbar { display: flex; gap: 8px; flex-wrap: wrap; }
     .spider-map-c0 { background: #cfe3fb; }
