@@ -20,12 +20,12 @@ import { ref, get, set }
 from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
 
 const BASIC_SEED = [
-  { id: 'studentka-tmava',  name: 'Študentka (tmavé vlasy)',  type: 'basic', base: 'avatars/studentka-tmava',  price: 0, grantedBy: null, active: true, gender: 'f' },
-  { id: 'studentka-medena', name: 'Študentka (medené vlasy)', type: 'basic', base: 'avatars/studentka-medena', price: 0, grantedBy: null, active: true, gender: 'f' },
-  { id: 'studentka-blond',  name: 'Študentka (blond vlasy)',  type: 'basic', base: 'avatars/studentka-blond',  price: 0, grantedBy: null, active: true, gender: 'f' },
-  { id: 'student-tmavy',    name: 'Študent (tmavé vlasy)',    type: 'basic', base: 'avatars/student-tmavy',    price: 0, grantedBy: null, active: true, gender: 'm' },
-  { id: 'student-medeny',   name: 'Študent (medené vlasy)',   type: 'basic', base: 'avatars/student-medeny',   price: 0, grantedBy: null, active: true, gender: 'm' },
-  { id: 'student-blond',    name: 'Študent (blond vlasy)',    type: 'basic', base: 'avatars/student-blond',    price: 0, grantedBy: null, active: true, gender: 'm' }
+  { id: 'studentka-tmava',  name: 'Účastníčka (tmavé vlasy)',  type: 'basic', base: 'avatars/studentka-tmava',  price: 0, grantedBy: null, active: true, gender: 'f' },
+  { id: 'studentka-medena', name: 'Účastníčka (medené vlasy)', type: 'basic', base: 'avatars/studentka-medena', price: 0, grantedBy: null, active: true, gender: 'f' },
+  { id: 'studentka-blond',  name: 'Účastníčka (blond vlasy)',  type: 'basic', base: 'avatars/studentka-blond',  price: 0, grantedBy: null, active: true, gender: 'f' },
+  { id: 'student-tmavy',    name: 'Účastník (tmavé vlasy)',    type: 'basic', base: 'avatars/student-tmavy',    price: 0, grantedBy: null, active: true, gender: 'm' },
+  { id: 'student-medeny',   name: 'Účastník (medené vlasy)',   type: 'basic', base: 'avatars/student-medeny',   price: 0, grantedBy: null, active: true, gender: 'm' },
+  { id: 'student-blond',    name: 'Účastník (blond vlasy)',    type: 'basic', base: 'avatars/student-blond',    price: 0, grantedBy: null, active: true, gender: 'm' }
 ];
 
 let cachedCatalog = null;

@@ -2,7 +2,7 @@
   "avatars": [
     {
       "id": "studentka-tmava",
-      "name": "Študentka (tmavé vlasy)",
+      "name": "Účastníčka (tmavé vlasy)",
       "type": "basic",
       "base": "avatars/studentka-tmava",
       "price": 0,
@@ -11,7 +11,7 @@
     },
     {
       "id": "studentka-medena",
-      "name": "Študentka (medené vlasy)",
+      "name": "Účastníčka (medené vlasy)",
       "type": "basic",
       "base": "avatars/studentka-medena",
       "price": 0,
@@ -20,7 +20,7 @@
     },
     {
       "id": "studentka-blond",
-      "name": "Študentka (blond vlasy)",
+      "name": "Účastníčka (blond vlasy)",
       "type": "basic",
       "base": "avatars/studentka-blond",
       "price": 0,
@@ -29,7 +29,7 @@
     },
     {
       "id": "student-tmavy",
-      "name": "Študent (tmavé vlasy)",
+      "name": "Účastník (tmavé vlasy)",
       "type": "basic",
       "base": "avatars/student-tmavy",
       "price": 0,
@@ -38,7 +38,7 @@
     },
     {
       "id": "student-medeny",
-      "name": "Študent (medené vlasy)",
+      "name": "Účastník (medené vlasy)",
       "type": "basic",
       "base": "avatars/student-medeny",
       "price": 0,
@@ -47,7 +47,7 @@
     },
     {
       "id": "student-blond",
-      "name": "Študent (blond vlasy)",
+      "name": "Účastník (blond vlasy)",
       "type": "basic",
       "base": "avatars/student-blond",
       "price": 0,
@@ -56,7 +56,7 @@
     },
     {
       "id": "student-blond-advokat",
-      "name": "Študent – advokátsky talár",
+      "name": "Účastník – odznak Kouča",
       "type": "talar",
       "base": "avatars/student-blond-advokat",
       "price": 500,
@@ -66,7 +66,7 @@
     },
     {
       "id": "student-blond-prokurator",
-      "name": "Študent – prokurátorský talár",
+      "name": "Účastník – odznak Mentora",
       "type": "talar",
       "base": "avatars/student-blond-prokurator",
       "price": 700,
@@ -76,7 +76,7 @@
     },
     {
       "id": "student-medeny-prokurator",
-      "name": "Študent (medené vlasy) – prokurátorský talár (vínová štóla)",
+      "name": "Účastník (medené vlasy) – odznak Mentora (vínová štóla)",
       "type": "talar",
       "base": "avatars/student-medeny-prokurator",
       "price": 700,
@@ -86,7 +86,7 @@
     },
     {
       "id": "student-medeny-advokat",
-      "name": "Študent (medené vlasy) – advokátsky talár (modrý lem)",
+      "name": "Účastník (medené vlasy) – odznak Kouča (modrý lem)",
       "type": "talar",
       "base": "avatars/student-medeny-advokat",
       "price": 500,
@@ -96,7 +96,7 @@
     },
     {
       "id": "student-tmavy-advokat",
-      "name": "Študent – advokátsky talár",
+      "name": "Účastník – odznak Kouča",
       "type": "talar",
       "base": "avatars/student-tmavy-advokat",
       "price": 500,
@@ -106,7 +106,7 @@
     },
     {
       "id": "student-tmavy-prokurator",
-      "name": "Študent (tmavé vlasy) – prokurátorský talár (vínová štóla)",
+      "name": "Účastník (tmavé vlasy) – odznak Mentora (vínová štóla)",
       "type": "talar",
       "base": "avatars/student-tmavy-prokurator",
       "price": 700,
@@ -116,7 +116,7 @@
     },
     {
       "id": "student-medeny-talar-cierny",
-      "name": "Študent – základný talár",
+      "name": "Účastník – základný odznak",
       "type": "talar",
       "base": "avatars/student-medeny-talar-cierny",
       "price": 200,
@@ -126,7 +126,7 @@
     },
     {
       "id": "student-blond-talar-cierny",
-      "name": "Študent – základný talár",
+      "name": "Účastník – základný odznak",
       "type": "talar",
       "base": "avatars/student-blond-talar-cierny",
       "price": 200,
@@ -136,7 +136,7 @@
     },
     {
       "id": "student-tmavy-talar-cierny",
-      "name": "Študent – základný talár",
+      "name": "Účastník – základný odznak",
       "type": "talar",
       "base": "avatars/student-tmavy-talar-cierny",
       "price": 200,
@@ -146,7 +146,7 @@
     },
     {
       "id": "studentka-blond-advokat",
-      "name": "Študentka – advokátsky talár (modrý lem)",
+      "name": "Účastníčka – odznak Kouča (modrý lem)",
       "type": "talar",
       "base": "avatars/studentka-blond-advokat",
       "price": 500,
@@ -156,7 +156,7 @@
     },
     {
       "id": "studentka-blond-akademik",
-      "name": "Študentka – akademický talár (zlatý pás)",
+      "name": "Účastníčka – odznak Garanta (zlatý pás)",
       "type": "talar",
       "base": "avatars/studentka-blond-akademik",
       "price": 0,
@@ -166,7 +166,7 @@
     },
     {
       "id": "studentka-tmava-akademik",
-      "name": "Študentka (tmavé vlasy) – akademický talár (zlatý pás)",
+      "name": "Účastníčka (tmavé vlasy) – odznak Garanta (zlatý pás)",
       "type": "talar",
       "base": "avatars/studentka-tmava-akademik",
       "price": 0,
@@ -176,7 +176,7 @@
     },
     {
       "id": "studentka-medena-akademik",
-      "name": "Študentka (medené vlasy) – akademický talár (zlatý pás)",
+      "name": "Účastníčka (medené vlasy) – odznak Garanta (zlatý pás)",
       "type": "talar",
       "base": "avatars/studentka-medena-akademik",
       "price": 0,
@@ -186,7 +186,7 @@
     },
     {
       "id": "student-blond-akademik",
-      "name": "Študent – akademický talár (zlatý pás)",
+      "name": "Účastník – odznak Garanta (zlatý pás)",
       "type": "talar",
       "base": "avatars/student-blond-akademik",
       "price": 0,
@@ -196,7 +196,7 @@
     },
     {
       "id": "student-medeny-akademik",
-      "name": "Študent (medené vlasy) – akademický talár (zlatý pás)",
+      "name": "Účastník (medené vlasy) – odznak Garanta (zlatý pás)",
       "type": "talar",
       "base": "avatars/student-medeny-akademik",
       "price": 0,
@@ -206,7 +206,7 @@
     },
     {
       "id": "student-tmavy-akademik",
-      "name": "Študent (tmavé vlasy) – akademický talár (zlatý pás)",
+      "name": "Účastník (tmavé vlasy) – odznak Garanta (zlatý pás)",
       "type": "talar",
       "base": "avatars/student-tmavy-akademik",
       "price": 0,
@@ -216,7 +216,7 @@
     },
     {
       "id": "studentka-blond-prokurator",
-      "name": "Študentka – prokurátorský talár (vínová štóla)",
+      "name": "Účastníčka – odznak Mentora (vínová štóla)",
       "type": "talar",
       "base": "avatars/studentka-blond-prokurator",
       "price": 700,
@@ -226,7 +226,7 @@
     },
     {
       "id": "studentka-blond-sudca",
-      "name": "Študentka – sudcovský talár (fialový pás)",
+      "name": "Účastníčka – odznak Lídra (fialový pás)",
       "type": "talar",
       "base": "avatars/studentka-blond-sudca",
       "price": 1000,
@@ -236,7 +236,7 @@
     },
     {
       "id": "student-blond-sudca",
-      "name": "Študent – sudcovský talár (fialový pás)",
+      "name": "Účastník – odznak Lídra (fialový pás)",
       "type": "talar",
       "base": "avatars/student-blond-sudca",
       "price": 1000,
@@ -246,7 +246,7 @@
     },
     {
       "id": "student-tmavy-sudca",
-      "name": "Študent (tmavé vlasy) – sudcovský talár (fialový pás)",
+      "name": "Účastník (tmavé vlasy) – odznak Lídra (fialový pás)",
       "type": "talar",
       "base": "avatars/student-tmavy-sudca",
       "price": 1000,
@@ -256,7 +256,7 @@
     },
     {
       "id": "student-medeny-sudca",
-      "name": "Študent (medené vlasy) – sudcovský talár (fialový pás)",
+      "name": "Účastník (medené vlasy) – odznak Lídra (fialový pás)",
       "type": "talar",
       "base": "avatars/student-medeny-sudca",
       "price": 1000,
@@ -266,7 +266,7 @@
     },
     {
       "id": "studentka-blond-talar-cierny",
-      "name": "Študentka – základný talár",
+      "name": "Účastníčka – základný odznak",
       "type": "talar",
       "base": "avatars/studentka-blond-talar-cierny",
       "price": 200,
@@ -276,7 +276,7 @@
     },
     {
       "id": "studentka-medena-talar-cierny",
-      "name": "Študentka – základný talár",
+      "name": "Účastníčka – základný odznak",
       "type": "talar",
       "base": "avatars/studentka-medena-talar-cierny",
       "price": 200,
@@ -286,7 +286,7 @@
     },
     {
       "id": "studentka-medena-prokurator",
-      "name": "Študentka (medené vlasy) – prokurátorský talár (vínová štóla)",
+      "name": "Účastníčka (medené vlasy) – odznak Mentora (vínová štóla)",
       "type": "talar",
       "base": "avatars/studentka-medena-prokurator",
       "price": 700,
@@ -296,7 +296,7 @@
     },
     {
       "id": "studentka-medena-sudca",
-      "name": "Študentka (medené vlasy) – sudcovský talár (fialový pás)",
+      "name": "Účastníčka (medené vlasy) – odznak Lídra (fialový pás)",
       "type": "talar",
       "base": "avatars/studentka-medena-sudca",
       "price": 1000,
@@ -306,7 +306,7 @@
     },
     {
       "id": "studentka-medena-advokat",
-      "name": "Študentka (medené vlasy) – advokátsky talár (modrý lem)",
+      "name": "Účastníčka (medené vlasy) – odznak Kouča (modrý lem)",
       "type": "talar",
       "base": "avatars/studentka-medena-advokat",
       "price": 500,
@@ -316,7 +316,7 @@
     },
     {
       "id": "studentka-tmava-talar-cierny",
-      "name": "Študentka (tmavé vlasy) – základný talár",
+      "name": "Účastníčka (tmavé vlasy) – základný odznak",
       "type": "talar",
       "base": "avatars/studentka-tmava-talar-cierny",
       "price": 200,
@@ -326,7 +326,7 @@
     },
     {
       "id": "studentka-tmava-advokat",
-      "name": "Študentka (tmavé vlasy) – advokátsky talár (modrý lem)",
+      "name": "Účastníčka (tmavé vlasy) – odznak Kouča (modrý lem)",
       "type": "talar",
       "base": "avatars/studentka-tmava-advokat",
       "price": 500,
@@ -336,7 +336,7 @@
     },
     {
       "id": "studentka-tmava-prokurator",
-      "name": "Študentka – prokurátorský talár (vínová štóla)",
+      "name": "Účastníčka – odznak Mentora (vínová štóla)",
       "type": "talar",
       "base": "avatars/studentka-tmava-prokurator",
       "price": 700,
@@ -346,7 +346,7 @@
     },
     {
       "id": "studentka-tmava-sudca",
-      "name": "Študentka – sudcovský talár (fialový pás)",
+      "name": "Účastníčka – odznak Lídra (fialový pás)",
       "type": "talar",
       "base": "avatars/studentka-tmava-sudca",
       "price": 1000,

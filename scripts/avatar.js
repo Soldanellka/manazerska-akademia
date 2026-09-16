@@ -27,14 +27,14 @@ const AVATAR_CONFIG = {
   // Dostupné avatary (id: { name, file_awake, file_sleep, unlockCondition })
   AVATARS: {
     'student-f': {
-      name: 'Študentka práva',
+      name: 'Účastníčka',
       awake: 'data:image/svg+xml,%3Csvg%20xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox=%270%200%20120%20150%27%3E%0A%3Cdefs%3E%0A%3CradialGradient%20id=%27sk%27%20cx=%2745%25%27%20cy=%2735%25%27%20r=%2765%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%23fde8d0%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%23f0b88a%27%2F%3E%3C%2FradialGradient%3E%0A%3CradialGradient%20id=%27hr%27%20cx=%2750%25%27%20cy=%2710%25%27%20r=%2775%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%237a4a20%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%233a1a05%27%2F%3E%3C%2FradialGradient%3E%0A%3CradialGradient%20id=%27ir%27%20cx=%2735%25%27%20cy=%2730%25%27%20r=%2765%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%23c87830%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%236a3010%27%2F%3E%3C%2FradialGradient%3E%0A%3ClinearGradient%20id=%27su%27%20x1=%270%25%27%20y1=%270%25%27%20x2=%2710%25%27%20y2=%27100%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%231a1a2e%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%230d0d18%27%2F%3E%3C%2FlinearGradient%3E%0A%3C%2Fdefs%3E%0A%3Cellipse%20cx=%2760%27%20cy=%27118%27%20rx=%2732%27%20ry=%2730%27%20fill=%27url%28%23su%29%27%2F%3E%0A%3Cpath%20d=%27M48%2092%20Q60%20100%2072%2092%20L70%20102%20Q60%20107%2050%20102Z%27%20fill=%27%230d0d20%27%2F%3E%0A%3Cpath%20d=%27M53%2092%20Q60%2098%2067%2092%20L66%20100%20Q60%20104%2054%20100Z%27%20fill=%27%23f0f0ff%27%2F%3E%0A%3Cellipse%20cx=%2757%27%20cy=%2793%27%20rx=%274%27%20ry=%272.5%27%20fill=%27%23cc2244%27%2F%3E%0A%3Cellipse%20cx=%2763%27%20cy=%2793%27%20rx=%274%27%20ry=%272.5%27%20fill=%27%23cc2244%27%2F%3E%0A%3Ccircle%20cx=%2760%27%20cy=%2795%27%20r=%272%27%20fill=%27%23991133%27%2F%3E%0A%3Cellipse%20cx=%2760%27%20cy=%2758%27%20rx=%2736%27%20ry=%2732%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M24%2065%20Q18%2088%2022%20108%20Q28%20104%2030%2092%20Q27%2076%2028%2065Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M96%2065%20Q102%2088%2098%20108%20Q92%20104%2090%2092%20Q93%2076%2092%2065Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cellipse%20cx=%2760%27%20cy=%2738%27%20rx=%2734%27%20ry=%2718%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M26%2060%20Q34%2038%2060%2035%20Q86%2038%2094%2060%20Q82%2052%2072%2050%20Q66%2038%2060%2040%20Q54%2038%2048%2050%20Q38%2052%2026%2060Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cellipse%20cx=%2760%27%20cy=%2762%27%20rx=%2731%27%20ry=%2733%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Cellipse%20cx=%2729%27%20cy=%2764%27%20rx=%276%27%20ry=%277%27%20fill=%27url%28%23sk%29%27%2F%3E%3Cellipse%20cx=%2729%27%20cy=%2764%27%20rx=%274%27%20ry=%275%27%20fill=%27%23f0c090%27%2F%3E%0A%3Cellipse%20cx=%2791%27%20cy=%2764%27%20rx=%276%27%20ry=%277%27%20fill=%27url%28%23sk%29%27%2F%3E%3Cellipse%20cx=%2791%27%20cy=%2764%27%20rx=%274%27%20ry=%275%27%20fill=%27%23f0c090%27%2F%3E%0A%3Ccircle%20cx=%2729%27%20cy=%2771%27%20r=%272.5%27%20fill=%27%23d4af37%27%2F%3E%3Ccircle%20cx=%2791%27%20cy=%2771%27%20r=%272.5%27%20fill=%27%23d4af37%27%2F%3E%0A%3Cellipse%20cx=%2747%27%20cy=%2762%27%20rx=%2710%27%20ry=%2711%27%20fill=%27white%27%2F%3E%0A%3Cellipse%20cx=%2747%27%20cy=%2763%27%20rx=%277%27%20ry=%278%27%20fill=%27url%28%23ir%29%27%2F%3E%0A%3Cellipse%20cx=%2747%27%20cy=%2764%27%20rx=%274%27%20ry=%275%27%20fill=%27%23111%27%2F%3E%0A%3Ccircle%20cx=%2750%27%20cy=%2759%27%20r=%273%27%20fill=%27white%27%2F%3E%3Ccircle%20cx=%2744%27%20cy=%2767%27%20r=%271.5%27%20fill=%27white%27%20opacity=%27.6%27%2F%3E%0A%3Cellipse%20cx=%2773%27%20cy=%2762%27%20rx=%2710%27%20ry=%2711%27%20fill=%27white%27%2F%3E%0A%3Cellipse%20cx=%2773%27%20cy=%2763%27%20rx=%277%27%20ry=%278%27%20fill=%27url%28%23ir%29%27%2F%3E%0A%3Cellipse%20cx=%2773%27%20cy=%2764%27%20rx=%274%27%20ry=%275%27%20fill=%27%23111%27%2F%3E%0A%3Ccircle%20cx=%2776%27%20cy=%2759%27%20r=%273%27%20fill=%27white%27%2F%3E%3Ccircle%20cx=%2770%27%20cy=%2767%27%20r=%271.5%27%20fill=%27white%27%20opacity=%27.6%27%2F%3E%0A%3Cpath%20d=%27M37%2050%20Q47%2044%2057%2050%27%20stroke=%27%233a1a05%27%20stroke-width=%272%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M63%2050%20Q73%2044%2083%2050%27%20stroke=%27%233a1a05%27%20stroke-width=%272%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M37%2051%20Q47%2046%2055%2051%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M65%2051%20Q73%2046%2083%2051%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M54%2076%20Q60%2080%2066%2076%27%20stroke=%27%23d06050%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M55%2076%20Q60%2080%2065%2076%20Q60%2083%2055%2076Z%27%20fill=%27%23e08878%27%20opacity=%27.4%27%2F%3E%0A%3Cellipse%20cx=%2736%27%20cy=%2774%27%20rx=%2710%27%20ry=%277%27%20fill=%27%23ffb0b0%27%20opacity=%27.4%27%2F%3E%0A%3Cellipse%20cx=%2784%27%20cy=%2774%27%20rx=%2710%27%20ry=%277%27%20fill=%27%23ffb0b0%27%20opacity=%27.4%27%2F%3E%0A%3Cpath%20d=%27M55%2072%20Q60%2075%2065%2072%27%20stroke=%27%23d09060%27%20stroke-width=%271.2%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Ctext%20x=%2786%27%20y=%2750%27%20font-size=%2710%27%20fill=%27%23d4af37%27%20opacity=%27.8%27%3E%E2%9C%A6%3C%2Ftext%3E%0A%3Crect%20x=%2728%27%20y=%27112%27%20width=%2726%27%20height=%2720%27%20rx=%273%27%20fill=%27%238B0000%27%2F%3E%0A%3Ctext%20x=%2741%27%20y=%27125%27%20text-anchor=%27middle%27%20font-family=%27serif%27%20font-size=%274%27%20fill=%27%23f0d080%27%20font-weight=%27bold%27%3ELAW%3C%2Ftext%3E%0A%3Ctext%20x=%2772%27%20y=%27130%27%20font-family=%27serif%27%20font-size=%2722%27%20fill=%27%23d4af37%27%20font-weight=%27bold%27%3E%C2%A7%3C%2Ftext%3E%0A%3C%2Fsvg%3E',
       sleep: 'data:image/svg+xml,%3Csvg%20xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox=%270%200%20120%20150%27%3E%0A%3Cdefs%3E%0A%3CradialGradient%20id=%27sk%27%20cx=%2745%25%27%20cy=%2735%25%27%20r=%2765%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%23fde0c5%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%23e8a878%27%2F%3E%3C%2FradialGradient%3E%0A%3CradialGradient%20id=%27hr%27%20cx=%2750%25%27%20cy=%2710%25%27%20r=%2775%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%237a4a20%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%233a1a05%27%2F%3E%3C%2FradialGradient%3E%0A%3ClinearGradient%20id=%27su%27%20x1=%270%25%27%20y1=%270%25%27%20x2=%2710%25%27%20y2=%27100%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%231a1a2e%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%230d0d18%27%2F%3E%3C%2FlinearGradient%3E%0A%3C%2Fdefs%3E%0A%3Cg%20transform=%27rotate%2810%2C60%2C110%29%27%3E%0A%3Cellipse%20cx=%2760%27%20cy=%27118%27%20rx=%2732%27%20ry=%2728%27%20fill=%27url%28%23su%29%27%2F%3E%0A%3Cpath%20d=%27M48%2092%20Q60%20100%2072%2092%20L70%20102%20Q60%20107%2050%20102Z%27%20fill=%27%230d0d20%27%2F%3E%0A%3Cpath%20d=%27M53%2092%20Q60%2098%2067%2092%20L66%20100%20Q60%20104%2054%20100Z%27%20fill=%27%23f0f0ff%27%2F%3E%0A%3C%2Fg%3E%0A%3Cellipse%20cx=%2760%27%20cy=%2758%27%20rx=%2736%27%20ry=%2732%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M24%2065%20Q18%2088%2022%20108%20Q28%20104%2030%2092%20Q27%2076%2028%2065Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M96%2065%20Q102%2088%2098%20108%20Q92%20104%2090%2092%20Q93%2076%2092%2065Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cellipse%20cx=%2760%27%20cy=%2738%27%20rx=%2734%27%20ry=%2718%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M26%2060%20Q34%2038%2060%2035%20Q86%2038%2094%2060%20Q82%2052%2072%2050%20Q66%2038%2060%2040%20Q54%2038%2048%2050%20Q38%2052%2026%2060Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cg%20transform=%27rotate%2814%2C60%2C62%29%27%3E%0A%3Cellipse%20cx=%2760%27%20cy=%2762%27%20rx=%2731%27%20ry=%2733%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Cellipse%20cx=%2729%27%20cy=%2764%27%20rx=%276%27%20ry=%277%27%20fill=%27url%28%23sk%29%27%2F%3E%3Cellipse%20cx=%2791%27%20cy=%2764%27%20rx=%276%27%20ry=%277%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Ccircle%20cx=%2729%27%20cy=%2771%27%20r=%272.5%27%20fill=%27%23b89020%27%2F%3E%3Ccircle%20cx=%2791%27%20cy=%2771%27%20r=%272.5%27%20fill=%27%23b89020%27%2F%3E%0A%3Cpath%20d=%27M37%2062%20Q47%2072%2057%2062%27%20stroke=%27%232a1a0a%27%20stroke-width=%272.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M37%2062%20Q40%2056%2044%2059%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M46%2057%20Q50%2052%2054%2057%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M56%2059%20Q59%2055%2062%2059%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M63%2062%20Q73%2072%2083%2062%27%20stroke=%27%232a1a0a%27%20stroke-width=%272.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M63%2062%20Q66%2056%2070%2059%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M72%2057%20Q76%2052%2080%2057%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M82%2059%20Q85%2055%2088%2059%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M37%2050%20Q47%2045%2057%2050%27%20stroke=%27%233a1a05%27%20stroke-width=%271.8%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M63%2050%20Q73%2045%2083%2050%27%20stroke=%27%233a1a05%27%20stroke-width=%271.8%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cellipse%20cx=%2776%27%20cy=%2776%27%20rx=%279%27%20ry=%276%27%20fill=%27%23ffb0a0%27%20opacity=%27.5%27%2F%3E%0A%3Cellipse%20cx=%2744%27%20cy=%2776%27%20rx=%279%27%20ry=%276%27%20fill=%27%23ffb0a0%27%20opacity=%27.5%27%2F%3E%0A%3Cpath%20d=%27M55%2072%20Q60%2075%2065%2072%27%20stroke=%27%23c08060%27%20stroke-width=%271.2%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3C%2Fg%3E%0A%3Cellipse%20cx=%2725%27%20cy=%2798%27%20rx=%2714%27%20ry=%279%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Cellipse%20cx=%2718%27%20cy=%2792%27%20rx=%276%27%20ry=%275%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Cellipse%20cx=%2713%27%20cy=%2798%27%20rx=%275%27%20ry=%275%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Cellipse%20cx=%2744%27%20cy=%27138%27%20rx=%2748%27%20ry=%2712%27%20fill=%27white%27%20opacity=%27.88%27%2F%3E%0A%3Cellipse%20cx=%2736%27%20cy=%27142%27%20rx=%2730%27%20ry=%2710%27%20fill=%27white%27%20opacity=%27.88%27%2F%3E%0A%3Ctext%20x=%2730%27%20y=%27140%27%20font-family=%27Arial%20Black%27%20font-size=%278%27%20fill=%27%236060a8%27%20font-weight=%27900%27%3Ez%3C%2Ftext%3E%0A%3Ctext%20x=%2742%27%20y=%27132%27%20font-family=%27Arial%20Black%27%20font-size=%2711%27%20fill=%27%235050a0%27%20font-weight=%27900%27%3Ez%3C%2Ftext%3E%0A%3Ctext%20x=%2756%27%20y=%27122%27%20font-family=%27Arial%20Black%27%20font-size=%2714%27%20fill=%27%234040a0%27%20font-weight=%27900%27%3EZ%3C%2Ftext%3E%0A%3Cpath%20d=%27M10%2028%20Q16%2018%2024%2021%20Q18%2026%2017%2032%20Q14%2036%208%2034%20Q8%2031%2010%2028Z%27%20fill=%27%23f0e050%27%20opacity=%27.65%27%2F%3E%0A%3Ccircle%20cx=%2714%27%20cy=%2720%27%20r=%271.2%27%20fill=%27%23c0b0e0%27%20opacity=%27.6%27%2F%3E%0A%3Ccircle%20cx=%2722%27%20cy=%2714%27%20r=%271%27%20fill=%27%23c0b0e0%27%20opacity=%27.5%27%2F%3E%0A%3C%2Fsvg%3E',
       unlock: 'default',
       desc: 'Dostupná pre všetkých'
     },
     'student-m': {
-      name: 'Študent práva',
+      name: 'Účastník',
       awake: 'data:image/svg+xml,%3Csvg%20xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox=%270%200%20120%20150%27%3E%0A%3Cdefs%3E%0A%3CradialGradient%20id=%27sk%27%20cx=%2745%25%27%20cy=%2735%25%27%20r=%2765%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%23fde8d0%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%23f0b88a%27%2F%3E%3C%2FradialGradient%3E%0A%3CradialGradient%20id=%27hr%27%20cx=%2750%25%27%20cy=%270%25%27%20r=%2780%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%238a5020%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%233a1a05%27%2F%3E%3C%2FradialGradient%3E%0A%3CradialGradient%20id=%27ir%27%20cx=%2735%25%27%20cy=%2730%25%27%20r=%2765%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%23c87830%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%236a3010%27%2F%3E%3C%2FradialGradient%3E%0A%3ClinearGradient%20id=%27su%27%20x1=%270%25%27%20y1=%270%25%27%20x2=%2710%25%27%20y2=%27100%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%231a2a4a%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%230d1528%27%2F%3E%3C%2FlinearGradient%3E%0A%3C%2Fdefs%3E%0A%3Cellipse%20cx=%2760%27%20cy=%27118%27%20rx=%2732%27%20ry=%2730%27%20fill=%27url%28%23su%29%27%2F%3E%0A%3Cpath%20d=%27M48%2092%20Q60%20100%2072%2092%20L70%20102%20Q60%20107%2050%20102Z%27%20fill=%27%230d1e38%27%2F%3E%0A%3Cpath%20d=%27M53%2092%20Q60%2098%2067%2092%20L66%20100%20Q60%20104%2054%20100Z%27%20fill=%27%23f0f0ff%27%2F%3E%0A%3Cpath%20d=%27M58%2092%20L60%2092%20L61%20100%20L60%20118%20L59%20100Z%27%20fill=%27%23cc1122%27%2F%3E%0A%3Cpath%20d=%27M57%2092%20L60%2096%20L63%2092Z%27%20fill=%27%23cc1122%27%2F%3E%0A%3Cpath%20d=%27M24%2064%20Q18%2080%2020%20100%20Q26%2096%2028%2085%20Q26%2072%2026%2064Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M96%2064%20Q102%2080%20100%20100%20Q94%2096%2092%2085%20Q94%2072%2094%2064Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cellipse%20cx=%2760%27%20cy=%2755%27%20rx=%2734%27%20ry=%2728%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M38%2046%20Q36%2030%2042%2026%20Q44%2036%2044%2044Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M50%2042%20Q48%2024%2056%2022%20Q57%2034%2058%2042Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M62%2040%20Q62%2022%2070%2022%20Q70%2034%2070%2042Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M74%2044%20Q76%2028%2082%2030%20Q80%2040%2078%2046Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cellipse%20cx=%2760%27%20cy=%2762%27%20rx=%2731%27%20ry=%2733%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Cellipse%20cx=%2729%27%20cy=%2763%27%20rx=%276%27%20ry=%277%27%20fill=%27url%28%23sk%29%27%2F%3E%3Cellipse%20cx=%2729%27%20cy=%2763%27%20rx=%274%27%20ry=%275%27%20fill=%27%23f0c090%27%2F%3E%0A%3Cellipse%20cx=%2791%27%20cy=%2763%27%20rx=%276%27%20ry=%277%27%20fill=%27url%28%23sk%29%27%2F%3E%3Cellipse%20cx=%2791%27%20cy=%2763%27%20rx=%274%27%20ry=%275%27%20fill=%27%23f0c090%27%2F%3E%0A%3Cellipse%20cx=%2747%27%20cy=%2761%27%20rx=%2710%27%20ry=%2711%27%20fill=%27white%27%2F%3E%0A%3Cellipse%20cx=%2747%27%20cy=%2762%27%20rx=%277%27%20ry=%278%27%20fill=%27url%28%23ir%29%27%2F%3E%0A%3Cellipse%20cx=%2747%27%20cy=%2763%27%20rx=%274%27%20ry=%275%27%20fill=%27%23111%27%2F%3E%0A%3Ccircle%20cx=%2750%27%20cy=%2758%27%20r=%273%27%20fill=%27white%27%2F%3E%3Ccircle%20cx=%2744%27%20cy=%2766%27%20r=%271.5%27%20fill=%27white%27%20opacity=%27.6%27%2F%3E%0A%3Cellipse%20cx=%2773%27%20cy=%2761%27%20rx=%2710%27%20ry=%2711%27%20fill=%27white%27%2F%3E%0A%3Cellipse%20cx=%2773%27%20cy=%2762%27%20rx=%277%27%20ry=%278%27%20fill=%27url%28%23ir%29%27%2F%3E%0A%3Cellipse%20cx=%2773%27%20cy=%2763%27%20rx=%274%27%20ry=%275%27%20fill=%27%23111%27%2F%3E%0A%3Ccircle%20cx=%2776%27%20cy=%2758%27%20r=%273%27%20fill=%27white%27%2F%3E%3Ccircle%20cx=%2770%27%20cy=%2766%27%20r=%271.5%27%20fill=%27white%27%20opacity=%27.6%27%2F%3E%0A%3Cpath%20d=%27M37%2048%20Q47%2042%2057%2048%27%20stroke=%27%233a1a05%27%20stroke-width=%272.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M63%2048%20Q73%2042%2083%2048%27%20stroke=%27%233a1a05%27%20stroke-width=%272.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M54%2075%20Q60%2079%2066%2075%27%20stroke=%27%23d06050%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M55%2075%20Q60%2079%2065%2075%20Q60%2082%2055%2075Z%27%20fill=%27%23e08878%27%20opacity=%27.4%27%2F%3E%0A%3Cellipse%20cx=%2736%27%20cy=%2773%27%20rx=%2710%27%20ry=%277%27%20fill=%27%23ffb0a0%27%20opacity=%27.35%27%2F%3E%0A%3Cellipse%20cx=%2784%27%20cy=%2773%27%20rx=%2710%27%20ry=%277%27%20fill=%27%23ffb0a0%27%20opacity=%27.35%27%2F%3E%0A%3Cpath%20d=%27M55%2071%20Q60%2074%2065%2071%27%20stroke=%27%23d09060%27%20stroke-width=%271.2%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Ctext%20x=%278%27%20y=%2742%27%20font-size=%2710%27%20fill=%27%23d4af37%27%20opacity=%27.8%27%3E%E2%9C%A6%3C%2Ftext%3E%0A%3Ctext%20x=%2786%27%20y=%2750%27%20font-size=%2722%27%20fill=%27%23d4af37%27%20font-weight=%27bold%27%3E%C2%A7%3C%2Ftext%3E%0A%3Cpath%20d=%27M79%2098%20Q86%20104%2088%20120%20Q84%20122%2082%20118%20Q82%20108%2076%20102Z%27%20fill=%27url%28%23su%29%27%2F%3E%0A%3Crect%20x=%2784%27%20y=%27116%27%20width=%2712%27%20height=%2710%27%20rx=%272%27%20fill=%27%238B4513%27%2F%3E%0A%3C%2Fsvg%3E',
       sleep: 'data:image/svg+xml,%3Csvg%20xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox=%270%200%20120%20150%27%3E%0A%3Cdefs%3E%0A%3CradialGradient%20id=%27sk%27%20cx=%2745%25%27%20cy=%2735%25%27%20r=%2765%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%23fde0c5%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%23e8a878%27%2F%3E%3C%2FradialGradient%3E%0A%3CradialGradient%20id=%27hr%27%20cx=%2750%25%27%20cy=%270%25%27%20r=%2780%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%238a5020%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%233a1a05%27%2F%3E%3C%2FradialGradient%3E%0A%3ClinearGradient%20id=%27su%27%20x1=%270%25%27%20y1=%270%25%27%20x2=%2710%25%27%20y2=%27100%25%27%3E%3Cstop%20offset=%270%25%27%20stop-color=%27%231a2a4a%27%2F%3E%3Cstop%20offset=%27100%25%27%20stop-color=%27%230d1528%27%2F%3E%3C%2FlinearGradient%3E%0A%3C%2Fdefs%3E%0A%3Cg%20transform=%27rotate%28-10%2C60%2C110%29%27%3E%0A%3Cellipse%20cx=%2760%27%20cy=%27118%27%20rx=%2732%27%20ry=%2728%27%20fill=%27url%28%23su%29%27%2F%3E%0A%3Cpath%20d=%27M48%2092%20Q60%20100%2072%2092%20L70%20102%20Q60%20107%2050%20102Z%27%20fill=%27%230d1e38%27%2F%3E%0A%3Cpath%20d=%27M53%2092%20Q60%2098%2067%2092%20L66%20100%20Q60%20104%2054%20100Z%27%20fill=%27%23f0f0ff%27%2F%3E%0A%3Cpath%20d=%27M58%2092%20L60%2092%20L61%20100%20L60%20118%20L59%20100Z%27%20fill=%27%23cc1122%27%20opacity=%27.8%27%2F%3E%0A%3Cpath%20d=%27M57%2092%20L60%2096%20L63%2092Z%27%20fill=%27%23cc1122%27%20opacity=%27.8%27%2F%3E%0A%3C%2Fg%3E%0A%3Cpath%20d=%27M24%2064%20Q18%2080%2020%20100%20Q26%2096%2028%2085%20Q26%2072%2026%2064Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M96%2064%20Q102%2080%20100%20100%20Q94%2096%2092%2085%20Q94%2072%2094%2064Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cellipse%20cx=%2760%27%20cy=%2755%27%20rx=%2734%27%20ry=%2728%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M38%2046%20Q36%2030%2042%2026%20Q44%2036%2044%2044Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M50%2042%20Q48%2024%2056%2022%20Q57%2034%2058%2042Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M62%2040%20Q62%2022%2070%2022%20Q70%2034%2070%2042Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cpath%20d=%27M74%2044%20Q76%2028%2082%2030%20Q80%2040%2078%2046Z%27%20fill=%27url%28%23hr%29%27%2F%3E%0A%3Cg%20transform=%27rotate%28-14%2C60%2C62%29%27%3E%0A%3Cellipse%20cx=%2760%27%20cy=%2762%27%20rx=%2731%27%20ry=%2733%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Cellipse%20cx=%2729%27%20cy=%2763%27%20rx=%276%27%20ry=%277%27%20fill=%27url%28%23sk%29%27%2F%3E%3Cellipse%20cx=%2791%27%20cy=%2763%27%20rx=%276%27%20ry=%277%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Cpath%20d=%27M37%2061%20Q47%2071%2057%2061%27%20stroke=%27%232a1a0a%27%20stroke-width=%272.8%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M37%2061%20Q40%2055%2044%2058%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M46%2056%20Q50%2051%2054%2056%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M56%2058%20Q59%2054%2062%2058%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M63%2061%20Q73%2071%2083%2061%27%20stroke=%27%232a1a0a%27%20stroke-width=%272.8%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M63%2061%20Q66%2055%2070%2058%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M72%2056%20Q76%2051%2080%2056%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M82%2058%20Q85%2054%2088%2058%27%20stroke=%27%231a0a05%27%20stroke-width=%271.5%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M37%2048%20Q47%2043%2057%2048%27%20stroke=%27%233a1a05%27%20stroke-width=%272%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cpath%20d=%27M63%2048%20Q73%2043%2083%2048%27%20stroke=%27%233a1a05%27%20stroke-width=%272%27%20fill=%27none%27%20stroke-linecap=%27round%27%2F%3E%0A%3Cellipse%20cx=%2744%27%20cy=%2775%27%20rx=%279%27%20ry=%276%27%20fill=%27%23ffb0a0%27%20opacity=%27.45%27%2F%3E%0A%3Cellipse%20cx=%2776%27%20cy=%2775%27%20rx=%279%27%20ry=%276%27%20fill=%27%23ffb0a0%27%20opacity=%27.45%27%2F%3E%0A%3C%2Fg%3E%0A%3Cellipse%20cx=%2795%27%20cy=%2798%27%20rx=%2714%27%20ry=%279%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Cellipse%20cx=%27102%27%20cy=%2792%27%20rx=%276%27%20ry=%275%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Cellipse%20cx=%27107%27%20cy=%2798%27%20rx=%275%27%20ry=%275%27%20fill=%27url%28%23sk%29%27%2F%3E%0A%3Cellipse%20cx=%2776%27%20cy=%27138%27%20rx=%2748%27%20ry=%2712%27%20fill=%27white%27%20opacity=%27.88%27%2F%3E%0A%3Cellipse%20cx=%2784%27%20cy=%27142%27%20rx=%2730%27%20ry=%2710%27%20fill=%27white%27%20opacity=%27.88%27%2F%3E%0A%3Ctext%20x=%2764%27%20y=%27140%27%20font-family=%27Arial%20Black%27%20font-size=%278%27%20fill=%27%236060a8%27%20font-weight=%27900%27%3Ez%3C%2Ftext%3E%0A%3Ctext%20x=%2776%27%20y=%27132%27%20font-family=%27Arial%20Black%27%20font-size=%2711%27%20fill=%27%235050a0%27%20font-weight=%27900%27%3Ez%3C%2Ftext%3E%0A%3Ctext%20x=%2788%27%20y=%27122%27%20font-family=%27Arial%20Black%27%20font-size=%2714%27%20fill=%27%234040a0%27%20font-weight=%27900%27%3EZ%3C%2Ftext%3E%0A%3Cpath%20d=%27M100%2028%20Q106%2018%20114%2021%20Q108%2026%20107%2032%20Q104%2036%2098%2034%20Q98%2031%20100%2028Z%27%20fill=%27%23f0e050%27%20opacity=%27.65%27%2F%3E%0A%3Ccircle%20cx=%27104%27%20cy=%2720%27%20r=%271.2%27%20fill=%27%23c0b0e0%27%20opacity=%27.6%27%2F%3E%0A%3C%2Fsvg%3E',
       unlock: 'default',
@@ -47,7 +47,7 @@ const AVATAR_CONFIG = {
        ZÁMERNE NEMENÍ – sú uložené vo Firebase u existujúcich hráčov,
        zmena id by im rozbila výber avatara. Mení sa len obsah objektu. */
     'cat': {
-      name: 'Právnická mačka',
+      name: 'Mačka nezávislosti',
       base: 'avatars/macka',
       unlock: 'paragraphs_100',
       unlockValue: 3000,
@@ -77,12 +77,12 @@ const AVATAR_CONFIG = {
        (full/tired/sleep) namiesto starých 2 (awake/sleep).
        avatarSrc() nižšie rozlišuje podľa prítomnosti `base`.
     ============================================================ */
-    'studentka-tmava':  { name: 'Študentka (tmavé vlasy)',  base: 'avatars/studentka-tmava',  unlock: 'default', isBasic: true },
-    'studentka-medena': { name: 'Študentka (medené vlasy)', base: 'avatars/studentka-medena', unlock: 'default', isBasic: true },
-    'studentka-blond':  { name: 'Študentka (blond vlasy)',  base: 'avatars/studentka-blond',  unlock: 'default', isBasic: true },
-    'student-tmavy':    { name: 'Študent (tmavé vlasy)',    base: 'avatars/student-tmavy',    unlock: 'default', isBasic: true },
-    'student-medeny':   { name: 'Študent (medené vlasy)',   base: 'avatars/student-medeny',   unlock: 'default', isBasic: true },
-    'student-blond':    { name: 'Študent (blond vlasy)',    base: 'avatars/student-blond',    unlock: 'default', isBasic: true },
+    'studentka-tmava':  { name: 'Účastníčka (tmavé vlasy)',  base: 'avatars/studentka-tmava',  unlock: 'default', isBasic: true },
+    'studentka-medena': { name: 'Účastníčka (medené vlasy)', base: 'avatars/studentka-medena', unlock: 'default', isBasic: true },
+    'studentka-blond':  { name: 'Účastníčka (blond vlasy)',  base: 'avatars/studentka-blond',  unlock: 'default', isBasic: true },
+    'student-tmavy':    { name: 'Účastník (tmavé vlasy)',    base: 'avatars/student-tmavy',    unlock: 'default', isBasic: true },
+    'student-medeny':   { name: 'Účastník (medené vlasy)',   base: 'avatars/student-medeny',   unlock: 'default', isBasic: true },
+    'student-blond':    { name: 'Účastník (blond vlasy)',    base: 'avatars/student-blond',    unlock: 'default', isBasic: true },
 
     /* ============================================================
        TALÁRE – čisto kozmetické kúpy za § (žiadny herný bonus).
@@ -119,123 +119,123 @@ const AVATAR_CONFIG = {
        cestách) – modrý lem/pás na taláre, čiapke a knihe zvýraznený a
        zosýtený, pôvodne takmer splýval s čiernou. Kód sa nemení, appka
        načíta novú grafiku cez rovnaké cesty. */
-    'student-blond-advokat':        { name: 'Študent – advokátsky talár',              base: 'avatars/student-blond-advokat',        unlock: 'talar_purchase', talarBaseId: 'student-blond',    talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
+    'student-blond-advokat':        { name: 'Účastník – odznak Kouča',              base: 'avatars/student-blond-advokat',        unlock: 'talar_purchase', talarBaseId: 'student-blond',    talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
     /* Vlastný render hotový a nahratý v avatars/ (commit 52a70e6, 6 PNG:
        student-blond-prokurator-{full,tired,sleep}{,-bust}.png). Vznikla
        prefarbením student-blond-advokat (modrý lem/pás/čiapka/kniha →
        červená). V sleep póze ostáva kniha neutrálna tmavá (nebola modrá
        ani v zdroji). Červená farba vizuálne overená. */
-    'student-blond-prokurator':     { name: 'Študent – prokurátorský talár',            base: 'avatars/student-blond-prokurator',     unlock: 'talar_purchase', talarBaseId: 'student-blond',    talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
+    'student-blond-prokurator':     { name: 'Účastník – odznak Mentora',            base: 'avatars/student-blond-prokurator',     unlock: 'talar_purchase', talarBaseId: 'student-blond',    talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
     /* Vlastný render hotový a nahratý v avatars/ (commit 2b59541, 6 PNG:
        student-medeny-prokurator-{full,tired,sleep}{,-bust}.png). Prvý
        prokurátorský talár pre student-medeny (doteraz len talar-cierny). */
-    'student-medeny-prokurator':    { name: 'Študent – prokurátorský talár',            base: 'avatars/student-medeny-prokurator',    unlock: 'talar_purchase', talarBaseId: 'student-medeny',   talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
+    'student-medeny-prokurator':    { name: 'Účastník – odznak Mentora',            base: 'avatars/student-medeny-prokurator',    unlock: 'talar_purchase', talarBaseId: 'student-medeny',   talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
     /* Vlastný render hotový a nahratý v avatars/ (commit f42ffee, 6 PNG:
        student-medeny-advokat-{full,tired,sleep}{,-bust}.png). Vznikla
        prefarbením student-medeny-prokurator (vínová štóla/kniha → modrá).
        Modrá farba vizuálne overená. */
-    'student-medeny-advokat':       { name: 'Študent – advokátsky talár',              base: 'avatars/student-medeny-advokat',       unlock: 'talar_purchase', talarBaseId: 'student-medeny',   talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
+    'student-medeny-advokat':       { name: 'Účastník – odznak Kouča',              base: 'avatars/student-medeny-advokat',       unlock: 'talar_purchase', talarBaseId: 'student-medeny',   talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
     /* Vlastný render hotový a nahratý v avatars/ (commit bf9646a, 6 PNG:
        student-medeny-sudca-{full,tired,sleep}{,-bust}.png). Vznikla
        prefarbením student-medeny-advokat (modrý lem → fialová). Fialová
        farba vizuálne overená. */
-    'student-medeny-sudca':         { name: 'Študent – sudcovský talár',               base: 'avatars/student-medeny-sudca',         unlock: 'talar_purchase', talarBaseId: 'student-medeny',   talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
+    'student-medeny-sudca':         { name: 'Účastník – odznak Lídra',               base: 'avatars/student-medeny-sudca',         unlock: 'talar_purchase', talarBaseId: 'student-medeny',   talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
     /* Vlastný render hotový a nahratý v avatars/ (commit 0dc16ba, 6 PNG:
        student-tmavy-advokat-{full,tired,sleep}{,-bust}.png). Žiadny
        fallbackBase zámerne: fallback je len pre čierny talár bez lemu,
        nikdy pre modrý lem (viď pravidlo vyššie). */
-    'student-tmavy-advokat':        { name: 'Študent – advokátsky talár',              base: 'avatars/student-tmavy-advokat',        unlock: 'talar_purchase', talarBaseId: 'student-tmavy',    talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
+    'student-tmavy-advokat':        { name: 'Účastník – odznak Kouča',              base: 'avatars/student-tmavy-advokat',        unlock: 'talar_purchase', talarBaseId: 'student-tmavy',    talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
     /* Vlastný render hotový a nahratý v avatars/ (commit f42ffee, 6 PNG:
        student-tmavy-prokurator-{full,tired,sleep}{,-bust}.png). Vznikla
        prefarbením student-tmavy-advokat (modrý lem/pás → červená). Červená
        farba vizuálne overená. */
-    'student-tmavy-prokurator':     { name: 'Študent – prokurátorský talár',            base: 'avatars/student-tmavy-prokurator',     unlock: 'talar_purchase', talarBaseId: 'student-tmavy',    talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
+    'student-tmavy-prokurator':     { name: 'Účastník – odznak Mentora',            base: 'avatars/student-tmavy-prokurator',     unlock: 'talar_purchase', talarBaseId: 'student-tmavy',    talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
     /* Vlastný render hotový a nahratý v avatars/ (commit bf9646a, 6 PNG:
        student-tmavy-sudca-{full,tired,sleep}{,-bust}.png). Vznikla
        prefarbením student-tmavy-prokurator (červený lem → fialová). Fialová
        farba vizuálne overená. */
-    'student-tmavy-sudca':          { name: 'Študent – sudcovský talár',               base: 'avatars/student-tmavy-sudca',          unlock: 'talar_purchase', talarBaseId: 'student-tmavy',    talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
-    'student-medeny-talar-cierny':  { name: 'Študent – základný talár',                base: 'avatars/student-medeny-talar-cierny',  unlock: 'talar_purchase', talarBaseId: 'student-medeny',   talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
-    'student-tmavy-talar-cierny':   { name: 'Študent – základný talár',                base: 'avatars/student-tmavy-talar-cierny',   unlock: 'talar_purchase', talarBaseId: 'student-tmavy',    talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
+    'student-tmavy-sudca':          { name: 'Účastník – odznak Lídra',               base: 'avatars/student-tmavy-sudca',          unlock: 'talar_purchase', talarBaseId: 'student-tmavy',    talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
+    'student-medeny-talar-cierny':  { name: 'Účastník – základný odznak',                base: 'avatars/student-medeny-talar-cierny',  unlock: 'talar_purchase', talarBaseId: 'student-medeny',   talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
+    'student-tmavy-talar-cierny':   { name: 'Účastník – základný odznak',                base: 'avatars/student-tmavy-talar-cierny',   unlock: 'talar_purchase', talarBaseId: 'student-tmavy',    talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
     /* Vlastný render hotový a nahratý v avatars/ (commit e58df8b, 6 PNG:
        student-blond-talar-cierny-{full,tired,sleep}{,-bust}.png). Vznikla
        stmavením student-blond-advokat (jemné modré prúžky → čierna/tmavosivá,
        splýva s plášťom, bez lemu). fallbackBase už netreba. */
-    'student-blond-talar-cierny':   { name: 'Študent – základný talár',                base: 'avatars/student-blond-talar-cierny',   unlock: 'talar_purchase', talarBaseId: 'student-blond', talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
+    'student-blond-talar-cierny':   { name: 'Účastník – základný odznak',                base: 'avatars/student-blond-talar-cierny',   unlock: 'talar_purchase', talarBaseId: 'student-blond', talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
     /* Vlastný render hotový a nahratý v avatars/ (rename commity 733c24d/
        6cbf362/53d1961, 6 PNG: student-blond-sudca-{full,tired,sleep}{,-bust}.png).
        Vznikla prefarbením student-blond-prokurator (červený lem/pás/kniha →
        fialová, rovnaký odtieň ako studentka-blond-sudca, ~302°). Fialová
        farba vizuálne overená. */
-    'student-blond-sudca':          { name: 'Študent – sudcovský talár',               base: 'avatars/student-blond-sudca',          unlock: 'talar_purchase', talarBaseId: 'student-blond',    talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
+    'student-blond-sudca':          { name: 'Účastník – odznak Lídra',               base: 'avatars/student-blond-sudca',          unlock: 'talar_purchase', talarBaseId: 'student-blond',    talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
     /* Vlastný render hotový a nahratý v avatars/ (commit 4edf72b, 6 PNG:
        studentka-blond-advokat-{full,tired,sleep}{,-bust}.png). Modrý lem
        vizuálne overený (2026-07-31). */
-    'studentka-blond-advokat':      { name: 'Študentka – advokátsky talár',            base: 'avatars/studentka-blond-advokat',      unlock: 'talar_purchase', talarBaseId: 'studentka-blond',  talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
-    'studentka-blond-prokurator':   { name: 'Študentka – prokurátorský talár',         base: 'avatars/studentka-blond-prokurator',   unlock: 'talar_purchase', talarBaseId: 'studentka-blond',  talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
+    'studentka-blond-advokat':      { name: 'Účastníčka – odznak Kouča',            base: 'avatars/studentka-blond-advokat',      unlock: 'talar_purchase', talarBaseId: 'studentka-blond',  talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
+    'studentka-blond-prokurator':   { name: 'Účastníčka – odznak Mentora',         base: 'avatars/studentka-blond-prokurator',   unlock: 'talar_purchase', talarBaseId: 'studentka-blond',  talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
     /* Overené (audit 2026-07-31): vlastný súbor má správny fialový pás a
        NIE JE identický s prokurátorom (odlišná veľkosť aj hash) – pôvodný
        „duplikát" bol medzitým opravený, preto zobrazené v obchode. */
-    'studentka-blond-sudca':        { name: 'Študentka – sudcovský talár',             base: 'avatars/studentka-blond-sudca',        unlock: 'talar_purchase', talarBaseId: 'studentka-blond',  talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
-    'studentka-medena-talar-cierny':{ name: 'Študentka – základný talár',              base: 'avatars/studentka-medena-talar-cierny',unlock: 'talar_purchase', talarBaseId: 'studentka-medena', talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
+    'studentka-blond-sudca':        { name: 'Účastníčka – odznak Lídra',             base: 'avatars/studentka-blond-sudca',        unlock: 'talar_purchase', talarBaseId: 'studentka-blond',  talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
+    'studentka-medena-talar-cierny':{ name: 'Účastníčka – základný odznak',              base: 'avatars/studentka-medena-talar-cierny',unlock: 'talar_purchase', talarBaseId: 'studentka-medena', talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
     /* Vlastný render hotový a nahratý v avatars/ (commit d7e2af8, 6 PNG:
        studentka-medena-prokurator-{full,tired,sleep}{,-bust}.png). Vínová
        štóla/strapec/kniha, olemovanie štýlovo podľa studentka-blond-
        prokurator. Prvý zakúpiteľný talár pre studentka-medena (doteraz len
        talar-cierny). Vínová farba vizuálne overená. */
-    'studentka-medena-prokurator':  { name: 'Študentka – prokurátorský talár',         base: 'avatars/studentka-medena-prokurator',  unlock: 'talar_purchase', talarBaseId: 'studentka-medena', talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
+    'studentka-medena-prokurator':  { name: 'Účastníčka – odznak Mentora',         base: 'avatars/studentka-medena-prokurator',  unlock: 'talar_purchase', talarBaseId: 'studentka-medena', talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
     /* Vlastný render hotový a nahratý v avatars/ (commit ea9abc3, 6 PNG:
        studentka-medena-sudca-{full,tired,sleep}{,-bust}.png). Vznikla
        prefarbením studentka-medena-akademik (zlatý lem/štóla → fialová,
        rovnaký odtieň ako studentka-blond-sudca). Kniha fialová len vo full
        póze, v tired/sleep póze podľa rovnakej konvencie ako blond/tmava
        sudca. Fialová farba vizuálne overená. */
-    'studentka-medena-sudca':       { name: 'Študentka – sudcovský talár',             base: 'avatars/studentka-medena-sudca',       unlock: 'talar_purchase', talarBaseId: 'studentka-medena', talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
+    'studentka-medena-sudca':       { name: 'Účastníčka – odznak Lídra',             base: 'avatars/studentka-medena-sudca',       unlock: 'talar_purchase', talarBaseId: 'studentka-medena', talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
     /* Vlastný render hotový a nahratý v avatars/ (commit 09a4f12, 6 PNG:
        studentka-medena-advokat-{full,tired,sleep}{,-bust}.png). Vznikla
        prefarbením studentka-medena-sudca (fialový lem/štóla/kniha → modrá,
        rovnaký odtieň ako studentka-blond-advokat/studentka-tmava-advokat).
        Modrá farba vizuálne overená. */
-    'studentka-medena-advokat':     { name: 'Študentka – advokátsky talár',            base: 'avatars/studentka-medena-advokat',     unlock: 'talar_purchase', talarBaseId: 'studentka-medena', talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
+    'studentka-medena-advokat':     { name: 'Účastníčka – odznak Kouča',            base: 'avatars/studentka-medena-advokat',     unlock: 'talar_purchase', talarBaseId: 'studentka-medena', talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
     /* Vlastný render hotový a nahratý v avatars/ (commit 9d51d37, 6 PNG:
        studentka-tmava-advokat-{full,tired,sleep}{,-bust}.png). Vznikla
        prefarbením studentka-tmava-prokurator (červený lem/štóla/kniha →
        modrá, rovnaký odtieň ako studentka-blond-advokat). */
-    'studentka-tmava-advokat':      { name: 'Študentka – advokátsky talár',            base: 'avatars/studentka-tmava-advokat',      unlock: 'talar_purchase', talarBaseId: 'studentka-tmava',  talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
-    'studentka-tmava-prokurator':   { name: 'Študentka – prokurátorský talár',         base: 'avatars/studentka-tmava-prokurator',   unlock: 'talar_purchase', talarBaseId: 'studentka-tmava',  talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
-    'studentka-tmava-sudca':        { name: 'Študentka – sudcovský talár',             base: 'avatars/studentka-tmava-sudca',        unlock: 'talar_purchase', talarBaseId: 'studentka-tmava',  talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
+    'studentka-tmava-advokat':      { name: 'Účastníčka – odznak Kouča',            base: 'avatars/studentka-tmava-advokat',      unlock: 'talar_purchase', talarBaseId: 'studentka-tmava',  talarRole: 'advokat',    talarPrice: ECONOMY_CONFIG.TALARE.ADVOKAT },
+    'studentka-tmava-prokurator':   { name: 'Účastníčka – odznak Mentora',         base: 'avatars/studentka-tmava-prokurator',   unlock: 'talar_purchase', talarBaseId: 'studentka-tmava',  talarRole: 'prokurator', talarPrice: ECONOMY_CONFIG.TALARE.PROKURATOR },
+    'studentka-tmava-sudca':        { name: 'Účastníčka – odznak Lídra',             base: 'avatars/studentka-tmava-sudca',        unlock: 'talar_purchase', talarBaseId: 'studentka-tmava',  talarRole: 'sudca',      talarPrice: ECONOMY_CONFIG.TALARE.SUDCA },
     /* Vlastný render hotový a nahratý v avatars/ (commit 2418ebc, 6 PNG:
        studentka-tmava-talar-cierny-{full,tired,sleep}{,-bust}.png). Vznikla
        prefarbením studentka-tmava-sudca (fialová štóla/kniha → čierna,
        splýva s plášťom, bez lemu). fallbackBase už netreba. */
-    'studentka-tmava-talar-cierny': { name: 'Študentka – základný talár',              base: 'avatars/studentka-tmava-talar-cierny', unlock: 'talar_purchase', talarBaseId: 'studentka-tmava', talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
-    'studentka-blond-talar-cierny': { name: 'Študentka – základný talár',              base: 'avatars/studentka-blond-talar-cierny', unlock: 'talar_purchase', talarBaseId: 'studentka-blond', talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
+    'studentka-tmava-talar-cierny': { name: 'Účastníčka – základný odznak',              base: 'avatars/studentka-tmava-talar-cierny', unlock: 'talar_purchase', talarBaseId: 'studentka-tmava', talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
+    'studentka-blond-talar-cierny': { name: 'Účastníčka – základný odznak',              base: 'avatars/studentka-blond-talar-cierny', unlock: 'talar_purchase', talarBaseId: 'studentka-blond', talarRole: 'talar-cierny', talarPrice: ECONOMY_CONFIG.TALARE.CIERNY },
 
     /* Akademický talár – NIKDY na predaj. Priradený výhradne podľa
        aktuálnej (živej) Firebase roly, nie kúpou ani jednorazovým
        udelením – selectAvatar() nižšie ho preto vždy overuje voči
        getRole(), nie voči uloženému vlastníctvu. Vizuálne odlíšený
        zlatým pásom priamo v PNG renderi (obsah assetu, nie CSS). */
-    'studentka-blond-akademik': { name: 'Študentka – akademický talár (zlatý pás)', base: 'avatars/studentka-blond-akademik', talarBaseId: 'studentka-blond', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' },
-    'studentka-tmava-akademik': { name: 'Študentka (tmavé vlasy) – akademický talár (zlatý pás)', base: 'avatars/studentka-tmava-akademik', talarBaseId: 'studentka-tmava', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' },
-    'studentka-medena-akademik': { name: 'Študentka (medené vlasy) – akademický talár (zlatý pás)', base: 'avatars/studentka-medena-akademik', talarBaseId: 'studentka-medena', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' },
+    'studentka-blond-akademik': { name: 'Účastníčka – odznak Garanta (zlatý pás)', base: 'avatars/studentka-blond-akademik', talarBaseId: 'studentka-blond', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' },
+    'studentka-tmava-akademik': { name: 'Účastníčka (tmavé vlasy) – odznak Garanta (zlatý pás)', base: 'avatars/studentka-tmava-akademik', talarBaseId: 'studentka-tmava', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' },
+    'studentka-medena-akademik': { name: 'Účastníčka (medené vlasy) – odznak Garanta (zlatý pás)', base: 'avatars/studentka-medena-akademik', talarBaseId: 'studentka-medena', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' },
     /* Vlastný render hotový a nahratý v avatars/ (commit 74646c4, 6 PNG:
        student-blond-akademik-{full,tired,sleep}{,-bust}.png). Vznikla
        prenesením zlatého štýlu (lem/pás/kniha/čiapka/strapec) na
        student-blond-talar-cierny, doladená používateľkou pre sýtejšiu
        zlatú. Prvý mužský akademický talár v kóde (doteraz len studentka-*). */
-    'student-blond-akademik':  { name: 'Študent – akademický talár (zlatý pás)', base: 'avatars/student-blond-akademik', talarBaseId: 'student-blond', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' },
+    'student-blond-akademik':  { name: 'Účastník – odznak Garanta (zlatý pás)', base: 'avatars/student-blond-akademik', talarBaseId: 'student-blond', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' },
     /* Vlastný render hotový a nahratý v avatars/ (commity e233ba1 + d84b8bb,
        6 PNG: student-medeny-akademik-{full,tired,sleep}{,-bust}.png). Ručne
        dotiahnutá zlatá "kolieskovaná" textúra na páse/čiapke/knihe (vlastná
        grafika používateľky, nie skriptové prefarbenie). Zlatá vizuálne overená. */
-    'student-medeny-akademik': { name: 'Študent (medené vlasy) – akademický talár (zlatý pás)', base: 'avatars/student-medeny-akademik', talarBaseId: 'student-medeny', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' },
+    'student-medeny-akademik': { name: 'Účastník (medené vlasy) – odznak Garanta (zlatý pás)', base: 'avatars/student-medeny-akademik', talarBaseId: 'student-medeny', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' },
     /* Vlastný render hotový a nahratý v avatars/ (commity 5ff6767 + 6b0b219,
        6 PNG: student-tmavy-akademik-{full,tired,sleep}{,-bust}.png). Ručne
        dotiahnutá zlatá "kolieskovaná" textúra na páse/čiapke/knihe (vlastná
        grafika používateľky, nie skriptové prefarbenie, rovnaký štýl ako
        student-medeny-akademik). Zlatá vizuálne overená. */
-    'student-tmavy-akademik': { name: 'Študent (tmavé vlasy) – akademický talár (zlatý pás)', base: 'avatars/student-tmavy-akademik', talarBaseId: 'student-tmavy', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' }
+    'student-tmavy-akademik': { name: 'Účastník (tmavé vlasy) – odznak Garanta (zlatý pás)', base: 'avatars/student-tmavy-akademik', talarBaseId: 'student-tmavy', unlock: 'talar_role', talarRole: 'akademik', desc: 'Automaticky pridelené garantom a adminom – nedá sa kúpiť.' }
   }
 };
 
@@ -603,7 +603,7 @@ export async function selectAvatar(avatarType) {
   // Platí pre OBE talárové vetvy (talar_purchase aj talar_role); základné
   // avatary talarBaseId nemajú, takže sa ich táto kontrola netýka.
   if (avatarDef.talarBaseId && avatarDef.talarBaseId !== getBaseIdFor(state.type)) {
-    showRewardToast('🔒 Tento talár nepatrí k tvojmu základnému avatarovi.');
+    showRewardToast('🔒 Tento odznak nepatrí k tvojmu základnému avatarovi.');
     return;
   }
 
@@ -640,7 +640,7 @@ export async function selectAvatar(avatarType) {
     if (avatarDef.unlock === 'talar_purchase') {
       const owned = data.ownedTalars && data.ownedTalars[avatarType] === true;
       if (!owned) {
-        showRewardToast(`🔒 Tento talár si ešte nekúpil/a (${avatarDef.talarPrice}\u00A0🪙 v obchode).`);
+        showRewardToast(`🔒 Tento odznak si ešte nekúpil/a (${avatarDef.talarPrice}\u00A0🪙 v obchode).`);
         return;
       }
     }
@@ -650,7 +650,7 @@ export async function selectAvatar(avatarType) {
       // natrvalo – ak rola prestane byť garant/admin, prestane platiť aj tu.
       const role = await getRole(nick);
       if (role !== 'garant' && role !== 'admin') {
-        showRewardToast('🔒 Akademický talár je vyhradený pre garantov a adminov.');
+        showRewardToast('🔒 Odznak Garanta je vyhradený pre garantov a adminov.');
         return;
       }
     }
@@ -678,15 +678,15 @@ export async function buyTalar(avatarId) {
 
   const avatarDef = AVATAR_CONFIG.AVATARS[avatarId];
   if (!avatarDef || avatarDef.unlock !== 'talar_purchase' || !avatarDef.talarPrice || avatarDef.hidden) {
-    return { ok: false, message: 'Tento talár sa nedá kúpiť.' };
+    return { ok: false, message: 'Tento odznak sa nedá kúpiť.' };
   }
 
   const ownedSnap = await get(ref(db, `users/${nick}/ownedTalars/${avatarId}`));
   if (ownedSnap.exists() && ownedSnap.val() === true) {
-    return { ok: false, message: 'Tento talár už vlastníš.' };
+    return { ok: false, message: 'Tento odznak už vlastníš.' };
   }
 
-  const paid = await spendParagrafy(avatarDef.talarPrice, `talár – ${avatarDef.name}`);
+  const paid = await spendParagrafy(avatarDef.talarPrice, `odznak – ${avatarDef.name}`);
   if (!paid) return { ok: false, message: `Nemáš dosť kreditov (${avatarDef.talarPrice}\u00A0🪙).` };
 
   await update(ref(db, `users/${nick}/ownedTalars`), { [avatarId]: true });
@@ -701,7 +701,7 @@ export async function buyTalar(avatarId) {
   await logTransaction(nick, {
     type: 'spend',
     amount: avatarDef.talarPrice,
-    reason: `talár – ${avatarDef.name}`,
+    reason: `odznak – ${avatarDef.name}`,
     balanceAfter: null
   });
 

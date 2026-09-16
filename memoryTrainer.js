@@ -574,7 +574,7 @@ export async function updateTile(slug, containerEl) {
     <div class="memory-tile-stat">Dokončené: ${stats.completed}/${stats.total} (${stats.percent} %)</div>
     <div class="memory-tile-stat">Priemerná presnosť: ${stats.avgAccuracy} %</div>
     <div class="memory-tile-stat">Najlepší výsledok: ${stats.bestScore} %</div>
-    ${meta && meta.examUnlocked ? '<div class="memory-tile-badge">🎓 Pripravený na štátnice</div>' : ''}
+    ${meta && meta.examUnlocked ? '<div class="memory-tile-badge">🎓 Pripravený do praxe</div>' : ''}
   `;
 }
 

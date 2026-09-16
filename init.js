@@ -114,16 +114,16 @@ async function openAvatarSelectModal() {
      ktorí ich majú uložené vo Firebase, sa naďalej vykreslia; len sa už
      nedajú novo zvoliť. */
   const BASIC_TILES = [
-    { id: 'studentka-tmava',  name: 'Študentka<br>tmavé vlasy',  base: 'avatars/studentka-tmava',  locked: false },
-    { id: 'studentka-medena', name: 'Študentka<br>medené vlasy', base: 'avatars/studentka-medena', locked: false },
-    { id: 'studentka-blond',  name: 'Študentka<br>blond vlasy',  base: 'avatars/studentka-blond',  locked: false },
-    { id: 'student-tmavy',    name: 'Študent<br>tmavé vlasy',    base: 'avatars/student-tmavy',    locked: false },
-    { id: 'student-medeny',   name: 'Študent<br>medené vlasy',   base: 'avatars/student-medeny',   locked: false },
-    { id: 'student-blond',    name: 'Študent<br>blond vlasy',    base: 'avatars/student-blond',    locked: false },
+    { id: 'studentka-tmava',  name: 'Účastníčka<br>tmavé vlasy',  base: 'avatars/studentka-tmava',  locked: false },
+    { id: 'studentka-medena', name: 'Účastníčka<br>medené vlasy', base: 'avatars/studentka-medena', locked: false },
+    { id: 'studentka-blond',  name: 'Účastníčka<br>blond vlasy',  base: 'avatars/studentka-blond',  locked: false },
+    { id: 'student-tmavy',    name: 'Účastník<br>tmavé vlasy',    base: 'avatars/student-tmavy',    locked: false },
+    { id: 'student-medeny',   name: 'Účastník<br>medené vlasy',   base: 'avatars/student-medeny',   locked: false },
+    { id: 'student-blond',    name: 'Účastník<br>blond vlasy',    base: 'avatars/student-blond',    locked: false },
   ];
 
   const UNLOCK_TILES = [
-    { id: 'cat',       name: 'Právnická mačka', emoji: '🐱', base: 'avatars/macka', desc: `Za 3000\u00A0🪙 celkovo (máš ${totalEarned}\u00A0🪙)`, locked: totalEarned < 3000 },
+    { id: 'cat',       name: 'Mačka nezávislosti', emoji: '🐱', base: 'avatars/macka', desc: `Za 3000\u00A0🪙 celkovo (máš ${totalEarned}\u00A0🪙)`, locked: totalEarned < 3000 },
     { id: 'owl',       name: 'Sova múdrosti',   emoji: '🦉', base: 'avatars/sova',  desc: `Za 100 nahlásení (máš ${acceptedReports})`, locked: acceptedReports < 100 },
     { id: 'dog',       name: 'Pes vernosti',    emoji: '🐶', base: 'avatars/pes',   desc: `Za 30 dní streaku (máš ${loginStreak})`, locked: loginStreak < 30 },
     /* Prestige rad má v ekonomike v1 štyri cenové tiery (SINKS.PRESTIGE_AVATARS
@@ -201,7 +201,7 @@ async function openAvatarSelectModal() {
          "🎨 Zmeniť vzhľad" na taláre, aby nevyzeralo ako duplicita
          výberu postavy. -->
     <div style="margin-top:16px">
-      <button id="openAvatarPickerFromSelect" class="btn" style="width:100%">🎭 Taláre a doplnky</button>
+      <button id="openAvatarPickerFromSelect" class="btn" style="width:100%">🎭 Odznaky a doplnky</button>
     </div>
     <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border,#eee)">
       <div style="font-weight:600;font-size:13px;margin-bottom:6px">🏛️ Tvoja firma</div>
@@ -279,12 +279,12 @@ async function openAvatarSelectModal() {
    Táto mriežka vždy zobrazuje -full.png náhľady na výber.
    ===================================================== */
 const BASIC_AVATARS = [
-  { id: 'studentka-tmava',  name: 'Študentka (tmavé vlasy)' },
-  { id: 'studentka-medena', name: 'Študentka (medené vlasy)' },
-  { id: 'studentka-blond',  name: 'Študentka (blond vlasy)' },
-  { id: 'student-tmavy',    name: 'Študent (tmavé vlasy)' },
-  { id: 'student-medeny',   name: 'Študent (medené vlasy)' },
-  { id: 'student-blond',    name: 'Študent (blond vlasy)' }
+  { id: 'studentka-tmava',  name: 'Účastníčka (tmavé vlasy)' },
+  { id: 'studentka-medena', name: 'Účastníčka (medené vlasy)' },
+  { id: 'studentka-blond',  name: 'Účastníčka (blond vlasy)' },
+  { id: 'student-tmavy',    name: 'Účastník (tmavé vlasy)' },
+  { id: 'student-medeny',   name: 'Účastník (medené vlasy)' },
+  { id: 'student-blond',    name: 'Účastník (blond vlasy)' }
 ];
 
 function openAvatarPickerModal(mandatory = false) {
@@ -313,7 +313,7 @@ function openAvatarPickerModal(mandatory = false) {
         <button class="btn btn-primary" id="avatarPickerConfirmBtn" style="width:100%;margin-bottom:16px" disabled>Potvrdiť</button>
 
         <div style="border-top:1px solid var(--card-border,#eee);padding-top:14px">
-          <div style="font-weight:600;margin-bottom:4px">⚖️ Taláre</div>
+          <div style="font-weight:600;margin-bottom:4px">⚖️ Odznaky</div>
           <div class="small muted" style="margin-bottom:10px">Čisto kozmetické – žiadny herný bonus. Kúpené ostávajú natrvalo.</div>
           <div id="talarShopGrid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px">
             <div class="small muted">Načítavam…</div>
@@ -375,7 +375,7 @@ async function renderTalarShop(baseId) {
 
   const entries = await getTalarShopEntries(baseId);
   if (!entries.length) {
-    grid.innerHTML = '<div class="small muted">Pre tohto avatara zatiaľ nie sú dostupné žiadne taláre.</div>';
+    grid.innerHTML = '<div class="small muted">Pre tohto avatara zatiaľ nie sú dostupné žiadne odznaky.</div>';
     return;
   }
 
@@ -427,7 +427,7 @@ async function renderTalarShop(baseId) {
         renderTalarShop(baseId);
         return;
       }
-      showRewardToast(`✅ Talár kúpený za ${result.price}\u00A0🪙!`);
+      showRewardToast(`✅ Odznak kúpený za ${result.price}\u00A0🪙!`);
       renderTalarShop(baseId);
     };
   });
@@ -1473,7 +1473,7 @@ function renderAdminPanel(role, db, ref, get, update, onValue, remove) {
     });
     groupListEl.querySelectorAll('.group-delete-btn').forEach(btn => {
       btn.onclick = async () => {
-        if (!confirm(`Naozaj zmazať skupinu "${btn.dataset.name}"? (Tréningové dáta študentov ostanú nedotknuté, zmaže sa len členstvo.)`)) return;
+        if (!confirm(`Naozaj zmazať skupinu "${btn.dataset.name}"? (Tréningové dáta účastníkov ostanú nedotknuté, zmaže sa len členstvo.)`)) return;
         const result = await deleteGroup(btn.dataset.id, myNick);
         if (!result.ok) { groupMsg.textContent = `❌ ${result.message}`; groupMsg.style.color = '#b91c1c'; return; }
         renderGroupList();
@@ -1551,7 +1551,7 @@ function renderAdminPanel(role, db, ref, get, update, onValue, remove) {
       const msg = panel.querySelector('#adminMsg');
       if (!targetNick) { msg.textContent = 'Zadaj nick hráča.'; return; }
       await update(ref(db, `users/${targetNick}`), { role: 'student' });
-      msg.textContent = `✅ ${targetNick} je teraz student.`;
+      msg.textContent = `✅ ${targetNick} je teraz účastník.`;
       msg.style.color = 'var(--muted)';
     };
 
@@ -1581,7 +1581,7 @@ function renderAdminPanel(role, db, ref, get, update, onValue, remove) {
           padding:6px 8px;border-bottom:1px solid var(--card-border);font-size:13px">
           <div>
             <strong>${n}</strong>
-            <span class="small muted" style="margin-left:6px">${u.role || 'student'}</span>
+            <span class="small muted" style="margin-left:6px">${(u.role || 'student') === 'student' ? 'účastník' : u.role}</span>
           </div>
           <div style="display:flex;gap:4px">
             <button class="btn" style="font-size:11px;padding:3px 8px"
@@ -1594,8 +1594,8 @@ function renderAdminPanel(role, db, ref, get, update, onValue, remove) {
               onclick="(async()=>{
                 const {ref,update}=await import('https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js');
                 await update(ref(window.db,'users/${n}'),{role:'student'});
-                this.closest('div').querySelector('span').textContent='student';
-              })()">👤 Student</button>
+                this.closest('div').querySelector('span').textContent='účastník';
+              })()">👤 Účastník</button>
           </div>
         </div>
       `).join('');
@@ -3140,7 +3140,7 @@ function initRoleBadge() {
   const firebaseRole = localStorage.getItem('playerFirebaseRole') || 'student';
   const currentView = localStorage.getItem('playerRole') || firebaseRole;
 
-  label.textContent = currentView;
+  label.textContent = currentView === 'student' ? 'účastník' : currentView;
   badge.setAttribute('data-role', currentView);
   badge.style.cursor = 'pointer';
   badge.title = 'Klikni pre prepnutie roly';
@@ -3168,7 +3168,7 @@ function openRoleSwitcher(firebaseRole) {
   const roleLabels = {
     admin: '👑 Admin',
     garant: '🔏 Garant',
-    student: '👤 Študent'
+    student: '👤 Účastník'
   };
 
   modal = document.createElement('div');
@@ -3202,7 +3202,7 @@ function openRoleSwitcher(firebaseRole) {
 
       const label = document.getElementById('roleLabel');
       const badge = document.getElementById('roleBadge');
-      if (label) label.textContent = newRole;
+      if (label) label.textContent = newRole === 'student' ? 'účastník' : newRole;
       if (badge) badge.setAttribute('data-role', newRole);
 
       modal.style.display = 'none';
