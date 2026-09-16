@@ -313,7 +313,7 @@ function openAvatarPickerModal(mandatory = false) {
         <button class="btn btn-primary" id="avatarPickerConfirmBtn" style="width:100%;margin-bottom:16px" disabled>Potvrdiť</button>
 
         <div style="border-top:1px solid var(--card-border,#eee);padding-top:14px">
-          <div style="font-weight:600;margin-bottom:4px">⚖️ Odznaky</div>
+          <div style="font-weight:600;margin-bottom:4px">🎖️ Odznaky</div>
           <div class="small muted" style="margin-bottom:10px">Čisto kozmetické – žiadny herný bonus. Kúpené ostávajú natrvalo.</div>
           <div id="talarShopGrid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px">
             <div class="small muted">Načítavam…</div>
@@ -396,16 +396,26 @@ async function renderTalarShop(baseId) {
   `).join('');
 
   // Vlastný obrázok najprv; ak 404 (grafika ešte nedodaná), skús požičaný
-  // (data-fallback), a ak zlyhá aj ten, kartu skry (nikdy nenechaj rozbitú ikonu).
+  // (data-fallback), a ak zlyhá aj ten, SKRY CELÚ KARTU – odznak, ktorý nie je
+  // vidieť, sa nesmie dať kúpiť. Predtým sa skryl len <img> a karta s menom
+  // a tlačidlom „Kúpiť“ ostala viditeľná (oprava vo fáze D).
+  const hideShopCard = img => {
+    const card = img.closest('.talar-shop-card');
+    if (card) card.style.display = 'none';
+    const anyVisible = [...grid.querySelectorAll('.talar-shop-card')].some(c => c.style.display !== 'none');
+    if (!anyVisible) grid.innerHTML = '<div class="small muted">Pre tohto avatara zatiaľ nie sú dostupné žiadne odznaky.</div>';
+  };
   grid.querySelectorAll('.talar-shop-img').forEach(img => {
     img.onerror = () => {
       if (img.dataset.fallback && !img.dataset.triedFallback) {
         img.dataset.triedFallback = '1';
         img.src = img.dataset.fallback;
       } else {
-        img.style.display = 'none';
+        hideShopCard(img);
       }
     };
+    // obrázok mohol zlyhať ešte pred pripojením handlera (404 z cache)
+    if (img.complete && img.naturalWidth === 0) img.onerror();
   });
 
   grid.querySelectorAll('.talar-equip-btn').forEach(btn => {
