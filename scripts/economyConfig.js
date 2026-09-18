@@ -99,6 +99,9 @@ export const ECONOMY_CONFIG = {
        ako priama „platba za obsah“ a ostáva len ako krmivo + kozmetika. */
     GREMIUM: -60,          // na doladenie – vstup do Štátnicovej siene
     NIGHT_RECAP: -60,      // na doladenie – odomknutie Nočného výcucu (24 h, per oblasť)
+    TRENING: -20,          // Tréning spätnej väzby – za pokus, ktorý mentori ohodnotili (fáza E).
+                           //  Krátky písomný pokus, nie celá ústna skúška (tá je GREMIUM).
+                           //  Odpočet až PO úspešnej odpovedi mentorov (scripts/trening.js).
 
     /* POMÔCKY (E3, 2026-08) – nahradili § ceny.
        Predtým: 50:50 3 §, žolíky 3/2/1 §, video znova 2 §. Pomôcka je
@@ -132,8 +135,18 @@ export const ECONOMY_CONFIG = {
     CHALLENGE_EXISTING: 1,
     VIDEO: 12,             // odmena za náukové video – JEDNORAZOVO na video a nick
     QUIZ_PLAYED: 1,        // +1§ za dohraný študijný kvíz (quiz.js finishQuiz, BEZ skipCap – v dennom strope)
-    REPORT_APPROVED: 2     // reportérovi za schválené nahlásenie otázky (index.html openVerdictModal,
+    REPORT_APPROVED: 2,    // reportérovi za schválené nahlásenie otázky (index.html openVerdictModal,
                            // vetva decision === 'approved', vedľa awardSeal logiky; BEZ skipCap)
+    TRENING_ATTEMPT: 8     // Tréning spätnej väzby – ROVNAKÁ odmena za každý ohodnotený pokus, nie za kvalitu
+                           // (mentori nedávajú známku). BEZ skipCap – v dennom strope. Viď scripts/trening.js.
+  },
+
+  // TRÉNING SPÄTNEJ VÄZBY – minimum odpovede pred volaním AI (a teda pred odmenou).
+  // MUSÍ sedieť s MIN_WORDS / MIN_CHARS v api/mentor-feedback.js. Zámerne nízke:
+  // vzor S5 („Nie, tento víkend to nejde.“) má 5 slov a je to najlepšia odpoveď.
+  TRENING: {
+    MIN_WORDS: 4,
+    MIN_CHARS: 20
   },
 
   // STREAK – krivka so stropom (pôvodne 1–50§ lineárne; 50§/deň = 1500§/mesiac zadarmo

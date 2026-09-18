@@ -3868,6 +3868,22 @@ function attachEvents() {
     });
   }
 
+  /* 💬 Tréning spätnej väzby (fáza E) – vlastný výber oblasti v module,
+     preto netreba window.__selectedAreaName. Lazy import v try/catch ako
+     pri pavúkovi – pád modulu = len nefunkčná dlaždica, nie zhodený init.js. */
+  const openTreningBtn = $('openTreningBtn');
+  if (openTreningBtn) {
+    openTreningBtn.addEventListener('click', async () => {
+      try {
+        const m = await import('./scripts/trening.js');
+        await m.openTrening();
+      } catch (e) {
+        console.error('trening load failed', e);
+        showRewardToast('💬 Tréning sa teraz nepodarilo otvoriť, skús to o chvíľu.');
+      }
+    });
+  }
+
   /* 🕸️ Pamäťový pavúk – globálna dlaždica, vlastný oblasť→okruh výber
      (spider.js nešiel cez node --check, preto lazy import v try/catch –
      pád modulu = len rozbité tlačidlo, nie zhodený init.js). */

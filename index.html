@@ -372,6 +372,13 @@
               <span class="game-tile-desc">Ústna skúška pred komisiou · ⚡ <span data-econ="ENERGY.GREMIUM"></span></span>
             </button>
             -->
+            <!-- Fáza E: Tréning spätnej väzby – vlastný výber oblasti v module,
+                 preto sa dlaždica nikdy nedisabluje (rovnako ako Výzvy). -->
+            <button class="game-tile" id="openTreningBtn">
+              <span class="game-tile-icon">💬</span>
+              <span class="game-tile-name">Tréning spätnej väzby</span>
+              <span class="game-tile-desc">Situácia z praxe, traja mentori · ⚡ <span data-econ="ENERGY.TRENING"></span></span>
+            </button>
             <!-- Výzvy nezávisia od výberu oblasti – register je dostupný vždy,
                  preto sa táto dlaždica nikdy nedisabluje. -->
             <button class="game-tile" id="openDuelBankTile">
@@ -404,7 +411,7 @@
             Štátnicová sieň (⚡ <span data-econ="ENERGY.GREMIUM"></span> energie, dostupná pre Pracovné, Trestné, Občianske a Európske právo) je nácvik ústnej
             skúšky pred komisiou – hlavná príprava na reálne štátnice.
             -->
-            Môj progres a Štruktúra otázok fungujú aj bez vybranej oblasti.
+            Môj progres, Štruktúra otázok a Tréning spätnej väzby fungujú aj bez vybranej oblasti.
           </div>
 
           <div style="margin-top:10px;display:flex;gap:8px">
@@ -609,6 +616,8 @@
         <div><span class="welcome-hl-icon">🏛️</span><strong>Štátnicová sieň</strong><br>
           <span class="small muted">Ústna skúška nanečisto so známkou a spätnou väzbou.</span></div>
         -->
+        <div><span class="welcome-hl-icon">💬</span><strong>Tréning spätnej väzby</strong><br>
+          <span class="small muted">Napíš, čo povieš v situácii z praxe — traja mentori ti ukážu, čo funguje.</span></div>
         <div><span class="welcome-hl-icon">⚔️</span><strong>Súboj</strong><br>
           <span class="small muted">10 otázok proti kolegovi — výzvu pošleš linkom.</span></div>
         <div><span class="welcome-hl-icon">🧠</span><strong>Bifľovačka</strong><br>
@@ -758,6 +767,26 @@
       -->
 
       <details class="guide-section">
+        <summary>💬 Tréning spätnej väzby</summary>
+        <div class="guide-content">
+          <p>Dostaneš situáciu z pracovného života – vyberieš si oblasť, alebo necháš náhodu.
+          Napíšeš vlastnými slovami, čo povieš, a traja mentori sa pozrú každý na inú vrstvu
+          odpovede: <strong>🎯 obsah</strong> (je v tom niečo konkrétne?), <strong>✍️ forma</strong>
+          (ako je to povedané?) a <strong>🤝 vzťah</strong> (dá sa na to odpovedať?).</p>
+          <p>Mentori nedávajú známku. Každý povie jednu vec, ktorá funguje, a jednu, ktorá by
+          odpoveď posilnila. Aj experti formulujú spätnú väzbu nedokonale – mentor je pohľad,
+          nie rozsudok.</p>
+          <table class="guide-table">
+            <tr><th>Položka</th><th>Cena / odmena</th></tr>
+            <tr><td>Ohodnotený pokus</td><td>−<span data-econ="ENERGY.TRENING"></span> energie</td></tr>
+            <tr><td>Odmena za pokus</td><td>+<span data-econ="REWARDS.TRENING_ATTEMPT"></span>&nbsp;🪙</td></tr>
+          </table>
+          <p class="small muted">Energia sa odpočíta a kredity pripíšu až vtedy, keď mentori odpovedia.
+          Odpoveď potrebuje aspoň <span data-econ="TRENING.MIN_WORDS"></span> slová – stručnosť je v poriadku.</p>
+        </div>
+      </details>
+
+      <details class="guide-section">
         <summary>📚 Bifľovačka</summary>
         <div class="guide-content">
           <p>Tréning definícií: zobrazí sa ti definícia, zapamätáš si ju, a potom
@@ -867,6 +896,7 @@
             <tr><td>Kartičky</td><td>−<span data-econ="ENERGY.MEMORY_SET"></span> % / sadu</td></tr>
             <tr><td>Prípady</td><td>−<span data-econ="ENERGY.CASES_SET"></span> % / sadu</td></tr>
             <tr><td>Pavúkové hry</td><td>−<span data-econ="ENERGY.SPIDER_GAME"></span> % / sedenie</td></tr>
+            <tr><td>Tréning spätnej väzby</td><td>−<span data-econ="ENERGY.TRENING"></span> % / ohodnotený pokus</td></tr>
             <!-- SKRYTÉ v C5 spolu s modulmi – odkryť vo fáze E (Štátnicová sieň) resp. s Nočným výcucom.
             <tr><td>Štátnicová sieň</td><td>−<span data-econ="ENERGY.GREMIUM"></span> % / skúšku</td></tr>
             <tr><td>Nočný výcuc</td><td>−<span data-econ="ENERGY.NIGHT_RECAP"></span> % / oblasť na 24 h</td></tr>

@@ -3553,3 +3553,88 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+
+/* ============================================================
+   fáza E – Tréning spätnej väzby (scripts/trening.js)
+   Len existujúce tokeny, oboje témy cez :root / [data-theme=dark].
+============================================================ */
+.trening-intro { margin: 10px 0 4px; }
+.trening-oblasti { margin: 8px 0 14px; }
+.trening-hint { padding: 8px 0; }
+.trening-situacia {
+  background: var(--bg);
+  border: 1px solid var(--card-border);
+  border-left: 4px solid var(--terakota);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  margin-bottom: 12px;
+}
+.trening-situacia-meta {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-text);
+  margin-bottom: 4px;
+}
+.trening-situacia-text { color: var(--text); line-height: 1.5; }
+.trening-label { display: block; font-weight: 600; font-size: 14px; margin: 4px 0 6px; color: var(--text); }
+.trening-input {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 110px;
+  border-radius: 10px;
+  border: 1px solid var(--muted);
+  background: var(--surface);
+  color: var(--text);
+  padding: 10px 12px;
+  font: inherit;
+  font-size: 15px;
+  line-height: 1.45;
+  resize: vertical;
+}
+.trening-input:focus { outline: 2px solid var(--accent-2); outline-offset: 1px; }
+.trening-counter { margin: 4px 0 8px; }
+.trening-error {
+  background: var(--honey-tint);
+  color: var(--text);
+  border-left: 4px solid var(--honey);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 6px 0 10px;
+  font-size: 14px;
+}
+.trening-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.trening-actions .btn { flex: 1; min-width: 150px; }
+.trening-actions .btn:disabled { opacity: .55; cursor: not-allowed; }
+.trening-cost-note { margin-top: 8px; }
+.trening-wait { padding: 18px 0; text-align: center; color: var(--muted); font-weight: 600; }
+.trening-moja { margin-bottom: 12px; }
+.trening-moja-text {
+  white-space: pre-wrap;
+  color: var(--text);
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+.trening-mentori { display: grid; gap: 10px; }
+.trening-mentor {
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+}
+.trening-mentor-meno { font-weight: 700; color: var(--accent-text); margin-bottom: 6px; }
+.trening-mentor-riadok { color: var(--text); line-height: 1.5; margin-top: 4px; }
+.trening-pohlad { margin: 12px 0 8px; }
+.trening-checklist {
+  border-top: 1px solid var(--card-border);
+  padding-top: 8px;
+}
+.trening-checklist ul { margin: 4px 0 0; padding-left: 4px; list-style: none; }
+.trening-checklist li { color: var(--text); margin: 4px 0; font-size: 14px; }
+.trening-reward { margin-top: 10px; font-weight: 600; color: var(--sage-strong); }
+:root[data-theme="dark"] .trening-reward { color: #A9C2AE; }
+@media (min-width: 720px) {
+  .trening-mentori { grid-template-columns: repeat(3, 1fr); }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "poznamka": "Verejný súbor – len zadania. Vzorové odpovede a časté chyby sú zámerne len na serveri (api/_trening-kalibracia.js), hráč ich nesmie vidieť pred vlastným pokusom.",
+  "situacie": [
+    {
+      "id": "S1",
+      "oblast": "Ja-výroky",
+      "nazov": "Opakované meškanie podkladov",
+      "zadanie": "Člen tvojho tímu už tretí mesiac odovzdáva podklady deň pred termínom. Nestíhaš ich skontrolovať a chyby idú ďalej. Napíš, ako mu to povieš."
+    },
+    {
+      "id": "S2",
+      "oblast": "Ja-výroky",
+      "nazov": "Návrh zhodený pred tímom",
+      "zadanie": "Kolega odľahčene zhodil tvoj návrh pred celým tímom. Zasmiali sa. Tebe to nebolo príjemné. Napíš, ako mu to povieš medzi štyrmi očami."
+    },
+    {
+      "id": "S3",
+      "oblast": "Spätná väzba",
+      "nazov": "Prvá porada nováčika",
+      "zadanie": "Kolegyňa viedla poradu prvý raz. Čítala z papiera, dvakrát stratila niť, skončila o dvadsať minút neskôr. Keď dostala nepríjemnú otázku, priznala, že odpoveď nevie, zapísala si ju a do večera ju poslala tímu. Napíš jej spätnú väzbu."
+    },
+    {
+      "id": "S4",
+      "oblast": "Spätná väzba",
+      "nazov": "Nepríjemná spätná väzba pre teba",
+      "zadanie": "Na porade ti vedúci pred ostatnými povie: „S tou správou som nebol spokojný.“ Nič bližšie nedodá. Napíš, ako zareaguješ."
+    },
+    {
+      "id": "S5",
+      "oblast": "Asertivita",
+      "nazov": "Kolega tlačí na prevzatie služby",
+      "zadanie": "Kolega ťa už tretíkrát tento mesiac prehovára, aby si prebral jeho víkendovú službu. Tento víkend máš plány. Napíš, ako odpovieš."
+    },
+    {
+      "id": "S6",
+      "oblast": "Asertivita",
+      "nazov": "Pasívna agresia v správe",
+      "zadanie": "Kolegyňa napíše: „No nič. Veď to je jedno. Aj tak ti na tom asi nezáleží.“ Napíš, ako odpovieš."
+    },
+    {
+      "id": "S7",
+      "oblast": "Komunikačné polohy",
+      "nazov": "Tím, ktorý na poradách mlčí",
+      "zadanie": "Tvoj tím na poradách nikdy nenamieta, všetci prikyvujú – ale úlohy sa potom robia pomaly a s chybami. Napíš, ako otvoríš najbližšiu poradu."
+    },
+    {
+      "id": "S8",
+      "oblast": "Poznávanie druhých",
+      "nazov": "Podráždená reakcia na vecnú poznámku",
+      "zadanie": "Kolega dostal od teba vecnú poznámku k svojej práci a zareagoval nečakane podráždene. Napíš, čo urobíš teraz."
+    },
+    {
+      "id": "S9",
+      "oblast": "Aktívne počúvanie",
+      "nazov": "Sťažnosť, ktorú vieš vyriešiť hneď",
+      "zadanie": "Podriadená ti príde povedať, že jej už tretí deň nefunguje prístup do systému a nikto to nerieši. Ty vieš, komu napísať, a vybavíš to za minútu. Napíš, čo jej povieš skôr, než jej dáš riešenie."
+    }
+  ]
+}
