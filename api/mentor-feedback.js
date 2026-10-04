@@ -159,6 +159,8 @@ ROD – hráča oslovuj VŽDY rodovo neutrálne. Nikdy nepoužívaj minulý čas
 
 ÚVODZOVKY – v žiadnom poli nepoužívaj úvodzovky („ “ " ') ani uvádzacie zátvorky s citátom. Keď chceš ukázať, ako by veta mohla znieť, napíš ju za dvojbodkou ako holý text. Každé pole musí byť ukončená veta s bodkou – nikdy nekonči uprostred.
 
+VZOROVÁ VETA – aj tá je veta hráča, takže v nej nesmie zaznieť jeho rod. Píš ju v prítomnom čase: potrebujem, chcem vedieť, zaujíma ma, vadí mi. Nikdy nie chcel by som, videl som, myslel som si.
+
 GROUNDING:
 – Hodnoť VÝHRADNE podľa kľúčových bodov okruhov tejto oblasti a podľa kritérií vyššie. Žiadne voľné teoretizovanie, žiadne odkazy na literatúru, autorov ani výskumy.
 – Dostaneš vzorovú odpoveď a časté chyby. Vzor je len kalibrácia, ako znie dobrá odpoveď – NIE jediné správne riešenie. Vzor nikdy necituj, neparafrázuj celý ani sa naň neodvolávaj; hráč ho nevidí.
@@ -224,7 +226,19 @@ function isFilledMentor(m) {
    Obe kontroly sú MÄKKÉ: nikdy nezhodia hodnotenie, len si vypýtajú
    druhý pokus.
 ============================================================ */
-const GENDER_RE = /\b(?:si)\s+(?:[a-záäčďéíĺľňóôŕšťúýž]+(?:al|ala|il|ila|ol|ola|ul|ula))\b|\b(?:[a-záäčďéíĺľňóôŕšťúýž]+(?:al|ala|il|ila|ol|ola|ul|ula))\s+(?:si)\b|\b(?:mohol|mohla|chcel|chcela|musel|musela)\s+by\s+si\b/i;
+/* Minulý čas / podmieňovací spôsob v 2. osobe (prezrádza rod hráča) aj v
+   1. osobe vo vzorovej vete, ktorú by hráč povedal (tá je tiež jeho, takže
+   „chcel by som“ je rovnaký problém ako „napísal si“). Tvary -el/-ela musia
+   byť v zozname – prvý živý test prepustil „akoby si nesmel mať hranice“. */
+/* Slovenské príčastie minulé končí na -l / -la / -lo / -li / -ly (napísal,
+   mohla, nesmel). Vzor je zámerne široký – zúžený zoznam koncoviek prvý
+   živý test prepustil (mohla by si, akoby si nesmel). Falošný poplach
+   nehrozí: tvar musí stáť TESNE pri „si“, „by si“ alebo „som“. */
+const PRICASTIE = '[a-záäčďéíĺľňóôŕšťúýž]{2,}l(?:a|o|i|y)?';
+const GENDER_RE = new RegExp(
+  `\\bsi\\s+(?:${PRICASTIE})\\b|\\b(?:${PRICASTIE})\\s+si\\b|\\b(?:${PRICASTIE})\\s+by\\s+si\\b|\\b(?:${PRICASTIE})\\s+by\\s+som\\b|\\bsom\\s+(?:${PRICASTIE})\\b`,
+  'i'
+);
 const RETRY_NOTE = 'POZOR, predchádzajúci pokus mal chybu. Napíš hodnotenie znova a dodrž: (1) ŽIADNE úvodzovky, apostrofy ani zátvorky s citátom – príklad uveď za dvojbodkou ako holý text; (2) každé pole je ukončená veta s bodkou; (3) ani raz nepouži tvar prezrádzajúci rod hráča (napísal si, povedala si, mohol by si) – píš o odpovedi.';
 
 function hasBrokenSentence(s) {
@@ -232,7 +246,14 @@ function hasBrokenSentence(s) {
   return t.length < 15 || !/[.!?…]$/.test(t);
 }
 function qualityIssues(parsed) {
-  if (!parsed || parsed.mimoTemy) return [];
+  if (!parsed) return [];
+  /* Aj výzva pri odpovedi mimo témy je text pre hráča – prvý živý test v nej
+     mal „ako by si to sformuloval“. Useknutie sa tu nekontroluje (je to jedna
+     krátka veta), rod áno. */
+  if (parsed.mimoTemy) {
+    const g = String(parsed.vyzva || '').match(GENDER_RE);
+    return g ? [`vyzva: rodový tvar „${g[0]}“`] : [];
+  }
   const issues = [];
   for (const k of ['obsah', 'forma', 'vztah']) {
     for (const pole of ['funguje', 'posilni']) {
