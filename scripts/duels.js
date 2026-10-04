@@ -567,8 +567,12 @@ function showDuelResultModal(result, myNick, onClose) {
   const me = firstPlayer.nick === myNick ? firstPlayer : secondPlayer;
   const opponent = firstPlayer.nick === myNick ? secondPlayer : firstPlayer;
 
+  /* D3: remíza je v tejto akadémii SPRÁVNY výsledok, nie polovičný neúspech –
+     zadanie hovorí „aby z toho nikto nevyšiel ako porazený“. Pri piatich
+     otázkach bude navyše oveľa častejšia než pri desiatich. Mení sa LEN text,
+     logika (computeScoreFromQuestions → winner) ostáva nedotknutá. */
   let title;
-  if (winner === 'draw') title = '🤝 Remíza!';
+  if (winner === 'draw') title = '🤝 Remíza — obaja rovnako dobre';
   else if (winner === myNick) title = '🏆 Vyhral/a si!';
   else title = '📚 Tentoraz to nevyšlo';
 
@@ -589,6 +593,9 @@ function showDuelResultModal(result, myNick, onClose) {
           <strong>${opponent.score}</strong>
         </div>
       </div>
+      ${winner === 'draw'
+        ? `<p class="small" style="margin:4px 0 12px">Obaja ste odpovedali rovnako dobre, takže obaja dostávate +${ECONOMY_CONFIG.REWARDS.DUEL_DRAW}\u00A0🪙.</p>`
+        : ''}
       <button class="btn btn-primary" id="closeDuelResultModal" style="width:100%">Zavrieť</button>
     </div>`;
   document.body.appendChild(modal);

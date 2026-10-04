@@ -89,7 +89,7 @@ function renderBody() {
     ? `<div class="small" style="margin-bottom:10px;color:var(--muted)">🎉 Všetky témy tejto oblasti sú na 100 %!</div>`
     : `<div class="small" style="margin-bottom:10px;color:var(--muted)">Ešte ${remainingTo100} ${temaWord(remainingTo100)} do 100 % v tejto oblasti (odmena +${ECONOMY_CONFIG.DASHBOARD.OBLAST_100}\u00A0🪙 za celú oblasť).</div>`;
 
-  html += '<div class="small" style="font-weight:600;margin-bottom:6px">Témy</div>';
+  html += '<div class="small" style="font-weight:600;margin-bottom:6px">Témy <span style="font-weight:400;color:var(--muted)">— koľko máš z obsahu prejdené</span></div>';
   html += '<div class="dashboard-tema-list">';
   allOkruhy.forEach(o => {
     const state = moodState(o.percent);
@@ -116,8 +116,10 @@ function renderBody() {
     html += '<div class="dashboard-todo-list">';
     toDobrat.forEach(o => {
       const missing = o.missingActivities.length ? o.missingActivities.join(', ') : '—';
-      const zvysok = 100 - o.percent;
-      html += `<div class="small" style="padding:3px 0">${escapeHtml(o.title)} – ${o.percent} % (ešte ${zvysok} % do zvládnutia): chýbajú ${escapeHtml(missing)}</div>`;
+      /* D3: percento je POKRYTIE OBSAHU (koľko z okruhu si hráč prešiel), nie
+         miera zvládnutia – slovo „zvládnutie“ sľubovalo niečo, čo číslo nikdy
+         nemeralo. Mení sa pomenovanie, výpočet ostáva. */
+      html += `<div class="small" style="padding:3px 0">${escapeHtml(o.title)} – prejdené ${o.percent} %: chýbajú ${escapeHtml(missing)}</div>`;
     });
     html += '</div>';
   }

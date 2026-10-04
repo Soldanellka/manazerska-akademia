@@ -155,7 +155,9 @@ TÓN – najdôležitejšie pravidlo:
 – Keď odpoveď v niečom naozaj nefunguje, pomenuj to vecne a láskavo v „posilni“ – s návrhom, ako to povedať inak.
 – Každé pole je 1–2 krátke vety po slovensky, oslovuj hráča tykaním.
 
-ROD – hráča oslovuj VŽDY rodovo neutrálne. Nikdy nepoužívaj minulý čas ani podmieňovací spôsob v 2. osobe, ktorý prezrádza rod („napísal si“, „povedala si“, „mohol by si“). Hovor o odpovedi: „v odpovedi je…“, „odpoveď pomenúva…“, „veta … otvára rozhovor“, „pomohlo by doplniť…“, „skús…“.
+ROD – hráča oslovuj VŽDY rodovo neutrálne. Nikdy nepoužívaj minulý čas ani podmieňovací spôsob v 2. osobe, ktorý prezrádza rod: zakázané sú tvary napísal si, napísala si, povedal si, povedala si, zvolila si, mohol by si, chcela by si a akýkoľvek ďalší tvar na -al/-ala/-il/-ila so slovom si. Hovor o odpovedi alebo v prítomnom čase: v odpovedi je…, odpoveď pomenúva…, veta otvára rozhovor…, pomohlo by doplniť…, skús… Rovnako sa vyhni rodu pri sebe (nie myslel som si).
+
+ÚVODZOVKY – v žiadnom poli nepoužívaj úvodzovky („ “ " ') ani uvádzacie zátvorky s citátom. Keď chceš ukázať, ako by veta mohla znieť, napíš ju za dvojbodkou ako holý text. Každé pole musí byť ukončená veta s bodkou – nikdy nekonči uprostred.
 
 GROUNDING:
 – Hodnoť VÝHRADNE podľa kľúčových bodov okruhov tejto oblasti a podľa kritérií vyššie. Žiadne voľné teoretizovanie, žiadne odkazy na literatúru, autorov ani výskumy.
@@ -208,6 +210,99 @@ function isFilledMentor(m) {
   return isMentor(m) && m.funguje.trim() && m.posilni.trim();
 }
 
+/* ============================================================
+   KONTROLA KVALITY TEXTU (2026-10-04, po prvom živom teste)
+
+   1. USEKNUTÁ VETA: pri prvom teste končili vety uprostred, vždy hneď za
+      otvorenou úvodzovkou („…). Model do JSON reťazca napísal rovnú
+      úvodzovku ("), ktorá reťazec predčasne uzavrela. Prompt preto
+      úvodzovky zakazuje úplne a tu sa kontroluje, či veta končí
+      interpunkciou.
+   2. ROD: zadávateľka trvá na rodovo neutrálnom oslovení („v odpovedi
+      je…“, nikdy „napísal si“). Model to väčšinou dodrží, občas nie –
+      nájdený tvar spustí jeden opakovaný pokus.
+   Obe kontroly sú MÄKKÉ: nikdy nezhodia hodnotenie, len si vypýtajú
+   druhý pokus.
+============================================================ */
+const GENDER_RE = /\b(?:si)\s+(?:[a-záäčďéíĺľňóôŕšťúýž]+(?:al|ala|il|ila|ol|ola|ul|ula))\b|\b(?:[a-záäčďéíĺľňóôŕšťúýž]+(?:al|ala|il|ila|ol|ola|ul|ula))\s+(?:si)\b|\b(?:mohol|mohla|chcel|chcela|musel|musela)\s+by\s+si\b/i;
+const RETRY_NOTE = 'POZOR, predchádzajúci pokus mal chybu. Napíš hodnotenie znova a dodrž: (1) ŽIADNE úvodzovky, apostrofy ani zátvorky s citátom – príklad uveď za dvojbodkou ako holý text; (2) každé pole je ukončená veta s bodkou; (3) ani raz nepouži tvar prezrádzajúci rod hráča (napísal si, povedala si, mohol by si) – píš o odpovedi.';
+
+function hasBrokenSentence(s) {
+  const t = String(s || '').trim();
+  return t.length < 15 || !/[.!?…]$/.test(t);
+}
+function qualityIssues(parsed) {
+  if (!parsed || parsed.mimoTemy) return [];
+  const issues = [];
+  for (const k of ['obsah', 'forma', 'vztah']) {
+    for (const pole of ['funguje', 'posilni']) {
+      const txt = parsed[k] && parsed[k][pole];
+      if (hasBrokenSentence(txt)) issues.push(`${k}.${pole}: useknutá veta`);
+      const g = String(txt || '').match(GENDER_RE);
+      if (g) issues.push(`${k}.${pole}: rodový tvar „${g[0]}“`);
+    }
+  }
+  return issues;
+}
+
+/* Jedno volanie modelu. Chyby hádže s .status, aby ich volajúci vedel
+   premietnuť do HTTP kódu; fallback na lokálne hodnotenie tu neexistuje
+   (mentori sa nedajú nahradiť počítaním slov – klient pri zlyhaní povie,
+   že sa mentori neozvali, a nič neúčtuje). */
+async function askMentors(apiKey, situacia, kalibracia, odpoved, extraInstruction) {
+  const fail = (status, message) => Object.assign(new Error(message), { status });
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  let anthropicRes;
+  try {
+    anthropicRes = await fetch(ANTHROPIC_API_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01'
+      },
+      body: JSON.stringify({
+        model: ANTHROPIC_MODEL,
+        max_tokens: MAX_OUTPUT_TOKENS,
+        system: SYSTEM_PROMPT,
+        messages: [{
+          role: 'user',
+          content: buildUserMessage(situacia, kalibracia, odpoved) + (extraInstruction ? `\n\n${extraInstruction}` : '')
+        }],
+        output_config: { format: { type: 'json_schema', schema: OUTPUT_SCHEMA } }
+      }),
+      signal: controller.signal
+    });
+  } catch (e) {
+    clearTimeout(timeoutId);
+    if (e.name === 'AbortError') throw fail(504, 'Mentori neodpovedali včas.');
+    throw fail(502, 'Volanie AI zlyhalo.');
+  }
+  clearTimeout(timeoutId);
+
+  if (!anthropicRes.ok) {
+    const errText = await anthropicRes.text().catch(() => '');
+    console.error('[mentor-feedback] Anthropic HTTP', anthropicRes.status, errText.slice(0, 500));
+    throw fail(502, `AI vrátila chybu (${anthropicRes.status}).`);
+  }
+
+  let data;
+  try { data = await anthropicRes.json(); } catch (e) { throw fail(502, 'AI vrátila neplatnú odpoveď.'); }
+  if (data.stop_reason === 'refusal') throw fail(502, 'AI odmietla odpovedať.');
+
+  const textBlock = Array.isArray(data.content) ? data.content.find(b => b && b.type === 'text') : null;
+  if (!textBlock || typeof textBlock.text !== 'string') throw fail(502, 'AI nevrátila text.');
+
+  let parsed;
+  try { parsed = JSON.parse(textBlock.text); } catch (e) { throw fail(502, 'AI nevrátila platný JSON.'); }
+  if (typeof parsed.mimoTemy !== 'boolean' || typeof parsed.vyzva !== 'string'
+      || !isMentor(parsed.obsah) || !isMentor(parsed.forma) || !isMentor(parsed.vztah)) {
+    throw fail(502, 'AI vrátila neplatný tvar.');
+  }
+  return parsed;
+}
+
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
     return res.status(405).json({ ok: false, error: 'Len POST.' });
@@ -250,58 +345,27 @@ module.exports = async (req, res) => {
     return res.status(400).json({ ok: false, error: 'Neznáma situácia.' });
   }
 
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
-  let anthropicRes;
-  try {
-    anthropicRes = await fetch(ANTHROPIC_API_URL, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01'
-      },
-      body: JSON.stringify({
-        model: ANTHROPIC_MODEL,
-        max_tokens: MAX_OUTPUT_TOKENS,
-        system: SYSTEM_PROMPT,
-        messages: [{ role: 'user', content: buildUserMessage(situacia, KALIBRACIA[situaciaId], odpoved) }],
-        output_config: { format: { type: 'json_schema', schema: OUTPUT_SCHEMA } }
-      }),
-      signal: controller.signal
-    });
-  } catch (e) {
-    clearTimeout(timeoutId);
-    if (e.name === 'AbortError') return res.status(504).json({ ok: false, error: 'Mentori neodpovedali včas.' });
-    return res.status(502).json({ ok: false, error: 'Volanie AI zlyhalo.' });
-  }
-  clearTimeout(timeoutId);
-
-  if (!anthropicRes.ok) {
-    const errText = await anthropicRes.text().catch(() => '');
-    console.error('[mentor-feedback] Anthropic HTTP', anthropicRes.status, errText.slice(0, 500));
-    return res.status(502).json({ ok: false, error: `AI vrátila chybu (${anthropicRes.status}).` });
-  }
-
-  let data;
-  try { data = await anthropicRes.json(); } catch (e) {
-    return res.status(502).json({ ok: false, error: 'AI vrátila neplatnú odpoveď.' });
-  }
-  if (data.stop_reason === 'refusal') {
-    return res.status(502).json({ ok: false, error: 'AI odmietla odpovedať.' });
-  }
-  const textBlock = Array.isArray(data.content) ? data.content.find(b => b && b.type === 'text') : null;
-  if (!textBlock || typeof textBlock.text !== 'string') {
-    return res.status(502).json({ ok: false, error: 'AI nevrátila text.' });
-  }
-
   let parsed;
-  try { parsed = JSON.parse(textBlock.text); } catch (e) {
-    return res.status(502).json({ ok: false, error: 'AI nevrátila platný JSON.' });
-  }
-  if (typeof parsed.mimoTemy !== 'boolean' || typeof parsed.vyzva !== 'string'
-      || !isMentor(parsed.obsah) || !isMentor(parsed.forma) || !isMentor(parsed.vztah)) {
-    return res.status(502).json({ ok: false, error: 'AI vrátila neplatný tvar.' });
+  try {
+    parsed = await askMentors(apiKey, situacia, KALIBRACIA[situaciaId], odpoved, '');
+    /* Druhý pokus pri KAZE V TEXTE (viď qualityIssues): useknutá veta alebo
+       rodový tvar. Stojí jedno volanie Haiku navyše a deje sa len výnimočne;
+       ak aj druhý pokus nevyjde, pošle sa prvý – hráč nikdy nezostane bez
+       hodnotenia kvôli štylistike. */
+    const issues = qualityIssues(parsed);
+    if (issues.length) {
+      console.warn('[mentor-feedback] opakujem volanie, kaz v texte:', issues.join('; '));
+      try {
+        const retry = await askMentors(apiKey, situacia, KALIBRACIA[situaciaId], odpoved, RETRY_NOTE);
+        if (!qualityIssues(retry).length) parsed = retry;
+        else { console.warn('[mentor-feedback] aj druhý pokus má kaz, posielam prvý'); }
+      } catch (e) {
+        console.warn('[mentor-feedback] druhý pokus zlyhal, posielam prvý:', e.message);
+      }
+    }
+  } catch (e) {
+    if (e.status) return res.status(e.status).json({ ok: false, error: e.message });
+    return res.status(502).json({ ok: false, error: 'Volanie AI zlyhalo.' });
   }
 
   if (parsed.mimoTemy) {
