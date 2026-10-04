@@ -312,6 +312,15 @@ body {
   margin-bottom: 10px;
 }
 
+/* D2 – dva rady dlaždíc s hierarchiou:
+   HORE hlavná dvojica Súboj + Výzvy (dve v rade, plná veľkosť),
+   POD ňou šesť rovnako veľkých, o kúsok nižších dlaždíc. Rozdiel je len
+   v počte stĺpcov a výške – farbu, tvar ani správanie .game-tile nemenia. */
+.game-tiles-primary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.game-tiles-secondary { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.game-tiles-secondary .game-tile { height: 88px; }
+.game-tiles-secondary .game-tile-icon { font-size: 22px; }
+
 /* Kompaktný VODOROVNÝ tvar: ikona vľavo cez oba riadky, vpravo názov a pod
    ním popis. Štvorec 168 px zaberal ako blok cez celý pás a pôsobil obrovsky
    aj po zmenšení – dominanciu tu nesie sýtosť gradientu, nie plocha.
@@ -359,7 +368,10 @@ body {
 
 .game-tile-icon { grid-area: icon; font-size: 26px; line-height: 1; }
 .game-tile-name { grid-area: name; align-self: end; font-size: 14.5px; font-weight: 700; line-height: 1.25; }
-.game-tile-desc { grid-area: desc; align-self: start; font-size: 11px; line-height: 1.3; opacity: 0.92; }
+/* D2: opacity 0.92 zrušená – biely text na najsvetlejšom konci gradientu
+   (--cta-from) vychádzal 4,43 : 1, teda tesne POD AA pre bežný text. Pri plnej
+   bielej je to 4,92 : 1. Vizuálne rozlíšenie od názvu nesie veľkosť a váha. */
+.game-tile-desc { grid-area: desc; align-self: start; font-size: 11px; line-height: 1.3; }
 
 .game-tile:hover:not(:disabled),
 .game-tile:focus-visible:not(:disabled) {
@@ -475,10 +487,25 @@ body {
      popisom sa tam nezmestí čitateľne. Na mobile preto stĺpec pod sebou a
      dlaždica sa preklopí na VODOROVNÝ tvar (ikona vľavo, text vpravo);
      tri plnošírkové štvorce by zabrali cez 1000 px výšky. */
+  /* D2: na mobile DVA stĺpce (predtým jeden pod druhým) – šesť dlaždíc
+     pod sebou roztiahlo rolovanie do nekonečna. Pri ~165 px šírky sa
+     vodorovný tvar (ikona vľavo) nezmestí, preto sa dlaždica preklopí na
+     zvislý: ikona hore, pod ňou názov a veta. */
   .game-tiles {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
+  .game-tiles .game-tile {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "icon" "name" "desc";
+    align-content: start;
+    row-gap: 4px;
+  }
+  .game-tiles .game-tile-name { align-self: start; font-size: 13.5px; }
+  .game-tiles .game-tile-desc { font-size: 10.5px; }
+  .game-tiles-secondary .game-tile { height: auto; min-height: 96px; }
+  /* Nepárna posledná dlaždica by ostala sama v polovici riadka. */
+  .game-tiles .game-tile:last-child:nth-child(odd) { grid-column: 1 / -1; }
   /* Tvar je rovnaký ako na desktope (vodorovný), mení sa len výška a to,
      že dlaždice idú pod sebou na plnú šírku. */
   .game-tile {

@@ -3868,6 +3868,28 @@ function attachEvents() {
     });
   }
 
+  /* 📚 Knižnica (D2) – sekcia „Uč sa“ sa presťahovala do modálu. Otvára ju
+     dlaždica aj tlačidlo v spodnej lište (data-action="kniznica").
+     Modál nič nerenderuje – obsah je statický v index.html a napĺňa ho
+     inline renderMemoryTiles('memoryTrainerTiles') pri načítaní stránky. */
+  const kniznicaModal = $('kniznicaModal');
+  const openKniznica = () => {
+    if (!kniznicaModal) return;
+    kniznicaModal.style.display = 'flex';
+    kniznicaModal.setAttribute('aria-hidden', 'false');
+  };
+  const closeKniznicaModal = () => {
+    if (!kniznicaModal) return;
+    kniznicaModal.style.display = 'none';
+    kniznicaModal.setAttribute('aria-hidden', 'true');
+  };
+  const openKniznicaBtn = $('openKniznicaBtn');
+  if (openKniznicaBtn) openKniznicaBtn.addEventListener('click', openKniznica);
+  document.querySelectorAll('[data-action="kniznica"]').forEach(b => b.addEventListener('click', openKniznica));
+  const closeKniznicaBtn = $('closeKniznica');
+  if (closeKniznicaBtn) closeKniznicaBtn.addEventListener('click', closeKniznicaModal);
+  if (kniznicaModal) kniznicaModal.addEventListener('click', (e) => { if (e.target === kniznicaModal) closeKniznicaModal(); });
+
   /* 💬 Tréning spätnej väzby (fáza E) – vlastný výber oblasti v module,
      preto netreba window.__selectedAreaName. Lazy import v try/catch ako
      pri pavúkovi – pád modulu = len nefunkčná dlaždica, nie zhodený init.js. */
@@ -3917,12 +3939,14 @@ function attachEvents() {
 
   /* Pútací pulz hlavných dlaždíc sa po PRVEJ interakcii vypína natrvalo –
      hráč už vie, že tam sú, ďalej by to bolo len rušenie. Stačí jediný
-     poslucháč na kontajneri (once), samotné vypnutie rieši CSS trieda. */
-  const gameTiles = document.querySelector('.game-tiles');
-  if (gameTiles) {
-    gameTiles.addEventListener('pointerdown', () => {
-      gameTiles.classList.add('tiles-interacted');
-    }, { once: true });
+     poslucháč na kontajneri (once), samotné vypnutie rieši CSS trieda.
+     D2: radov dlaždíc je po prestavbe viac (.game-tiles-primary aj
+     .game-tiles-secondary), preto poslucháč na každom z nich – prvá
+     interakcia v ktoromkoľvek rade vypne pulz vo všetkých. */
+  const gameTileRows = [...document.querySelectorAll('.game-tiles')];
+  if (gameTileRows.length) {
+    const stopPulse = () => gameTileRows.forEach(row => row.classList.add('tiles-interacted'));
+    gameTileRows.forEach(row => row.addEventListener('pointerdown', stopPulse, { once: true }));
   }
 
   /* ⚔️ Dlaždica Výzvy → register pojednávaní.

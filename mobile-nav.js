@@ -49,9 +49,10 @@ function initBottomNav() {
 
   // Zvýraznenie aktívnej položky podľa toho, ktorá sekcia je práve vo výreze
   /* #gamesSection je po zlúčení vnútri #quizCard, takže by sa ako samostatná
-     sekcia prekrývala s ním – sledujeme namiesto neho Bifľovačku, ktorá je
-     druhým cieľom spodnej lišty. */
-  const sectionIds = ['quizCard', 'biflovackaCard', 'leaderboardSection'];
+     sekcia prekrývala s ním – sleduje sa priamo #quizCard. */
+  /* D2: 'biflovackaCard' vypadol – karta je v modále Knižnice, na stránke
+     niet čo pozorovať (spodná lišta ju namiesto rolovania otvára). */
+  const sectionIds = ['quizCard', 'leaderboardSection'];
   const sections = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
 
   if (sections.length && typeof IntersectionObserver === 'function') {

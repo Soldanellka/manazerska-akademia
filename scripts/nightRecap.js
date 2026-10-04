@@ -2,7 +2,7 @@
 
 /* ============================================================
    NOČNÝ VÝCUC – audio opakovanie oblasti pred spaním
-   Karta #nightRecapCard (panel #setStudy).
+   Karta #nightRecapCard (od D2 v modále Knižnice, #kniznicaModal).
 
    Princíp: jeden energetický náklad (ENERGY.NIGHT_RECAP) odomkne audio
    výcucy VŠETKÝCH okruhov ZVOLENEJ oblasti na 24 h — odomknutie,

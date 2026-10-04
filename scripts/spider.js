@@ -346,7 +346,7 @@ export function openSpiderBrowser() {
     ).join('');
     modal.innerHTML = `
       <div class="avatar-panel spider-panel">
-        <h3 style="margin:0 0 12px 0">🕸️ Štruktúra otázok – vyber oblasť</h3>
+        <h3 style="margin:0 0 12px 0">🕸️ Mapa pojmov – vyber oblasť</h3>
         <div>${items}</div>
         <div style="margin-top:16px">
           <button class="btn" id="spiderBrowserCloseBtn" style="width:100%">Zavrieť</button>

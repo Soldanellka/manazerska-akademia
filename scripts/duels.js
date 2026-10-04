@@ -91,6 +91,52 @@ function pickOneRandomOkruh(areaQuestions, maxPerOkruh) {
   return { key, questions: maxPerOkruh ? qs.slice(0, maxPerOkruh) : qs };
 }
 
+/* ============================================================
+   POČET OTÁZOK V SÚBOJI – JEDINÁ KONFIGURÁCIA (D2, 2026-10-04)
+   Zmena 10 → 5 na slovo zadávateľky: na telefóne a na stretnutí sa päť
+   otázok odohrá za minútu a ľudia si zahrajú viackrát. Oblasť má ~14
+   otázok v dvojici okruhov, takže pri piatich je každý súboj iný.
+   ⚠️ Skóre sa nikde nepočíta z pevnej desiatky – computeScoreFromQuestions
+   sčítava správne odpovede z reálne odohraných otázok a víťaz sa určuje
+   porovnaním dvoch skóre, takže zmena čísla tu nič nerozbije. Rebríček
+   čerpá z § a výhier, nie z počtu otázok.
+   Používa sa v pickQuestions aj buildOkruhPairSelection nižšie – inde sa
+   počet otázok NEZAPISUJE natvrdo.
+============================================================ */
+export const DUEL_QUESTION_COUNT = 5;
+
+/* Rozdelí počet na dva bazény/okruhy (5 → 3 + 2). */
+function splitCount(total) {
+  const a = Math.ceil(total / 2);
+  return [a, total - a];
+}
+
+/* Vyberie otázky VYVÁŽENE zo všetkých okruhov, ktoré v zozname sú – pri
+   piatich otázkach by čistý random vedel vytiahnuť všetkých päť z jedného
+   okruhu a druhý okruh by v súboji vôbec nezaznel (pri desiatich z ~14 to
+   prakticky nehrozilo). Postup: z každého okruhu sa berie po jednej otázke
+   dokola (round-robin), v každom okruhu v náhodnom poradí; výsledok sa
+   nakoniec zamieša, nech sa okruhy nestriedajú predvídateľne. */
+function pickBalanced(list, total) {
+  const groups = groupBySource(list || []);
+  const keys = sortedOkruhKeys(groups);
+  if (!keys.length) return (list || []).slice().sort(() => Math.random() - 0.5).slice(0, total);
+  /* Poradie okruhov sa tiež mieša: inak by pri nepárnom počte (5 = 3 + 2)
+     dostal prvý okruh vždy o otázku viac. */
+  const pools = keys.map(k => (groups[k] || []).slice().sort(() => Math.random() - 0.5))
+    .sort(() => Math.random() - 0.5);
+  const picked = [];
+  let anyLeft = true;
+  while (picked.length < total && anyLeft) {
+    anyLeft = false;
+    for (const pool of pools) {
+      if (picked.length >= total) break;
+      if (pool.length) { picked.push(pool.shift()); anyLeft = true; }
+    }
+  }
+  return picked.sort(() => Math.random() - 0.5);
+}
+
 /* Popisuje, ako sa pre danú oblasť skladá "dvojica okruhov" na jednu study session. */
 function getPairStructure(areaName) {
   // 🔥 PÁROVÉ OBLASTI – páry A1+A2, A3+A4, … (rovnaký mechanizmus pre
@@ -118,21 +164,23 @@ export function pickQuestions(areaName) {
     const pairs = buildConsecutivePairs(keys);
 
     if (pairs.length === 0) {
-      // Fallback: vyber náhodných 10
-      questions = all.slice().sort(() => Math.random() - 0.5).slice(0, 10);
+      // Fallback: vyvážený výber zo všetkých okruhov oblasti
+      questions = pickBalanced(all, DUEL_QUESTION_COUNT);
     } else {
       const [k1, k2] = pairs[Math.floor(Math.random() * pairs.length)];
-      questions = [...(groups[k1] || []), ...(groups[k2] || [])];
+      questions = pickBalanced([...(groups[k1] || []), ...(groups[k2] || [])], DUEL_QUESTION_COUNT);
     }
   }
 
   else if (structure.type === "dual") {
-    // 1 náhodný okruh z poolu A (max 5 otázok) + 1 náhodný okruh z poolu B (max 5 otázok)
+    // 1 náhodný okruh z poolu A + 1 náhodný okruh z poolu B, počet otázok
+    // rozdelený na polovicu (DUEL_QUESTION_COUNT 5 → 3 + 2)
     const poolA = window.areas[structure.poolA] || [];
     const poolB = window.areas[structure.poolB] || [];
+    const [nA, nB] = splitCount(DUEL_QUESTION_COUNT);
 
-    const fromA = pickOneRandomOkruh(poolA, 5);
-    const fromB = pickOneRandomOkruh(poolB, 5);
+    const fromA = pickOneRandomOkruh(poolA, nA);
+    const fromB = pickOneRandomOkruh(poolB, nB);
 
     console.log(`🔥 ${areaName}: ${structure.poolA} okruh ${fromA.key}, ${structure.poolB} okruh ${fromB.key}`);
     questions = [...fromA.questions, ...fromB.questions];
@@ -141,7 +189,7 @@ export function pickQuestions(areaName) {
   // 🔥 Ostatné oblasti – fallback
   else {
     const all = window.areas[areaName] || [];
-    questions = all.slice().sort(()=>Math.random()-0.5).slice(0,10);
+    questions = pickBalanced(all, DUEL_QUESTION_COUNT);
   }
 
   // 🔥 Shuffluj odpovede každej otázky
@@ -240,7 +288,8 @@ export async function pickOkruhPair(areaName, mode = "random", nick = null) {
 
     const kA = keysA[Math.floor(Math.random() * keysA.length)];
     const kB = keysB[Math.floor(Math.random() * keysB.length)];
-    const questions = [...(groupsA[kA] || []).slice(0, 5), ...(groupsB[kB] || []).slice(0, 5)].map(shuffleQuestionOptions);
+    const [nA, nB] = splitCount(DUEL_QUESTION_COUNT);
+    const questions = [...(groupsA[kA] || []).slice(0, nA), ...(groupsB[kB] || []).slice(0, nB)].map(shuffleQuestionOptions);
     return {
       keys: [kA, kB],
       // 🔥 DÔLEŽITÉ: hmotné aj procesné majú vlastné A1..A30/A40/A45 súbory
@@ -254,9 +303,11 @@ export async function pickOkruhPair(areaName, mode = "random", nick = null) {
     };
   }
 
-  // flat fallback (neznáme/iné oblasti) – bez párovania, ako pôvodný random-10
+  /* flat vetva – naše oblasti (Asertivita, Spätná väzba, …). Pôvodne random-10
+     z celej oblasti; po D2 vyvážene z OBOCH okruhov dvojice, aby pri piatich
+     otázkach nevypadol celý okruh. */
   const all = window.areas[structure.pool] || [];
-  const questions = all.slice().sort(() => Math.random() - 0.5).slice(0, 10).map(shuffleQuestionOptions);
+  const questions = pickBalanced(all, DUEL_QUESTION_COUNT).map(shuffleQuestionOptions);
   const uniqKeys = [...new Set(questions.map(q => q.source).filter(Boolean))];
   return {
     keys: uniqKeys,

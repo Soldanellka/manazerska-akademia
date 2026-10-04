@@ -320,7 +320,7 @@
 
     <!-- MNOŽINA – HRAJ: jedna spojená dlaždica. Hore výber oblasti, pod ním
          všetky akcie nad ňou (pojednávanie, kartičky, prípady, štátnica) plus
-         Progres a Štruktúra otázok, ktoré oblasť nepotrebujú. -->
+         Progres a Mapa pojmov, ktoré oblasť nepotrebujú. -->
     <div class="set-panel" id="setTraining">
     <h3 class="world-heading" id="worldArena">🥊 Hraj</h3>
 
@@ -328,7 +328,7 @@
       <div id="quizIntro">
         <div class="small">Vyber oblasť a hraj</div>
         <h2 id="quizTitle">Vyber oblasť súboja, hry a prípady</h2>
-        <div class="small">Po odohraní sa tvoja 10‑otázková výzva uloží do registra súbojov.</div>
+        <div class="small">Po odohraní sa tvoja 5‑otázková výzva uloží do registra súbojov.</div>
 
         <!-- Oblasti priamo v kvíze -->
         <div id="areasInQuiz" style="margin-top:14px">
@@ -359,11 +359,11 @@
                ID #startQuizBtn a #openStatniceBtn ostávajú nezmenené (menia sa
                len šaty). #openDuelBankTile je nové – vedie do registra
                pojednávaní nižšie v tejto istej množine. -->
-          <div class="game-tiles">
+          <div class="game-tiles game-tiles-primary">
             <button class="game-tile" id="startQuizBtn" disabled>
               <span class="game-tile-icon">🥊</span>
               <span class="game-tile-name">Súboj</span>
-              <span class="game-tile-desc">Kvíz z vybranej oblasti</span>
+              <span class="game-tile-desc">5 otázok z vybranej oblasti</span>
             </button>
             <!-- SKRYTÉ v C: modul sa nedá spustiť (viď komentár pri návode nižšie).
             <button class="game-tile" id="openStatniceBtn">
@@ -372,13 +372,6 @@
               <span class="game-tile-desc">Ústna skúška pred komisiou · ⚡ <span data-econ="ENERGY.GREMIUM"></span></span>
             </button>
             -->
-            <!-- Fáza E: Tréning spätnej väzby – vlastný výber oblasti v module,
-                 preto sa dlaždica nikdy nedisabluje (rovnako ako Výzvy). -->
-            <button class="game-tile" id="openTreningBtn">
-              <span class="game-tile-icon">💬</span>
-              <span class="game-tile-name">Tréning spätnej väzby</span>
-              <span class="game-tile-desc">Situácia z praxe, traja mentori · ⚡ <span data-econ="ENERGY.TRENING"></span></span>
-            </button>
             <!-- Výzvy nezávisia od výberu oblasti – register je dostupný vždy,
                  preto sa táto dlaždica nikdy nedisabluje. -->
             <button class="game-tile" id="openDuelBankTile">
@@ -388,14 +381,47 @@
             </button>
           </div>
 
-          <!-- Menšie akcie pod dlaždicami – jednotný vzhľad .btn.btn-primary. -->
-          <div class="game-actions">
-            <button class="btn btn-primary" id="openMemoryBtn">🃏 Kartičky</button>
-            <button class="btn btn-primary" id="openCasesBtn">📋 Prípady z praxe</button>
-            <!-- Progres a Štruktúra otázok NEPOTREBUJÚ vybranú oblasť –
-                 zámerne sa nedisablujú spolu s ostatnými. -->
-            <button class="btn btn-primary" id="openDashboardBtn">📊 Môj progres</button>
-            <button class="btn btn-primary" id="openSpiderBtn">🕸️ Štruktúra otázok</button>
+          <!-- D2: druhý rad dlaždíc. Predtým to boli malé pilulky
+               (.btn.btn-primary v .game-actions) – do takej „Štruktúry otázok“
+               nikto nešiel. Teraz rovnaký tvar ako hore, len menší (viď
+               .game-tiles-secondary v styles.css), každá s jednou vetou.
+               ⚠️ ID sa NEMENIA (init.js na ne vešia obsluhu, app.js disabluje
+               #startQuizBtn) – menia sa len šaty a texty.
+               Kartičky a Prípady potrebujú vybranú oblasť; Mapa pojmov, Tréning,
+               Knižnica a Môj progres nie. -->
+          <div class="game-tiles game-tiles-secondary">
+            <button class="game-tile" id="openMemoryBtn">
+              <span class="game-tile-icon">🃏</span>
+              <span class="game-tile-name">Kartičky</span>
+              <span class="game-tile-desc">Krátka pamäťová hra z vybranej oblasti</span>
+            </button>
+            <button class="game-tile" id="openCasesBtn">
+              <span class="game-tile-icon">📋</span>
+              <span class="game-tile-name">Prípady z praxe</span>
+              <span class="game-tile-desc">Scenáre s okamžitou spätnou väzbou</span>
+            </button>
+            <button class="game-tile" id="openSpiderBtn">
+              <span class="game-tile-icon">🕸️</span>
+              <span class="game-tile-name">Mapa pojmov</span>
+              <span class="game-tile-desc">Čo v oblasti na seba nadväzuje</span>
+            </button>
+            <!-- Fáza E, v D2 presunutý do druhého radu: Tréning spätnej väzby má
+                 vlastný výber oblasti v module, preto sa nikdy nedisabluje. -->
+            <button class="game-tile" id="openTreningBtn">
+              <span class="game-tile-icon">💬</span>
+              <span class="game-tile-name">Tréning spätnej väzby</span>
+              <span class="game-tile-desc">Situácia z praxe, traja mentori · ⚡ <span data-econ="ENERGY.TRENING"></span></span>
+            </button>
+            <button class="game-tile" id="openKniznicaBtn">
+              <span class="game-tile-icon">📚</span>
+              <span class="game-tile-name">Knižnica</span>
+              <span class="game-tile-desc">Bifľovačka a materiály na samoštúdium</span>
+            </button>
+            <button class="game-tile" id="openDashboardBtn">
+              <span class="game-tile-icon">📊</span>
+              <span class="game-tile-name">Môj progres</span>
+              <span class="game-tile-desc">Koľko máš z ktorej oblasti prejdené</span>
+            </button>
           </div>
 
           <div id="gamesAreaHint" class="games-hint">
@@ -404,14 +430,13 @@
           </div>
 
           <div class="small" style="margin-top:10px;color:var(--muted)">
-            Kartičky sú krátka pamäťová hra; prípady sú interaktívne scenáre s okamžitou spätnou väzbou.
             <!-- Zoznam oblastí MUSÍ sedieť s AREA_CONFIG v scripts/statnice.js
                  (toast pri nedostupnej oblasti ho vypisuje priamo odtiaľ). -->
             <!-- SKRYTÉ v C spolu s modulom Štátnicovej siene.
             Štátnicová sieň (⚡ <span data-econ="ENERGY.GREMIUM"></span> energie, dostupná pre Pracovné, Trestné, Občianske a Európske právo) je nácvik ústnej
             skúšky pred komisiou – hlavná príprava na reálne štátnice.
             -->
-            Môj progres, Štruktúra otázok a Tréning spätnej väzby fungujú aj bez vybranej oblasti.
+            Mapa pojmov, Knižnica, Tréning spätnej väzby a Môj progres fungujú aj bez vybranej oblasti.
           </div>
 
           <div style="margin-top:10px;display:flex;gap:8px">
@@ -471,17 +496,12 @@
 
     </div><!-- /setTraining -->
 
-    <!-- MNOŽINA – UČ SA: veci s vlastným výberom, nezávislé od oblasti
-         zvolenej vyššie. Judikatúra sa sem pripája JS-kom za Bifľovačku
-         (judikatura.js), takže stojí ako posledná v stĺpci. -->
-    <div class="set-panel" id="setStudy">
-    <h3 class="world-heading" id="worldStudy">📚 Uč sa</h3>
-
-    <div class="card section-card" id="tilesSection">
-      <h3 style="margin:0">Študijné moduly</h3>
-      <div class="small">Samostatné moduly pre detailné štúdium</div>
-      <div id="modulesList" class="list" style="margin-top:10px"></div>
-    </div>
+    <!-- D2: sekcia „Uč sa“ zrušená – jej obsah žije v modále Knižnice
+         (#kniznicaModal pri ostatných modáloch nižšie), ktorý otvára dlaždica
+         #openKniznicaBtn. Dôvod: učenie bolo roztrhnuté na dve miesta a do
+         spodnej sekcie nikto nechodil.
+         Karta „Študijné moduly“ sa nepresúvala – window.catalog je v tejto
+         inštancii prázdny (data.js), takže by to bol prázdny nadpis. -->
 
     <!-- NOČNÝ VÝCUC – audio opakovanie pred spaním (scripts/nightRecap.js).
          Stojí PRED Bifľovačkou (presun z konca panelu na slovo Babu).
@@ -500,13 +520,6 @@
     </div>
     <!-- /A6 -->
 
-    <div class="card section-card" id="biflovackaCard">
-      <h3 style="margin:0">🧠 Bifľovačka</h3>
-      <div class="small">Vybifľuj si právne vety a definície naspamäť, oblasť po oblasti</div>
-      <div id="memoryTrainerTiles" class="list" style="margin-top:10px"></div>
-    </div>
-
-    </div><!-- /setStudy -->
 
     <!-- MNOŽINA – SPRÁVA: admin/garant panel na úplnom konci ľavého stĺpca.
          ⚠️ Musí stáť ZA množinou setStudy, nie v nej: judikatura.js sa
@@ -596,6 +609,37 @@
   </div>
 </div>
 
+<div id="kniznicaModal" class="avatar-modal" aria-hidden="true" style="display:none;">
+  <div class="avatar-panel game-panel">
+    <div class="game-panel-header">
+      <h3>📚 Knižnica</h3>
+      <button class="btn" type="button" id="closeKniznica">Zavrieť</button>
+    </div>
+    <p class="small muted" style="margin:10px 0 2px">Miesto na učenie – bez súťaženia a bez stopiek.</p>
+
+    <!-- NOČNÝ VÝCUC – audio opakovanie pred spaním (scripts/nightRecap.js).
+         Kotvou Judikatúry ostáva #biflovackaCard (judikatura.js mountuje
+         `afterend`). Cena sa dopĺňa cez data-econ (fillStaticEconomyValues
+         v init.js), telo renderuje modul. -->
+    <!-- A6: NOČNÝ VÝCUC SKRYTÝ (audio zhrnutia sú právne). Kód ponechaný -
+         scripts/nightRecap.js sa bez #nightRecapCard sám vypne (riadok 477).
+    <div class="card section-card highlight-nightrecap" id="nightRecapCard">
+      <h3 style="margin:0">🌙 Nočný výcuc</h3>
+      <div class="small">Audio zhrnutia okruhov na počúvanie pred spaním – zopakuj si, čo si sa dnes učil.
+        Odomknutie celej oblasti na 24 h stojí <b>⚡ <span data-econ="ENERGY.NIGHT_RECAP">—</span> energie</b> – nie §.</div>
+      <div id="nightRecapBody" style="margin-top:10px"></div>
+      <audio id="nightRecapPlayer" playsinline preload="none"></audio>
+    </div>
+    <!-- /A6 -->
+
+    <div class="card section-card" id="biflovackaCard">
+      <h3 style="margin:0">🧠 Bifľovačka</h3>
+      <div class="small">Vybifľuj si právne vety a definície naspamäť, oblasť po oblasti</div>
+      <div id="memoryTrainerTiles" class="list" style="margin-top:10px"></div>
+    </div>
+  </div>
+</div>
+
 <div id="welcomeModal" class="avatar-modal" aria-hidden="true" style="display:none;">
   <div class="avatar-panel welcome-panel">
     <div class="game-panel-header">
@@ -619,7 +663,7 @@
         <div><span class="welcome-hl-icon">💬</span><strong>Tréning spätnej väzby</strong><br>
           <span class="small muted">Napíš, čo povieš v situácii z praxe — traja mentori ti ukážu, čo funguje.</span></div>
         <div><span class="welcome-hl-icon">⚔️</span><strong>Súboj</strong><br>
-          <span class="small muted">10 otázok proti kolegovi — výzvu pošleš linkom.</span></div>
+          <span class="small muted">5 otázok proti kolegovi — výzvu pošleš linkom.</span></div>
         <div><span class="welcome-hl-icon">🧠</span><strong>Bifľovačka</strong><br>
           <span class="small muted">Definície nahlas alebo písomne, aj cestou.</span></div>
       </div>
@@ -709,7 +753,7 @@
       <details class="guide-section">
         <summary>⚔️ Súboj</summary>
         <div class="guide-content">
-          <p>Vyber si oblasť a vyzvi súpera. Súboj má 10 otázok. Súper odpovedá na tie isté otázky.</p>
+          <p>Vyber si oblasť a vyzvi súpera. Súboj má 5 otázok. Súper odpovedá na tie isté otázky.</p>
           <p>Svoj odohraný súboj nájdeš v registri súbojov – tlačidlom „📤 Poslať" vygeneruješ
           link na výzvu a pošleš ho komukoľvek. Kto výzvu prijme, hrá proti tebe tie
           isté otázky.</p>
@@ -1513,7 +1557,9 @@ console.log('✅ Reports system inline načítaný');
   <!-- #gamesSection je po zlúčení VNÚTRI #quizCard, takže samostatný cieľ
        „Hry“ by viedol na to isté miesto – nahradený Bifľovačkou. -->
   <button data-target="quizCard">⚔️<span>Hraj</span></button>
-  <button data-target="biflovackaCard">🧠<span>Bifľovačka</span></button>
+  <!-- D2: sekcia Bifľovačky je po zlúčení v modále Knižnice, takže tu nie je
+       cieľ na rolovanie – tlačidlo modál OTVÁRA (obsluha v init.js). -->
+  <button data-action="kniznica">📚<span>Knižnica</span></button>
   <button data-target="leaderboardSection">🏆<span>Rebríček</span></button>
   <button data-target="profile">👤<span>Profil</span></button>
 </nav>
