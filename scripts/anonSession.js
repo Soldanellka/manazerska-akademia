@@ -3,25 +3,25 @@
 /* ============================================================
    ANON SESSION – hráč bez nicku (A1, 2026-08)
 
-   LexArena je „anon-first": celý tréning musí ísť aj bez nicku a nick
+   Appka je „anon-first": celý tréning musí ísť aj bez nicku a nick
    sa pýta až vtedy, keď ho niečo naozaj potrebuje (uloženie, súťaž, §).
-   Tento modul drží to jediné, čo anonym potrebuje mať vlastné –
-   IDENTITU sedenia a DENNÚ PORCIU ENERGIE.
+   Tento modul drží JEDINÚ vec – DENNÚ PORCIU ENERGIE anonyma.
+
+   ⚠️ ŽIADNA IDENTITA. Modul zámerne NEVYRÁBA a neukladá žiadne id
+   návštevníka. Pôvodné getAnonId() (náhodné „anon_…" v localStorage)
+   je od 2026-10-18 zmazané aj s kľúčom, ktorý zapisovalo: značka
+   rozlišujúca návštevníkov nie je nevyhnutná na fungovanie služby,
+   takže by vyžadovala súhlasovú lištu. Jediné miesto, kde táto
+   myšlienka smie ožiť, je konštanta REZIM_S_IDENTIFIKATOROM
+   v scripts/visits.js – aj s poznámkou, čo k nej treba.
 
    ⚠️ ČISTO localStorage. Žiadny Firebase, žiadny Firebase Auth (ten
    príde v samostatnej Auth fáze). Vymazanie úložiska anon sedenie
    resetuje – to je prijateľné, anonym je nezáväzný.
 
    ⚠️ ANONYM SA NIKDY NEZAPISUJE AKO NICK. Nikde nevzniká reťazec
-   „Anonymous"/„Unknown" ako identita – anonym buď nemá čo zapísať,
-   alebo sa použije anonId, ktorý je zámerne mimo priestoru nickov
-   (prefix „anon_"). Do users/{nick} sa anonym nedostane vôbec.
-
-   ⚠️ anonId NIE JE fingerprint. Je to náhodné číslo vygenerované na
-   tomto zariadení; neidentifikuje osobu a nedá sa spojiť s ničím mimo
-   tohto prehliadača. Slúži len na to, aby sa dala v analytike (A7)
-   odlíšiť jedna anonymná cesta od druhej a neskôr spojiť s nickom,
-   ktorý si z nej hráč prípadne spraví.
+   „Anonymous"/„Unknown" ako identita – anonym nemá čo zapísať a do
+   users/{nick} sa nedostane vôbec.
 
    ENERGIA je zrkadlom nick modelu z E1 (avatar.js):
      – rovnaká denná porcia ECONOMY_CONFIG.ENERGY.DAILY_FULL,
@@ -45,7 +45,6 @@
 
 import { ECONOMY_CONFIG, todayKey } from './economyConfig.js';
 
-const LS_ID     = 'lex_anon_id';
 const LS_ENERGY = 'lex_anon_energy';
 const LS_DAY    = 'lex_anon_energy_day';
 
@@ -63,27 +62,6 @@ export function isAnon() {
   } catch (e) {
     return true;
   }
-}
-
-/* ============================================================
-   IDENTITA SEDENIA
-   Lazy: vznikne až pri prvom vyžiadaní, nie pri načítaní modulu –
-   návštevník, ktorý nič nespraví, nemá dôvod dostať id.
-============================================================ */
-export function getAnonId() {
-  let id = null;
-  try { id = localStorage.getItem(LS_ID); } catch (e) { return null; }
-  if (id) return id;
-
-  /* crypto.randomUUID nie je na starších iOS Safari; fallback je
-     dostatočný – id musí byť len unikátne v rámci prehliadača. */
-  const rand = (typeof crypto !== 'undefined' && crypto.randomUUID)
-    ? crypto.randomUUID()
-    : `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
-  id = `anon_${rand}`;
-
-  try { localStorage.setItem(LS_ID, id); } catch (e) { return null; }
-  return id;
 }
 
 /* ============================================================
@@ -141,8 +119,7 @@ export function spendAnonEnergy(amount) {
    ZÁMERNE sa NEPRENÁŠA: prenos by sa dal farmiť – minúť porciu ako
    anonym, spraviť nick a dostať druhú (a to opakovane cez vymazanie
    úložiska). Nick začína s plnou dennou porciou, progres sa migruje,
-   energia nie. anonId sa NEMAŽE – A7 ho potrebuje na spojenie
-   anonymnej cesty s novým nickom. */
+   energia nie. */
 export function clearAnonEnergy() {
   try {
     localStorage.removeItem(LS_ENERGY);

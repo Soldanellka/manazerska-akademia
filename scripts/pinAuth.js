@@ -46,14 +46,15 @@ export function isValidPin(pin) {
    ide okolo tejto funkcie a nikdy sa nemení.
 
    Prečo vôbec: nick ide PRIAMO do Firebase RTDB cesty (users/{nick},
-   leaderboard/{nick}, analytics/{nick}, duels/{id}/challengeClaimed/{nick}).
+   leaderboard/{nick}, duels/{id}/challengeClaimed/{nick}).
    RTDB kľúč nesmie obsahovať . # $ [ ] / – nick „Ján.Novák" alebo „a/b"
    dnes spôsobí výnimku pri prvom zápise. progressTracking.js si nick
    síce sanitizuje, ale ako jediný, takže by progres skončil pod iným
    kľúčom než zvyšok účtu – nekonzistencia horšia než čistá chyba.
 
-   Prefix „anon_" je vyhradený pre anonId (scripts/anonSession.js).
-   Nick z toho priestoru by sa v analytike tváril ako anonymné sedenie.
+   Prefix „anon_" ostáva zakázaný, hoci anonymné id už neexistuje
+   (zmazané 2026-10-18): nick v tvare „anon_…" by vyzeral ako systémový
+   záznam a mýlil by každého, kto sa pozrie do databázy.
 
    Vracia { ok: true } alebo { ok: false, reason: <text pre používateľa> }.
 ============================================================ */

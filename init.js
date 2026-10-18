@@ -465,12 +465,12 @@ export function init() {
         : 'Tvoje kredity (najprv si zadaj nick)';
     }
 
-    /* 🔹 Analytics návratnosti – beží na pozadí, nič neblokuje */
-    if (initNick) {
-      import('./scripts/analytics.js')
-        .then(({ logVisit }) => logVisit(initNick))
-        .catch(e => console.warn('⚠️ analytics: import zlyhal', e));
-    }
+    /* 🔹 Počítanie otvorení (B2) – ZÁMERNE mimo vetvy „ak má hráč prezývku“:
+       počíta sa každé otvorenie vrátane anonymného. Modul prezývku nevidí a
+       nič neukladá do prehliadača (viď scripts/visits.js). Beží na pozadí. */
+    import('./scripts/visits.js')
+      .then(({ logOtvorenie }) => logOtvorenie())
+      .catch(e => console.warn('⚠️ visits: import zlyhal', e));
 
     /* 🔹 Téma */
     applyTheme(localStorage.getItem('theme') || 'light');
@@ -1403,7 +1403,7 @@ function renderAdminPanel(role, db, ref, get, update, onValue, remove) {
         </div>
 
         <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--card-border)">
-          <div style="font-weight:600;margin-bottom:8px">📊 Návštevnosť</div>
+          <div style="font-weight:600;margin-bottom:8px">📊 Otvorenia aplikácie</div>
           <button class="btn" id="analyticsLoadBtn" style="width:100%;margin-bottom:8px">📊 Načítať prehľad</button>
           <div id="analyticsBox" style="display:none"></div>
         </div>
@@ -1743,16 +1743,15 @@ function renderAdminPanel(role, db, ref, get, update, onValue, remove) {
       await loadBiflovackaVideoList(panel, db, ref, get, update, remove);
     };
 
-    // 📊 Návštevnosť – jedno čítanie analytics/* + analyticsDaily/*
+    // 📊 Otvorenia aplikácie – jedno čítanie analyticsDaily/*, nič o hráčoch
     panel.querySelector('#analyticsLoadBtn').onclick = async () => {
       const box = panel.querySelector('#analyticsBox');
       const isHidden = box.style.display === 'none';
       if (!isHidden) { box.style.display = 'none'; return; }
       box.style.display = 'block';
       box.innerHTML = '<div class="small muted">Načítavam…</div>';
-      const { getAnalyticsOverview } = await import('./scripts/analytics.js');
-      const overview = await getAnalyticsOverview();
-      renderAnalyticsBox(box, overview);
+      const { getVisitsOverview } = await import('./scripts/visits.js');
+      renderVisitsBox(box, await getVisitsOverview());
     };
 
     // 🔄 Synchronizácia obsahu do GitHubu (Úloha 3) – náhľad, potom
@@ -2060,31 +2059,35 @@ async function openTestResultsModal(assignmentId) {
   }).join('');
 }
 
-function renderAnalyticsBox(box, overview) {
-  if (!overview) { box.innerHTML = '<div class="small muted">Firebase nedostupná.</div>'; return; }
+/* ============================================================
+   PREHĽAD OTVORENÍ (B2) – nahradil renderAnalyticsBox.
+   Zobrazuje LEN súhrnné počty otvorení z analyticsDaily; o hráčoch,
+   návratnosti ani retencii sa tu nedá nič zistiť, lebo sa to už
+   nikde nezapisuje (viď scripts/visits.js).
+============================================================ */
+/* Deň prepnutia na nové počítanie – staršie dni obsahujú len otvorenia
+   PRIHLÁSENÝCH prezývok, novšie všetky vrátane anonymných, takže sa
+   navzájom neporovnávajú. Poznámka pod grafom to hovorí nahlas. */
+const VISITS_PREPNUTIE = '2026-10-18';
 
-  const { totalUsers, returningCount, returningPct, today, d1RetentionPct, d1CohortTotal, d1ReturnedTotal, last14 } = overview;
+function renderVisitsBox(box, prehlad) {
+  if (!prehlad) { box.innerHTML = '<div class="small muted">Firebase nedostupná.</div>'; return; }
+
+  const { dnes, za7, za30, last14, pocetDni } = prehlad;
   const maxVisits = Math.max(1, ...last14.map(d => d.visits));
 
   box.innerHTML = `
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px">
-      <div class="small"><strong>${totalUsers}</strong> hráčov celkom</div>
-      <div class="small"><strong>${today.visits}</strong> návštev dnes</div>
-      <div class="small"><strong>${today.newUsers}</strong> nových dnes</div>
-      <div class="small"><strong>${today.returningUsers}</strong> vracajúcich sa dnes</div>
-    </div>
-    <div class="small" style="margin-bottom:6px">
-      Vracajúci sa: <strong>${returningPct} %</strong> (${returningCount} z ${totalUsers})
-    </div>
-    <div class="small" style="margin-bottom:10px">
-      D1 retencia (7 dní): <strong>${d1RetentionPct} %</strong> (${d1ReturnedTotal} z ${d1CohortTotal})
+      <div class="small"><strong>${dnes}</strong> dnes</div>
+      <div class="small"><strong>${za7}</strong> za 7 dní</div>
+      <div class="small"><strong>${za30}</strong> za 30 dní</div>
+      <div class="small muted">${pocetDni} dní v databáze</div>
     </div>
     <canvas id="analyticsChart" width="300" height="100" style="width:100%;height:100px;margin-bottom:10px"></canvas>
     <table style="width:100%;font-size:11px;border-collapse:collapse">
       <thead>
         <tr style="text-align:left;color:var(--muted)">
-          <th style="padding:2px 4px">Dátum</th><th style="padding:2px 4px">Návštevy</th>
-          <th style="padding:2px 4px">Noví</th><th style="padding:2px 4px">Vracajúci</th>
+          <th style="padding:2px 4px">Dátum</th><th style="padding:2px 4px">Otvorenia</th>
         </tr>
       </thead>
       <tbody>
@@ -2092,13 +2095,34 @@ function renderAnalyticsBox(box, overview) {
           <tr style="border-top:1px solid var(--card-border, rgba(0,0,0,0.06))">
             <td style="padding:2px 4px">${d.day.slice(5)}</td>
             <td style="padding:2px 4px">${d.visits}</td>
-            <td style="padding:2px 4px">${d.newUsers}</td>
-            <td style="padding:2px 4px">${d.returningUsers}</td>
           </tr>
         `).join('')}
       </tbody>
     </table>
+    <div class="small muted" style="margin-top:8px">
+      Počíta sa každé otvorenie aplikácie vrátane anonymného; nerozlišujú sa
+      jednotliví návštevníci. Dni pred ${VISITS_PREPNUTIE} obsahujú len otvorenia
+      prihlásených prezývok, takže so staršími číslami sa to neporovnáva.
+    </div>
+    <button class="btn" id="visitsCleanupBtn" style="width:100%;margin-top:8px">🧹 Zmazať dni staršie ako 12 mesiacov</button>
+    <div class="small muted" id="visitsCleanupMsg" style="margin-top:6px"></div>
   `;
+
+  const cleanupBtn = box.querySelector('#visitsCleanupBtn');
+  const msg = box.querySelector('#visitsCleanupMsg');
+  cleanupBtn.onclick = async () => {
+    cleanupBtn.disabled = true;
+    msg.textContent = 'Mažem…';
+    try {
+      const { zmazStareDni } = await import('./scripts/visits.js');
+      const { zmazane } = await zmazStareDni(12);
+      msg.textContent = zmazane ? `Zmazaných dní: ${zmazane}.` : 'Niet čo mazať – všetky dni sú mladšie ako 12 mesiacov.';
+    } catch (e) {
+      msg.textContent = 'Mazanie zlyhalo, pozri konzolu.';
+      console.warn('⚠️ visits: mazanie zlyhalo', e);
+    }
+    cleanupBtn.disabled = false;
+  };
 
   const canvas = box.querySelector('#analyticsChart');
   const ctx = canvas.getContext('2d');
@@ -2113,6 +2137,7 @@ function renderAnalyticsBox(box, overview) {
     ctx.font = '8px sans-serif';
     ctx.textAlign = 'center';
     ctx.fillText(String(d.visits), i * barW + barW / 2, h - barH - 18 < 8 ? 8 : h - barH - 18);
+    ctx.fillText(d.day.slice(8), i * barW + barW / 2, h - 4);
   });
 }
 
@@ -3491,11 +3516,9 @@ async function claimNickInline(nick) {
   await step('fakulty – rebríček', () => settleFacultyLeaderboard());
   await step('fakulty – odznak', () => updateFacultyBadge());
 
-  /* Analytika beží na pozadí a nikdy nesmie blokovať – rovnaký vzor
-     ako pri štarte v init(). */
-  import('./scripts/analytics.js')
-    .then(({ logVisit }) => logVisit(nick))
-    .catch(e => console.warn('⚠️ analytics: import zlyhal', e));
+  /* B2: po vzniku prezývky sa UŽ NIČ NEPOČÍTA. Otvorenie appky je zarátané
+     pri štarte (init → scripts/visits.js) a nové počítanie o hráčoch nič
+     nevie – zápis viazaný na prezývku tu bol súčasťou zrušenej analytiky. */
 
   console.log(`✅ Nick „${nick}" nadviazaný bez reloadu`);
 }
